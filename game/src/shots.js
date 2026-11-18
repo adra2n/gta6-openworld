@@ -1,79 +1,251 @@
-// The screenshot scenes behind ?shot=start|play|end. Each one plays the real rules forward from a
-// fresh world for a fixed number of steps, steered by a simple autopilot (look ahead each way the
-// paddle could move, keep clear of blocks, chase the lowest coin when that is safe), so the frame
-// is what a short game really looks like and the same seed always gives the same frame.
-import { FIELD, PLAYER, STEP } from './config.js';
-import { EVENT_OVER, KIND_BLOCK } from './world.js';
-import { SCREEN_OVER, SCREEN_PLAY, SCREEN_TITLE } from './render.js';
+// Four deterministic staged scenes for ?shot=<name>&seed=<n>: the cover on the beach road, a
+// three-star chase, the docks shootout and the dusk run up the coast. No input needed; each
+// places the world, settles traffic and lights, renders and sets window.__shotReady.
 
-const START_SECONDS = 5;
-const PLAY_SECONDS = 26;
-const END_LIMIT_SECONDS = 600;
-/**
- * How far ahead, in seconds, the autopilot checks each way it could move: the play scene's pilot
- * looks well ahead and keeps all its lives; the end scene's looks only a moment ahead, so it is
- * caught out once the blocks speed up, as a hurried player is.
- */
-const HORIZON_PLAY = 0.7;
-const HORIZON_END = 0.25;
-const SAMPLE = 1 / 30;
-const DIRECTIONS = [0, -1, 1];
-/** Extra room, each side, it keeps between the paddle and a block. */
-const MARGIN = 10;
+import * as THREE from 'three';
+import { PLACES } from './world/city.js';
+import { createVehicle, placeVehicle } from './entities/vehicle.js';
+import { placePlayer } from './entities/player.js';
+import { createPerson, posePerson } from './entities/person.js';
+import { reportCrime } from './systems/police.js';
+import { stageMission } from './systems/missions.js';
+import { updateCamera } from './camera.js';
+import { drawMinimap } from './ui/minimap.js';
 
-/** Seconds until moving in `direction` (-1, 0, 1) runs the paddle into a block; Infinity when it never does. */
-function timeToHit(state, direction, horizon) {
-  const player = state.player;
-  for (let t = SAMPLE; t <= horizon; t += SAMPLE) {
-    const x = Math.min(FIELD.width - player.width, Math.max(0, player.x + direction * PLAYER.speed * t));
-    for (let index = 0; index < state.items.length; index += 1) {
-      const item = state.items[index];
-      if (!item.active || item.kind !== KIND_BLOCK) continue;
-      const y = item.y + item.speed * t;
-      if (y + item.height > player.y && y < player.y + player.height && item.x < x + player.width + MARGIN && item.x + item.width > x - MARGIN) return t;
-    }
-  }
-  return Infinity;
+export function runShot(name, state) {
+  state.menu.hide();
+  state.hud.show();
+  state.mode = 'play';
+  state.hud.setObjectives = null;
+  state.sky.setTime('day');
+  state.renderer.setPixelRatio(1);
+  state.renderer.setSize(1280, 720);
+  state.camera.aspect = 1280 / 720;
+  state.camera.updateProjectionMatrix();
+  const shot = SHOTS[name] ?? SHOTS.cover;
+  shot(state);
+  settle(state, 45);
+  finish(state, name);
 }
 
-/** Of the safe ways to move, the one toward the lowest coin (or the centre); else the one that is hit last. */
-function autopilot(state, horizon) {
-  const player = state.player;
-  let coin = null;
-  for (let index = 0; index < state.items.length; index += 1) {
-    const item = state.items[index];
-    if (item.active && item.kind !== KIND_BLOCK && (coin === null || item.y > coin.y)) coin = item;
-  }
-  const target = coin === null ? FIELD.width / 2 : coin.x + coin.width / 2;
-  const centre = player.x + player.width / 2;
-  const wanted = target > centre + 8 ? 1 : target < centre - 8 ? -1 : 0;
-  let best = wanted;
-  let bestTime = timeToHit(state, wanted, horizon);
-  for (let index = 0; index < DIRECTIONS.length && bestTime !== Infinity; index += 1) {
-    const time = timeToHit(state, DIRECTIONS[index], horizon);
-    if (time > bestTime) {
-      bestTime = time;
-      best = DIRECTIONS[index];
-    }
-  }
-  return best;
+const SHOTS = {
+  cover: stageCover,
+  chase: stageChase,
+  mission: stageMissionShot,
+  dusk: stageDusk,
+};
+
+function stageCover(state) {
+  state.sky.setTime('day');
+  state.money = 2450;
+  state.player.health = 100;
+  state.player.armour = 40;
+  state.police.wanted = 0;
+  state.weapons.pistol = { mag: 12, reserve: 48 };
+  state.weapon = 'pistol';
+  // A street canyon running down to the water: hero on the kerb, the Manta at the lights.
+  placePlayer(state.player, 468, 154.5, Math.PI / 2);
+  state.player.rig.root.rotation.y = Math.PI / 2;
+  state.player.pos.y = 0.25;
+
+  const car = addCar(state, 'sports', 0xff5470, 474, 159.5, Math.PI / 2);
+  car.wheels.forEach((wheel) => { wheel.spin.rotation.x = 0.6; });
+
+  addCar(state, 'sedan', 0x9fc2d8, 530, 163, -Math.PI / 2);
+  addCar(state, 'sedan', 0xf3e7cd, 590, 155, Math.PI / 2);
+  addCar(state, 'van', 0xf5d78a, 398, 164, Math.PI / 2);
+
+  const ped = createPerson({ jacket: 0xf2b8a2, shirt: 0xa8d8cd, pants: 0x24262e, skin: 0xc99b74, hair: 0x221a16 });
+  ped.root.position.set(497, 0.25, 149);
+  ped.root.rotation.y = Math.PI;
+  posePerson(ped, 1.4, 0.3);
+  state.scene.add(ped.root);
+
+  state.objectiveTitle = 'ROSA DELGADO';
+  state.objectiveText = 'Meet Rosa at the marina — First Tide';
+  state.objectiveTimer = 'Press E at the marker';
+  state.missionBlip = { x: PLACES.marina.x, z: PLACES.marina.z };
+  state.view.yaw = -Math.PI / 2;
+  state.view.pitch = 0.08;
+  state.view.distance = 8.6;
 }
 
-/**
- * Set `world` to the named scene (start, play or end; any other name is start) and return the
- * screen to draw over it and the best score to show.
- */
-export function stageShot(name, world) {
-  world.reset();
-  if (name !== 'play' && name !== 'end') {
-    for (let index = 0; index < START_SECONDS / STEP; index += 1) world.step(STEP, 0, true);
-    return { screen: SCREEN_TITLE, best: 0 };
+function stageChase(state) {
+  state.sky.setTime('day');
+  state.money = 3120;
+  state.player.health = 68;
+  state.player.armour = 30;
+  state.weapons.pistol = { mag: 8, reserve: 40 };
+  state.weapon = 'pistol';
+
+  const car = addCar(state, 'sports', 0x49e0c2, 480, -26, 0);
+  car.speed = 21;
+  state.player.inVehicle = car;
+  car.driver = 'player';
+  state.player.group.visible = false;
+  state.player.pos.copy(car.pos);
+  state.player.yaw = car.heading;
+
+  // Clear the kerb behind the camera: a parked car there fills half the frame.
+  for (const other of state.vehicles) {
+    if (other === car || other.isPolice) continue;
+    const dx = other.pos.x - 480;
+    const dz = other.pos.z + 38;
+    if (Math.hypot(dx, dz) < 16) other.root.visible = false;
   }
-  const limit = name === 'end' ? END_LIMIT_SECONDS : PLAY_SECONDS;
-  const horizon = name === 'end' ? HORIZON_END : HORIZON_PLAY;
-  for (let index = 0; index < limit / STEP; index += 1) {
-    if (world.step(STEP, autopilot(world.state, horizon), false) & EVENT_OVER) break;
+
+  const cruiser = createVehicle('police', 0xf3f5f2, state.scene);
+  placeVehicle(cruiser, 488, -9, 0.12);
+  state.vehicles.push(cruiser);
+  cruiser.speed = 18;
+  const second = createVehicle('police', 0xf3f5f2, state.scene);
+  placeVehicle(second, 471, -3, -0.16);
+  state.vehicles.push(second);
+  second.speed = 15;
+
+  state.police.units = [
+    { vehicle: cruiser, alive: true, pos: cruiser.pos, type: 'car', isCop: true, shootTimer: 1, footSpawned: true, health: 100 },
+    { vehicle: second, alive: true, pos: second.pos, type: 'car', isCop: true, shootTimer: 1, footSpawned: true, health: 100 },
+  ];
+  reportCrime(state.police, 3);
+  state.police.wanted = 3;
+  state.police.units.forEach((unit) => { unit.alive = true; });
+
+  const cop = createPerson({ jacket: 0x27395c, shirt: 0xd7e2ec, pants: 0x1b2534, skin: 0xb9825e, hair: 0x1a1410 }, true);
+  cop.root.position.set(494, 0.25, 4);
+  cop.root.rotation.y = -Math.PI / 2;
+  posePerson(cop, 0, 0.1, true);
+  state.scene.add(cop.root);
+
+  addCar(state, 'sedan', 0xf3e7cd, 480, 70, 0);
+  addCar(state, 'van', 0x8b9b8f, 400, -40, Math.PI / 2);
+
+  state.missions.active = state.missions.list[2];
+  state.missions.index = 2;
+  state.missions.stepIndex = 2;
+  state.objectiveTitle = 'BAD RECEPTION';
+  state.objectiveText = 'Lose the police';
+  state.objectiveTimer = 'Wanted level must clear';
+  state.missionBlip = { x: PLACES.marina.x, z: PLACES.marina.z };
+  state.view.yaw = Math.PI;
+  state.view.pitch = 0.16;
+  state.view.distance = 9.4;
+}
+
+function stageMissionShot(state) {
+  state.sky.setTime('day');
+  state.money = 1680;
+  state.player.health = 27;
+  state.player.armour = 0;
+  state.police.wanted = 0;
+  state.weapons.smg = { mag: 5, reserve: 60 };
+  state.weapon = 'smg';
+  state.weaponData = { name: 'SMG' };
+  placePlayer(state.player, 200, 486, Math.PI);
+  state.player.rig.root.rotation.y = Math.PI;
+  state.player.rig.rightArm.rotation.x = -1.35;
+  state.missions.index = 2;
+  try {
+    stageMission(state.missions, state, 2, 1);
+  } catch {
+    // staging still renders the world if the mission data changes
   }
-  const over = world.state.lives === 0;
-  return { screen: over ? SCREEN_OVER : SCREEN_PLAY, best: world.state.score };
+  // Regroup the crew in front of the camera: the real spawn list is spread across the yard.
+  const crew = [[198, 468], [180, 462], [220, 460], [206, 448], [232, 452]];
+  state.thugs.forEach((thug, index) => {
+    const [x, z] = crew[index] ?? crew[0];
+    thug.pos.set(x, 0.25, z);
+    thug.home = { x, z };
+    thug.yaw = 0;
+    thug.group.position.copy(thug.pos);
+    thug.group.rotation.y = 0;
+    posePerson(thug.rig, 0, 0.1, true);
+  });
+  state.missionKills = 2;
+  state.objectiveTitle = 'BAD RECEPTION';
+  state.objectiveText = 'Take out the Salvage Crew';
+  state.objectiveTimer = '3 left';
+  state.missionBlip = { x: PLACES.docks.x, z: PLACES.docks.z };
+
+  for (const thug of state.thugs) {
+    thug.yaw = 0;
+    thug.group.rotation.y = 0;
+    posePerson(thug.rig, 0, 0.1, true);
+  }
+
+  addCar(state, 'sedan', 0xe4604d, 120, 540, Math.PI / 2);
+  state.view.yaw = 0;
+  state.view.pitch = 0.15;
+  state.view.distance = 8.2;
+}
+
+function stageDusk(state) {
+  state.sky.setTime('dusk');
+  state.renderer.toneMappingExposure = 1.32;
+  state.money = 5240;
+  state.player.health = 84;
+  state.player.armour = 55;
+  state.police.wanted = 0;
+  state.weapons.pistol = { mag: 12, reserve: 36 };
+
+  const car = addCar(state, 'sports', 0xffb454, 478, -60, Math.PI);
+  car.speed = 27;
+  car.wheelSpin = 4;
+  car.wheels.forEach((wheel) => { wheel.spin.rotation.x = 3.4; });
+  state.player.inVehicle = car;
+  car.driver = 'player';
+  state.player.group.visible = false;
+  state.player.pos.copy(car.pos);
+  state.player.yaw = car.heading;
+
+  addCar(state, 'sedan', 0x2f7f7a, 480, -166, Math.PI);
+  addCar(state, 'van', 0xf3e7cd, 480, -238, Math.PI);
+  state.missions.active = state.missions.list[5];
+  state.missions.index = 5;
+  state.missions.stepIndex = 0;
+  state.objectiveTitle = 'TIDE TABLE';
+  state.objectiveText = 'Drop at the north beach';
+  state.objectiveTimer = 'Time 74s';
+  state.missionBlip = { x: 560, z: -220 };
+  state.view.yaw = 0;
+  state.view.pitch = 0.08;
+  state.view.distance = 9.2;
+}
+
+function addCar(state, kind, color, x, z, heading) {
+  const car = createVehicle(kind, color, state.scene);
+  placeVehicle(car, x, z, heading);
+  state.vehicles.push(car);
+  return car;
+}
+
+function settle(state, steps) {
+  for (let i = 0; i < steps; i++) {
+    state.traffic.update(1 / 60, state);
+    state.peds.update(1 / 60, state);
+    state.city.update(1 / 60);
+    state.effects.update(1 / 60);
+  }
+}
+
+function finish(state, name) {
+  state.sky.follow(state.player.pos);
+  updateCamera(state.camera, state.view, state.player, { x: 0, y: 0 }, 1 / 60, true);
+  if (name === 'mission') {
+    // Fire after the settle so the tracer and muzzle flash are still alive in the still.
+    state.camera.lookAt(198, 1.2, 468);
+    state.combat.fire(state);
+    state.player.rig.flash.visible = true;
+  }
+  state.weaponData = state.weaponData ?? { name: state.weapon };
+  state.ammoInMag = state.weapons[state.weapon]?.mag ?? 0;
+  state.ammoReserve = state.weapons[state.weapon]?.reserve ?? 0;
+  state.hud.update(state);
+  drawMinimap(document.getElementById('minimap'), state, 0);
+  if (name !== 'mission') state.player.rig.flash.visible = false;
+  state.renderer.render(state.scene, state.camera);
+  requestAnimationFrame(() => {
+    state.renderer.render(state.scene, state.camera);
+    window.__shotReady = true;
+  });
 }

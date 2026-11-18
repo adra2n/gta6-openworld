@@ -1,53 +1,78 @@
-// Keyboard and pointer input. Held keys give a steering direction; one-shot presses (start or
-// restart, pause) are queued as bit flags and taken once by the loop, so a press between two
-// frames is never lost and never counted twice.
+// Keyboard and mouse. Pointer lock gives mouse-look; the rest is a small state bag the game
+// reads once per frame. Keys are tracked as held and as "pressed this frame" edges.
 
-export const ACTION_CONFIRM = 1;
-export const ACTION_PAUSE = 2;
+const BLOCK_DEFAULT = new Set(['Space', 'KeyW', 'KeyA', 'KeyS', 'KeyD', 'ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'Tab']);
 
-const LEFT = new Set(['ArrowLeft', 'KeyA']);
-const RIGHT = new Set(['ArrowRight', 'KeyD']);
-const CONFIRM = new Set(['Space', 'Enter']);
-const PAUSE = new Set(['KeyP', 'Escape']);
-
-export function createInput(target) {
-  let left = false;
-  let right = false;
-  let actions = 0;
+export function createInput(canvas) {
+  const held = new Set();
+  const edges = new Set();
+  let mouseDX = 0;
+  let mouseDY = 0;
+  let wheel = 0;
+  let fireDown = false;
+  let aimDown = false;
+  let fireEdge = false;
 
   window.addEventListener('keydown', (event) => {
-    if (LEFT.has(event.code)) left = true;
-    else if (RIGHT.has(event.code)) right = true;
-    else if (CONFIRM.has(event.code)) {
-      if (!event.repeat) actions |= ACTION_CONFIRM;
-    } else if (PAUSE.has(event.code)) {
-      if (!event.repeat) actions |= ACTION_PAUSE;
-    } else return;
-    event.preventDefault();
+    if (BLOCK_DEFAULT.has(event.code)) event.preventDefault();
+    if (!event.repeat) edges.add(event.code);
+    held.add(event.code);
   });
   window.addEventListener('keyup', (event) => {
-    if (LEFT.has(event.code)) left = false;
-    else if (RIGHT.has(event.code)) right = false;
+    held.delete(event.code);
   });
-  // A key released while the tab is hidden never sends keyup: let go of everything on blur.
   window.addEventListener('blur', () => {
-    left = false;
-    right = false;
+    held.clear();
+    fireDown = false;
+    aimDown = false;
   });
-  target.addEventListener('pointerdown', () => {
-    actions |= ACTION_CONFIRM;
+  window.addEventListener('mousemove', (event) => {
+    if (document.pointerLockElement !== canvas) return;
+    mouseDX += event.movementX;
+    mouseDY += event.movementY;
   });
+  canvas.addEventListener('mousedown', (event) => {
+    if (document.pointerLockElement !== canvas) {
+      if (event.button === 0) canvas.requestPointerLock?.()?.catch(() => {});
+      return;
+    }
+    if (event.button === 0) {
+      fireDown = true;
+      fireEdge = true;
+    }
+    if (event.button === 2) aimDown = true;
+  });
+  window.addEventListener('mouseup', (event) => {
+    if (event.button === 0) fireDown = false;
+    if (event.button === 2) aimDown = false;
+  });
+  window.addEventListener('wheel', (event) => {
+    if (document.pointerLockElement === canvas) {
+      wheel += Math.sign(event.deltaY);
+      event.preventDefault();
+    }
+  }, { passive: false });
+  window.addEventListener('contextmenu', (event) => event.preventDefault());
 
   return {
-    /** -1 for left, 1 for right, 0 for neither or both. */
-    direction() {
-      return (right ? 1 : 0) - (left ? 1 : 0);
+    get locked() { return document.pointerLockElement === canvas; },
+    lock() { canvas.requestPointerLock?.()?.catch(() => {}); },
+    down(code) { return held.has(code); },
+    pressed(code) { return edges.has(code); },
+    get fireDown() { return fireDown; },
+    get aimDown() { return aimDown; },
+    takeFire() {
+      const fired = fireEdge;
+      fireEdge = false;
+      return fired;
     },
-    /** The one-shot presses since the last call, as ACTION_* flags. */
-    takeActions() {
-      const taken = actions;
-      actions = 0;
-      return taken;
+    takeMouse() {
+      const d = { x: mouseDX, y: mouseDY, wheel };
+      mouseDX = 0;
+      mouseDY = 0;
+      wheel = 0;
+      return d;
     },
+    endFrame() { edges.clear(); },
   };
 }
