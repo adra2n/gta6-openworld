@@ -1,3 +1,4 @@
+// The city: blocks, roads, facades, landmarks and the places the missions use.
 // Costa Vega, built from data: a 1.1 km grid of roads, sidewalks and blocks that changes
 // character from the downtown towers through the art-deco hotel strip to the docks, plus the
 // beach, the pier, the bridge and the wheel that give the skyline its landmarks.

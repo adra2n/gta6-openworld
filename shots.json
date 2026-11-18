@@ -1,6 +1,18 @@
 [
-  { "name": "1-cover.png", "query": "?shot=cover&seed=1" },
-  { "name": "2-chase.png", "query": "?shot=chase&seed=1" },
-  { "name": "3-mission.png", "query": "?shot=mission&seed=1" },
-  { "name": "4-dusk.png", "query": "?shot=dusk&seed=1" }
+  {
+    "name": "1-cover.png",
+    "query": "?shot=cover&seed=1"
+  },
+  {
+    "name": "2-chase.png",
+    "query": "?shot=chase&seed=1"
+  },
+  {
+    "name": "3-mission.png",
+    "query": "?shot=mission&seed=1"
+  },
+  {
+    "name": "4-dusk.png",
+    "query": "?shot=dusk&seed=1"
+  }
 ]

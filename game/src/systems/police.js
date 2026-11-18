@@ -1,3 +1,4 @@
+// Wanted level: spawning, pursuit, search decay, busted and wasted.
 // The wanted system: stars set how many cruisers come, cruisers spawn off-screen and drive at
 // Nico, officers bail out on foot at two stars and shoot, the search cools when nobody has eyes
 // on him, and standing still next to an officer gets him busted.

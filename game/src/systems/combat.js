@@ -1,3 +1,4 @@
+// Shooting: hitscan, recoil, ammo, reload and damage.
 // Hitscan combat. Nico's shots leave the camera, hit the nearest person, car or wall and leave a
 // tracer; officers and crew shoot back with a distance-weighted chance. Damage always reports a
 // crime so the wanted system can react.

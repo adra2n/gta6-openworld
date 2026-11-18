@@ -1,3 +1,4 @@
+// Procedural canvas textures: surfaces, facades, signage and water.
 // Canvas-painted surface art: the shared window grid for every building and the glowing
 // lettering on the hotel roofs. Everything is generated from code at load, so the game ships
 // no image files.

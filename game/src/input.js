@@ -1,3 +1,4 @@
+// Keyboard, mouse and pointer-lock input, with edge-triggered presses.
 // Keyboard and mouse. Pointer lock gives mouse-look; the rest is a small state bag the game
 // reads once per frame. Keys are tracked as held and as "pressed this frame" edges.
 

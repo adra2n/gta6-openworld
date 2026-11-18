@@ -1,3 +1,4 @@
+// Seeded PRNG, so the same seed builds the same city and the same shot.
 // Seeded randomness. One generator per world build keeps every screenshot reproducible, and
 // every gameplay roll (traffic turns, pedestrian colours, damage smoke) draws from it.
 

@@ -1,3 +1,4 @@
+// Minimap drawn from the city's own roads, with blips and the player.
 // The round minimap: a north-up slice of the grid around Nico, with water, beach, roads, the
 // objective blip, police, shops and the marina. Drawn into a 2x canvas for crisp lines.
 

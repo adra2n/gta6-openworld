@@ -1,3 +1,4 @@
+// Effects: tracers, muzzle flashes, impacts, smoke and skid marks.
 // Short-lived visual feedback: smoke off a wrecked car, sparks off a wall, dust under a
 // landing, and tracers that show where every bullet went.
 

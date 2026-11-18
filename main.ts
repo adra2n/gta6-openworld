@@ -1,3 +1,4 @@
+// Sunburn Bay entry: copies game/ and screenshots/ to the output and writes the judge's dossier.
 // Sunburn Bay — an original open-world crime game set in Costa Vega: seven jobs for Rosa Delgado,
 // one coast road, three kinds of trouble. The game is this directory's game/ folder: plain static
 // files a desktop browser loads offline (game/index.html and its ES modules, three.js vendored
