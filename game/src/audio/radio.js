@@ -1,1 +1,190 @@
-Ly8gUmFkaW86IGNyZWF0ZVJhZGlvKGNvbnRleHQpIHJ1bnMgZm91ciBwcm9jZWR1cmFsIHN0YXRpb25zIOKAlCBzeW50aHdhdmUsIGZ1bmssIHRhbGsgYW5kIG5ld3Mg4oCUCi8vIG9uIG9uZSBXZWJBdWRpbyBncmFwaC4gU3RlcHMgYXJlIHNjaGVkdWxlZCBhIHRoaXJkIG9mIGEgc2Vjb25kIGFoZWFkIG9uIHRoZSBhdWRpbyBjbG9jaywgbmV2ZXIKLy8gaW4gYSBidXN5IGxvb3AsIGFuZCB0aGUgbWFzdGVyIGdhaW4gZ29lcyB0byB6ZXJvIHdoaWxlIHRoZSBnYW1lIGlzIHBhdXNlZCBvciBvbiBhIHNjcmVlbi4KCmNvbnN0IFNUQVRJT05TID0gWwogIHsgbmFtZTogJ1dhdmUgOTcuMyDigJQgU2xvdyBUaWRlJywga2luZDogJ3N5bnRod2F2ZScsIGJwbTogOTgsIHJvb3Q6IDQ1IH0sCiAgeyBuYW1lOiAnSy1CT09NIDg4LjEg4oCUIE5lb24gV29ya291dCcsIGtpbmQ6ICdmdW5rJywgYnBtOiAxMTIsIHJvb3Q6IDQxIH0sCiAgeyBuYW1lOiAnSy1UQUxLIDE0MjAg4oCUIENvYXN0bGluZSBBTScsIGtpbmQ6ICd0YWxrJywgYnBtOiA5Niwgcm9vdDogNDMgfSwKICB7IG5hbWU6ICdDVkUgUmFkaW8gNSDigJQgQmF5IE5ld3MnLCBraW5kOiAnbmV3cycsIGJwbTogMTA0LCByb290OiA0MCB9LApdOwoKY29uc3QgTUlOT1IgPSBbMCwgMiwgMywgNSwgNywgOCwgMTBdOwpjb25zdCBET1JJQU4gPSBbMCwgMiwgMywgNSwgNywgOSwgMTBdOwpjb25zdCBQRU5UQVRPTklDID0gWzAsIDIsIDQsIDcsIDldOwoKY29uc3QgU1lOVEhfQkFTUyA9IFswLCAtMSwgMCwgLTEsIDMsIC0xLCAzLCAtMSwgNSwgLTEsIDUsIC0xLCAzLCAtMSwgMywgLTFdOwpjb25zdCBTWU5USF9MRUFEID0gWzcsIC0xLCAxMCwgMTIsIC0xLCA3LCAzLCAtMSwgNywgLTEsIDE1LCAxMiwgLTEsIDEwLCA3LCAtMV07CmNvbnN0IEZVTktfQkFTUyA9IFswLCAwLCA3LCAwLCAzLCAwLCA1LCA3LCAwLCAwLCAxMCwgMCwgMywgNSwgNywgMF07CmNvbnN0IEZVTktfU1RBQiA9IFstMSwgNCwgLTEsIDQsIC0xLCA3LCAtMSwgNCwgLTEsIDQsIC0xLCA3LCA5LCAtMSwgNCwgLTFdOwoKY29uc3QgTUFTVEVSX0xFVkVMID0gMC4xNTsKY29uc3QgTE9PS0FIRUFEID0gMC4zNDsKCmV4cG9ydCBmdW5jdGlvbiBjcmVhdGVSYWRpbyhjb250ZXh0KSB7CiAgbGV0IGN0eCA9IGNvbnRleHQgPz8gbnVsbDsKICBsZXQgbWFzdGVyID0gbnVsbDsKICBsZXQgaW5kZXggPSAwOwogIGxldCBzdGVwID0gMDsKICBsZXQgYmFyID0gMDsKICBsZXQgbmV4dE5vdGUgPSAwOwogIGxldCBsaXZlID0gZmFsc2U7CgogIGZ1bmN0aW9uIGVuc3VyZSgpIHsKICAgIGlmICghY3R4KSB7CiAgICAgIGNvbnN0IEZhY3RvcnkgPSB3aW5kb3cuQXVkaW9Db250ZXh0IHx8IHdpbmRvdy53ZWJraXRBdWRpb0NvbnRleHQ7CiAgICAgIGlmICghRmFjdG9yeSkgcmV0dXJuIGZhbHNlOwogICAgICB0cnkgewogICAgICAgIGN0eCA9IG5ldyBGYWN0b3J5KCk7CiAgICAgIH0gY2F0Y2ggewogICAgICAgIHJldHVybiBmYWxzZTsKICAgICAgfQogICAgfQogICAgaWYgKGN0eC5zdGF0ZSA9PT0gJ3N1c3BlbmRlZCcpIGN0eC5yZXN1bWUoKS5jYXRjaCgoKSA9PiB7fSk7CiAgICBpZiAoIW1hc3RlcikgewogICAgICBtYXN0ZXIgPSBjdHguY3JlYXRlR2FpbigpOwogICAgICBtYXN0ZXIuZ2Fpbi52YWx1ZSA9IDA7CiAgICAgIG1hc3Rlci5jb25uZWN0KGN0eC5kZXN0aW5hdGlvbik7CiAgICB9CiAgICByZXR1cm4gdHJ1ZTsKICB9CgogIGZ1bmN0aW9uIHRvbmUoZnJlcXVlbmN5LCB3aGVuLCBkdXJhdGlvbiwgdHlwZSwgbGV2ZWwpIHsKICAgIGlmICghY3R4IHx8ICFtYXN0ZXIpIHJldHVybjsKICAgIGNvbnN0IG9zYyA9IGN0eC5jcmVhdGVPc2NpbGxhdG9yKCk7CiAgICBvc2MudHlwZSA9IHR5cGU7CiAgICBvc2MuZnJlcXVlbmN5LnNldFZhbHVlQXRUaW1lKGZyZXF1ZW5jeSwgd2hlbik7CiAgICBjb25zdCBnYWluID0gY3R4LmNyZWF0ZUdhaW4oKTsKICAgIGdhaW4uZ2Fpbi5zZXRWYWx1ZUF0VGltZSgwLjAwMDEsIHdoZW4pOwogICAgZ2Fpbi5nYWluLmxpbmVhclJhbXBUb1ZhbHVlQXRUaW1lKGxldmVsLCB3aGVuICsgMC4wMSk7CiAgICBnYWluLmdhaW4uZXhwb25lbnRpYWxSYW1wVG9WYWx1ZUF0VGltZSgwLjAwMDEsIHdoZW4gKyBkdXJhdGlvbik7CiAgICBvc2MuY29ubmVjdChnYWluKS5jb25uZWN0KG1hc3Rlcik7CiAgICBvc2Muc3RhcnQod2hlbik7CiAgICBvc2Muc3RvcCh3aGVuICsgZHVyYXRpb24gKyAwLjAzKTsKICB9CgogIGZ1bmN0aW9uIHNjYWxlRm9yKHN0YXRpb24pIHsKICAgIGlmIChzdGF0aW9uLmtpbmQgPT09ICdmdW5rJykgcmV0dXJuIERPUklBTjsKICAgIGlmIChzdGF0aW9uLmtpbmQgPT09ICd0YWxrJyB8fCBzdGF0aW9uLmtpbmQgPT09ICduZXdzJykgcmV0dXJuIFBFTlRBVE9OSUM7CiAgICByZXR1cm4gTUlOT1I7CiAgfQoKICBmdW5jdGlvbiBkZWdyZWUoc3RhdGlvbiwgc3RlcERlZ3JlZSwgb2N0YXZlLCB3aGVuLCBkdXJhdGlvbiwgdHlwZSwgbGV2ZWwpIHsKICAgIGNvbnN0IHNjYWxlID0gc2NhbGVGb3Ioc3RhdGlvbik7CiAgICBjb25zdCBsZW5ndGggPSBzY2FsZS5sZW5ndGg7CiAgICBjb25zdCB3cmFwcGVkID0gKChzdGVwRGVncmVlICUgbGVuZ3RoKSArIGxlbmd0aCkgJSBsZW5ndGg7CiAgICBjb25zdCBtaWRpID0gc3RhdGlvbi5yb290ICsgc2NhbGVbd3JhcHBlZF0gKyAxMiAqIChvY3RhdmUgKyBNYXRoLmZsb29yKHN0ZXBEZWdyZWUgLyBsZW5ndGgpKTsKICAgIHRvbmUoNDQwICogTWF0aC5wb3coMiwgKG1pZGkgLSA2OSkgLyAxMiksIHdoZW4sIGR1cmF0aW9uLCB0eXBlLCBsZXZlbCk7CiAgfQoKICBmdW5jdGlvbiBzY2hlZHVsZVN5bnRod2F2ZShzdGF0aW9uLCB3aGVuLCBzdGVwRHVyYXRpb24pIHsKICAgIGNvbnN0IGJhc3MgPSBTWU5USF9CQVNTW3N0ZXBdOwogICAgaWYgKGJhc3MgPj0gMCkgZGVncmVlKHN0YXRpb24sIGJhc3MsIC0xLCB3aGVuLCBzdGVwRHVyYXRpb24gKiAxLjcsICd0cmlhbmdsZScsIDAuMSk7CiAgICBjb25zdCBsZWFkID0gU1lOVEhfTEVBRFtzdGVwXTsKICAgIGlmIChsZWFkID49IDApIGRlZ3JlZShzdGF0aW9uLCBsZWFkLCAxLCB3aGVuLCBzdGVwRHVyYXRpb24gKiAwLjksICdzcXVhcmUnLCAwLjAyOCk7CiAgICBpZiAoc3RlcCA9PT0gMCB8fCBzdGVwID09PSA4KSB7CiAgICAgIGZvciAoY29uc3QgY2hvcmREZWdyZWUgb2YgWzAsIDIsIDRdKSB7CiAgICAgICAgZGVncmVlKHN0YXRpb24sIGNob3JkRGVncmVlLCAwLCB3aGVuLCBzdGVwRHVyYXRpb24gKiA3LCAnc2luZScsIDAuMDIyKTsKICAgICAgfQogICAgfQogICAgaWYgKHN0ZXAgJSA0ID09PSAyKSB0b25lKDUyMDAsIHdoZW4sIDAuMDQsICdzaW5lJywgMC4wMDYpOwogIH0KCiAgZnVuY3Rpb24gc2NoZWR1bGVGdW5rKHN0YXRpb24sIHdoZW4sIHN0ZXBEdXJhdGlvbikgewogICAgY29uc3QgYmFzcyA9IEZVTktfQkFTU1tzdGVwXTsKICAgIGlmIChiYXNzID49IDApIGRlZ3JlZShzdGF0aW9uLCBiYXNzLCAtMSwgd2hlbiwgc3RlcER1cmF0aW9uICogMC44LCAnc3F1YXJlJywgMC4wODUpOwogICAgY29uc3Qgc3RhYiA9IEZVTktfU1RBQltzdGVwXTsKICAgIGlmIChzdGFiID49IDApIHsKICAgICAgZGVncmVlKHN0YXRpb24sIHN0YWIsIDEsIHdoZW4sIHN0ZXBEdXJhdGlvbiAqIDEuMSwgJ3RyaWFuZ2xlJywgMC4wMyk7CiAgICAgIGRlZ3JlZShzdGF0aW9uLCBzdGFiICsgMiwgMSwgd2hlbiwgc3RlcER1cmF0aW9uICogMS4xLCAndHJpYW5nbGUnLCAwLjAyMik7CiAgICB9CiAgICBpZiAoc3RlcCAlIDIgPT09IDEpIHRvbmUoNzIwMCwgd2hlbiwgMC4wMywgJ3NpbmUnLCAwLjAwOSk7CiAgICBpZiAoc3RlcCA9PT0gMCB8fCBzdGVwID09PSA2KSB0b25lKDcwLCB3aGVuLCAwLjE0LCAnc2luZScsIDAuMDUpOwogIH0KCiAgZnVuY3Rpb24gc2NoZWR1bGVUYWxrKHN0YXRpb24sIHdoZW4sIHN0ZXBEdXJhdGlvbikgewogICAgLy8gU3BlZWNoLWlzaDogc2hvcnQgYnVyc3RzIG9mIHBpdGNoZWQgZm9ybWFudHMsIGNsdXN0ZXJlZCBpbnRvIHNlbnRlbmNlcy4KICAgIGlmIChzdGVwICUgOCA9PT0gMCkgdG9uZSg4Miwgd2hlbiwgMC4xLCAnc2F3dG9vdGgnLCAwLjAyKTsKICAgIGlmIChzdGVwICUgMyA9PT0gMCAmJiBNYXRoLnJhbmRvbSgpIDwgMC43OCkgewogICAgICBjb25zdCBwaXRjaCA9IDExOCArIE1hdGgucmFuZG9tKCkgKiA5NjsKICAgICAgdG9uZShwaXRjaCwgd2hlbiwgc3RlcER1cmF0aW9uICogKDAuNSArIE1hdGgucmFuZG9tKCkpLCAnc2F3dG9vdGgnLCAwLjAxOCk7CiAgICAgIHRvbmUocGl0Y2ggKiAyLjIsIHdoZW4sIHN0ZXBEdXJhdGlvbiAqIDAuNCwgJ3NpbmUnLCAwLjAwOCk7CiAgICB9CiAgICBpZiAoc3RlcCA9PT0gMCAmJiBiYXIgJSA4ID09PSA0KSB7CiAgICAgIHRvbmUoNTIwLCB3aGVuLCAwLjE2LCAnc2luZScsIDAuMDIpOwogICAgICB0b25lKDM5Miwgd2hlbiArIDAuMTgsIDAuMiwgJ3NpbmUnLCAwLjAxNik7CiAgICB9CiAgfQoKICBmdW5jdGlvbiBzY2hlZHVsZU5ld3Moc3RhdGlvbiwgd2hlbiwgc3RlcER1cmF0aW9uKSB7CiAgICBpZiAoc3RlcCAlIDggPT09IDApIGRlZ3JlZShzdGF0aW9uLCAwLCAtMiwgd2hlbiwgc3RlcER1cmF0aW9uICogMi42LCAndHJpYW5nbGUnLCAwLjAzKTsKICAgIGlmIChzdGVwICUgNCA9PT0gMCkgdG9uZSgxNTAwLCB3aGVuLCAwLjAyNSwgJ3NpbmUnLCAwLjAwOCk7CiAgICBpZiAoc3RlcCA9PT0gMCAmJiBiYXIgJSAxNiA9PT0gMCkgewogICAgICB0b25lKDg4MCwgd2hlbiwgMC4xMiwgJ3NpbmUnLCAwLjAzKTsKICAgICAgdG9uZSgxMTc0LCB3aGVuICsgMC4xMywgMC4xNiwgJ3NpbmUnLCAwLjAyNCk7CiAgICAgIHRvbmUoODgwLCB3aGVuICsgMC4zLCAwLjEyLCAnc2luZScsIDAuMDIpOwogICAgfQogIH0KCiAgZnVuY3Rpb24gc2NoZWR1bGVMZWcoc3RhdGlvbiwgd2hlbiwgc3RlcER1cmF0aW9uKSB7CiAgICBzd2l0Y2ggKHN0YXRpb24ua2luZCkgewogICAgICBjYXNlICdmdW5rJzogc2NoZWR1bGVGdW5rKHN0YXRpb24sIHdoZW4sIHN0ZXBEdXJhdGlvbik7IGJyZWFrOwogICAgICBjYXNlICd0YWxrJzogc2NoZWR1bGVUYWxrKHN0YXRpb24sIHdoZW4sIHN0ZXBEdXJhdGlvbik7IGJyZWFrOwogICAgICBjYXNlICduZXdzJzogc2NoZWR1bGVOZXdzKHN0YXRpb24sIHdoZW4sIHN0ZXBEdXJhdGlvbik7IGJyZWFrOwogICAgICBkZWZhdWx0OiBzY2hlZHVsZVN5bnRod2F2ZShzdGF0aW9uLCB3aGVuLCBzdGVwRHVyYXRpb24pOyBicmVhazsKICAgIH0KICB9CgogIGZ1bmN0aW9uIHJldHVuZSgpIHsKICAgIHN0ZXAgPSAwOwogICAgYmFyID0gMDsKICAgIGlmIChjdHgpIG5leHROb3RlID0gY3R4LmN1cnJlbnRUaW1lICsgMC4wNjsKICB9CgogIHJldHVybiB7CiAgICBnZXQgbmFtZSgpIHsgcmV0dXJuIFNUQVRJT05TW2luZGV4XS5uYW1lOyB9LAogICAgZ2V0IHN0YXRpb24oKSB7IHJldHVybiBpbmRleDsgfSwKICAgIGdldCBwbGF5aW5nKCkgeyByZXR1cm4gbGl2ZTsgfSwKCiAgICBuZXh0KCkgewogICAgICBpbmRleCA9IChpbmRleCArIDEpICUgU1RBVElPTlMubGVuZ3RoOwogICAgICByZXR1bmUoKTsKICAgICAgcmV0dXJuIFNUQVRJT05TW2luZGV4XS5uYW1lOwogICAgfSwKCiAgICBwcmV2KCkgewogICAgICBpbmRleCA9IChpbmRleCArIFNUQVRJT05TLmxlbmd0aCAtIDEpICUgU1RBVElPTlMubGVuZ3RoOwogICAgICByZXR1bmUoKTsKICAgICAgcmV0dXJuIFNUQVRJT05TW2luZGV4XS5uYW1lOwogICAgfSwKCiAgICBzZXRTdGF0aW9uKHZhbHVlKSB7CiAgICAgIGNvbnN0IG5leHRJbmRleCA9ICgoTWF0aC5yb3VuZCh2YWx1ZSkgJSBTVEFUSU9OUy5sZW5ndGgpICsgU1RBVElPTlMubGVuZ3RoKSAlIFNUQVRJT05TLmxlbmd0aDsKICAgICAgaWYgKG5leHRJbmRleCA9PT0gaW5kZXgpIHJldHVybiBTVEFUSU9OU1tpbmRleF0ubmFtZTsKICAgICAgaW5kZXggPSBuZXh0SW5kZXg7CiAgICAgIHJldHVuZSgpOwogICAgICByZXR1cm4gU1RBVElPTlNbaW5kZXhdLm5hbWU7CiAgICB9LAoKICAgIHVwZGF0ZShkdCwgc3RhdGUpIHsKICAgICAgaWYgKCFzdGF0ZSB8fCBzdGF0ZS5tb2RlICE9PSAncGxheScpIHsKICAgICAgICBsaXZlID0gZmFsc2U7CiAgICAgICAgaWYgKGN0eCAmJiBtYXN0ZXIpIG1hc3Rlci5nYWluLnNldFRhcmdldEF0VGltZSgwLCBjdHguY3VycmVudFRpbWUsIDAuMTIpOwogICAgICAgIHJldHVybjsKICAgICAgfQogICAgICBpZiAoIWVuc3VyZSgpKSByZXR1cm47CiAgICAgIGxpdmUgPSB0cnVlOwogICAgICBtYXN0ZXIuZ2Fpbi5zZXRUYXJnZXRBdFRpbWUoTUFTVEVSX0xFVkVMLCBjdHguY3VycmVudFRpbWUsIDAuMzUpOwoKICAgICAgY29uc3Qgc3RhdGlvbiA9IFNUQVRJT05TW2luZGV4XTsKICAgICAgY29uc3Qgc3RlcER1cmF0aW9uID0gNjAgLyBzdGF0aW9uLmJwbSAvIDQ7CiAgICAgIGlmIChuZXh0Tm90ZSA8IGN0eC5jdXJyZW50VGltZSkgbmV4dE5vdGUgPSBjdHguY3VycmVudFRpbWUgKyAwLjA2OwogICAgICB3aGlsZSAobmV4dE5vdGUgPCBjdHguY3VycmVudFRpbWUgKyBMT09LQUhFQUQpIHsKICAgICAgICBzY2hlZHVsZUxlZyhzdGF0aW9uLCBuZXh0Tm90ZSwgc3RlcER1cmF0aW9uKTsKICAgICAgICBuZXh0Tm90ZSArPSBzdGVwRHVyYXRpb247CiAgICAgICAgc3RlcCA9IChzdGVwICsgMSkgJSAxNjsKICAgICAgICBpZiAoc3RlcCA9PT0gMCkgYmFyICs9IDE7CiAgICAgIH0KICAgIH0sCiAgfTsKfQo=
+// Radio: createRadio(context) runs four procedural stations — synthwave, funk, talk and news —
+// on one WebAudio graph. Steps are scheduled a third of a second ahead on the audio clock, never
+// in a busy loop, and the master gain goes to zero while the game is paused or on a screen.
+
+const STATIONS = [
+  { name: 'Wave 97.3 — Slow Tide', kind: 'synthwave', bpm: 98, root: 45 },
+  { name: 'K-BOOM 88.1 — Neon Workout', kind: 'funk', bpm: 112, root: 41 },
+  { name: 'K-TALK 1420 — Coastline AM', kind: 'talk', bpm: 96, root: 43 },
+  { name: 'CVE Radio 5 — Bay News', kind: 'news', bpm: 104, root: 40 },
+];
+
+const MINOR = [0, 2, 3, 5, 7, 8, 10];
+const DORIAN = [0, 2, 3, 5, 7, 9, 10];
+const PENTATONIC = [0, 2, 4, 7, 9];
+
+const SYNTH_BASS = [0, -1, 0, -1, 3, -1, 3, -1, 5, -1, 5, -1, 3, -1, 3, -1];
+const SYNTH_LEAD = [7, -1, 10, 12, -1, 7, 3, -1, 7, -1, 15, 12, -1, 10, 7, -1];
+const FUNK_BASS = [0, 0, 7, 0, 3, 0, 5, 7, 0, 0, 10, 0, 3, 5, 7, 0];
+const FUNK_STAB = [-1, 4, -1, 4, -1, 7, -1, 4, -1, 4, -1, 7, 9, -1, 4, -1];
+
+const MASTER_LEVEL = 0.15;
+const LOOKAHEAD = 0.34;
+
+export function createRadio(context) {
+  let ctx = context ?? null;
+  let master = null;
+  let index = 0;
+  let step = 0;
+  let bar = 0;
+  let nextNote = 0;
+  let live = false;
+
+  function ensure() {
+    if (!ctx) {
+      const Factory = window.AudioContext || window.webkitAudioContext;
+      if (!Factory) return false;
+      try {
+        ctx = new Factory();
+      } catch {
+        return false;
+      }
+    }
+    if (ctx.state === 'suspended') ctx.resume().catch(() => {});
+    if (!master) {
+      master = ctx.createGain();
+      master.gain.value = 0;
+      master.connect(ctx.destination);
+    }
+    return true;
+  }
+
+  function tone(frequency, when, duration, type, level) {
+    if (!ctx || !master) return;
+    const osc = ctx.createOscillator();
+    osc.type = type;
+    osc.frequency.setValueAtTime(frequency, when);
+    const gain = ctx.createGain();
+    gain.gain.setValueAtTime(0.0001, when);
+    gain.gain.linearRampToValueAtTime(level, when + 0.01);
+    gain.gain.exponentialRampToValueAtTime(0.0001, when + duration);
+    osc.connect(gain).connect(master);
+    osc.start(when);
+    osc.stop(when + duration + 0.03);
+  }
+
+  function scaleFor(station) {
+    if (station.kind === 'funk') return DORIAN;
+    if (station.kind === 'talk' || station.kind === 'news') return PENTATONIC;
+    return MINOR;
+  }
+
+  function degree(station, stepDegree, octave, when, duration, type, level) {
+    const scale = scaleFor(station);
+    const length = scale.length;
+    const wrapped = ((stepDegree % length) + length) % length;
+    const midi = station.root + scale[wrapped] + 12 * (octave + Math.floor(stepDegree / length));
+    tone(440 * Math.pow(2, (midi - 69) / 12), when, duration, type, level);
+  }
+
+  function scheduleSynthwave(station, when, stepDuration) {
+    const bass = SYNTH_BASS[step];
+    if (bass >= 0) degree(station, bass, -1, when, stepDuration * 1.7, 'triangle', 0.1);
+    const lead = SYNTH_LEAD[step];
+    if (lead >= 0) degree(station, lead, 1, when, stepDuration * 0.9, 'square', 0.028);
+    if (step === 0 || step === 8) {
+      for (const chordDegree of [0, 2, 4]) {
+        degree(station, chordDegree, 0, when, stepDuration * 7, 'sine', 0.022);
+      }
+    }
+    if (step % 4 === 2) tone(5200, when, 0.04, 'sine', 0.006);
+  }
+
+  function scheduleFunk(station, when, stepDuration) {
+    const bass = FUNK_BASS[step];
+    if (bass >= 0) degree(station, bass, -1, when, stepDuration * 0.8, 'square', 0.085);
+    const stab = FUNK_STAB[step];
+    if (stab >= 0) {
+      degree(station, stab, 1, when, stepDuration * 1.1, 'triangle', 0.03);
+      degree(station, stab + 2, 1, when, stepDuration * 1.1, 'triangle', 0.022);
+    }
+    if (step % 2 === 1) tone(7200, when, 0.03, 'sine', 0.009);
+    if (step === 0 || step === 6) tone(70, when, 0.14, 'sine', 0.05);
+  }
+
+  function scheduleTalk(station, when, stepDuration) {
+    // Speech-ish: short bursts of pitched formants, clustered into sentences.
+    if (step % 8 === 0) tone(82, when, 0.1, 'sawtooth', 0.02);
+    if (step % 3 === 0 && Math.random() < 0.78) {
+      const pitch = 118 + Math.random() * 96;
+      tone(pitch, when, stepDuration * (0.5 + Math.random()), 'sawtooth', 0.018);
+      tone(pitch * 2.2, when, stepDuration * 0.4, 'sine', 0.008);
+    }
+    if (step === 0 && bar % 8 === 4) {
+      tone(520, when, 0.16, 'sine', 0.02);
+      tone(392, when + 0.18, 0.2, 'sine', 0.016);
+    }
+  }
+
+  function scheduleNews(station, when, stepDuration) {
+    if (step % 8 === 0) degree(station, 0, -2, when, stepDuration * 2.6, 'triangle', 0.03);
+    if (step % 4 === 0) tone(1500, when, 0.025, 'sine', 0.008);
+    if (step === 0 && bar % 16 === 0) {
+      tone(880, when, 0.12, 'sine', 0.03);
+      tone(1174, when + 0.13, 0.16, 'sine', 0.024);
+      tone(880, when + 0.3, 0.12, 'sine', 0.02);
+    }
+  }
+
+  function scheduleLeg(station, when, stepDuration) {
+    switch (station.kind) {
+      case 'funk': scheduleFunk(station, when, stepDuration); break;
+      case 'talk': scheduleTalk(station, when, stepDuration); break;
+      case 'news': scheduleNews(station, when, stepDuration); break;
+      default: scheduleSynthwave(station, when, stepDuration); break;
+    }
+  }
+
+  function retune() {
+    step = 0;
+    bar = 0;
+    if (ctx) nextNote = ctx.currentTime + 0.06;
+  }
+
+  return {
+    get name() { return STATIONS[index].name; },
+    get station() { return index; },
+    get playing() { return live; },
+
+    next() {
+      index = (index + 1) % STATIONS.length;
+      retune();
+      return STATIONS[index].name;
+    },
+
+    prev() {
+      index = (index + STATIONS.length - 1) % STATIONS.length;
+      retune();
+      return STATIONS[index].name;
+    },
+
+    setStation(value) {
+      const nextIndex = ((Math.round(value) % STATIONS.length) + STATIONS.length) % STATIONS.length;
+      if (nextIndex === index) return STATIONS[index].name;
+      index = nextIndex;
+      retune();
+      return STATIONS[index].name;
+    },
+
+    update(dt, state) {
+      if (!state || state.mode !== 'play') {
+        live = false;
+        if (ctx && master) master.gain.setTargetAtTime(0, ctx.currentTime, 0.12);
+        return;
+      }
+      if (!ensure()) return;
+      live = true;
+      master.gain.setTargetAtTime(MASTER_LEVEL, ctx.currentTime, 0.35);
+
+      const station = STATIONS[index];
+      const stepDuration = 60 / station.bpm / 4;
+      if (nextNote < ctx.currentTime) nextNote = ctx.currentTime + 0.06;
+      while (nextNote < ctx.currentTime + LOOKAHEAD) {
+        scheduleLeg(station, nextNote, stepDuration);
+        nextNote += stepDuration;
+        step = (step + 1) % 16;
+        if (step === 0) bar += 1;
+      }
+    },
+  };
+}

@@ -1,1 +1,40 @@
-Ly8gRW50cnkgcG9pbnQ6IGNvcGllcyBnYW1lLyBhbmQgc2NyZWVuc2hvdHMvIHRvIHRoZSBvdXRwdXQgZGlyIGFuZCB3cml0ZXMgZG9zc2llci5qc29uLiBSdW4gaXQgd2l0aCBNQUtFRlVOX09VVFBVVF9ESVI9b3V0LgovLyBTdW5idXJuIEJheSDigJQgYW4gb3JpZ2luYWwgb3Blbi13b3JsZCBjcmltZSBnYW1lIHNldCBpbiBDb3N0YSBWZWdhOiBzZXZlbiBqb2JzIGZvciBSb3NhIERlbGdhZG8sCi8vIG9uZSBjb2FzdCByb2FkLCB0aHJlZSBraW5kcyBvZiB0cm91YmxlLiBUaGUgZ2FtZSBpcyB0aGlzIGRpcmVjdG9yeSdzIGdhbWUvIGZvbGRlcjogcGxhaW4gc3RhdGljCi8vIGZpbGVzIGEgZGVza3RvcCBicm93c2VyIGxvYWRzIG9mZmxpbmUgKGdhbWUvaW5kZXguaHRtbCBhbmQgaXRzIEVTIG1vZHVsZXMsIHRocmVlLmpzIHZlbmRvcmVkCi8vIHVuZGVyIGdhbWUvdmVuZG9yLCBubyBidWlsZCBzdGVwIGFuZCBubyBuZXR3b3JrIHJlcXVlc3QpLCBhbmQgdGhlIHByb2dyYW0gaGFuZHMgaXQgaW4uIEl0IGNvcGllcwovLyBnYW1lLyBhbmQgc2NyZWVuc2hvdHMvIGZyb20gYmVzaWRlIHRoaXMgZmlsZSB0byAvb3V0cHV0IGFuZCB3cml0ZXMgL291dHB1dC9kb3NzaWVyLmpzb24sIHRoZQovLyBzdW1tYXJ5IHRoZSBqdWRnZSByZWFkcywgd2l0aCB0aGUgdmVuZG9yZWQgbWFrZS5mdW4gbGlicmFyeS4gVGhlIGZvdXIgc2NyZWVuc2hvdHMgYXJlIHN0YWdlZAovLyBzY2VuZXMgZnJvbSB0aGUgZ2FtZSBpdHNlbGYgKD9zaG90PWNvdmVyfGNoYXNlfG1pc3Npb258ZHVzayksIHRoZSBmaXJzdCBieSBuYW1lIHRoZSBjb3Zlci4KLy8KLy8gU2VydmUgaXQgbG9jYWxseSB3aXRoIGBub2RlIHNlcnZlLnRzYCwgdGhlbiBvcGVuIGh0dHA6Ly9sb2NhbGhvc3Q6ODA4MC4KLy8gT3V0c2lkZSB0aGUgZ3JhZGVyJ3MgY29udGFpbmVyLCBNQUtFRlVOX09VVFBVVF9ESVIgc3RhbmRzIGluIGZvciAvb3V0cHV0OgovLyAgIG1rZGlyIC1wIG91dCAmJiBNQUtFRlVOX09VVFBVVF9ESVI9b3V0IG5vZGUgbWFpbi50cwoKaW1wb3J0IHsgY3BTeW5jLCBleGlzdHNTeW5jLCBta2RpclN5bmMsIHdyaXRlRmlsZVN5bmMgfSBmcm9tICdub2RlOmZzJzsKaW1wb3J0IHsgam9pbiB9IGZyb20gJ25vZGU6cGF0aCc7CmltcG9ydCB7IGZpbGVVUkxUb1BhdGggfSBmcm9tICdub2RlOnVybCc7CmltcG9ydCB7IGJ1aWxkRG9zc2llciB9IGZyb20gJy4vdmVuZG9yL21ha2VmdW4tZ2FtZS50cyc7Cgpjb25zdCBoZXJlID0gZmlsZVVSTFRvUGF0aChuZXcgVVJMKCcuJywgaW1wb3J0Lm1ldGEudXJsKSk7CmNvbnN0IG91dCA9IHByb2Nlc3MuZW52Lk1BS0VGVU5fT1VUUFVUX0RJUiA/PyAnL291dHB1dCc7Cgpta2RpclN5bmMob3V0LCB7IHJlY3Vyc2l2ZTogdHJ1ZSB9KTsKY3BTeW5jKGpvaW4oaGVyZSwgJ2dhbWUnKSwgam9pbihvdXQsICdnYW1lJyksIHsgcmVjdXJzaXZlOiB0cnVlIH0pOwpta2RpclN5bmMoam9pbihvdXQsICdzY3JlZW5zaG90cycpLCB7IHJlY3Vyc2l2ZTogdHJ1ZSB9KTsKaWYgKGV4aXN0c1N5bmMoam9pbihoZXJlLCAnc2NyZWVuc2hvdHMnKSkpIGNwU3luYyhqb2luKGhlcmUsICdzY3JlZW5zaG90cycpLCBqb2luKG91dCwgJ3NjcmVlbnNob3RzJyksIHsgcmVjdXJzaXZlOiB0cnVlIH0pOwoKLy8gVGhlIHNjb3JlcidzIG93biBjYXBzIChyZWZlcmVuY2UvZ2F0ZS5qc29uKTogb25seSB0ZXh0X21heF9ieXRlcyBzaGFwZXMgdGhlIGJ5dGVzOyB0aGUgb3RoZXJzIHJlZnVzZSBhbiBlbnRyeSB0aGUKLy8gc2NvcmVyIHdvdWxkIHJlZnVzZSAobW9yZSB0aGFuIDQgc2NyZWVuc2hvdHMgb3Igb25lIG92ZXIgMjU2IEtpQjsgbW9yZSB0aGFuIDk5MyBmaWxlcyBpbiBnYW1lLyBvciA0OCBNaUIgb2YgZ2FtZQovLyBmaWxlcywgaW4gYWxsLCBvciBhIHBhdGggdW5kZXIgZ2FtZS8gb3ZlciAxMDAwIGJ5dGVzOiBnYW1lLyBjb3VudHMgYmVzaWRlIC9vdXRwdXQncyBvd24gMTAwMC1lbnRyeSBjYXAsIGl0cwovLyBzY3JlZW5zaG90cy8gYW5kIGRvc3NpZXIuanNvbikuCndyaXRlRmlsZVN5bmMoCiAgam9pbihvdXQsICdkb3NzaWVyLmpzb24nKSwKICBidWlsZERvc3NpZXIob3V0LCB7CiAgICB0ZXh0X21heF9ieXRlczogMTYzODQwLAogICAgc2NyZWVuc2hvdHM6IHsgbWF4OiA0LCBtYXhfYnl0ZXM6IDI2MjE0NCB9LAogICAgZ2FtZV9tYXhfZmlsZXM6IDk5MywKICAgIGdhbWVfbWF4X2J5dGVzOiA1MDMzMTY0OCwKICAgIGdhbWVfcGF0aF9tYXhfYnl0ZXM6IDEwMDAsCiAgfSksCik7Cg==
+// Entry point: copies game/ and screenshots/ to the output dir and writes dossier.json. Run it with MAKEFUN_OUTPUT_DIR=out.
+// Sunburn Bay — an original open-world crime game set in Costa Vega: seven jobs for Rosa Delgado,
+// one coast road, three kinds of trouble. The game is this directory's game/ folder: plain static
+// files a desktop browser loads offline (game/index.html and its ES modules, three.js vendored
+// under game/vendor, no build step and no network request), and the program hands it in. It copies
+// game/ and screenshots/ from beside this file to /output and writes /output/dossier.json, the
+// summary the judge reads, with the vendored make.fun library. The four screenshots are staged
+// scenes from the game itself (?shot=cover|chase|mission|dusk), the first by name the cover.
+//
+// Serve it locally with `node serve.ts`, then open http://localhost:8080.
+// Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
+//   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
+
+import { cpSync, existsSync, mkdirSync, writeFileSync } from 'node:fs';
+import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { buildDossier } from './vendor/makefun-game.ts';
+
+const here = fileURLToPath(new URL('.', import.meta.url));
+const out = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
+
+mkdirSync(out, { recursive: true });
+cpSync(join(here, 'game'), join(out, 'game'), { recursive: true });
+mkdirSync(join(out, 'screenshots'), { recursive: true });
+if (existsSync(join(here, 'screenshots'))) cpSync(join(here, 'screenshots'), join(out, 'screenshots'), { recursive: true });
+
+// The scorer's own caps (reference/gate.json): only text_max_bytes shapes the bytes; the others refuse an entry the
+// scorer would refuse (more than 4 screenshots or one over 256 KiB; more than 993 files in game/ or 48 MiB of game
+// files, in all, or a path under game/ over 1000 bytes: game/ counts beside /output's own 1000-entry cap, its
+// screenshots/ and dossier.json).
+writeFileSync(
+  join(out, 'dossier.json'),
+  buildDossier(out, {
+    text_max_bytes: 163840,
+    screenshots: { max: 4, max_bytes: 262144 },
+    game_max_files: 993,
+    game_max_bytes: 50331648,
+    game_path_max_bytes: 1000,
+  }),
+);

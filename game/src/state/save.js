@@ -1,1 +1,50 @@
-Ly8gU2F2ZTogcmVhZFNhdmUsIGhhc1NhdmUsIHdyaXRlU2F2ZSBhbmQgY2xlYXJTYXZlIGtlZXAgbW9uZXksIGpvYiwgd2VhcG9ucyBhbmQgcG9zaXRpb24gaW4gbG9jYWxTdG9yYWdlLiBGYWlsdXJlcyBhcmUgc3Vydml2YWJsZS4KLy8gUHJvZ3Jlc3Mgb24gdGhpcyBtYWNoaW5lOiBtb25leSwgdGhlIG5leHQgam9iLCB3ZWFwb25zIGFuZCB3aGVyZSBOaWNvIHdva2UgdXAuIFdyaXR0ZW4gYXQKLy8gdGhlIG1hcmluYSBhbmQgYWZ0ZXIgZXZlcnkgam9iOyBsb2NhbFN0b3JhZ2UgZmFpbHVyZXMgKHByaXZhdGUgd2luZG93cykgYXJlIHN1cnZpdmFibGUuCgpjb25zdCBTQVZFX0tFWSA9ICdzdW5idXJuYmF5LnNhdmUudjEnOwoKZXhwb3J0IGZ1bmN0aW9uIHJlYWRTYXZlKCkgewogIHRyeSB7CiAgICBjb25zdCByYXcgPSB3aW5kb3cubG9jYWxTdG9yYWdlLmdldEl0ZW0oU0FWRV9LRVkpOwogICAgaWYgKCFyYXcpIHJldHVybiBudWxsOwogICAgY29uc3QgZGF0YSA9IEpTT04ucGFyc2UocmF3KTsKICAgIGlmICh0eXBlb2YgZGF0YS5tb25leSAhPT0gJ251bWJlcicgfHwgdHlwZW9mIGRhdGEubWlzc2lvbkluZGV4ICE9PSAnbnVtYmVyJykgcmV0dXJuIG51bGw7CiAgICBpZiAoIWRhdGEucG9zIHx8IHR5cGVvZiBkYXRhLnBvcy54ICE9PSAnbnVtYmVyJyB8fCB0eXBlb2YgZGF0YS5wb3MueiAhPT0gJ251bWJlcicpIHJldHVybiBudWxsOwogICAgcmV0dXJuIGRhdGE7CiAgfSBjYXRjaCB7CiAgICByZXR1cm4gbnVsbDsKICB9Cn0KCmV4cG9ydCBmdW5jdGlvbiBoYXNTYXZlKCkgewogIHJldHVybiAhIXJlYWRTYXZlKCk7Cn0KCmV4cG9ydCBmdW5jdGlvbiB3cml0ZVNhdmUoc3RhdGUpIHsKICB0cnkgewogICAgd2luZG93LmxvY2FsU3RvcmFnZS5zZXRJdGVtKFNBVkVfS0VZLCBKU09OLnN0cmluZ2lmeSh7CiAgICAgIHZlcnNpb246IDEsCiAgICAgIG1vbmV5OiBzdGF0ZS5tb25leSwKICAgICAgbWlzc2lvbkluZGV4OiBzdGF0ZS5taXNzaW9ucy5pbmRleCwKICAgICAgd2VhcG9uczogc3RhdGUud2VhcG9ucywKICAgICAgd2VhcG9uOiBzdGF0ZS53ZWFwb24sCiAgICAgIHBvczogeyB4OiBzdGF0ZS5wbGF5ZXIucG9zLngsIHo6IHN0YXRlLnBsYXllci5wb3MueiB9LAogICAgICBoZWFsdGg6IHN0YXRlLnBsYXllci5oZWFsdGgsCiAgICAgIGFybW91cjogc3RhdGUucGxheWVyLmFybW91ciwKICAgICAgdGltZTogc3RhdGUuc2t5Lm1vZGUsCiAgICAgIHNhdmVkQXQ6IERhdGUubm93KCksCiAgICB9KSk7CiAgICByZXR1cm4gdHJ1ZTsKICB9IGNhdGNoIHsKICAgIHJldHVybiBmYWxzZTsKICB9Cn0KCmV4cG9ydCBmdW5jdGlvbiBjbGVhclNhdmUoKSB7CiAgdHJ5IHsKICAgIHdpbmRvdy5sb2NhbFN0b3JhZ2UucmVtb3ZlSXRlbShTQVZFX0tFWSk7CiAgfSBjYXRjaCB7CiAgICAvLyBub3RoaW5nIHRvIGRvCiAgfQp9Cg==
+// Save: readSave, hasSave, writeSave and clearSave keep money, job, weapons and position in localStorage. Failures are survivable.
+// Progress on this machine: money, the next job, weapons and where Nico woke up. Written at
+// the marina and after every job; localStorage failures (private windows) are survivable.
+
+const SAVE_KEY = 'sunburnbay.save.v1';
+
+export function readSave() {
+  try {
+    const raw = window.localStorage.getItem(SAVE_KEY);
+    if (!raw) return null;
+    const data = JSON.parse(raw);
+    if (typeof data.money !== 'number' || typeof data.missionIndex !== 'number') return null;
+    if (!data.pos || typeof data.pos.x !== 'number' || typeof data.pos.z !== 'number') return null;
+    return data;
+  } catch {
+    return null;
+  }
+}
+
+export function hasSave() {
+  return !!readSave();
+}
+
+export function writeSave(state) {
+  try {
+    window.localStorage.setItem(SAVE_KEY, JSON.stringify({
+      version: 1,
+      money: state.money,
+      missionIndex: state.missions.index,
+      weapons: state.weapons,
+      weapon: state.weapon,
+      pos: { x: state.player.pos.x, z: state.player.pos.z },
+      health: state.player.health,
+      armour: state.player.armour,
+      time: state.sky.mode,
+      savedAt: Date.now(),
+    }));
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+export function clearSave() {
+  try {
+    window.localStorage.removeItem(SAVE_KEY);
+  } catch {
+    // nothing to do
+  }
+}

@@ -1,1 +1,117 @@
-Ly8gSFVEOiBjcmVhdGVIdWQgd3JpdGVzIGhlYWx0aCwgYXJtb3VyLCBjYXNoLCBzdGFycywgd2VhcG9uLCBvYmplY3RpdmUsIHRpbWVyLCBzcGVlZCBhbmQgc3VidGl0bGVzLiBEcmF3cyBvbiB0aGUgRE9NLgovLyBUaGUgSFVEOiBoZWFsdGggYW5kIGFybW91ciwgY2FzaCwgd2FudGVkIHN0YXJzLCB3ZWFwb24gYW5kIGFtbW8sIG1pc3Npb24gdGV4dCBhbmQgdGltZXIsCi8vIHNwZWVkb21ldGVyLCBjcm9zc2hhaXIsIHN1YnRpdGxlIGFuZCB0b2FzdCBsaW5lcy4gVmFsdWVzIGFyZSBvbmx5IHdyaXR0ZW4gdG8gdGhlIERPTSB3aGVuCi8vIHRoZXkgY2hhbmdlLCBzbyB0aGUgbG9vcCBzdGF5cyBjaGVhcC4KCmNvbnN0IFNUQVJfQ09VTlQgPSA1OwoKZXhwb3J0IGZ1bmN0aW9uIGNyZWF0ZUh1ZCgpIHsKICBjb25zdCBodWQgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnaHVkJyk7CiAgY29uc3QgaGVhbHRoID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcignI2hlYWx0aGJhciBpJyk7CiAgY29uc3QgYXJtb3VyID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcignI2FybW91cmJhciBpJyk7CiAgY29uc3QgY2FzaCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdjYXNoJyk7CiAgY29uc3Qgc3RhcnMgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnc3RhcnMnKTsKICBjb25zdCB3ZWFwb25OYW1lID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ3dlYXBvbi1uYW1lJyk7CiAgY29uc3QgYW1tbyA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdhbW1vJyk7CiAgY29uc3Qgd2VhcG9uUGFuZWwgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnd2VhcG9uJyk7CiAgY29uc3Qgc3BlZWRvID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ3NwZWVkbycpOwogIGNvbnN0IHNwZWVkID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ3NwZWVkJyk7CiAgY29uc3QgbWlzc2lvblRpdGxlID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ21pc3Npb24tdGl0bGUnKTsKICBjb25zdCBvYmplY3RpdmVUZXh0ID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ29iamVjdGl2ZS10ZXh0Jyk7CiAgY29uc3QgdGltZXIgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgndGltZXInKTsKICBjb25zdCBjcm9zc2hhaXIgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnY3Jvc3NoYWlyJyk7CiAgY29uc3Qgc3VidGl0bGUgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnc3VidGl0bGUnKTsKICBjb25zdCB0b2FzdCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCd0b2FzdCcpOwogIGNvbnN0IGJpZyA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdiaWctbXNnJyk7CiAgY29uc3Qgc2FmZUJhZGdlID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ3NhZmUtYmFkZ2UnKTsKCiAgc3RhcnMuaW5uZXJIVE1MID0gQXJyYXkuZnJvbSh7IGxlbmd0aDogU1RBUl9DT1VOVCB9LCAoKSA9PiAnPHNwYW4+4piFPC9zcGFuPicpLmpvaW4oJycpOwogIGNvbnN0IHN0YXJTcGFucyA9IFsuLi5zdGFycy5jaGlsZHJlbl07CgogIGNvbnN0IHNob3duID0geyBoZWFsdGg6IC0xLCBhcm1vdXI6IC0xLCBjYXNoOiAtMSwgc3RhcnM6IC0xLCB3ZWFwb246ICcnLCBhbW1vOiAnJywgc3BlZWQ6IC0xLCB0aXRsZTogJycsIHRleHQ6ICcnLCB0aW1lcjogJycsIGNyb3NzOiBudWxsLCBpbkNhcjogbnVsbCB9OwogIGxldCB0b2FzdFVudGlsID0gMDsKICBsZXQgc3VidGl0bGVVbnRpbCA9IDA7CiAgbGV0IGJpZ1VudGlsID0gMDsKCiAgcmV0dXJuIHsKICAgIHNob3coKSB7IGh1ZC5jbGFzc0xpc3QucmVtb3ZlKCdoaWRkZW4nKTsgfSwKICAgIGhpZGUoKSB7IGh1ZC5jbGFzc0xpc3QuYWRkKCdoaWRkZW4nKTsgfSwKCiAgICB1cGRhdGUoc3RhdGUpIHsKICAgICAgY29uc3QgaHAgPSBNYXRoLnJvdW5kKHN0YXRlLnBsYXllci5oZWFsdGgpOwogICAgICBpZiAoaHAgIT09IHNob3duLmhlYWx0aCkgeyBoZWFsdGguc3R5bGUud2lkdGggPSBgJHtocH0lYDsgc2hvd24uaGVhbHRoID0gaHA7IH0KICAgICAgY29uc3QgYXAgPSBNYXRoLnJvdW5kKHN0YXRlLnBsYXllci5hcm1vdXIpOwogICAgICBpZiAoYXAgIT09IHNob3duLmFybW91cikgeyBhcm1vdXIuc3R5bGUud2lkdGggPSBgJHthcH0lYDsgc2hvd24uYXJtb3VyID0gYXA7IH0KCiAgICAgIGlmIChzdGF0ZS5tb25leSAhPT0gc2hvd24uY2FzaCkgewogICAgICAgIGNhc2gudGV4dENvbnRlbnQgPSBgJCR7c3RhdGUubW9uZXkudG9Mb2NhbGVTdHJpbmcoJ2VuLVVTJyl9YDsKICAgICAgICBzaG93bi5jYXNoID0gc3RhdGUubW9uZXk7CiAgICAgIH0KICAgICAgY29uc3Qgd2FudGVkID0gc3RhdGUucG9saWNlPy53YW50ZWQgPz8gMDsKICAgICAgaWYgKHdhbnRlZCAhPT0gc2hvd24uc3RhcnMpIHsKICAgICAgICBzdGFyU3BhbnMuZm9yRWFjaCgoc3BhbiwgaSkgPT4gc3Bhbi5jbGFzc0xpc3QudG9nZ2xlKCdvbicsIGkgPCB3YW50ZWQpKTsKICAgICAgICBzaG93bi5zdGFycyA9IHdhbnRlZDsKICAgICAgfQoKICAgICAgY29uc3Qgd2VhcG9uID0gc3RhdGUucGxheWVyLmluVmVoaWNsZSA/ICcnIDogKHN0YXRlLndlYXBvbkRhdGE/Lm5hbWUgPz8gJycpOwogICAgICBpZiAod2VhcG9uICE9PSBzaG93bi53ZWFwb24pIHsKICAgICAgICB3ZWFwb25OYW1lLnRleHRDb250ZW50ID0gd2VhcG9uOwogICAgICAgIHNob3duLndlYXBvbiA9IHdlYXBvbjsKICAgICAgfQogICAgICBjb25zdCBhbW1vVGV4dCA9IHN0YXRlLnBsYXllci5pblZlaGljbGUgPyAnJyA6IGAke3N0YXRlLmFtbW9Jbk1hZyA/PyAwfSAvICR7c3RhdGUuYW1tb1Jlc2VydmUgPz8gMH1gOwogICAgICBpZiAoYW1tb1RleHQgIT09IHNob3duLmFtbW8pIHsKICAgICAgICBhbW1vLnRleHRDb250ZW50ID0gYW1tb1RleHQ7CiAgICAgICAgc2hvd24uYW1tbyA9IGFtbW9UZXh0OwogICAgICB9CiAgICAgIHdlYXBvblBhbmVsLnN0eWxlLmRpc3BsYXkgPSBzdGF0ZS5wbGF5ZXIuaW5WZWhpY2xlID8gJ25vbmUnIDogJ2Jsb2NrJzsKCiAgICAgIGNvbnN0IGluQ2FyID0gISFzdGF0ZS5wbGF5ZXIuaW5WZWhpY2xlOwogICAgICBpZiAoaW5DYXIgIT09IHNob3duLmluQ2FyKSB7CiAgICAgICAgc3BlZWRvLnN0eWxlLmRpc3BsYXkgPSBpbkNhciA/ICdibG9jaycgOiAnbm9uZSc7CiAgICAgICAgc2hvd24uaW5DYXIgPSBpbkNhcjsKICAgICAgfQogICAgICBpZiAoaW5DYXIpIHsKICAgICAgICBjb25zdCBtcGggPSBNYXRoLnJvdW5kKE1hdGguYWJzKHN0YXRlLnBsYXllci5pblZlaGljbGUuc3BlZWQpICogMi4yMzcpOwogICAgICAgIGlmIChtcGggIT09IHNob3duLnNwZWVkKSB7IHNwZWVkLnRleHRDb250ZW50ID0gU3RyaW5nKG1waCk7IHNob3duLnNwZWVkID0gbXBoOyB9CiAgICAgIH0KCiAgICAgIGNvbnN0IGNyb3NzID0gIWluQ2FyICYmICFzdGF0ZS5wbGF5ZXIuZGVhZCAmJiBzdGF0ZS5tb2RlID09PSAncGxheSc7CiAgICAgIGlmIChjcm9zcyAhPT0gc2hvd24uY3Jvc3MpIHsKICAgICAgICBjcm9zc2hhaXIuc3R5bGUuZGlzcGxheSA9IGNyb3NzID8gJ2Jsb2NrJyA6ICdub25lJzsKICAgICAgICBzaG93bi5jcm9zcyA9IGNyb3NzOwogICAgICB9CgogICAgICBpZiAoc3RhdGUub2JqZWN0aXZlVGl0bGUgIT09IHNob3duLnRpdGxlKSB7IG1pc3Npb25UaXRsZS50ZXh0Q29udGVudCA9IHN0YXRlLm9iamVjdGl2ZVRpdGxlOyBzaG93bi50aXRsZSA9IHN0YXRlLm9iamVjdGl2ZVRpdGxlOyB9CiAgICAgIGlmIChzdGF0ZS5vYmplY3RpdmVUZXh0ICE9PSBzaG93bi50ZXh0KSB7IG9iamVjdGl2ZVRleHQudGV4dENvbnRlbnQgPSBzdGF0ZS5vYmplY3RpdmVUZXh0OyBzaG93bi50ZXh0ID0gc3RhdGUub2JqZWN0aXZlVGV4dDsgfQogICAgICBpZiAoc3RhdGUub2JqZWN0aXZlVGltZXIgIT09IHNob3duLnRpbWVyKSB7IHRpbWVyLnRleHRDb250ZW50ID0gc3RhdGUub2JqZWN0aXZlVGltZXI7IHNob3duLnRpbWVyID0gc3RhdGUub2JqZWN0aXZlVGltZXI7IH0KCiAgICAgIGNvbnN0IG5vdyA9IHBlcmZvcm1hbmNlLm5vdygpOwogICAgICBpZiAodG9hc3RVbnRpbCAmJiBub3cgPiB0b2FzdFVudGlsKSB7IHRvYXN0LnN0eWxlLm9wYWNpdHkgPSAnMCc7IHRvYXN0VW50aWwgPSAwOyB9CiAgICAgIGlmIChzdWJ0aXRsZVVudGlsICYmIG5vdyA+IHN1YnRpdGxlVW50aWwpIHsgc3VidGl0bGUuc3R5bGUub3BhY2l0eSA9ICcwJzsgc3VidGl0bGVVbnRpbCA9IDA7IH0KICAgICAgaWYgKGJpZ1VudGlsICYmIG5vdyA+IGJpZ1VudGlsKSB7IGJpZy5zdHlsZS5vcGFjaXR5ID0gJzAnOyBiaWdVbnRpbCA9IDA7IH0KICAgIH0sCgogICAgdG9hc3QodGV4dCwgc2Vjb25kcyA9IDMpIHsKICAgICAgdG9hc3QudGV4dENvbnRlbnQgPSB0ZXh0OwogICAgICB0b2FzdC5zdHlsZS5vcGFjaXR5ID0gJzEnOwogICAgICB0b2FzdFVudGlsID0gcGVyZm9ybWFuY2Uubm93KCkgKyBzZWNvbmRzICogMTAwMDsKICAgIH0sCgogICAgc2F5KHNwZWFrZXIsIGxpbmUsIHNlY29uZHMgPSA0LjUpIHsKICAgICAgc3VidGl0bGUuaW5uZXJIVE1MID0gc3BlYWtlciA/IGA8Yj4ke3NwZWFrZXJ9OjwvYj4gJHtsaW5lfWAgOiBsaW5lOwogICAgICBzdWJ0aXRsZS5zdHlsZS5vcGFjaXR5ID0gJzEnOwogICAgICBzdWJ0aXRsZVVudGlsID0gcGVyZm9ybWFuY2Uubm93KCkgKyBzZWNvbmRzICogMTAwMDsKICAgIH0sCgogICAgYmlnTWVzc2FnZSh0aXRsZSwgc3ViID0gJycsIHNlY29uZHMgPSAzKSB7CiAgICAgIGJpZy5pbm5lckhUTUwgPSBgJHt0aXRsZX0ke3N1YiA/IGA8c21hbGw+JHtzdWJ9PC9zbWFsbD5gIDogJyd9YDsKICAgICAgYmlnLnN0eWxlLm9wYWNpdHkgPSAnMSc7CiAgICAgIGJpZ1VudGlsID0gcGVyZm9ybWFuY2Uubm93KCkgKyBzZWNvbmRzICogMTAwMDsKICAgIH0sCgogICAgc2F2ZWQoKSB7CiAgICAgIHNhZmVCYWRnZS5zdHlsZS5vcGFjaXR5ID0gJzEnOwogICAgICBzZXRUaW1lb3V0KCgpID0+IHsgc2FmZUJhZGdlLnN0eWxlLm9wYWNpdHkgPSAnMCc7IH0sIDE0MDApOwogICAgfSwKICB9Owp9Cg==
+// HUD: createHud writes health, armour, cash, stars, weapon, objective, timer, speed and subtitles. Draws on the DOM.
+// The HUD: health and armour, cash, wanted stars, weapon and ammo, mission text and timer,
+// speedometer, crosshair, subtitle and toast lines. Values are only written to the DOM when
+// they change, so the loop stays cheap.
+
+const STAR_COUNT = 5;
+
+export function createHud() {
+  const hud = document.getElementById('hud');
+  const health = document.querySelector('#healthbar i');
+  const armour = document.querySelector('#armourbar i');
+  const cash = document.getElementById('cash');
+  const stars = document.getElementById('stars');
+  const weaponName = document.getElementById('weapon-name');
+  const ammo = document.getElementById('ammo');
+  const weaponPanel = document.getElementById('weapon');
+  const speedo = document.getElementById('speedo');
+  const speed = document.getElementById('speed');
+  const missionTitle = document.getElementById('mission-title');
+  const objectiveText = document.getElementById('objective-text');
+  const timer = document.getElementById('timer');
+  const crosshair = document.getElementById('crosshair');
+  const subtitle = document.getElementById('subtitle');
+  const toast = document.getElementById('toast');
+  const big = document.getElementById('big-msg');
+  const safeBadge = document.getElementById('safe-badge');
+
+  stars.innerHTML = Array.from({ length: STAR_COUNT }, () => '<span>★</span>').join('');
+  const starSpans = [...stars.children];
+
+  const shown = { health: -1, armour: -1, cash: -1, stars: -1, weapon: '', ammo: '', speed: -1, title: '', text: '', timer: '', cross: null, inCar: null };
+  let toastUntil = 0;
+  let subtitleUntil = 0;
+  let bigUntil = 0;
+
+  return {
+    show() { hud.classList.remove('hidden'); },
+    hide() { hud.classList.add('hidden'); },
+
+    update(state) {
+      const hp = Math.round(state.player.health);
+      if (hp !== shown.health) { health.style.width = `${hp}%`; shown.health = hp; }
+      const ap = Math.round(state.player.armour);
+      if (ap !== shown.armour) { armour.style.width = `${ap}%`; shown.armour = ap; }
+
+      if (state.money !== shown.cash) {
+        cash.textContent = `$${state.money.toLocaleString('en-US')}`;
+        shown.cash = state.money;
+      }
+      const wanted = state.police?.wanted ?? 0;
+      if (wanted !== shown.stars) {
+        starSpans.forEach((span, i) => span.classList.toggle('on', i < wanted));
+        shown.stars = wanted;
+      }
+
+      const weapon = state.player.inVehicle ? '' : (state.weaponData?.name ?? '');
+      if (weapon !== shown.weapon) {
+        weaponName.textContent = weapon;
+        shown.weapon = weapon;
+      }
+      const ammoText = state.player.inVehicle ? '' : `${state.ammoInMag ?? 0} / ${state.ammoReserve ?? 0}`;
+      if (ammoText !== shown.ammo) {
+        ammo.textContent = ammoText;
+        shown.ammo = ammoText;
+      }
+      weaponPanel.style.display = state.player.inVehicle ? 'none' : 'block';
+
+      const inCar = !!state.player.inVehicle;
+      if (inCar !== shown.inCar) {
+        speedo.style.display = inCar ? 'block' : 'none';
+        shown.inCar = inCar;
+      }
+      if (inCar) {
+        const mph = Math.round(Math.abs(state.player.inVehicle.speed) * 2.237);
+        if (mph !== shown.speed) { speed.textContent = String(mph); shown.speed = mph; }
+      }
+
+      const cross = !inCar && !state.player.dead && state.mode === 'play';
+      if (cross !== shown.cross) {
+        crosshair.style.display = cross ? 'block' : 'none';
+        shown.cross = cross;
+      }
+
+      if (state.objectiveTitle !== shown.title) { missionTitle.textContent = state.objectiveTitle; shown.title = state.objectiveTitle; }
+      if (state.objectiveText !== shown.text) { objectiveText.textContent = state.objectiveText; shown.text = state.objectiveText; }
+      if (state.objectiveTimer !== shown.timer) { timer.textContent = state.objectiveTimer; shown.timer = state.objectiveTimer; }
+
+      const now = performance.now();
+      if (toastUntil && now > toastUntil) { toast.style.opacity = '0'; toastUntil = 0; }
+      if (subtitleUntil && now > subtitleUntil) { subtitle.style.opacity = '0'; subtitleUntil = 0; }
+      if (bigUntil && now > bigUntil) { big.style.opacity = '0'; bigUntil = 0; }
+    },
+
+    toast(text, seconds = 3) {
+      toast.textContent = text;
+      toast.style.opacity = '1';
+      toastUntil = performance.now() + seconds * 1000;
+    },
+
+    say(speaker, line, seconds = 4.5) {
+      subtitle.innerHTML = speaker ? `<b>${speaker}:</b> ${line}` : line;
+      subtitle.style.opacity = '1';
+      subtitleUntil = performance.now() + seconds * 1000;
+    },
+
+    bigMessage(title, sub = '', seconds = 3) {
+      big.innerHTML = `${title}${sub ? `<small>${sub}</small>` : ''}`;
+      big.style.opacity = '1';
+      bigUntil = performance.now() + seconds * 1000;
+    },
+
+    saved() {
+      safeBadge.style.opacity = '1';
+      setTimeout(() => { safeBadge.style.opacity = '0'; }, 1400);
+    },
+  };
+}

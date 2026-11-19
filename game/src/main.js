@@ -1,1 +1,552 @@
-Ly8gRW50cnkgbW9kdWxlOiBidWlsZHMgdGhlIHdvcmxkLCB3aXJlcyBldmVyeSBzeXN0ZW0sIGFuZCBydW5zIHRoZSBmcmFtZSBsb29wIGFuZCBzY3JlZW5zLiBPd25zIGBzdGF0ZWAgYW5kIGJvb3QoKS4KLy8gQm9vdCwgc2NyZWVucyBhbmQgdGhlIG9uZSBsb29wLiBCdWlsZHMgQ29zdGEgVmVnYSBmcm9tIGEgc2VlZCwgdGhlbiBlYWNoIGZyYW1lIHJ1bnMgaW5wdXQsCi8vIHBsYXllciBvciBjYXIsIHRyYWZmaWMsIHBlZGVzdHJpYW5zLCBwb2xpY2UsIGNvbWJhdCwgbWlzc2lvbnMsIEhVRCBhbmQgdGhlIHJlbmRlcmVyIGluIG9yZGVyLgoKaW1wb3J0ICogYXMgVEhSRUUgZnJvbSAndGhyZWUnOwppbXBvcnQgeyBTVEFSVCwgV0VBUE9OUywgU0hPUCB9IGZyb20gJy4vY29uZmlnLmpzJzsKaW1wb3J0IHsgY3JlYXRlUmFuZG9tIH0gZnJvbSAnLi9yYW5kb20uanMnOwppbXBvcnQgeyBjcmVhdGVTa3kgfSBmcm9tICcuL3dvcmxkL3NreS5qcyc7CmltcG9ydCB7IGJ1aWxkQ2l0eSwgUExBQ0VTLCBwbGFjZUF0IH0gZnJvbSAnLi93b3JsZC9jaXR5LmpzJzsKaW1wb3J0IHsgY3JlYXRlVHJhZmZpYyB9IGZyb20gJy4vd29ybGQvdHJhZmZpYy5qcyc7CmltcG9ydCB7IGNyZWF0ZVBlZGVzdHJpYW5zIH0gZnJvbSAnLi93b3JsZC9wZWRlc3RyaWFucy5qcyc7CmltcG9ydCB7IGNyZWF0ZVBsYXllciwgcGxhY2VQbGF5ZXIsIHVwZGF0ZVBsYXllciB9IGZyb20gJy4vZW50aXRpZXMvcGxheWVyLmpzJzsKaW1wb3J0IHsgY3JlYXRlVmVoaWNsZSwgcGxhY2VWZWhpY2xlLCB1cGRhdGVWZWhpY2xlLCBkYW1hZ2VWZWhpY2xlIH0gZnJvbSAnLi9lbnRpdGllcy92ZWhpY2xlLmpzJzsKaW1wb3J0IHsgY3JlYXRlSW5wdXQgfSBmcm9tICcuL2lucHV0LmpzJzsKaW1wb3J0IHsgY3JlYXRlVmlldywgdXBkYXRlQ2FtZXJhIH0gZnJvbSAnLi9jYW1lcmEuanMnOwppbXBvcnQgeyBjcmVhdGVFZmZlY3RzIH0gZnJvbSAnLi9zeXN0ZW1zL2VmZmVjdHMuanMnOwppbXBvcnQgeyBjcmVhdGVDb21iYXQgfSBmcm9tICcuL3N5c3RlbXMvY29tYmF0LmpzJzsKaW1wb3J0IHsgY3JlYXRlUG9saWNlLCB1cGRhdGVQb2xpY2UsIHJlcG9ydENyaW1lLCBjbGVhcldhbnRlZCB9IGZyb20gJy4vc3lzdGVtcy9wb2xpY2UuanMnOwppbXBvcnQgeyBjcmVhdGVNaXNzaW9ucywgdXBkYXRlTWlzc2lvbnMsIHN0YXJ0TWlzc2lvbiwgZmFpbEN1cnJlbnRNaXNzaW9uIH0gZnJvbSAnLi9zeXN0ZW1zL21pc3Npb25zLmpzJzsKaW1wb3J0IHsgY3JlYXRlSHVkIH0gZnJvbSAnLi91aS9odWQuanMnOwppbXBvcnQgeyBkcmF3TWluaW1hcCB9IGZyb20gJy4vdWkvbWluaW1hcC5qcyc7CmltcG9ydCB7IGNyZWF0ZU1lbnUgfSBmcm9tICcuL3VpL21lbnUuanMnOwppbXBvcnQgeyBjcmVhdGVBdWRpbyB9IGZyb20gJy4vYXVkaW8vZW5naW5lLmpzJzsKaW1wb3J0IHsgcmVhZFNhdmUsIGhhc1NhdmUsIHdyaXRlU2F2ZSB9IGZyb20gJy4vc3RhdGUvc2F2ZS5qcyc7CmltcG9ydCB7IHJ1blNob3QgfSBmcm9tICcuL3Nob3RzLmpzJzsKaW1wb3J0IHsgY3JlYXRlV2lsZGxpZmUgfSBmcm9tICcuL3dvcmxkL3dpbGRsaWZlLmpzJzsKaW1wb3J0IHsgY3JlYXRlV2VhdGhlciB9IGZyb20gJy4vc3lzdGVtcy93ZWF0aGVyLmpzJzsKaW1wb3J0IHsgY3JlYXRlU3R1bnRzIH0gZnJvbSAnLi9zeXN0ZW1zL3N0dW50cy5qcyc7CmltcG9ydCB7IGNyZWF0ZVJhY2VzIH0gZnJvbSAnLi9zeXN0ZW1zL3JhY2VzLmpzJzsKaW1wb3J0IHsgY3JlYXRlRGlzcGF0Y2ggfSBmcm9tICcuL3N5c3RlbXMvZGlzcGF0Y2guanMnOwppbXBvcnQgeyBjcmVhdGVFY29ub215IH0gZnJvbSAnLi9zeXN0ZW1zL2Vjb25vbXkuanMnOwppbXBvcnQgeyBjcmVhdGVIZWlzdHMgfSBmcm9tICcuL3N5c3RlbXMvaGVpc3RzLmpzJzsKaW1wb3J0IHsgY3JlYXRlUGFya3MgfSBmcm9tICcuL3dvcmxkL3BhcmtzLmpzJzsKaW1wb3J0IHsgY3JlYXRlUmFkaW8gfSBmcm9tICcuL2F1ZGlvL3JhZGlvLmpzJzsKaW1wb3J0IHsgY3JlYXRlSm91cm5hbCB9IGZyb20gJy4vdWkvam91cm5hbC5qcyc7CmltcG9ydCB7IGNyZWF0ZU5vdGlmaWNhdGlvbnMgfSBmcm9tICcuL3VpL25vdGlmaWNhdGlvbnMuanMnOwoKY29uc3QgcGFyYW1zID0gbmV3IFVSTFNlYXJjaFBhcmFtcyh3aW5kb3cubG9jYXRpb24uc2VhcmNoKTsKY29uc3Qgc2hvdE5hbWUgPSBwYXJhbXMuZ2V0KCdzaG90Jyk7CmNvbnN0IHNlZWRQYXJhbSA9IE51bWJlci5wYXJzZUludChwYXJhbXMuZ2V0KCdzZWVkJykgPz8gJycsIDEwKTsKY29uc3Qgc2VlZCA9IE51bWJlci5pc0ludGVnZXIoc2VlZFBhcmFtKSA/IHNlZWRQYXJhbSA6IDIwOTMxOwoKY29uc3QgY2FudmFzID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2dhbWUnKTsKY29uc3QgYm9vdCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdib290Jyk7CmNvbnN0IG1pbmltYXAgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnbWluaW1hcCcpOwp3aW5kb3cuYWRkRXZlbnRMaXN0ZW5lcignZXJyb3InLCAoZXZlbnQpID0+IHsgaWYgKGJvb3QpIGJvb3QudGV4dENvbnRlbnQgPSBgRXJyb3I6ICR7ZXZlbnQubWVzc2FnZX1gOyB9KTsKCmNvbnN0IHJlbmRlcmVyID0gbmV3IFRIUkVFLldlYkdMUmVuZGVyZXIoeyBjYW52YXMsIGFudGlhbGlhczogdHJ1ZSwgcG93ZXJQcmVmZXJlbmNlOiAnaGlnaC1wZXJmb3JtYW5jZScgfSk7CnJlbmRlcmVyLnNldFBpeGVsUmF0aW8oTWF0aC5taW4od2luZG93LmRldmljZVBpeGVsUmF0aW8gfHwgMSwgMS41KSk7CnJlbmRlcmVyLnNldFNpemUod2luZG93LmlubmVyV2lkdGgsIHdpbmRvdy5pbm5lckhlaWdodCk7CnJlbmRlcmVyLm91dHB1dENvbG9yU3BhY2UgPSBUSFJFRS5TUkdCQ29sb3JTcGFjZTsKcmVuZGVyZXIudG9uZU1hcHBpbmcgPSBUSFJFRS5BQ0VTRmlsbWljVG9uZU1hcHBpbmc7CnJlbmRlcmVyLnRvbmVNYXBwaW5nRXhwb3N1cmUgPSAxLjA1OwpyZW5kZXJlci5zaGFkb3dNYXAuZW5hYmxlZCA9IHRydWU7CnJlbmRlcmVyLnNoYWRvd01hcC50eXBlID0gVEhSRUUuUENGU29mdFNoYWRvd01hcDsKCmNvbnN0IHNjZW5lID0gbmV3IFRIUkVFLlNjZW5lKCk7CmNvbnN0IGNhbWVyYSA9IG5ldyBUSFJFRS5QZXJzcGVjdGl2ZUNhbWVyYSg1OCwgd2luZG93LmlubmVyV2lkdGggLyB3aW5kb3cuaW5uZXJIZWlnaHQsIDAuMywgNDUwMCk7CnNjZW5lLmFkZChjYW1lcmEpOwoKY29uc3Qgcm5nID0gY3JlYXRlUmFuZG9tKHNlZWQpOwpjb25zdCBza3kgPSBjcmVhdGVTa3koc2NlbmUpOwpjb25zdCBjaXR5ID0gYnVpbGRDaXR5KHNjZW5lLCBybmcpOwpjb25zdCBwbGF5ZXIgPSBjcmVhdGVQbGF5ZXIoc2NlbmUpOwpwbGFjZVBsYXllcihwbGF5ZXIsIFNUQVJULngsIFNUQVJULnosIFNUQVJULnlhdyk7CmNvbnN0IGlucHV0ID0gY3JlYXRlSW5wdXQoY2FudmFzKTsKY29uc3QgZWZmZWN0cyA9IGNyZWF0ZUVmZmVjdHMoc2NlbmUpOwpjb25zdCBhdWRpbyA9IGNyZWF0ZUF1ZGlvKCk7CmNvbnN0IGh1ZCA9IGNyZWF0ZUh1ZCgpOwpjb25zdCBjb21iYXQgPSBjcmVhdGVDb21iYXQoKTsKY29uc3QgcG9saWNlID0gY3JlYXRlUG9saWNlKHNjZW5lKTsKY29uc3QgbWlzc2lvbnMgPSBjcmVhdGVNaXNzaW9ucyhzY2VuZSk7CmNvbnN0IHRyYWZmaWMgPSBjcmVhdGVUcmFmZmljKHNjZW5lLCBybmcsIGNpdHksIDE4KTsKY29uc3QgcGVkcyA9IGNyZWF0ZVBlZGVzdHJpYW5zKHNjZW5lLCBybmcsIGNpdHksIDI2KTsKY29uc3QgdmlldyA9IGNyZWF0ZVZpZXcocGxheWVyKTsKCi8vIFRoZSBuZXcgc3lzdGVtcyBzaXQgYmVzaWRlIHRoZSBvbGQgb25lcyBhbmQgdGFrZSBwYXJ0IGluIHRoZSBzYW1lIGZyYW1lLgpjb25zdCBub3RpZmljYXRpb25zID0gY3JlYXRlTm90aWZpY2F0aW9ucygpOwpjb25zdCBqb3VybmFsID0gY3JlYXRlSm91cm5hbCgpOwpjb25zdCB3aWxkbGlmZSA9IGNyZWF0ZVdpbGRsaWZlKHNjZW5lLCBybmcsIGNpdHkpOwpjb25zdCB3ZWF0aGVyID0gY3JlYXRlV2VhdGhlcihzY2VuZSwgc2t5KTsKY29uc3Qgc3R1bnRzID0gY3JlYXRlU3R1bnRzKHNjZW5lLCBybmcsIGNpdHkpOwpjb25zdCByYWNlcyA9IGNyZWF0ZVJhY2VzKHNjZW5lLCBjaXR5KTsKY29uc3QgZGlzcGF0Y2ggPSBjcmVhdGVEaXNwYXRjaChzY2VuZSwgY2l0eSk7CmNvbnN0IGVjb25vbXkgPSBjcmVhdGVFY29ub215KHNjZW5lLCBjaXR5KTsKY29uc3QgaGVpc3RzID0gY3JlYXRlSGVpc3RzKHNjZW5lLCBybmcsIGNpdHkpOwpjb25zdCBwYXJrcyA9IGNyZWF0ZVBhcmtzKHNjZW5lLCBybmcsIGNpdHkpOwpjb25zdCByYWRpbyA9IGNyZWF0ZVJhZGlvKGF1ZGlvLmNvbnRleHQgPz8gbnVsbCk7CgovLyBXZWF0aGVyIGFza3MgdGhlIGF1ZGlvIGVuZ2luZSBmb3IgdGh1bmRlcjsgZmFsbCBiYWNrIHRvIGEgbG93IGltcGFjdCBpZiBpdCBoYXMgbm9uZS4KaWYgKHR5cGVvZiBhdWRpby50aHVuZGVyICE9PSAnZnVuY3Rpb24nKSBhdWRpby50aHVuZGVyID0gKCkgPT4gYXVkaW8uaW1wYWN0KDEuNSk7Cgpjb25zdCBwYXJrZWQgPSBbXTsKZm9yIChjb25zdCBzcG90IG9mIGNpdHkucGFya2luZy5zbGljZSgwLCAyMCkpIHsKICBjb25zdCBraW5kID0gcm5nLnBpY2soWydzZWRhbicsICdzZWRhbicsICdzZWRhbicsICd2YW4nLCAnc3BvcnRzJ10pOwogIGNvbnN0IGNhciA9IGNyZWF0ZVZlaGljbGUoa2luZCwgcm5nLnBpY2soWzB4ZjNlN2NkLCAweGU0NjA0ZCwgMHgyZjdmN2EsIDB4ZjVkNzhhLCAweDlmYzJkOCwgMHhmN2Y0ZWFdKSwgc2NlbmUpOwogIHBsYWNlVmVoaWNsZShjYXIsIHNwb3QueCArIHJuZy5yYW5nZSgtMSwgMSksIHNwb3QueiArIHJuZy5yYW5nZSgtMSwgMSksIHNwb3QueWF3KTsKICBwYXJrZWQucHVzaChjYXIpOwp9Cgpjb25zdCBzdGF0ZSA9IHsKICBzZWVkLCBzY2VuZSwgY2FtZXJhLCByZW5kZXJlciwgc2t5LCBjaXR5LCBwbGF5ZXIsIGlucHV0LCBybmcsIGVmZmVjdHMsIGF1ZGlvLCBodWQsIGNvbWJhdCwgcG9saWNlLCBtaXNzaW9ucywgdHJhZmZpYywgcGVkcywKICB2aWV3LAogIG5vdGlmaWNhdGlvbnMsIGpvdXJuYWwsIHdpbGRsaWZlLCB3ZWF0aGVyLCBzdHVudHMsIHJhY2VzLCBkaXNwYXRjaCwgZWNvbm9teSwgaGVpc3RzLCBwYXJrcywgcmFkaW8sCiAgbW9kZTogJ3RpdGxlJywKICBtb25leTogMCwKICB3ZWFwb25zOiB7IHBpc3RvbDogeyBtYWc6IDEyLCByZXNlcnZlOiA2MCB9LCBzbWc6IHsgbWFnOiAwLCByZXNlcnZlOiAwIH0sIHNob3RndW46IHsgbWFnOiAwLCByZXNlcnZlOiAwIH0gfSwKICB3ZWFwb246ICdwaXN0b2wnLAogIHdlYXBvbkRhdGE6IFdFQVBPTlMucGlzdG9sLAogIGFtbW9Jbk1hZzogMTIsCiAgYW1tb1Jlc2VydmU6IDYwLAogIHdlYXBvbkNvb2xkb3duOiAwLAogIHRodWdzOiBbXSwKICB2ZWhpY2xlczogWy4uLnBhcmtlZCwgLi4udHJhZmZpYy5jYXJzLm1hcCgoYykgPT4gYy52KV0sCiAgb2JqZWN0aXZlVGl0bGU6ICdDT1NUQSBWRUdBJywKICBvYmplY3RpdmVUZXh0OiAnTWVldCBSb3NhIGF0IHRoZSBtYXJpbmEnLAogIG9iamVjdGl2ZVRpbWVyOiAnJywKICBtaXNzaW9uQmxpcDogbnVsbCwKICBtaXNzaW9uS2lsbHM6IDAsCiAgbm9pc2U6IDAsCiAgZGVhZFRpbWVyOiAwLAogIG11enpsZUZsYXNoOiAwLAogIGFkZENyaW1lKGFtb3VudCkgeyByZXBvcnRDcmltZShzdGF0ZS5wb2xpY2UsIGFtb3VudCk7IH0sCiAgbm90aWZ5KHRleHQsIGtpbmQpIHsgbm90aWZpY2F0aW9ucy5wdXNoKHRleHQsIGtpbmQpOyB9LAogIG9uUGxheWVySGl0KCkgeyBzdGF0ZS52aWV3LnNoYWtlID0gMC4zNTsgfSwKICBvbk1pc3Npb25Db21wbGV0ZSgpIHsgc2F2ZUdhbWUoKTsgfSwKICBvbkJ1c3RlZCgpIHsgaWYgKHN0YXRlLm1vZGUgPT09ICdwbGF5JykgZ2V0QnVzdGVkKCk7IH0sCiAgc2F2ZUdhbWUsCn07CgpmdW5jdGlvbiBzYXZlR2FtZSgpIHsKICBpZiAod3JpdGVTYXZlKHN0YXRlKSkgaHVkLnNhdmVkKCk7Cn0KCi8vIERlYnVnIGhhbmRsZSBmb3IgdGhlIGxvY2FsIHNtb2tlIHRlc3RzIGFuZCBzY3JlZW5zaG90cyAoaGFybWxlc3MgaW4gcGxheSkuCndpbmRvdy5fX2dhbWUgPSBzdGF0ZTsKCmNvbnN0IG1lbnUgPSBjcmVhdGVNZW51KHsKICBvbk5ldzogKCkgPT4gYmVnaW4oZmFsc2UpLAogIG9uQ29udGludWU6ICgpID0+IGJlZ2luKHRydWUpLAogIG9uUmVzdW1lOiAoKSA9PiByZXN1bWUoKSwKICBvbkNsb3NlOiAoKSA9PiB7fSwKICBvblRpbWU6ICh0aW1lKSA9PiB7IHNreS5zZXRUaW1lKHRpbWUpOyBzdGF0ZS50aW1lT2ZEYXkgPSB0aW1lOyB9LAogIG9uU2hhZG93OiAob24pID0+IHsgcmVuZGVyZXIuc2hhZG93TWFwLmVuYWJsZWQgPSBvbjsgc2NlbmUudHJhdmVyc2UoKG9iamVjdCkgPT4geyBpZiAob2JqZWN0Lm1hdGVyaWFsKSBvYmplY3QubWF0ZXJpYWwubmVlZHNVcGRhdGUgPSB0cnVlOyB9KTsgfSwKICBvblZvbHVtZTogKHZhbHVlKSA9PiBhdWRpby5zZXRWb2x1bWUodmFsdWUpLAp9KTsKc3RhdGUubWVudSA9IG1lbnU7CnN0YXRlLmh1ZCA9IGh1ZDsKbWVudS5zaG93VGl0bGUoaGFzU2F2ZSgpKTsKbWVudS5zZXRWb2x1bWUoMC43KTsKCmNvbnN0IFdBTlRFRF9FVkVOVFMgPSB7IGhpdHM6IDAgfTsKCi8vIFdha2UgYXVkaW8gb24gdGhlIGZpcnN0IGdlc3R1cmUsIGFzIGJyb3dzZXJzIHJlcXVpcmUuCndpbmRvdy5hZGRFdmVudExpc3RlbmVyKCdwb2ludGVyZG93bicsICgpID0+IGF1ZGlvLnN0YXJ0KCkpOwp3aW5kb3cuYWRkRXZlbnRMaXN0ZW5lcigna2V5ZG93bicsICgpID0+IGF1ZGlvLnN0YXJ0KCkpOwoKZnVuY3Rpb24gYmVnaW4obG9hZCkgewogIGF1ZGlvLnN0YXJ0KCk7CiAgbWVudS5oaWRlKCk7CiAgaHVkLnNob3coKTsKICByZXNldEZvck5ld0dhbWUobG9hZCk7CiAgc3RhdGUubW9kZSA9ICdwbGF5JzsKICBpbnB1dC5sb2NrKCk7Cn0KCmZ1bmN0aW9uIHJlc2V0Rm9yTmV3R2FtZShsb2FkKSB7CiAgY29uc3Qgc2F2ZWQgPSBsb2FkID8gcmVhZFNhdmUoKSA6IG51bGw7CiAgY2xlYXJXYW50ZWQocG9saWNlKTsKICBwb2xpY2UudW5pdHMuZm9yRWFjaCgodW5pdCkgPT4gewogICAgaWYgKHVuaXQudmVoaWNsZSkgewogICAgICBzY2VuZS5yZW1vdmUodW5pdC52ZWhpY2xlLnJvb3QpOwogICAgICBjb25zdCBpbmRleCA9IHN0YXRlLnZlaGljbGVzLmluZGV4T2YodW5pdC52ZWhpY2xlKTsKICAgICAgaWYgKGluZGV4ID49IDApIHN0YXRlLnZlaGljbGVzLnNwbGljZShpbmRleCwgMSk7CiAgICB9IGVsc2UgaWYgKHVuaXQuZ3JvdXApIHNjZW5lLnJlbW92ZSh1bml0Lmdyb3VwKTsKICB9KTsKICBwb2xpY2UudW5pdHMubGVuZ3RoID0gMDsKICBmb3IgKGNvbnN0IHRodWcgb2YgbWlzc2lvbnMuZW5lbWllcykgc2NlbmUucmVtb3ZlKHRodWcuZ3JvdXApOwogIG1pc3Npb25zLmVuZW1pZXMubGVuZ3RoID0gMDsKICBzdGF0ZS50aHVncy5sZW5ndGggPSAwOwogIGlmIChtaXNzaW9ucy52ZWhpY2xlKSB7CiAgICBjb25zdCBpbmRleCA9IHN0YXRlLnZlaGljbGVzLmluZGV4T2YobWlzc2lvbnMudmVoaWNsZSk7CiAgICBpZiAoaW5kZXggPj0gMCkgc3RhdGUudmVoaWNsZXMuc3BsaWNlKGluZGV4LCAxKTsKICAgIG1pc3Npb25zLnZlaGljbGUgPSBudWxsOwogIH0KICBtaXNzaW9ucy5hY3RpdmUgPSBudWxsOwogIG1pc3Npb25zLmluZGV4ID0gc2F2ZWQgPyBNYXRoLm1pbihzYXZlZC5taXNzaW9uSW5kZXgsIG1pc3Npb25zLmxpc3QubGVuZ3RoKSA6IDA7CiAgbWlzc2lvbnMuc3RlcEluZGV4ID0gMDsKICBtaXNzaW9ucy50YWxrUXVldWUubGVuZ3RoID0gMDsKICBzdGF0ZS5tb25leSA9IHNhdmVkID8gc2F2ZWQubW9uZXkgOiAwOwogIHN0YXRlLndlYXBvbnMgPSBzYXZlZCA/IHsgLi4uc2F2ZWQud2VhcG9ucyB9IDogeyBwaXN0b2w6IHsgbWFnOiAxMiwgcmVzZXJ2ZTogNjAgfSwgc21nOiB7IG1hZzogMCwgcmVzZXJ2ZTogMCB9LCBzaG90Z3VuOiB7IG1hZzogMCwgcmVzZXJ2ZTogMCB9IH07CiAgc3RhdGUud2VhcG9uID0gc2F2ZWQ/LndlYXBvbiA/PyAncGlzdG9sJzsKICBwbGF5ZXIuaGVhbHRoID0gc2F2ZWQgPyBNYXRoLm1heCgyMCwgc2F2ZWQuaGVhbHRoKSA6IDEwMDsKICBwbGF5ZXIuYXJtb3VyID0gc2F2ZWQ/LmFybW91ciA/PyAwOwogIHBsYXllci5kZWFkID0gZmFsc2U7CiAgaWYgKHBsYXllci5pblZlaGljbGUpIHsKICAgIHBsYXllci5pblZlaGljbGUuZHJpdmVyID0gbnVsbDsKICAgIHBsYXllci5pblZlaGljbGUgPSBudWxsOwogIH0KICBjb25zdCBhdCA9IHNhdmVkPy5wb3MgPz8gU1RBUlQ7CiAgcGxhY2VQbGF5ZXIocGxheWVyLCBhdC54LCBhdC56LCBzYXZlZCA/IDAgOiBTVEFSVC55YXcpOwogIHNreS5zZXRUaW1lKHNhdmVkPy50aW1lID09PSAnZHVzaycgPyAnZHVzaycgOiAnZGF5Jyk7CiAgbWVudS5zZXRUaW1lKHNhdmVkPy50aW1lID09PSAnZHVzaycgPyAnZHVzaycgOiAnZGF5Jyk7CiAgdmlldy55YXcgPSBwbGF5ZXIueWF3ICsgTWF0aC5QSTsKICB2aWV3LnJlc3RUaW1lciA9IDA7CiAgaHVkLmJpZ01lc3NhZ2Uoc2F2ZWQgPyAnV0VMQ09NRSBCQUNLJyA6ICdDT1NUQSBWRUdBJywgc2F2ZWQgPyAnUm9zYSBoYXMgYmVlbiBhc2tpbmcgYWZ0ZXIgeW91JyA6ICdGaW5kIFJvc2EgYXQgdGhlIG1hcmluYScsIDMuNSk7Cn0KCmZ1bmN0aW9uIHJlc3VtZSgpIHsKICBzdGF0ZS5tb2RlID0gJ3BsYXknOwogIG1lbnUuaGlkZSgpOwogIGlucHV0LmxvY2soKTsKfQoKZnVuY3Rpb24gcGF1c2UoKSB7CiAgaWYgKHN0YXRlLm1vZGUgIT09ICdwbGF5JykgcmV0dXJuOwogIHN0YXRlLm1vZGUgPSAncGF1c2VkJzsKICBtZW51LnNob3dQYXVzZSgpOwogIGRvY3VtZW50LmV4aXRQb2ludGVyTG9jaz8uKCk7Cn0KCmZ1bmN0aW9uIGdldEJ1c3RlZCgpIHsKICBpZiAoc3RhdGUubW9kZSAhPT0gJ3BsYXknKSByZXR1cm47CiAgc3RhdGUubW9kZSA9ICdidXN0ZWQnOwogIHN0YXRlLmRlYWRUaW1lciA9IDMuNDsKICBodWQuYmlnTWVzc2FnZSgnQlVTVEVEJywgJ0Nvc3RhIFZlZ2EgUG9saWNlIMK3ICQzMDAnLCA0KTsKICBhdWRpby5pbXBhY3QoMSk7CiAgZmFpbEN1cnJlbnRNaXNzaW9uKG1pc3Npb25zLCBzdGF0ZSwgJ1lvdSBnb3QgcGluY2hlZC4nKTsKICBjbGVhcldhbnRlZChwb2xpY2UpOwogIGlmIChwbGF5ZXIuaW5WZWhpY2xlKSBleGl0VmVoaWNsZSgpOwogIGRvY3VtZW50LmV4aXRQb2ludGVyTG9jaz8uKCk7Cn0KCmZ1bmN0aW9uIGdldFdhc3RlZCgpIHsKICBpZiAoc3RhdGUubW9kZSAhPT0gJ3BsYXknICYmIHN0YXRlLm1vZGUgIT09ICd3YXN0ZWQnKSByZXR1cm47CiAgc3RhdGUubW9kZSA9ICd3YXN0ZWQnOwogIHN0YXRlLmRlYWRUaW1lciA9IDMuNDsKICBodWQuYmlnTWVzc2FnZSgnV0FTVEVEJywgJ0JheSBIb3NwaXRhbCDCtyAkMjAwJywgNCk7CiAgYXVkaW8uaW1wYWN0KDEpOwogIGZhaWxDdXJyZW50TWlzc2lvbihtaXNzaW9ucywgc3RhdGUsICdZb3UgYmxlZCBvdXQuJyk7CiAgY2xlYXJXYW50ZWQocG9saWNlKTsKICBpZiAocGxheWVyLmluVmVoaWNsZSkgZXhpdFZlaGljbGUoKTsKICBkb2N1bWVudC5leGl0UG9pbnRlckxvY2s/LigpOwp9CgpmdW5jdGlvbiByZXNwYXduQXQocGxhY2UsIGZlZSkgewogIHN0YXRlLm1vbmV5ID0gTWF0aC5tYXgoMCwgc3RhdGUubW9uZXkgLSBmZWUpOwogIHBsYXllci5oZWFsdGggPSA2NTsKICBwbGF5ZXIuYXJtb3VyID0gMDsKICBwbGF5ZXIuZGVhZCA9IGZhbHNlOwogIHBsYWNlUGxheWVyKHBsYXllciwgcGxhY2UueCwgcGxhY2UueiwgMCk7CiAgdmlldy55YXcgPSBwbGF5ZXIueWF3ICsgTWF0aC5QSTsKICBzdGF0ZS5tb2RlID0gJ3BsYXknOwogIGh1ZC5iaWdNZXNzYWdlKCcnLCBgJHtwbGFjZS5sYWJlbH0gwrcgLSQke2ZlZX1gLCAyLjUpOwogIGlucHV0LmxvY2soKTsKfQoKZnVuY3Rpb24gbmVhcmVzdFZlaGljbGUobWF4RGlzdGFuY2UgPSA1KSB7CiAgbGV0IGJlc3QgPSBudWxsOwogIGxldCBiZXN0RGlzdGFuY2UgPSBtYXhEaXN0YW5jZTsKICBmb3IgKGNvbnN0IHZlaGljbGUgb2Ygc3RhdGUudmVoaWNsZXMpIHsKICAgIGlmICghdmVoaWNsZS5hbGl2ZSkgY29udGludWU7CiAgICBjb25zdCBkaXN0YW5jZSA9IE1hdGguaHlwb3QodmVoaWNsZS5wb3MueCAtIHBsYXllci5wb3MueCwgdmVoaWNsZS5wb3MueiAtIHBsYXllci5wb3Mueik7CiAgICBpZiAoZGlzdGFuY2UgPCBiZXN0RGlzdGFuY2UpIHsKICAgICAgYmVzdERpc3RhbmNlID0gZGlzdGFuY2U7CiAgICAgIGJlc3QgPSB2ZWhpY2xlOwogICAgfQogIH0KICByZXR1cm4gYmVzdDsKfQoKZnVuY3Rpb24gZW50ZXJWZWhpY2xlKHZlaGljbGUpIHsKICBpZiAoIXZlaGljbGUpIHJldHVybjsKICBwbGF5ZXIuaW5WZWhpY2xlID0gdmVoaWNsZTsKICB2ZWhpY2xlLmRyaXZlciA9ICdwbGF5ZXInOwogIGlmICh2ZWhpY2xlLnRyYWZmaWMpIHZlaGljbGUudHJhZmZpYy5zdG9sZW4gPSB0cnVlOwogIGlmICh2ZWhpY2xlLmlzUG9saWNlKSByZXBvcnRDcmltZShwb2xpY2UsIDEpOwogIHBsYXllci5ncm91cC52aXNpYmxlID0gZmFsc2U7CiAgcGxheWVyLnBvcy5jb3B5KHZlaGljbGUucG9zKTsKICB2aWV3LnlhdyA9IHZlaGljbGUuaGVhZGluZyArIE1hdGguUEk7CiAgdmlldy5yZXN0VGltZXIgPSAwOwogIGh1ZC50b2FzdChgU3RvbGUgdGhlICR7dmVoaWNsZS5zcGVjLm5hbWV9YCwgMi41KTsKICBhdWRpby5zdGFydCgpOwp9CgpmdW5jdGlvbiBleGl0VmVoaWNsZSgpIHsKICBjb25zdCB2ZWhpY2xlID0gcGxheWVyLmluVmVoaWNsZTsKICBpZiAoIXZlaGljbGUpIHJldHVybjsKICBjb25zdCBzaWRlID0gdmVoaWNsZS5oZWFkaW5nICsgTWF0aC5QSSAvIDI7CiAgcGxheWVyLmluVmVoaWNsZSA9IG51bGw7CiAgdmVoaWNsZS5kcml2ZXIgPSBudWxsOwogIHBsYXllci5wb3Muc2V0KHZlaGljbGUucG9zLnggKyBNYXRoLnNpbihzaWRlKSAqIDIuNCwgMC4yNSwgdmVoaWNsZS5wb3MueiArIE1hdGguY29zKHNpZGUpICogMi40KTsKICBjaXR5LnJlc29sdmUocGxheWVyLnBvcywgMC42KTsKICBwbGF5ZXIuZ3JvdXAudmlzaWJsZSA9IHRydWU7CiAgcGxheWVyLmdyb3VwLnBvc2l0aW9uLmNvcHkocGxheWVyLnBvcyk7CiAgcGxheWVyLnNwZWVkID0gMDsKICB2aWV3LnlhdyA9IHZlaGljbGUuaGVhZGluZyArIE1hdGguUEk7CiAgdmlldy5yZXN0VGltZXIgPSAwOwp9CgpmdW5jdGlvbiBpbnRlcmFjdCgpIHsKICBpZiAocGxheWVyLmluVmVoaWNsZSkgcmV0dXJuOwogIGlmIChlY29ub215LmJ1eSgnbmVhcmVzdCcpKSByZXR1cm47CiAgY29uc3QgZGlzdGFuY2UgPSAocCkgPT4gTWF0aC5oeXBvdChwbGF5ZXIucG9zLnggLSBwLngsIHBsYXllci5wb3MueiAtIHAueik7CiAgaWYgKCFtaXNzaW9ucy5hY3RpdmUgJiYgbWlzc2lvbnMuaW5kZXggPCBtaXNzaW9ucy5saXN0Lmxlbmd0aCAmJiBkaXN0YW5jZShQTEFDRVMubWFyaW5hKSA8IDkpIHsKICAgIGlmIChzdGFydE1pc3Npb24obWlzc2lvbnMsIHN0YXRlKSkgcmV0dXJuOwogIH0KICBpZiAoZGlzdGFuY2UoUExBQ0VTLm1hcmluYSkgPCA5KSB7CiAgICBwbGF5ZXIuaGVhbHRoID0gMTAwOwogICAgcGxheWVyLmFybW91ciA9IE1hdGgubWF4KHBsYXllci5hcm1vdXIsIDI1KTsKICAgIHNhdmVHYW1lKCk7CiAgICBodWQudG9hc3QoJ1Jvc2EgcGF0Y2ggYSBmZXcgc2NyYXBlcy4gUHJvZ3Jlc3Mgc2F2ZWQuJywgMyk7CiAgICBhdWRpby5waWNrdXAoKTsKICAgIHJldHVybjsKICB9CiAgaWYgKGRpc3RhbmNlKHBsYWNlQXQoUExBQ0VTLnNob3ApKSA8IDcpIHsKICAgIGlmIChwbGF5ZXIuYXJtb3VyIDwgMTAwICYmIHN0YXRlLm1vbmV5ID49IFNIT1AuYXJtb3VyQ29zdCkgewogICAgICBzdGF0ZS5tb25leSAtPSBTSE9QLmFybW91ckNvc3Q7CiAgICAgIHBsYXllci5hcm1vdXIgPSBNYXRoLm1pbigxMDAsIHBsYXllci5hcm1vdXIgKyA1MCk7CiAgICAgIGh1ZC50b2FzdCgnVmVnYSBQYXduOiBhcm1vdXIgdmVzdCDigJQgJDI1MCcsIDMpOwogICAgICBhdWRpby5waWNrdXAoKTsKICAgIH0gZWxzZSBpZiAoc3RhdGUubW9uZXkgPj0gU0hPUC5hbW1vQ29zdCkgewogICAgICBzdGF0ZS5tb25leSAtPSBTSE9QLmFtbW9Db3N0OwogICAgICBmb3IgKGNvbnN0IGtleSBvZiBbJ3Bpc3RvbCcsICdzbWcnLCAnc2hvdGd1biddKSB7CiAgICAgICAgaWYgKHN0YXRlLndlYXBvbnNba2V5XS5tYWcgKyBzdGF0ZS53ZWFwb25zW2tleV0ucmVzZXJ2ZSA+IDApIHN0YXRlLndlYXBvbnNba2V5XS5yZXNlcnZlICs9IFdFQVBPTlNba2V5XS5tYWcgKiAyOwogICAgICB9CiAgICAgIGlmIChzdGF0ZS53ZWFwb24gPT09ICdwaXN0b2wnICYmIHN0YXRlLndlYXBvbnMuc21nLnJlc2VydmUgPT09IDApIHN0YXRlLndlYXBvbnMuc21nLnJlc2VydmUgPSAzMDsKICAgICAgaHVkLnRvYXN0KCdWZWdhIFBhd246IGFtbXVuaXRpb24g4oCUICQxMjAnLCAzKTsKICAgICAgYXVkaW8ucGlja3VwKCk7CiAgICB9IGVsc2UgewogICAgICBodWQudG9hc3QoJ05vdCBlbm91Z2ggY2FzaCBmb3IgdGhlIHBhd24gc2hvcC4nLCAyLjUpOwogICAgfQogICAgcmV0dXJuOwogIH0KICBpZiAoZGlzdGFuY2UocGxhY2VBdChQTEFDRVMuZ2FyYWdlKSkgPCA3KSB7CiAgICBpZiAoc3RhdGUubW9uZXkgPCBTSE9QLmNhckNvc3QpIHsKICAgICAgaHVkLnRvYXN0KCdNYW50YSBNb3RvcnM6IGNvbWUgYmFjayB3aXRoICQxLDUwMC4nLCAyLjUpOwogICAgICByZXR1cm47CiAgICB9CiAgICBzdGF0ZS5tb25leSAtPSBTSE9QLmNhckNvc3Q7CiAgICBjb25zdCBjYXIgPSBjcmVhdGVWZWhpY2xlKCdzcG9ydHMnLCAweGZmYjQ1NCwgc2NlbmUpOwogICAgcGxhY2VWZWhpY2xlKGNhciwgMTYwLCAyMDAsIC1NYXRoLlBJIC8gMik7CiAgICBzdGF0ZS52ZWhpY2xlcy5wdXNoKGNhcik7CiAgICBodWQudG9hc3QoJ01hbnRhIE1vdG9yczoga2V5cyBhcmUgaW4gaXQuJywgMyk7CiAgICBhdWRpby5waWNrdXAoKTsKICAgIHJldHVybjsKICB9CiAgaWYgKGRpc3RhbmNlKHBsYWNlQXQoUExBQ0VTLmhvc3BpdGFsKSkgPCA3ICYmIHN0YXRlLm1vbmV5ID49IDE1MCkgewogICAgc3RhdGUubW9uZXkgLT0gMTUwOwogICAgcGxheWVyLmhlYWx0aCA9IDEwMDsKICAgIGh1ZC50b2FzdCgnQmF5IEhvc3BpdGFsOiBwYXRjaGVkIHVwIOKAlCAkMTUwJywgMyk7CiAgICBhdWRpby5waWNrdXAoKTsKICB9Cn0KCmZ1bmN0aW9uIHN3aXRjaFdlYXBvbihkaXJlY3Rpb24pIHsKICBjb25zdCBvcmRlciA9IFsncGlzdG9sJywgJ3NtZycsICdzaG90Z3VuJ107CiAgbGV0IGluZGV4ID0gb3JkZXIuaW5kZXhPZihzdGF0ZS53ZWFwb24pOwogIGZvciAobGV0IHN0ZXAgPSAxOyBzdGVwIDw9IG9yZGVyLmxlbmd0aDsgc3RlcCsrKSB7CiAgICBjb25zdCBuZXh0ID0gb3JkZXJbKGluZGV4ICsgZGlyZWN0aW9uICogc3RlcCArIG9yZGVyLmxlbmd0aCAqIDIpICUgb3JkZXIubGVuZ3RoXTsKICAgIGlmIChzdGF0ZS53ZWFwb25zW25leHRdLm1hZyArIHN0YXRlLndlYXBvbnNbbmV4dF0ucmVzZXJ2ZSA+IDAgfHwgbmV4dCA9PT0gJ3Bpc3RvbCcpIHsKICAgICAgc3RhdGUud2VhcG9uID0gbmV4dDsKICAgICAgc3RhdGUud2VhcG9uRGF0YSA9IFdFQVBPTlNbbmV4dF07CiAgICAgIGh1ZC50b2FzdChXRUFQT05TW25leHRdLm5hbWUsIDEuMik7CiAgICAgIHJldHVybjsKICAgIH0KICB9Cn0KCmZ1bmN0aW9uIHJlc29sdmVDYXJDb250YWN0cygpIHsKICBjb25zdCBjYXIgPSBwbGF5ZXIuaW5WZWhpY2xlOwogIGlmICghY2FyKSByZXR1cm47CiAgZm9yIChjb25zdCBvdGhlciBvZiBzdGF0ZS52ZWhpY2xlcykgewogICAgaWYgKG90aGVyID09PSBjYXIgfHwgIW90aGVyLmFsaXZlKSBjb250aW51ZTsKICAgIGNvbnN0IGR4ID0gb3RoZXIucG9zLnggLSBjYXIucG9zLng7CiAgICBjb25zdCBkeiA9IG90aGVyLnBvcy56IC0gY2FyLnBvcy56OwogICAgY29uc3QgZGlzdGFuY2UgPSBNYXRoLmh5cG90KGR4LCBkeik7CiAgICBpZiAoZGlzdGFuY2UgPCAzLjEgJiYgZGlzdGFuY2UgPiAwLjAxKSB7CiAgICAgIGNvbnN0IHB1c2ggPSAoMy4xIC0gZGlzdGFuY2UpIC8gMjsKICAgICAgY2FyLnBvcy54IC09IChkeCAvIGRpc3RhbmNlKSAqIHB1c2g7CiAgICAgIGNhci5wb3MueiAtPSAoZHogLyBkaXN0YW5jZSkgKiBwdXNoOwogICAgICBvdGhlci5wb3MueCArPSAoZHggLyBkaXN0YW5jZSkgKiBwdXNoOwogICAgICBvdGhlci5wb3MueiArPSAoZHogLyBkaXN0YW5jZSkgKiBwdXNoOwogICAgICBpZiAoTWF0aC5hYnMoY2FyLnNwZWVkKSA+IDkgJiYgb3RoZXIua2luZCAhPT0gJ3BvbGljZScpIHsKICAgICAgICBkYW1hZ2VWZWhpY2xlKG90aGVyLCBNYXRoLmFicyhjYXIuc3BlZWQpICogMC40KTsKICAgICAgICBjYXIuc3BlZWQgKj0gMC44NjsKICAgICAgICBhdWRpby5pbXBhY3QoMC41KTsKICAgICAgfQogICAgfQogIH0KfQoKZnVuY3Rpb24gdXBkYXRlUGxheShkdCwgbm93KSB7CiAgY29uc3QgbW91c2UgPSBpbnB1dC50YWtlTW91c2UoKTsKICB1cGRhdGVDYW1lcmEoY2FtZXJhLCB2aWV3LCBwbGF5ZXIsIG1vdXNlLCBkdCk7CgogIGlmIChpbnB1dC5wcmVzc2VkKCdLZXlFJykpIHsKICAgIGlmIChwbGF5ZXIuaW5WZWhpY2xlKSBleGl0VmVoaWNsZSgpOwogICAgZWxzZSB7CiAgICAgIGVudGVyVmVoaWNsZShuZWFyZXN0VmVoaWNsZSg1KSk7CiAgICAgIGlmICghcGxheWVyLmluVmVoaWNsZSkgaW50ZXJhY3QoKTsKICAgIH0KICB9CgogIGlmIChpbnB1dC5wcmVzc2VkKCdFc2NhcGUnKSkgeyBwYXVzZSgpOyByZXR1cm47IH0KICBpZiAoaW5wdXQucHJlc3NlZCgnS2V5TScpKSBodWQudG9hc3QoYXVkaW8udG9nZ2xlTXV0ZSgpID8gJ0F1ZGlvIG11dGVkJyA6ICdBdWRpbyBvbicsIDEuNSk7CiAgaWYgKGlucHV0LnByZXNzZWQoJ0tleUonKSkgam91cm5hbC50b2dnbGUoKTsKICBpZiAoaW5wdXQucHJlc3NlZCgnS2V5QicpKSB7CiAgICByYWRpby5uZXh0KCk7CiAgICBodWQudG9hc3QoYFJhZGlvOiAke3JhZGlvLm5hbWV9YCwgMi4yKTsKICB9CiAgaWYgKGlucHV0LnByZXNzZWQoJ0tleUcnKSkgewogICAgaWYgKHJhY2VzLnN0YXJ0KCkpIG5vdGlmaWNhdGlvbnMucHVzaCgnUmFjZSBzdGFydGVkOiBmb2xsb3cgdGhlIHJpbmdzJywgJ21pc3Npb24nKTsKICAgIGVsc2Ugbm90aWZpY2F0aW9ucy5wdXNoKCdGaW5pc2ggdGhlIHJhY2UgeW91IGFyZSBpbiBmaXJzdCcsICd3YXJuaW5nJyk7CiAgfQogIGlmIChpbnB1dC5wcmVzc2VkKCdLZXlWJykpIHsKICAgIGlmICghZGlzcGF0Y2guY2FsbCgncm9hZGJsb2NrJykpIG5vdGlmaWNhdGlvbnMucHVzaCgnTm8gc2Nhbm5lciBjYWxsIGF2YWlsYWJsZScsICd3YXJuaW5nJyk7CiAgfQoKICBjb25zdCBjb21tYW5kID0gewogICAgZm9yd2FyZDogaW5wdXQuZG93bignS2V5VycpIHx8IGlucHV0LmRvd24oJ0Fycm93VXAnKSwKICAgIGJhY2s6IGlucHV0LmRvd24oJ0tleVMnKSB8fCBpbnB1dC5kb3duKCdBcnJvd0Rvd24nKSwKICAgIGxlZnQ6IGlucHV0LmRvd24oJ0tleUEnKSB8fCBpbnB1dC5kb3duKCdBcnJvd0xlZnQnKSwKICAgIHJpZ2h0OiBpbnB1dC5kb3duKCdLZXlEJykgfHwgaW5wdXQuZG93bignQXJyb3dSaWdodCcpLAogICAgc3ByaW50OiBpbnB1dC5kb3duKCdTaGlmdExlZnQnKSB8fCBpbnB1dC5kb3duKCdTaGlmdFJpZ2h0JyksCiAgICBqdW1wOiBpbnB1dC5wcmVzc2VkKCdTcGFjZScpLAogICAgYWltaW5nOiBpbnB1dC5haW1Eb3duIHx8IGlucHV0LmZpcmVEb3duLAogIH07CgogIGxldCBtb3Rpb24gPSB7IHNwZWVkOiBwbGF5ZXIuc3BlZWQsIGluQ2FyOiBmYWxzZSwgZHJpZnQ6IDAsIHRocm90dGxlOiAwIH07CiAgaWYgKHBsYXllci5pblZlaGljbGUpIHsKICAgIGNvbnN0IGNhciA9IHBsYXllci5pblZlaGljbGU7CiAgICBjb25zdCB0aHJvdHRsZSA9IChjb21tYW5kLmZvcndhcmQgPyAxIDogMCkgLSAoY29tbWFuZC5iYWNrID8gMSA6IDApOwogICAgY29uc3Qgc3RlZXIgPSAoY29tbWFuZC5sZWZ0ID8gMSA6IDApIC0gKGNvbW1hbmQucmlnaHQgPyAxIDogMCk7CiAgICB1cGRhdGVWZWhpY2xlKGNhciwgeyB0aHJvdHRsZSwgc3RlZXIsIGhhbmRicmFrZTogY29tbWFuZC5qdW1wIH0sIGR0LCBjaXR5KTsKICAgIHBsYXllci5wb3MuY29weShjYXIucG9zKTsKICAgIHBsYXllci55YXcgPSBjYXIuaGVhZGluZzsKICAgIHBsYXllci5zcGVlZCA9IGNhci5zcGVlZDsKICAgIG1vdGlvbiA9IHsgc3BlZWQ6IGNhci5zcGVlZCwgaW5DYXI6IHRydWUsIGRyaWZ0OiBNYXRoLmFicyhzdGVlcikgKiBNYXRoLmFicyhjYXIuc3BlZWQpLCB0aHJvdHRsZSB9OwogICAgaWYgKGlucHV0LnByZXNzZWQoJ0tleUYnKSkgYXVkaW8uaG9ybigpOwogICAgaWYgKGlucHV0LnByZXNzZWQoJ0tleVInKSkgaHVkLnRvYXN0KGBSYWRpbzogJHthdWRpby5uZXh0U3RhdGlvbigpfWAsIDIuNSk7CiAgICByZXNvbHZlQ2FyQ29udGFjdHMoKTsKICAgIGlmIChjYXIuaGVhbHRoIDw9IDAgJiYgIWNhci5kZWFkSGFuZGxlZCkgewogICAgICBjYXIuZGVhZEhhbmRsZWQgPSB0cnVlOwogICAgICBodWQudG9hc3QoJ1RoZSBjYXIgaXMgZG9uZS4nLCAyLjUpOwogICAgICBhdWRpby5pbXBhY3QoMSk7CiAgICAgIGV4aXRWZWhpY2xlKCk7CiAgICB9CiAgfSBlbHNlIHsKICAgIHVwZGF0ZVBsYXllcihwbGF5ZXIsIGNvbW1hbmQsIHZpZXcueWF3LCBkdCwgY2l0eSk7CiAgICBpZiAoaW5wdXQucHJlc3NlZCgnRGlnaXQxJykpIHsgc3RhdGUud2VhcG9uID0gJ3Bpc3RvbCc7IGh1ZC50b2FzdCgnUGlzdG9sJywgMSk7IH0KICAgIGlmIChpbnB1dC5wcmVzc2VkKCdEaWdpdDInKSAmJiBzdGF0ZS53ZWFwb25zLnNtZy5yZXNlcnZlICsgc3RhdGUud2VhcG9ucy5zbWcubWFnID4gMCkgeyBzdGF0ZS53ZWFwb24gPSAnc21nJzsgaHVkLnRvYXN0KCdTTUcnLCAxKTsgfQogICAgaWYgKGlucHV0LnByZXNzZWQoJ0RpZ2l0MycpICYmIHN0YXRlLndlYXBvbnMuc2hvdGd1bi5yZXNlcnZlICsgc3RhdGUud2VhcG9ucy5zaG90Z3VuLm1hZyA+IDApIHsgc3RhdGUud2VhcG9uID0gJ3Nob3RndW4nOyBodWQudG9hc3QoJ1Nob3RndW4nLCAxKTsgfQogICAgaWYgKG1vdXNlLndoZWVsKSBzd2l0Y2hXZWFwb24obW91c2Uud2hlZWwgPiAwID8gMSA6IC0xKTsKICAgIGlmIChpbnB1dC5wcmVzc2VkKCdLZXlSJykpIGNvbWJhdC5yZWxvYWQoc3RhdGUpOwogICAgaWYgKGlucHV0LmZpcmVEb3duKSBjb21iYXQuZmlyZShzdGF0ZSk7CiAgfQoKICBzdGF0ZS53ZWFwb25EYXRhID0gV0VBUE9OU1tzdGF0ZS53ZWFwb25dOwogIHN0YXRlLmFtbW9Jbk1hZyA9IHN0YXRlLndlYXBvbnNbc3RhdGUud2VhcG9uXS5tYWc7CiAgc3RhdGUuYW1tb1Jlc2VydmUgPSBzdGF0ZS53ZWFwb25zW3N0YXRlLndlYXBvbl0ucmVzZXJ2ZTsKCiAgdHJhZmZpYy51cGRhdGUoZHQsIHN0YXRlKTsKICBwZWRzLnVwZGF0ZShkdCwgc3RhdGUpOwogIHVwZGF0ZVBvbGljZShwb2xpY2UsIHN0YXRlLCBkdCk7CiAgdXBkYXRlTWlzc2lvbnMobWlzc2lvbnMsIHN0YXRlLCBkdCk7CiAgY29tYmF0LnVwZGF0ZShzdGF0ZSwgZHQpOwogIGVmZmVjdHMudXBkYXRlKGR0KTsKICBjaXR5LnVwZGF0ZShkdCk7CiAgc2t5LmZvbGxvdyhwbGF5ZXIucG9zKTsKICB3aWxkbGlmZS51cGRhdGUoZHQsIHN0YXRlKTsKICB3ZWF0aGVyLnVwZGF0ZShkdCwgc3RhdGUpOwogIHN0dW50cy51cGRhdGUoZHQsIHN0YXRlKTsKICByYWNlcy51cGRhdGUoZHQsIHN0YXRlKTsKICBkaXNwYXRjaC51cGRhdGUoZHQsIHN0YXRlKTsKICBlY29ub215LnVwZGF0ZShkdCwgc3RhdGUpOwogIGhlaXN0cy51cGRhdGUoZHQsIHN0YXRlKTsKICBwYXJrcy51cGRhdGUoZHQpOwogIHJhZGlvLnVwZGF0ZShkdCwgc3RhdGUpOwogIG5vdGlmaWNhdGlvbnMudXBkYXRlKGR0LCBzdGF0ZSk7CiAgam91cm5hbC51cGRhdGUoZHQsIHN0YXRlKTsKICBzdGF0ZS5taXNzaW9uQmxpcCA9IG1pc3Npb25zLmJsaXAgPz8gaGVpc3RzLmJsaXA7CiAgc3RhdGUubm9pc2UgPSBNYXRoLm1heCgwLCBzdGF0ZS5ub2lzZSAtIGR0ICogMC45KTsKICBzdGF0ZS53ZWFwb25Db29sZG93biA9IE1hdGgubWF4KDAsIHN0YXRlLndlYXBvbkNvb2xkb3duIC0gZHQpOwoKICBhdWRpby51cGRhdGUoZHQsIG1vdGlvbik7CiAgdXBkYXRlQ2FtZXJhKGNhbWVyYSwgdmlldywgcGxheWVyLCB7IHg6IDAsIHk6IDAgfSwgZHQpOwoKICBpZiAocGxheWVyLmRlYWQpIGdldFdhc3RlZCgpOwp9CgpmdW5jdGlvbiB1cGRhdGVEb3duKGR0KSB7CiAgc3RhdGUuZGVhZFRpbWVyIC09IGR0OwogIGVmZmVjdHMudXBkYXRlKGR0KTsKICBjaXR5LnVwZGF0ZShkdCk7CiAgdHJhZmZpYy51cGRhdGUoZHQsIHN0YXRlKTsKICBwZWRzLnVwZGF0ZShkdCwgc3RhdGUpOwogIHdpbGRsaWZlLnVwZGF0ZShkdCwgc3RhdGUpOwogIHdlYXRoZXIudXBkYXRlKGR0LCBzdGF0ZSk7CiAgZGlzcGF0Y2gudXBkYXRlKGR0LCBzdGF0ZSk7CiAgbm90aWZpY2F0aW9ucy51cGRhdGUoZHQsIHN0YXRlKTsKICB1cGRhdGVDYW1lcmEoY2FtZXJhLCB2aWV3LCBwbGF5ZXIsIHsgeDogMCwgeTogMCB9LCBkdCk7CiAgaWYgKHN0YXRlLmRlYWRUaW1lciA8PSAwKSB7CiAgICBpZiAoc3RhdGUubW9kZSA9PT0gJ3dhc3RlZCcpIHJlc3Bhd25BdChlY29ub215LnJlc3Bhd24gPz8gcGxhY2VBdChQTEFDRVMuaG9zcGl0YWwpLCAyMDApOwogICAgZWxzZSByZXNwYXduQXQocGxhY2VBdChQTEFDRVMuc3RhdGlvbiksIDMwMCk7CiAgfQp9CgpmdW5jdGlvbiB1cGRhdGVUaXRsZShkdCkgewogIHZpZXcueWF3ICs9IGR0ICogMC4wNTsKICB1cGRhdGVDYW1lcmEoY2FtZXJhLCB2aWV3LCBwbGF5ZXIsIHsgeDogMCwgeTogMCB9LCBkdCk7CiAgdHJhZmZpYy51cGRhdGUoZHQsIHN0YXRlKTsKICBwZWRzLnVwZGF0ZShkdCwgc3RhdGUpOwogIHdpbGRsaWZlLnVwZGF0ZShkdCwgc3RhdGUpOwogIHdlYXRoZXIudXBkYXRlKGR0LCBzdGF0ZSk7CiAgbm90aWZpY2F0aW9ucy51cGRhdGUoZHQsIHN0YXRlKTsKICBlZmZlY3RzLnVwZGF0ZShkdCk7CiAgY2l0eS51cGRhdGUoZHQpOwogIHNreS5mb2xsb3cocGxheWVyLnBvcyk7Cn0KCmZ1bmN0aW9uIHJlc2l6ZSgpIHsKICBjYW1lcmEuYXNwZWN0ID0gd2luZG93LmlubmVyV2lkdGggLyB3aW5kb3cuaW5uZXJIZWlnaHQ7CiAgY2FtZXJhLnVwZGF0ZVByb2plY3Rpb25NYXRyaXgoKTsKICByZW5kZXJlci5zZXRTaXplKHdpbmRvdy5pbm5lcldpZHRoLCB3aW5kb3cuaW5uZXJIZWlnaHQpOwp9CndpbmRvdy5hZGRFdmVudExpc3RlbmVyKCdyZXNpemUnLCByZXNpemUpOwoKbGV0IGxhc3QgPSBwZXJmb3JtYW5jZS5ub3coKTsKZnVuY3Rpb24gZnJhbWUobm93KSB7CiAgcmVxdWVzdEFuaW1hdGlvbkZyYW1lKGZyYW1lKTsKICBjb25zdCBkdCA9IE1hdGgubWluKDAuMDUsIChub3cgLSBsYXN0KSAvIDEwMDApOwogIGxhc3QgPSBub3c7CiAgaWYgKCFzaG90TmFtZSkgewogICAgaWYgKHN0YXRlLm1vZGUgPT09ICdwbGF5JykgdXBkYXRlUGxheShkdCwgbm93KTsKICAgIGVsc2UgaWYgKHN0YXRlLm1vZGUgPT09ICd3YXN0ZWQnIHx8IHN0YXRlLm1vZGUgPT09ICdidXN0ZWQnKSB1cGRhdGVEb3duKGR0KTsKICAgIGVsc2UgaWYgKHN0YXRlLm1vZGUgPT09ICd0aXRsZScpIHVwZGF0ZVRpdGxlKGR0KTsKICAgIHN0YXRlLm1pc3Npb25CbGlwID0gbWlzc2lvbnMuYmxpcCA/PyBoZWlzdHMuYmxpcDsKICAgIGh1ZC51cGRhdGUoc3RhdGUpOwogICAgZHJhd01pbmltYXAobWluaW1hcCwgc3RhdGUsIG5vdyk7CiAgICByZW5kZXJlci5yZW5kZXIoc2NlbmUsIGNhbWVyYSk7CiAgfQogIGlucHV0LmVuZEZyYW1lKCk7Cn0KCmJvb3QuY2xhc3NMaXN0LmFkZCgnaGlkZGVuJyk7CmlmIChzaG90TmFtZSkgewogIGRvY3VtZW50LmJvZHkuc3R5bGUuY3Vyc29yID0gJ25vbmUnOwogIHJ1blNob3Qoc2hvdE5hbWUsIHN0YXRlKTsKfSBlbHNlIHsKICByZXF1ZXN0QW5pbWF0aW9uRnJhbWUoZnJhbWUpOwp9Cg==
+// Entry module: builds the world, wires every system, and runs the frame loop and screens. Owns `state` and boot().
+// Boot, screens and the one loop. Builds Costa Vega from a seed, then each frame runs input,
+// player or car, traffic, pedestrians, police, combat, missions, HUD and the renderer in order.
+
+import * as THREE from 'three';
+import { START, WEAPONS, SHOP } from './config.js';
+import { createRandom } from './random.js';
+import { createSky } from './world/sky.js';
+import { buildCity, PLACES, placeAt } from './world/city.js';
+import { createTraffic } from './world/traffic.js';
+import { createPedestrians } from './world/pedestrians.js';
+import { createPlayer, placePlayer, updatePlayer } from './entities/player.js';
+import { createVehicle, placeVehicle, updateVehicle, damageVehicle } from './entities/vehicle.js';
+import { createInput } from './input.js';
+import { createView, updateCamera } from './camera.js';
+import { createEffects } from './systems/effects.js';
+import { createCombat } from './systems/combat.js';
+import { createPolice, updatePolice, reportCrime, clearWanted } from './systems/police.js';
+import { createMissions, updateMissions, startMission, failCurrentMission } from './systems/missions.js';
+import { createHud } from './ui/hud.js';
+import { drawMinimap } from './ui/minimap.js';
+import { createMenu } from './ui/menu.js';
+import { createAudio } from './audio/engine.js';
+import { readSave, hasSave, writeSave } from './state/save.js';
+import { runShot } from './shots.js';
+import { createWildlife } from './world/wildlife.js';
+import { createWeather } from './systems/weather.js';
+import { createStunts } from './systems/stunts.js';
+import { createRaces } from './systems/races.js';
+import { createDispatch } from './systems/dispatch.js';
+import { createEconomy } from './systems/economy.js';
+import { createHeists } from './systems/heists.js';
+import { createParks } from './world/parks.js';
+import { createRadio } from './audio/radio.js';
+import { createJournal } from './ui/journal.js';
+import { createNotifications } from './ui/notifications.js';
+
+const params = new URLSearchParams(window.location.search);
+const shotName = params.get('shot');
+const seedParam = Number.parseInt(params.get('seed') ?? '', 10);
+const seed = Number.isInteger(seedParam) ? seedParam : 20931;
+
+const canvas = document.getElementById('game');
+const boot = document.getElementById('boot');
+const minimap = document.getElementById('minimap');
+window.addEventListener('error', (event) => { if (boot) boot.textContent = `Error: ${event.message}`; });
+
+const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, powerPreference: 'high-performance' });
+renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 1.5));
+renderer.setSize(window.innerWidth, window.innerHeight);
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 1.05;
+renderer.shadowMap.enabled = true;
+renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(58, window.innerWidth / window.innerHeight, 0.3, 4500);
+scene.add(camera);
+
+const rng = createRandom(seed);
+const sky = createSky(scene);
+const city = buildCity(scene, rng);
+const player = createPlayer(scene);
+placePlayer(player, START.x, START.z, START.yaw);
+const input = createInput(canvas);
+const effects = createEffects(scene);
+const audio = createAudio();
+const hud = createHud();
+const combat = createCombat();
+const police = createPolice(scene);
+const missions = createMissions(scene);
+const traffic = createTraffic(scene, rng, city, 18);
+const peds = createPedestrians(scene, rng, city, 26);
+const view = createView(player);
+
+// The new systems sit beside the old ones and take part in the same frame.
+const notifications = createNotifications();
+const journal = createJournal();
+const wildlife = createWildlife(scene, rng, city);
+const weather = createWeather(scene, sky);
+const stunts = createStunts(scene, rng, city);
+const races = createRaces(scene, city);
+const dispatch = createDispatch(scene, city);
+const economy = createEconomy(scene, city);
+const heists = createHeists(scene, rng, city);
+const parks = createParks(scene, rng, city);
+const radio = createRadio(audio.context ?? null);
+
+// Weather asks the audio engine for thunder; fall back to a low impact if it has none.
+if (typeof audio.thunder !== 'function') audio.thunder = () => audio.impact(1.5);
+
+const parked = [];
+for (const spot of city.parking.slice(0, 20)) {
+  const kind = rng.pick(['sedan', 'sedan', 'sedan', 'van', 'sports']);
+  const car = createVehicle(kind, rng.pick([0xf3e7cd, 0xe4604d, 0x2f7f7a, 0xf5d78a, 0x9fc2d8, 0xf7f4ea]), scene);
+  placeVehicle(car, spot.x + rng.range(-1, 1), spot.z + rng.range(-1, 1), spot.yaw);
+  parked.push(car);
+}
+
+const state = {
+  seed, scene, camera, renderer, sky, city, player, input, rng, effects, audio, hud, combat, police, missions, traffic, peds,
+  view,
+  notifications, journal, wildlife, weather, stunts, races, dispatch, economy, heists, parks, radio,
+  mode: 'title',
+  money: 0,
+  weapons: { pistol: { mag: 12, reserve: 60 }, smg: { mag: 0, reserve: 0 }, shotgun: { mag: 0, reserve: 0 } },
+  weapon: 'pistol',
+  weaponData: WEAPONS.pistol,
+  ammoInMag: 12,
+  ammoReserve: 60,
+  weaponCooldown: 0,
+  thugs: [],
+  vehicles: [...parked, ...traffic.cars.map((c) => c.v)],
+  objectiveTitle: 'COSTA VEGA',
+  objectiveText: 'Meet Rosa at the marina',
+  objectiveTimer: '',
+  missionBlip: null,
+  missionKills: 0,
+  noise: 0,
+  deadTimer: 0,
+  muzzleFlash: 0,
+  addCrime(amount) { reportCrime(state.police, amount); },
+  notify(text, kind) { notifications.push(text, kind); },
+  onPlayerHit() { state.view.shake = 0.35; },
+  onMissionComplete() { saveGame(); },
+  onBusted() { if (state.mode === 'play') getBusted(); },
+  saveGame,
+};
+
+function saveGame() {
+  if (writeSave(state)) hud.saved();
+}
+
+// Debug handle for the local smoke tests and screenshots (harmless in play).
+window.__game = state;
+
+const menu = createMenu({
+  onNew: () => begin(false),
+  onContinue: () => begin(true),
+  onResume: () => resume(),
+  onClose: () => {},
+  onTime: (time) => { sky.setTime(time); state.timeOfDay = time; },
+  onShadow: (on) => { renderer.shadowMap.enabled = on; scene.traverse((object) => { if (object.material) object.material.needsUpdate = true; }); },
+  onVolume: (value) => audio.setVolume(value),
+});
+state.menu = menu;
+state.hud = hud;
+menu.showTitle(hasSave());
+menu.setVolume(0.7);
+
+const WANTED_EVENTS = { hits: 0 };
+
+// Wake audio on the first gesture, as browsers require.
+window.addEventListener('pointerdown', () => audio.start());
+window.addEventListener('keydown', () => audio.start());
+
+function begin(load) {
+  audio.start();
+  menu.hide();
+  hud.show();
+  resetForNewGame(load);
+  state.mode = 'play';
+  input.lock();
+}
+
+function resetForNewGame(load) {
+  const saved = load ? readSave() : null;
+  clearWanted(police);
+  police.units.forEach((unit) => {
+    if (unit.vehicle) {
+      scene.remove(unit.vehicle.root);
+      const index = state.vehicles.indexOf(unit.vehicle);
+      if (index >= 0) state.vehicles.splice(index, 1);
+    } else if (unit.group) scene.remove(unit.group);
+  });
+  police.units.length = 0;
+  for (const thug of missions.enemies) scene.remove(thug.group);
+  missions.enemies.length = 0;
+  state.thugs.length = 0;
+  if (missions.vehicle) {
+    const index = state.vehicles.indexOf(missions.vehicle);
+    if (index >= 0) state.vehicles.splice(index, 1);
+    missions.vehicle = null;
+  }
+  missions.active = null;
+  missions.index = saved ? Math.min(saved.missionIndex, missions.list.length) : 0;
+  missions.stepIndex = 0;
+  missions.talkQueue.length = 0;
+  state.money = saved ? saved.money : 0;
+  state.weapons = saved ? { ...saved.weapons } : { pistol: { mag: 12, reserve: 60 }, smg: { mag: 0, reserve: 0 }, shotgun: { mag: 0, reserve: 0 } };
+  state.weapon = saved?.weapon ?? 'pistol';
+  player.health = saved ? Math.max(20, saved.health) : 100;
+  player.armour = saved?.armour ?? 0;
+  player.dead = false;
+  if (player.inVehicle) {
+    player.inVehicle.driver = null;
+    player.inVehicle = null;
+  }
+  const at = saved?.pos ?? START;
+  placePlayer(player, at.x, at.z, saved ? 0 : START.yaw);
+  sky.setTime(saved?.time === 'dusk' ? 'dusk' : 'day');
+  menu.setTime(saved?.time === 'dusk' ? 'dusk' : 'day');
+  view.yaw = player.yaw + Math.PI;
+  view.restTimer = 0;
+  hud.bigMessage(saved ? 'WELCOME BACK' : 'COSTA VEGA', saved ? 'Rosa has been asking after you' : 'Find Rosa at the marina', 3.5);
+}
+
+function resume() {
+  state.mode = 'play';
+  menu.hide();
+  input.lock();
+}
+
+function pause() {
+  if (state.mode !== 'play') return;
+  state.mode = 'paused';
+  menu.showPause();
+  document.exitPointerLock?.();
+}
+
+function getBusted() {
+  if (state.mode !== 'play') return;
+  state.mode = 'busted';
+  state.deadTimer = 3.4;
+  hud.bigMessage('BUSTED', 'Costa Vega Police · $300', 4);
+  audio.impact(1);
+  failCurrentMission(missions, state, 'You got pinched.');
+  clearWanted(police);
+  if (player.inVehicle) exitVehicle();
+  document.exitPointerLock?.();
+}
+
+function getWasted() {
+  if (state.mode !== 'play' && state.mode !== 'wasted') return;
+  state.mode = 'wasted';
+  state.deadTimer = 3.4;
+  hud.bigMessage('WASTED', 'Bay Hospital · $200', 4);
+  audio.impact(1);
+  failCurrentMission(missions, state, 'You bled out.');
+  clearWanted(police);
+  if (player.inVehicle) exitVehicle();
+  document.exitPointerLock?.();
+}
+
+function respawnAt(place, fee) {
+  state.money = Math.max(0, state.money - fee);
+  player.health = 65;
+  player.armour = 0;
+  player.dead = false;
+  placePlayer(player, place.x, place.z, 0);
+  view.yaw = player.yaw + Math.PI;
+  state.mode = 'play';
+  hud.bigMessage('', `${place.label} · -$${fee}`, 2.5);
+  input.lock();
+}
+
+function nearestVehicle(maxDistance = 5) {
+  let best = null;
+  let bestDistance = maxDistance;
+  for (const vehicle of state.vehicles) {
+    if (!vehicle.alive) continue;
+    const distance = Math.hypot(vehicle.pos.x - player.pos.x, vehicle.pos.z - player.pos.z);
+    if (distance < bestDistance) {
+      bestDistance = distance;
+      best = vehicle;
+    }
+  }
+  return best;
+}
+
+function enterVehicle(vehicle) {
+  if (!vehicle) return;
+  player.inVehicle = vehicle;
+  vehicle.driver = 'player';
+  if (vehicle.traffic) vehicle.traffic.stolen = true;
+  if (vehicle.isPolice) reportCrime(police, 1);
+  player.group.visible = false;
+  player.pos.copy(vehicle.pos);
+  view.yaw = vehicle.heading + Math.PI;
+  view.restTimer = 0;
+  hud.toast(`Stole the ${vehicle.spec.name}`, 2.5);
+  audio.start();
+}
+
+function exitVehicle() {
+  const vehicle = player.inVehicle;
+  if (!vehicle) return;
+  const side = vehicle.heading + Math.PI / 2;
+  player.inVehicle = null;
+  vehicle.driver = null;
+  player.pos.set(vehicle.pos.x + Math.sin(side) * 2.4, 0.25, vehicle.pos.z + Math.cos(side) * 2.4);
+  city.resolve(player.pos, 0.6);
+  player.group.visible = true;
+  player.group.position.copy(player.pos);
+  player.speed = 0;
+  view.yaw = vehicle.heading + Math.PI;
+  view.restTimer = 0;
+}
+
+function interact() {
+  if (player.inVehicle) return;
+  if (economy.buy('nearest')) return;
+  const distance = (p) => Math.hypot(player.pos.x - p.x, player.pos.z - p.z);
+  if (!missions.active && missions.index < missions.list.length && distance(PLACES.marina) < 9) {
+    if (startMission(missions, state)) return;
+  }
+  if (distance(PLACES.marina) < 9) {
+    player.health = 100;
+    player.armour = Math.max(player.armour, 25);
+    saveGame();
+    hud.toast('Rosa patch a few scrapes. Progress saved.', 3);
+    audio.pickup();
+    return;
+  }
+  if (distance(placeAt(PLACES.shop)) < 7) {
+    if (player.armour < 100 && state.money >= SHOP.armourCost) {
+      state.money -= SHOP.armourCost;
+      player.armour = Math.min(100, player.armour + 50);
+      hud.toast('Vega Pawn: armour vest — $250', 3);
+      audio.pickup();
+    } else if (state.money >= SHOP.ammoCost) {
+      state.money -= SHOP.ammoCost;
+      for (const key of ['pistol', 'smg', 'shotgun']) {
+        if (state.weapons[key].mag + state.weapons[key].reserve > 0) state.weapons[key].reserve += WEAPONS[key].mag * 2;
+      }
+      if (state.weapon === 'pistol' && state.weapons.smg.reserve === 0) state.weapons.smg.reserve = 30;
+      hud.toast('Vega Pawn: ammunition — $120', 3);
+      audio.pickup();
+    } else {
+      hud.toast('Not enough cash for the pawn shop.', 2.5);
+    }
+    return;
+  }
+  if (distance(placeAt(PLACES.garage)) < 7) {
+    if (state.money < SHOP.carCost) {
+      hud.toast('Manta Motors: come back with $1,500.', 2.5);
+      return;
+    }
+    state.money -= SHOP.carCost;
+    const car = createVehicle('sports', 0xffb454, scene);
+    placeVehicle(car, 160, 200, -Math.PI / 2);
+    state.vehicles.push(car);
+    hud.toast('Manta Motors: keys are in it.', 3);
+    audio.pickup();
+    return;
+  }
+  if (distance(placeAt(PLACES.hospital)) < 7 && state.money >= 150) {
+    state.money -= 150;
+    player.health = 100;
+    hud.toast('Bay Hospital: patched up — $150', 3);
+    audio.pickup();
+  }
+}
+
+function switchWeapon(direction) {
+  const order = ['pistol', 'smg', 'shotgun'];
+  let index = order.indexOf(state.weapon);
+  for (let step = 1; step <= order.length; step++) {
+    const next = order[(index + direction * step + order.length * 2) % order.length];
+    if (state.weapons[next].mag + state.weapons[next].reserve > 0 || next === 'pistol') {
+      state.weapon = next;
+      state.weaponData = WEAPONS[next];
+      hud.toast(WEAPONS[next].name, 1.2);
+      return;
+    }
+  }
+}
+
+function resolveCarContacts() {
+  const car = player.inVehicle;
+  if (!car) return;
+  for (const other of state.vehicles) {
+    if (other === car || !other.alive) continue;
+    const dx = other.pos.x - car.pos.x;
+    const dz = other.pos.z - car.pos.z;
+    const distance = Math.hypot(dx, dz);
+    if (distance < 3.1 && distance > 0.01) {
+      const push = (3.1 - distance) / 2;
+      car.pos.x -= (dx / distance) * push;
+      car.pos.z -= (dz / distance) * push;
+      other.pos.x += (dx / distance) * push;
+      other.pos.z += (dz / distance) * push;
+      if (Math.abs(car.speed) > 9 && other.kind !== 'police') {
+        damageVehicle(other, Math.abs(car.speed) * 0.4);
+        car.speed *= 0.86;
+        audio.impact(0.5);
+      }
+    }
+  }
+}
+
+function updatePlay(dt, now) {
+  const mouse = input.takeMouse();
+  updateCamera(camera, view, player, mouse, dt);
+
+  if (input.pressed('KeyE')) {
+    if (player.inVehicle) exitVehicle();
+    else {
+      enterVehicle(nearestVehicle(5));
+      if (!player.inVehicle) interact();
+    }
+  }
+
+  if (input.pressed('Escape')) { pause(); return; }
+  if (input.pressed('KeyM')) hud.toast(audio.toggleMute() ? 'Audio muted' : 'Audio on', 1.5);
+  if (input.pressed('KeyJ')) journal.toggle();
+  if (input.pressed('KeyB')) {
+    radio.next();
+    hud.toast(`Radio: ${radio.name}`, 2.2);
+  }
+  if (input.pressed('KeyG')) {
+    if (races.start()) notifications.push('Race started: follow the rings', 'mission');
+    else notifications.push('Finish the race you are in first', 'warning');
+  }
+  if (input.pressed('KeyV')) {
+    if (!dispatch.call('roadblock')) notifications.push('No scanner call available', 'warning');
+  }
+
+  const command = {
+    forward: input.down('KeyW') || input.down('ArrowUp'),
+    back: input.down('KeyS') || input.down('ArrowDown'),
+    left: input.down('KeyA') || input.down('ArrowLeft'),
+    right: input.down('KeyD') || input.down('ArrowRight'),
+    sprint: input.down('ShiftLeft') || input.down('ShiftRight'),
+    jump: input.pressed('Space'),
+    aiming: input.aimDown || input.fireDown,
+  };
+
+  let motion = { speed: player.speed, inCar: false, drift: 0, throttle: 0 };
+  if (player.inVehicle) {
+    const car = player.inVehicle;
+    const throttle = (command.forward ? 1 : 0) - (command.back ? 1 : 0);
+    const steer = (command.left ? 1 : 0) - (command.right ? 1 : 0);
+    updateVehicle(car, { throttle, steer, handbrake: command.jump }, dt, city);
+    player.pos.copy(car.pos);
+    player.yaw = car.heading;
+    player.speed = car.speed;
+    motion = { speed: car.speed, inCar: true, drift: Math.abs(steer) * Math.abs(car.speed), throttle };
+    if (input.pressed('KeyF')) audio.horn();
+    if (input.pressed('KeyR')) hud.toast(`Radio: ${audio.nextStation()}`, 2.5);
+    resolveCarContacts();
+    if (car.health <= 0 && !car.deadHandled) {
+      car.deadHandled = true;
+      hud.toast('The car is done.', 2.5);
+      audio.impact(1);
+      exitVehicle();
+    }
+  } else {
+    updatePlayer(player, command, view.yaw, dt, city);
+    if (input.pressed('Digit1')) { state.weapon = 'pistol'; hud.toast('Pistol', 1); }
+    if (input.pressed('Digit2') && state.weapons.smg.reserve + state.weapons.smg.mag > 0) { state.weapon = 'smg'; hud.toast('SMG', 1); }
+    if (input.pressed('Digit3') && state.weapons.shotgun.reserve + state.weapons.shotgun.mag > 0) { state.weapon = 'shotgun'; hud.toast('Shotgun', 1); }
+    if (mouse.wheel) switchWeapon(mouse.wheel > 0 ? 1 : -1);
+    if (input.pressed('KeyR')) combat.reload(state);
+    if (input.fireDown) combat.fire(state);
+  }
+
+  state.weaponData = WEAPONS[state.weapon];
+  state.ammoInMag = state.weapons[state.weapon].mag;
+  state.ammoReserve = state.weapons[state.weapon].reserve;
+
+  traffic.update(dt, state);
+  peds.update(dt, state);
+  updatePolice(police, state, dt);
+  updateMissions(missions, state, dt);
+  combat.update(state, dt);
+  effects.update(dt);
+  city.update(dt);
+  sky.follow(player.pos);
+  wildlife.update(dt, state);
+  weather.update(dt, state);
+  stunts.update(dt, state);
+  races.update(dt, state);
+  dispatch.update(dt, state);
+  economy.update(dt, state);
+  heists.update(dt, state);
+  parks.update(dt);
+  radio.update(dt, state);
+  notifications.update(dt, state);
+  journal.update(dt, state);
+  state.missionBlip = missions.blip ?? heists.blip;
+  state.noise = Math.max(0, state.noise - dt * 0.9);
+  state.weaponCooldown = Math.max(0, state.weaponCooldown - dt);
+
+  audio.update(dt, motion);
+  updateCamera(camera, view, player, { x: 0, y: 0 }, dt);
+
+  if (player.dead) getWasted();
+}
+
+function updateDown(dt) {
+  state.deadTimer -= dt;
+  effects.update(dt);
+  city.update(dt);
+  traffic.update(dt, state);
+  peds.update(dt, state);
+  wildlife.update(dt, state);
+  weather.update(dt, state);
+  dispatch.update(dt, state);
+  notifications.update(dt, state);
+  updateCamera(camera, view, player, { x: 0, y: 0 }, dt);
+  if (state.deadTimer <= 0) {
+    if (state.mode === 'wasted') respawnAt(economy.respawn ?? placeAt(PLACES.hospital), 200);
+    else respawnAt(placeAt(PLACES.station), 300);
+  }
+}
+
+function updateTitle(dt) {
+  view.yaw += dt * 0.05;
+  updateCamera(camera, view, player, { x: 0, y: 0 }, dt);
+  traffic.update(dt, state);
+  peds.update(dt, state);
+  wildlife.update(dt, state);
+  weather.update(dt, state);
+  notifications.update(dt, state);
+  effects.update(dt);
+  city.update(dt);
+  sky.follow(player.pos);
+}
+
+function resize() {
+  camera.aspect = window.innerWidth / window.innerHeight;
+  camera.updateProjectionMatrix();
+  renderer.setSize(window.innerWidth, window.innerHeight);
+}
+window.addEventListener('resize', resize);
+
+let last = performance.now();
+function frame(now) {
+  requestAnimationFrame(frame);
+  const dt = Math.min(0.05, (now - last) / 1000);
+  last = now;
+  if (!shotName) {
+    if (state.mode === 'play') updatePlay(dt, now);
+    else if (state.mode === 'wasted' || state.mode === 'busted') updateDown(dt);
+    else if (state.mode === 'title') updateTitle(dt);
+    state.missionBlip = missions.blip ?? heists.blip;
+    hud.update(state);
+    drawMinimap(minimap, state, now);
+    renderer.render(scene, camera);
+  }
+  input.endFrame();
+}
+
+boot.classList.add('hidden');
+if (shotName) {
+  document.body.style.cursor = 'none';
+  runShot(shotName, state);
+} else {
+  requestAnimationFrame(frame);
+}

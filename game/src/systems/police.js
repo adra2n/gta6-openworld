@@ -1,1 +1,219 @@
-Ly8gUG9saWNlOiBjcmVhdGVQb2xpY2UgYW5kIHVwZGF0ZVBvbGljZSBydW4gdGhlIHdhbnRlZCBzdGFyczsgcmVwb3J0Q3JpbWUsIGNsZWFyV2FudGVkLCBkYW1hZ2VPZmZpY2VyLiBTcGF3bnMgY3J1aXNlcnMgYW5kIGJlYXQgY29wcy4KLy8gVGhlIHdhbnRlZCBzeXN0ZW06IHN0YXJzIHNldCBob3cgbWFueSBjcnVpc2VycyBjb21lLCBjcnVpc2VycyBzcGF3biBvZmYtc2NyZWVuIGFuZCBkcml2ZSBhdAovLyBOaWNvLCBvZmZpY2VycyBiYWlsIG91dCBvbiBmb290IGF0IHR3byBzdGFycyBhbmQgc2hvb3QsIHRoZSBzZWFyY2ggY29vbHMgd2hlbiBub2JvZHkgaGFzIGV5ZXMKLy8gb24gaGltLCBhbmQgc3RhbmRpbmcgc3RpbGwgbmV4dCB0byBhbiBvZmZpY2VyIGdldHMgaGltIGJ1c3RlZC4KCmltcG9ydCAqIGFzIFRIUkVFIGZyb20gJ3RocmVlJzsKaW1wb3J0IHsgV0FOVEVEIH0gZnJvbSAnLi4vY29uZmlnLmpzJzsKaW1wb3J0IHsgY3JlYXRlVmVoaWNsZSwgcGxhY2VWZWhpY2xlLCB1cGRhdGVWZWhpY2xlIH0gZnJvbSAnLi4vZW50aXRpZXMvdmVoaWNsZS5qcyc7CmltcG9ydCB7IGNyZWF0ZVBlcnNvbiwgcG9zZVBlcnNvbiB9IGZyb20gJy4uL2VudGl0aWVzL3BlcnNvbi5qcyc7CmltcG9ydCB7IG5wY1Nob290LCBkYW1hZ2VQZWQgfSBmcm9tICcuL2NvbWJhdC5qcyc7Cgpjb25zdCBVTklGT1JNID0geyBqYWNrZXQ6IDB4MjczOTVjLCBzaGlydDogMHhkN2UyZWMsIHBhbnRzOiAweDFiMjUzNCwgc2tpbjogMHhiOTgyNWUsIGhhaXI6IDB4MWExNDEwIH07CgpleHBvcnQgZnVuY3Rpb24gY3JlYXRlUG9saWNlKHNjZW5lKSB7CiAgcmV0dXJuIHsKICAgIHNjZW5lLAogICAgd2FudGVkOiAwLAogICAgaGVhdDogMCwKICAgIHVuaXRzOiBbXSwKICAgIGRlY2F5OiAwLAogICAgc3Bhd25UaW1lcjogMSwKICAgIGJ1c3RUaW1lcjogMCwKICAgIGxvc3RUaW1lcjogMCwKICAgIG5leHRGb290OiA0LAogIH07Cn0KCmV4cG9ydCBmdW5jdGlvbiByZXBvcnRDcmltZShwb2xpY2UsIGFtb3VudCkgewogIHBvbGljZS53YW50ZWQgPSBNYXRoLm1pbihXQU5URUQubWF4U3RhcnMsIE1hdGgubWF4KHBvbGljZS53YW50ZWQsIGFtb3VudCkgKyAwLjIpOwogIHBvbGljZS5oZWF0ID0gMTsKICBwb2xpY2UuZGVjYXkgPSAwOwp9CgpleHBvcnQgZnVuY3Rpb24gY2xlYXJXYW50ZWQocG9saWNlKSB7CiAgcG9saWNlLndhbnRlZCA9IDA7CiAgcG9saWNlLmhlYXQgPSAwOwogIHBvbGljZS5kZWNheSA9IDA7CiAgcG9saWNlLmJ1c3RUaW1lciA9IDA7Cn0KCmZ1bmN0aW9uIHJvYWRTcGF3bk5lYXIoc3RhdGUsIG1pbkRpc3RhbmNlLCBtYXhEaXN0YW5jZSkgewogIGNvbnN0IHJvYWRzID0gc3RhdGUuY2l0eS54Um9hZHM7CiAgZm9yIChsZXQgYXR0ZW1wdCA9IDA7IGF0dGVtcHQgPCAyNDsgYXR0ZW1wdCsrKSB7CiAgICBjb25zdCB4ID0gcm9hZHNbTWF0aC5mbG9vcihzdGF0ZS5ybmcubmV4dCgpICogcm9hZHMubGVuZ3RoKV07CiAgICBjb25zdCB6ID0gcm9hZHNbTWF0aC5mbG9vcihzdGF0ZS5ybmcubmV4dCgpICogcm9hZHMubGVuZ3RoKV07CiAgICBjb25zdCBkID0gTWF0aC5oeXBvdCh4IC0gc3RhdGUucGxheWVyLnBvcy54LCB6IC0gc3RhdGUucGxheWVyLnBvcy56KTsKICAgIGlmIChkID4gbWluRGlzdGFuY2UgJiYgZCA8IG1heERpc3RhbmNlKSByZXR1cm4geyB4LCB6IH07CiAgfQogIHJldHVybiB7IHg6IHN0YXRlLnBsYXllci5wb3MueCArIG1pbkRpc3RhbmNlLCB6OiBzdGF0ZS5wbGF5ZXIucG9zLnogfTsKfQoKZnVuY3Rpb24gc3Bhd25DcnVpc2VyKHBvbGljZSwgc3RhdGUpIHsKICBjb25zdCBzcG90ID0gcm9hZFNwYXduTmVhcihzdGF0ZSwgMTMwLCAyNjApOwogIGNvbnN0IGNydWlzZXIgPSBjcmVhdGVWZWhpY2xlKCdwb2xpY2UnLCAweGYzZjVmMiwgc3RhdGUuc2NlbmUpOwogIGNvbnN0IGhlYWRpbmcgPSBNYXRoLmF0YW4yKHN0YXRlLnBsYXllci5wb3MueCAtIHNwb3QueCwgc3RhdGUucGxheWVyLnBvcy56IC0gc3BvdC56KTsKICBwbGFjZVZlaGljbGUoY3J1aXNlciwgc3BvdC54LCBzcG90LnosIGhlYWRpbmcpOwogIGNvbnN0IHVuaXQgPSB7CiAgICB2ZWhpY2xlOiBjcnVpc2VyLCBhbGl2ZTogdHJ1ZSwgcG9zOiBjcnVpc2VyLnBvcywgdHlwZTogJ2NhcicsCiAgICBzaG9vdFRpbWVyOiAxLjUsIGZvb3RTcGF3bmVkOiBmYWxzZSwgaXNDb3A6IHRydWUsIGhlYWx0aDogMTAwLAogIH07CiAgcG9saWNlLnVuaXRzLnB1c2godW5pdCk7CiAgc3RhdGUudmVoaWNsZXMucHVzaChjcnVpc2VyKTsKICByZXR1cm4gdW5pdDsKfQoKZnVuY3Rpb24gc3Bhd25PZmZpY2VyKHBvbGljZSwgc3RhdGUsIG5lYXIpIHsKICBjb25zdCBzcG90ID0gbmVhciA/PyByb2FkU3Bhd25OZWFyKHN0YXRlLCA0NSwgOTApOwogIGNvbnN0IHJpZyA9IGNyZWF0ZVBlcnNvbihVTklGT1JNLCB0cnVlKTsKICBzdGF0ZS5zY2VuZS5hZGQocmlnLnJvb3QpOwogIGNvbnN0IHVuaXQgPSB7CiAgICByaWcsIGdyb3VwOiByaWcucm9vdCwgdmVoaWNsZTogbnVsbCwgdHlwZTogJ2Zvb3QnLCBhbGl2ZTogdHJ1ZSwKICAgIHBvczogbmV3IFRIUkVFLlZlY3RvcjMoc3BvdC54LCAwLjI1LCBzcG90LnopLAogICAgeWF3OiAwLCBoZWFsdGg6IDU1LCBzaG9vdFRpbWVyOiAxICsgc3RhdGUucm5nLm5leHQoKSwgaXNDb3A6IHRydWUsCiAgICB3YWxrUGhhc2U6IDAsCiAgfTsKICByaWcucm9vdC5wb3NpdGlvbi5jb3B5KHVuaXQucG9zKTsKICBwb2xpY2UudW5pdHMucHVzaCh1bml0KTsKICByZXR1cm4gdW5pdDsKfQoKZXhwb3J0IGZ1bmN0aW9uIHVwZGF0ZVBvbGljZShwb2xpY2UsIHN0YXRlLCBkdCkgewogIGNvbnN0IHBsYXllciA9IHN0YXRlLnBsYXllcjsKICBjb25zdCB3YW50ZWQgPSBwb2xpY2Uud2FudGVkOwogIHBvbGljZS5oZWF0ID0gTWF0aC5tYXgoMCwgcG9saWNlLmhlYXQgLSBkdCAqIDAuMDYpOwoKICBpZiAod2FudGVkIDw9IDApIHsKICAgIGZvciAoY29uc3QgdW5pdCBvZiBwb2xpY2UudW5pdHMpIHsKICAgICAgdW5pdC5hbGl2ZSA9IGZhbHNlOwogICAgICBpZiAodW5pdC52ZWhpY2xlICYmIHVuaXQudmVoaWNsZSAhPT0gcGxheWVyLmluVmVoaWNsZSkgewogICAgICAgIHN0YXRlLnNjZW5lLnJlbW92ZSh1bml0LnZlaGljbGUucm9vdCk7CiAgICAgICAgY29uc3QgaW5kZXggPSBzdGF0ZS52ZWhpY2xlcy5pbmRleE9mKHVuaXQudmVoaWNsZSk7CiAgICAgICAgaWYgKGluZGV4ID49IDApIHN0YXRlLnZlaGljbGVzLnNwbGljZShpbmRleCwgMSk7CiAgICAgIH0gZWxzZSBpZiAodW5pdC5ncm91cCkgewogICAgICAgIHN0YXRlLnNjZW5lLnJlbW92ZSh1bml0Lmdyb3VwKTsKICAgICAgfQogICAgfQogICAgcG9saWNlLnVuaXRzLmxlbmd0aCA9IDA7CiAgICBwb2xpY2Uuc3Bhd25UaW1lciA9IDEuMjsKICAgIHN0YXRlLmF1ZGlvPy5zZXRTaXJlbigwKTsKICAgIHJldHVybjsKICB9CgogIGNvbnN0IG1heENhcnMgPSBNYXRoLm1pbig0LCBNYXRoLmNlaWwod2FudGVkKSk7CiAgY29uc3QgY2FycyA9IHBvbGljZS51bml0cy5maWx0ZXIoKHUpID0+IHUuYWxpdmUgJiYgdS52ZWhpY2xlKS5sZW5ndGg7CiAgcG9saWNlLnNwYXduVGltZXIgLT0gZHQ7CiAgaWYgKGNhcnMgPCBtYXhDYXJzICYmIHBvbGljZS5zcGF3blRpbWVyIDw9IDApIHsKICAgIHBvbGljZS5zcGF3blRpbWVyID0gMy42OwogICAgc3Bhd25DcnVpc2VyKHBvbGljZSwgc3RhdGUpOwogIH0KCiAgaWYgKHdhbnRlZCA+PSAyKSB7CiAgICBwb2xpY2UubmV4dEZvb3QgLT0gZHQ7CiAgICBjb25zdCBmb290ID0gcG9saWNlLnVuaXRzLmZpbHRlcigodSkgPT4gdS5hbGl2ZSAmJiAhdS52ZWhpY2xlKS5sZW5ndGg7CiAgICBpZiAoZm9vdCA8IE1hdGgubWluKDMsIE1hdGguZmxvb3Iod2FudGVkKSkgJiYgcG9saWNlLm5leHRGb290IDw9IDApIHsKICAgICAgcG9saWNlLm5leHRGb290ID0gNjsKICAgICAgc3Bhd25PZmZpY2VyKHBvbGljZSwgc3RhdGUpOwogICAgfQogIH0KCiAgY29uc3QgcGxheWVyUG9zID0gcGxheWVyLnBvczsKICBsZXQgY2xvc2VzdCA9IEluZmluaXR5OwogIGxldCBuZWFyZXN0Q2FyID0gbnVsbDsKCiAgZm9yIChjb25zdCB1bml0IG9mIHBvbGljZS51bml0cykgewogICAgaWYgKCF1bml0LmFsaXZlKSBjb250aW51ZTsKICAgIGlmICh1bml0LnZlaGljbGUpIHsKICAgICAgY29uc3QgY2FyID0gdW5pdC52ZWhpY2xlOwogICAgICBpZiAoIWNhci5hbGl2ZSkgewogICAgICAgIHVuaXQuYWxpdmUgPSBmYWxzZTsKICAgICAgICBjb250aW51ZTsKICAgICAgfQogICAgICBjb25zdCBkeCA9IHBsYXllclBvcy54IC0gY2FyLnBvcy54OwogICAgICBjb25zdCBkeiA9IHBsYXllclBvcy56IC0gY2FyLnBvcy56OwogICAgICBjb25zdCBkaXN0YW5jZSA9IE1hdGguaHlwb3QoZHgsIGR6KTsKICAgICAgY2xvc2VzdCA9IE1hdGgubWluKGNsb3Nlc3QsIGRpc3RhbmNlKTsKICAgICAgaWYgKCFuZWFyZXN0Q2FyIHx8IGRpc3RhbmNlIDwgbmVhcmVzdENhcikgewogICAgICAgIG5lYXJlc3RDYXIgPSB7IHVuaXQsIGRpc3RhbmNlIH07CiAgICAgIH0KICAgICAgY29uc3QgaGVhZGluZyA9IE1hdGguYXRhbjIoZHgsIGR6KTsKICAgICAgbGV0IGRpZmYgPSBoZWFkaW5nIC0gY2FyLmhlYWRpbmc7CiAgICAgIHdoaWxlIChkaWZmID4gTWF0aC5QSSkgZGlmZiAtPSBNYXRoLlBJICogMjsKICAgICAgd2hpbGUgKGRpZmYgPCAtTWF0aC5QSSkgZGlmZiArPSBNYXRoLlBJICogMjsKICAgICAgY29uc3Qgc3RlZXIgPSBUSFJFRS5NYXRoVXRpbHMuY2xhbXAoZGlmZiAqIDEuNSwgLTEsIDEpOwogICAgICBjb25zdCB0YXJnZXRTcGVlZCA9IGRpc3RhbmNlIDwgMTYgPyA3IDogY2FyLnNwZWMubWF4U3BlZWQ7CiAgICAgIGNvbnN0IHRocm90dGxlID0gVEhSRUUuTWF0aFV0aWxzLmNsYW1wKCh0YXJnZXRTcGVlZCAtIGNhci5zcGVlZCkgLyA2LCAtMSwgMC45NSk7CiAgICAgIHVwZGF0ZVZlaGljbGUoY2FyLCB7IHRocm90dGxlLCBzdGVlciwgaGFuZGJyYWtlOiBkaXN0YW5jZSA8IDE0IH0sIGR0LCBzdGF0ZS5jaXR5KTsKICAgICAgaWYgKGNhci5oZWFsdGggPCA0NSAmJiBzdGF0ZS5ybmcuY2hhbmNlKGR0ICogMykpIHsKICAgICAgICBzdGF0ZS5lZmZlY3RzLnNtb2tlKGNhci5wb3MsIDAuOCk7CiAgICAgIH0KICAgICAgaWYgKCF1bml0LmZvb3RTcGF3bmVkICYmIGRpc3RhbmNlIDwgMjYgJiYgd2FudGVkID49IDIpIHsKICAgICAgICB1bml0LmZvb3RTcGF3bmVkID0gdHJ1ZTsKICAgICAgICBzcGF3bk9mZmljZXIocG9saWNlLCBzdGF0ZSwgeyB4OiBjYXIucG9zLnggKyAyLCB6OiBjYXIucG9zLnogKyAyIH0pOwogICAgICB9CiAgICB9IGVsc2UgewogICAgICBjb25zdCBkeCA9IHBsYXllclBvcy54IC0gdW5pdC5wb3MueDsKICAgICAgY29uc3QgZHogPSBwbGF5ZXJQb3MueiAtIHVuaXQucG9zLno7CiAgICAgIGNvbnN0IGRpc3RhbmNlID0gTWF0aC5oeXBvdChkeCwgZHopOwogICAgICBjbG9zZXN0ID0gTWF0aC5taW4oY2xvc2VzdCwgZGlzdGFuY2UpOwogICAgICB1bml0LnlhdyA9IE1hdGguYXRhbjIoZHgsIGR6KTsKICAgICAgY29uc3Qgc3BlZWQgPSBkaXN0YW5jZSA+IDE3ID8gNC44IDogMDsKICAgICAgaWYgKHNwZWVkID4gMCkgewogICAgICAgIHVuaXQucG9zLnggKz0gTWF0aC5zaW4odW5pdC55YXcpICogc3BlZWQgKiBkdDsKICAgICAgICB1bml0LnBvcy56ICs9IE1hdGguY29zKHVuaXQueWF3KSAqIHNwZWVkICogZHQ7CiAgICAgICAgc3RhdGUuY2l0eS5yZXNvbHZlKHVuaXQucG9zLCAwLjUpOwogICAgICAgIHBvc2VQZXJzb24odW5pdC5yaWcsIHNwZWVkLCBkdCwgZmFsc2UpOwogICAgICB9IGVsc2UgewogICAgICAgIHBvc2VQZXJzb24odW5pdC5yaWcsIDAsIGR0LCB0cnVlKTsKICAgICAgfQogICAgICB1bml0Lmdyb3VwLnBvc2l0aW9uLmNvcHkodW5pdC5wb3MpOwogICAgICB1bml0Lmdyb3VwLnJvdGF0aW9uLnkgPSB1bml0LnlhdzsKCiAgICAgIHVuaXQuc2hvb3RUaW1lciAtPSBkdDsKICAgICAgaWYgKGRpc3RhbmNlIDwgMzQgJiYgdW5pdC5zaG9vdFRpbWVyIDw9IDApIHsKICAgICAgICB1bml0LnNob290VGltZXIgPSAxLjEgKyBzdGF0ZS5ybmcubmV4dCgpICogMC43OwogICAgICAgIGNvbnN0IGFjY3VyYWN5ID0gVEhSRUUuTWF0aFV0aWxzLmNsYW1wKDAuNzUgLSBkaXN0YW5jZSAvIDUyLCAwLjE4LCAwLjYpOwogICAgICAgIG5wY1Nob290KHN0YXRlLCB1bml0LnBvcywgYWNjdXJhY3kpOwogICAgICB9CiAgICAgIGlmIChkaXN0YW5jZSA+IDQyMCkgdW5pdC5hbGl2ZSA9IGZhbHNlOwogICAgfQogIH0KCiAgLy8gU2lyZW5zIGZhZGUgd2l0aCB0aGUgbmVhcmVzdCBjcnVpc2VyLgogIGlmIChuZWFyZXN0Q2FyKSB7CiAgICBjb25zdCBsZXZlbCA9IE1hdGgubWF4KDAsIDEgLSBuZWFyZXN0Q2FyLmRpc3RhbmNlIC8gMjYwKTsKICAgIHN0YXRlLmF1ZGlvPy5zZXRTaXJlbihwb2xpY2Uud2FudGVkID4gMCA/IGxldmVsIDogMCk7CiAgfSBlbHNlIHsKICAgIHN0YXRlLmF1ZGlvPy5zZXRTaXJlbigwKTsKICB9CgogIC8vIENvb2wgb2ZmIHdoZW4gdGhlIGNvYXN0IGlzIHF1aWV0LgogIGlmIChjbG9zZXN0ID4gOTUpIHsKICAgIHBvbGljZS5kZWNheSArPSBkdDsKICAgIGlmIChwb2xpY2UuZGVjYXkgPiBXQU5URUQuc3RhckRlY2F5KSB7CiAgICAgIHBvbGljZS5kZWNheSA9IDA7CiAgICAgIHBvbGljZS53YW50ZWQgPSBNYXRoLm1heCgwLCBwb2xpY2Uud2FudGVkIC0gMSk7CiAgICB9CiAgfSBlbHNlIHsKICAgIHBvbGljZS5kZWNheSA9IDA7CiAgfQoKICAvLyBCdXN0ZWQ6IHN0YXRpb25hcnkgb24gZm9vdCB3aXRoIGFuIG9mZmljZXIgY2xvc2UgYW5kIG5vIHNob290aW5nIGZvciBhIG1vbWVudC4KICBjb25zdCBvbkZvb3QgPSAhcGxheWVyLmluVmVoaWNsZTsKICBjb25zdCBzcGVlZCA9IHBsYXllci5zcGVlZDsKICBjb25zdCBvZmZpY2VyTmVhciA9IHBvbGljZS51bml0cy5zb21lKCh1KSA9PiB1LmFsaXZlICYmICF1LnZlaGljbGUgJiYgdS5wb3MuZGlzdGFuY2VUbyhwbGF5ZXJQb3MpIDwgV0FOVEVELmJ1c3RSYWRpdXMpOwogIGNvbnN0IGNhck5lYXIgPSBwb2xpY2UudW5pdHMuc29tZSgodSkgPT4gdS5hbGl2ZSAmJiB1LnZlaGljbGUgJiYgdS52ZWhpY2xlLnBvcy5kaXN0YW5jZVRvKHBsYXllclBvcykgPCBXQU5URUQuYnVzdFJhZGl1cyArIDIpOwogIGlmIChvbkZvb3QgJiYgc3BlZWQgPCAyICYmIChvZmZpY2VyTmVhciB8fCBjYXJOZWFyKSAmJiBwb2xpY2UuaGVhdCA8IDAuNCkgewogICAgcG9saWNlLmJ1c3RUaW1lciArPSBkdDsKICAgIGlmIChwb2xpY2UuYnVzdFRpbWVyID4gMi42KSB7CiAgICAgIHBvbGljZS5idXN0VGltZXIgPSAwOwogICAgICBzdGF0ZS5vbkJ1c3RlZD8uKCk7CiAgICB9CiAgfSBlbHNlIHsKICAgIHBvbGljZS5idXN0VGltZXIgPSAwOwogIH0KfQoKZXhwb3J0IGZ1bmN0aW9uIGRhbWFnZU9mZmljZXIodW5pdCwgYW1vdW50LCBzdGF0ZSkgewogIGRhbWFnZVBlZCh1bml0LCBhbW91bnQsIHN0YXRlKTsKfQo=
+// Police: createPolice and updatePolice run the wanted stars; reportCrime, clearWanted, damageOfficer. Spawns cruisers and beat cops.
+// The wanted system: stars set how many cruisers come, cruisers spawn off-screen and drive at
+// Nico, officers bail out on foot at two stars and shoot, the search cools when nobody has eyes
+// on him, and standing still next to an officer gets him busted.
+
+import * as THREE from 'three';
+import { WANTED } from '../config.js';
+import { createVehicle, placeVehicle, updateVehicle } from '../entities/vehicle.js';
+import { createPerson, posePerson } from '../entities/person.js';
+import { npcShoot, damagePed } from './combat.js';
+
+const UNIFORM = { jacket: 0x27395c, shirt: 0xd7e2ec, pants: 0x1b2534, skin: 0xb9825e, hair: 0x1a1410 };
+
+export function createPolice(scene) {
+  return {
+    scene,
+    wanted: 0,
+    heat: 0,
+    units: [],
+    decay: 0,
+    spawnTimer: 1,
+    bustTimer: 0,
+    lostTimer: 0,
+    nextFoot: 4,
+  };
+}
+
+export function reportCrime(police, amount) {
+  police.wanted = Math.min(WANTED.maxStars, Math.max(police.wanted, amount) + 0.2);
+  police.heat = 1;
+  police.decay = 0;
+}
+
+export function clearWanted(police) {
+  police.wanted = 0;
+  police.heat = 0;
+  police.decay = 0;
+  police.bustTimer = 0;
+}
+
+function roadSpawnNear(state, minDistance, maxDistance) {
+  const roads = state.city.xRoads;
+  for (let attempt = 0; attempt < 24; attempt++) {
+    const x = roads[Math.floor(state.rng.next() * roads.length)];
+    const z = roads[Math.floor(state.rng.next() * roads.length)];
+    const d = Math.hypot(x - state.player.pos.x, z - state.player.pos.z);
+    if (d > minDistance && d < maxDistance) return { x, z };
+  }
+  return { x: state.player.pos.x + minDistance, z: state.player.pos.z };
+}
+
+function spawnCruiser(police, state) {
+  const spot = roadSpawnNear(state, 130, 260);
+  const cruiser = createVehicle('police', 0xf3f5f2, state.scene);
+  const heading = Math.atan2(state.player.pos.x - spot.x, state.player.pos.z - spot.z);
+  placeVehicle(cruiser, spot.x, spot.z, heading);
+  const unit = {
+    vehicle: cruiser, alive: true, pos: cruiser.pos, type: 'car',
+    shootTimer: 1.5, footSpawned: false, isCop: true, health: 100,
+  };
+  police.units.push(unit);
+  state.vehicles.push(cruiser);
+  return unit;
+}
+
+function spawnOfficer(police, state, near) {
+  const spot = near ?? roadSpawnNear(state, 45, 90);
+  const rig = createPerson(UNIFORM, true);
+  state.scene.add(rig.root);
+  const unit = {
+    rig, group: rig.root, vehicle: null, type: 'foot', alive: true,
+    pos: new THREE.Vector3(spot.x, 0.25, spot.z),
+    yaw: 0, health: 55, shootTimer: 1 + state.rng.next(), isCop: true,
+    walkPhase: 0,
+  };
+  rig.root.position.copy(unit.pos);
+  police.units.push(unit);
+  return unit;
+}
+
+export function updatePolice(police, state, dt) {
+  const player = state.player;
+  const wanted = police.wanted;
+  police.heat = Math.max(0, police.heat - dt * 0.06);
+
+  if (wanted <= 0) {
+    for (const unit of police.units) {
+      unit.alive = false;
+      if (unit.vehicle && unit.vehicle !== player.inVehicle) {
+        state.scene.remove(unit.vehicle.root);
+        const index = state.vehicles.indexOf(unit.vehicle);
+        if (index >= 0) state.vehicles.splice(index, 1);
+      } else if (unit.group) {
+        state.scene.remove(unit.group);
+      }
+    }
+    police.units.length = 0;
+    police.spawnTimer = 1.2;
+    state.audio?.setSiren(0);
+    return;
+  }
+
+  const maxCars = Math.min(4, Math.ceil(wanted));
+  const cars = police.units.filter((u) => u.alive && u.vehicle).length;
+  police.spawnTimer -= dt;
+  if (cars < maxCars && police.spawnTimer <= 0) {
+    police.spawnTimer = 3.6;
+    spawnCruiser(police, state);
+  }
+
+  if (wanted >= 2) {
+    police.nextFoot -= dt;
+    const foot = police.units.filter((u) => u.alive && !u.vehicle).length;
+    if (foot < Math.min(3, Math.floor(wanted)) && police.nextFoot <= 0) {
+      police.nextFoot = 6;
+      spawnOfficer(police, state);
+    }
+  }
+
+  const playerPos = player.pos;
+  let closest = Infinity;
+  let nearestCar = null;
+
+  for (const unit of police.units) {
+    if (!unit.alive) continue;
+    if (unit.vehicle) {
+      const car = unit.vehicle;
+      if (!car.alive) {
+        unit.alive = false;
+        continue;
+      }
+      const dx = playerPos.x - car.pos.x;
+      const dz = playerPos.z - car.pos.z;
+      const distance = Math.hypot(dx, dz);
+      closest = Math.min(closest, distance);
+      if (!nearestCar || distance < nearestCar) {
+        nearestCar = { unit, distance };
+      }
+      const heading = Math.atan2(dx, dz);
+      let diff = heading - car.heading;
+      while (diff > Math.PI) diff -= Math.PI * 2;
+      while (diff < -Math.PI) diff += Math.PI * 2;
+      const steer = THREE.MathUtils.clamp(diff * 1.5, -1, 1);
+      const targetSpeed = distance < 16 ? 7 : car.spec.maxSpeed;
+      const throttle = THREE.MathUtils.clamp((targetSpeed - car.speed) / 6, -1, 0.95);
+      updateVehicle(car, { throttle, steer, handbrake: distance < 14 }, dt, state.city);
+      if (car.health < 45 && state.rng.chance(dt * 3)) {
+        state.effects.smoke(car.pos, 0.8);
+      }
+      if (!unit.footSpawned && distance < 26 && wanted >= 2) {
+        unit.footSpawned = true;
+        spawnOfficer(police, state, { x: car.pos.x + 2, z: car.pos.z + 2 });
+      }
+    } else {
+      const dx = playerPos.x - unit.pos.x;
+      const dz = playerPos.z - unit.pos.z;
+      const distance = Math.hypot(dx, dz);
+      closest = Math.min(closest, distance);
+      unit.yaw = Math.atan2(dx, dz);
+      const speed = distance > 17 ? 4.8 : 0;
+      if (speed > 0) {
+        unit.pos.x += Math.sin(unit.yaw) * speed * dt;
+        unit.pos.z += Math.cos(unit.yaw) * speed * dt;
+        state.city.resolve(unit.pos, 0.5);
+        posePerson(unit.rig, speed, dt, false);
+      } else {
+        posePerson(unit.rig, 0, dt, true);
+      }
+      unit.group.position.copy(unit.pos);
+      unit.group.rotation.y = unit.yaw;
+
+      unit.shootTimer -= dt;
+      if (distance < 34 && unit.shootTimer <= 0) {
+        unit.shootTimer = 1.1 + state.rng.next() * 0.7;
+        const accuracy = THREE.MathUtils.clamp(0.75 - distance / 52, 0.18, 0.6);
+        npcShoot(state, unit.pos, accuracy);
+      }
+      if (distance > 420) unit.alive = false;
+    }
+  }
+
+  // Sirens fade with the nearest cruiser.
+  if (nearestCar) {
+    const level = Math.max(0, 1 - nearestCar.distance / 260);
+    state.audio?.setSiren(police.wanted > 0 ? level : 0);
+  } else {
+    state.audio?.setSiren(0);
+  }
+
+  // Cool off when the coast is quiet.
+  if (closest > 95) {
+    police.decay += dt;
+    if (police.decay > WANTED.starDecay) {
+      police.decay = 0;
+      police.wanted = Math.max(0, police.wanted - 1);
+    }
+  } else {
+    police.decay = 0;
+  }
+
+  // Busted: stationary on foot with an officer close and no shooting for a moment.
+  const onFoot = !player.inVehicle;
+  const speed = player.speed;
+  const officerNear = police.units.some((u) => u.alive && !u.vehicle && u.pos.distanceTo(playerPos) < WANTED.bustRadius);
+  const carNear = police.units.some((u) => u.alive && u.vehicle && u.vehicle.pos.distanceTo(playerPos) < WANTED.bustRadius + 2);
+  if (onFoot && speed < 2 && (officerNear || carNear) && police.heat < 0.4) {
+    police.bustTimer += dt;
+    if (police.bustTimer > 2.6) {
+      police.bustTimer = 0;
+      state.onBusted?.();
+    }
+  } else {
+    police.bustTimer = 0;
+  }
+}
+
+export function damageOfficer(unit, amount, state) {
+  damagePed(unit, amount, state);
+}

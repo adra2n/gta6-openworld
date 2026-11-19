@@ -1,1 +1,269 @@
-Ly8gRGlzcGF0Y2g6IGNyZWF0ZURpc3BhdGNoKHNjZW5lLCBjaXR5KSBpcyB0aGUgcG9saWNlIHNjYW5uZXIgYW5kIGl0cyBhbnN3ZXIuIFdhbnRlZC1sZXZlbAovLyBjaGFuZ2VzIHF1ZXVlIHNwb2tlbi1zdHlsZSBjaGF0dGVyOyBjYWxsKCdyb2FkYmxvY2snKSBwYXJrcyBjcnVpc2VycyBhY3Jvc3MgdGhlIHJvYWQgYWhlYWQsCi8vIGEgaGVsaWNvcHRlciBzaGFkb3dzIHRoZSBwbGF5ZXIgZnJvbSB0aHJlZSBzdGFycyB1cCwgYW5kIGFuIGFtYnVsYW5jZSBkcml2ZXMgb3V0IHRvIGNvbGxlY3QgYQovLyBkb3duZWQgcGVkZXN0cmlhbi4gRXZlcnl0aGluZyBpcyBjYXBwZWQgYW5kIGZyZWVkIHdoZW4gdGhlIGxldmVsIGRyb3BzLgoKaW1wb3J0ICogYXMgVEhSRUUgZnJvbSAndGhyZWUnOwppbXBvcnQgeyBjcmVhdGVWZWhpY2xlLCBwbGFjZVZlaGljbGUsIGRyaXZlVG93YXJkLCB1cGRhdGVWZWhpY2xlIH0gZnJvbSAnLi4vZW50aXRpZXMvdmVoaWNsZS5qcyc7Cgpjb25zdCBDSEFUVEVSID0gewogIDE6IFsKICAgICdEaXNwYXRjaCwgcG9zc2libGUgMTAtNTAgbmVhciB0aGUgbWFyaW5hLiBPbmUgdW5pdCByZXNwb25kaW5nLicsCiAgICAnQWxsIHVuaXRzLCBhIHJlcG9ydCBvZiBhIGRpc3R1cmJhbmNlLiBLZWVwIGl0IHF1aWV0LCBpdCBpcyBlYXJseS4nLAogIF0sCiAgMjogWwogICAgJ0Rpc3BhdGNoIHRvIGFsbCwgd2UgaGF2ZSBhIDEwLTUyLiBUd28gY2FycywgY29kZSB0d28uJywKICAgICdTdXNwZWN0IGlzIG9uIGZvb3QgYW5kIG1vdmluZy4gV2F0Y2ggdGhlIGFsbGV5cy4nLAogIF0sCiAgMzogWwogICAgJ0FpciBvbmUsIHlvdSBhcmUgY2xlYXJlZCB0byBzaGFkb3cuIEtlZXAgdGhlIGxpZ2h0cyBvbiBoaW0uJywKICAgICdSb2FkIHVuaXRzLCBzZXQgYSBibG9jayBvbiB0aGUgY29hc3Qgcm9hZC4gTm9ib2R5IHRocm91Z2guJywKICBdLAogIDQ6IFsKICAgICdBbGwgdW5pdHMsIHRoaXMgaXMgYSAxMC05OS4gRXZlcnkgY2FyIGluIHRoZSBzb3V0aCBiYXkuJywKICAgICdIZSBpcyBub3QgZ2V0dGluZyB0byB0aGUgYnJpZGdlLiBTaHV0IGl0IGRvd24uJywKICBdLAogIDU6IFsKICAgICdEaXNwYXRjaCwgd2UgaGF2ZSBsb3N0IHZpc3VhbCBhbmQgdGhlIHdob2xlIGJheSBpcyBjYWxsaW5nLicsCiAgICAnQ2hpZWYgaXMgb24gdGhlIGxpbmUuIFNvbWVib2R5IGJyaW5nIG1lIHNvbWV0aGluZy4nLAogIF0sCn07Cgpjb25zdCBNQVhfUk9BREJMT0NLUyA9IDI7CmNvbnN0IE1BWF9BTUJVTEFOQ0VTID0gMjsKY29uc3QgSEVMSV9IRUlHSFQgPSA0NDsKCmZ1bmN0aW9uIG5lYXJlc3RSb2FkKHJvYWRzLCB2YWx1ZSkgewogIHJldHVybiByb2Fkcy5yZWR1Y2UoKHBpY2ssIHJvYWQpID0+IChNYXRoLmFicyhyb2FkIC0gdmFsdWUpIDwgTWF0aC5hYnMocGljayAtIHZhbHVlKSA/IHJvYWQgOiBwaWNrKSwgcm9hZHNbMF0pOwp9CgpleHBvcnQgZnVuY3Rpb24gY3JlYXRlRGlzcGF0Y2goc2NlbmUsIGNpdHkpIHsKICBjb25zdCBldmVudHMgPSBbXTsKICBjb25zdCByb2FkYmxvY2tzID0gW107CiAgY29uc3QgYW1idWxhbmNlcyA9IFtdOwogIGNvbnN0IGNoYXR0ZXIgPSBbXTsKICBsZXQgaGVsaWNvcHRlciA9IG51bGw7CiAgbGV0IGxhc3RXYW50ZWQgPSAwOwogIGxldCBjaGF0dGVyQ29vbGRvd24gPSAwOwogIGxldCBhbWJ1bGFuY2VTY2FuID0gMDsKICBsZXQgY2xvY2sgPSAwOwogIGxldCBsYXN0U3RhdGUgPSBudWxsOwoKICBjb25zdCBoZWxpR3JvdXAgPSBuZXcgVEhSRUUuR3JvdXAoKTsKICBjb25zdCBoZWxpQm9keSA9IG5ldyBUSFJFRS5NZXNoU3RhbmRhcmRNYXRlcmlhbCh7IGNvbG9yOiAweDI3Mzk1Yywgcm91Z2huZXNzOiAwLjU1LCBtZXRhbG5lc3M6IDAuMiB9KTsKICBjb25zdCBoZWxpR2xhc3MgPSBuZXcgVEhSRUUuTWVzaFN0YW5kYXJkTWF0ZXJpYWwoeyBjb2xvcjogMHg5ZmQwZTAsIHJvdWdobmVzczogMC4yLCBtZXRhbG5lc3M6IDAuNCB9KTsKICBjb25zdCBib2R5ID0gbmV3IFRIUkVFLk1lc2gobmV3IFRIUkVFLkJveEdlb21ldHJ5KDIuNCwgMS4zLCA0LjYpLCBoZWxpQm9keSk7CiAgY29uc3Qgbm9zZSA9IG5ldyBUSFJFRS5NZXNoKG5ldyBUSFJFRS5Cb3hHZW9tZXRyeSgxLjYsIDEuMCwgMS44KSwgaGVsaUdsYXNzKTsKICBub3NlLnBvc2l0aW9uLnNldCgwLCAtMC4wNSwgMi43KTsKICBjb25zdCB0YWlsID0gbmV3IFRIUkVFLk1lc2gobmV3IFRIUkVFLkJveEdlb21ldHJ5KDAuNDUsIDAuNDUsIDQpLCBoZWxpQm9keSk7CiAgdGFpbC5wb3NpdGlvbi5zZXQoMCwgMC4yLCAtMy45KTsKICBjb25zdCBmaW4gPSBuZXcgVEhSRUUuTWVzaChuZXcgVEhSRUUuQm94R2VvbWV0cnkoMC4yLCAxLjQsIDAuOCksIGhlbGlCb2R5KTsKICBmaW4ucG9zaXRpb24uc2V0KDAsIDAuOSwgLTUuNik7CiAgY29uc3QgbWFzdCA9IG5ldyBUSFJFRS5NZXNoKG5ldyBUSFJFRS5DeWxpbmRlckdlb21ldHJ5KDAuMTYsIDAuMTYsIDAuNywgNiksIGhlbGlCb2R5KTsKICBtYXN0LnBvc2l0aW9uLnkgPSAwLjk1OwogIGNvbnN0IHJvdG9yID0gbmV3IFRIUkVFLkdyb3VwKCk7CiAgZm9yIChsZXQgaSA9IDA7IGkgPCA0OyBpKyspIHsKICAgIGNvbnN0IGJsYWRlID0gbmV3IFRIUkVFLk1lc2gobmV3IFRIUkVFLkJveEdlb21ldHJ5KDAuMjQsIDAuMDUsIDQuNiksIGhlbGlCb2R5KTsKICAgIGJsYWRlLnJvdGF0aW9uLnkgPSAoaSAvIDQpICogTWF0aC5QSTsKICAgIHJvdG9yLmFkZChibGFkZSk7CiAgfQogIHJvdG9yLnBvc2l0aW9uLnkgPSAxLjM1OwogIGNvbnN0IHRhaWxSb3RvciA9IG5ldyBUSFJFRS5NZXNoKG5ldyBUSFJFRS5Cb3hHZW9tZXRyeSgwLjA4LCAxLjYsIDAuMjIpLCBoZWxpQm9keSk7CiAgdGFpbFJvdG9yLnBvc2l0aW9uLnNldCgwLjMsIDEuMCwgLTUuNyk7CiAgY29uc3Qgc2tpZExlZnQgPSBuZXcgVEhSRUUuTWVzaChuZXcgVEhSRUUuQm94R2VvbWV0cnkoMC4xMiwgMC4xMiwgMy40KSwgaGVsaUJvZHkpOwogIHNraWRMZWZ0LnBvc2l0aW9uLnNldCgtMS4xLCAtMC44NSwgMCk7CiAgY29uc3Qgc2tpZFJpZ2h0ID0gc2tpZExlZnQuY2xvbmUoKTsKICBza2lkUmlnaHQucG9zaXRpb24ueCA9IDEuMTsKICBjb25zdCBiZWFjb24gPSBuZXcgVEhSRUUuTWVzaChuZXcgVEhSRUUuQm94R2VvbWV0cnkoMC40LCAwLjE2LCAwLjMpLCBuZXcgVEhSRUUuTWVzaEJhc2ljTWF0ZXJpYWwoeyBjb2xvcjogMHhmZjIwMzAsIHRvbmVNYXBwZWQ6IGZhbHNlIH0pKTsKICBiZWFjb24ucG9zaXRpb24uc2V0KDAsIDAuNzIsIDAuNCk7CiAgaGVsaUdyb3VwLmFkZChib2R5LCBub3NlLCB0YWlsLCBmaW4sIG1hc3QsIHJvdG9yLCB0YWlsUm90b3IsIHNraWRMZWZ0LCBza2lkUmlnaHQsIGJlYWNvbik7CiAgaGVsaUdyb3VwLnZpc2libGUgPSBmYWxzZTsKICBzY2VuZS5hZGQoaGVsaUdyb3VwKTsKCiAgZnVuY3Rpb24gbG9nKHRleHQpIHsKICAgIGV2ZW50cy5wdXNoKHsgYXQ6IGNsb2NrLCB0ZXh0IH0pOwogICAgaWYgKGV2ZW50cy5sZW5ndGggPiAyNCkgZXZlbnRzLnNoaWZ0KCk7CiAgfQoKICBmdW5jdGlvbiBzYXkodGV4dCkgewogICAgbG9nKHRleHQpOwogICAgbGFzdFN0YXRlPy5ub3RpZnk/Lih0ZXh0LCAncmFkaW8nKTsKICB9CgogIGZ1bmN0aW9uIHF1ZXVlQ2hhdHRlcihsZXZlbCkgewogICAgY29uc3QgbGluZXMgPSBDSEFUVEVSW2xldmVsXTsKICAgIGlmICghbGluZXMpIHJldHVybjsKICAgIGNvbnN0IGxpbmUgPSBsaW5lc1tNYXRoLmZsb29yKE1hdGgucmFuZG9tKCkgKiBsaW5lcy5sZW5ndGgpXTsKICAgIGNoYXR0ZXIucHVzaChsaW5lKTsKICB9CgogIGZ1bmN0aW9uIG5lYXJlc3REb3duZWRQZWQoc3RhdGUpIHsKICAgIGxldCBiZXN0ID0gbnVsbDsKICAgIGxldCBiZXN0RGlzdGFuY2UgPSAxNzA7CiAgICBmb3IgKGNvbnN0IHBlZCBvZiBzdGF0ZS5wZWRzPy5saXN0ID8/IFtdKSB7CiAgICAgIGlmIChwZWQuYWxpdmUgfHwgcGVkLmNsYWltZWQpIGNvbnRpbnVlOwogICAgICBjb25zdCBkaXN0YW5jZSA9IE1hdGguaHlwb3QocGVkLnBvcy54IC0gc3RhdGUucGxheWVyLnBvcy54LCBwZWQucG9zLnogLSBzdGF0ZS5wbGF5ZXIucG9zLnopOwogICAgICBpZiAoZGlzdGFuY2UgPCBiZXN0RGlzdGFuY2UpIHsKICAgICAgICBiZXN0RGlzdGFuY2UgPSBkaXN0YW5jZTsKICAgICAgICBiZXN0ID0gcGVkOwogICAgICB9CiAgICB9CiAgICByZXR1cm4gYmVzdDsKICB9CgogIGZ1bmN0aW9uIGNhbGxBbWJ1bGFuY2Uoc3RhdGUpIHsKICAgIGlmIChhbWJ1bGFuY2VzLmxlbmd0aCA+PSBNQVhfQU1CVUxBTkNFUykgcmV0dXJuIGZhbHNlOwogICAgY29uc3QgcGVkID0gbmVhcmVzdERvd25lZFBlZChzdGF0ZSk7CiAgICBpZiAoIXBlZCkgcmV0dXJuIGZhbHNlOwogICAgcGVkLmNsYWltZWQgPSB0cnVlOwogICAgY29uc3QgeCA9IG5lYXJlc3RSb2FkKGNpdHkueFJvYWRzLCBwZWQucG9zLngpOwogICAgY29uc3QgeiA9IG5lYXJlc3RSb2FkKGNpdHkuelJvYWRzLCBwZWQucG9zLnopOwogICAgY29uc3QgdmFuID0gY3JlYXRlVmVoaWNsZSgndmFuJywgMHhmNGYxZTgsIHNjZW5lKTsKICAgIHBsYWNlVmVoaWNsZSh2YW4sIHgsIHosIE1hdGguYXRhbjIocGVkLnBvcy54IC0geCwgcGVkLnBvcy56IC0geikpOwogICAgY29uc3QgY3Jvc3MgPSBuZXcgVEhSRUUuTWVzaChuZXcgVEhSRUUuQm94R2VvbWV0cnkoMC4xLCAwLjUsIDAuOSksIG5ldyBUSFJFRS5NZXNoQmFzaWNNYXRlcmlhbCh7IGNvbG9yOiAweGU0NjA0ZCwgdG9uZU1hcHBlZDogZmFsc2UgfSkpOwogICAgY3Jvc3MucG9zaXRpb24uc2V0KDEuMTMsIDEuMzUsIC0wLjMpOwogICAgdmFuLnJvb3QuYWRkKGNyb3NzKTsKICAgIHN0YXRlLnZlaGljbGVzLnB1c2godmFuKTsKICAgIGFtYnVsYW5jZXMucHVzaCh7IHZhbiwgcGVkLCBsaWZlOiAyNiwgcGhhc2U6ICdkcml2ZScsIHdhaXQ6IDAgfSk7CiAgICBsb2coJ0Rpc3BhdGNoOiBhbWJ1bGFuY2Ugcm9sbGluZyB0byBhIGRvd25lZCBjaXZpbGlhbi4nKTsKICAgIHJldHVybiB0cnVlOwogIH0KCiAgZnVuY3Rpb24gY2FsbFJvYWRibG9jayhzdGF0ZSkgewogICAgaWYgKHJvYWRibG9ja3MubGVuZ3RoID49IE1BWF9ST0FEQkxPQ0tTKSByZXR1cm4gZmFsc2U7CiAgICBjb25zdCBoZWFkaW5nID0gc3RhdGUucGxheWVyLmluVmVoaWNsZT8uaGVhZGluZyA/PyBzdGF0ZS5wbGF5ZXIueWF3OwogICAgY29uc3QgYWhlYWRYID0gc3RhdGUucGxheWVyLnBvcy54ICsgTWF0aC5zaW4oaGVhZGluZykgKiA2NDsKICAgIGNvbnN0IGFoZWFkWiA9IHN0YXRlLnBsYXllci5wb3MueiArIE1hdGguY29zKGhlYWRpbmcpICogNjQ7CiAgICBjb25zdCByb2FkWCA9IG5lYXJlc3RSb2FkKGNpdHkueFJvYWRzLCBhaGVhZFgpOwogICAgY29uc3Qgcm9hZFogPSBuZWFyZXN0Um9hZChjaXR5LnpSb2FkcywgYWhlYWRaKTsKICAgIGNvbnN0IG5vcnRoU291dGggPSBNYXRoLmFicyhyb2FkWCAtIGFoZWFkWCkgPCBNYXRoLmFicyhyb2FkWiAtIGFoZWFkWik7CiAgICBjb25zdCBjYXJzID0gW107CiAgICBmb3IgKGxldCBpID0gLTE7IGkgPD0gMTsgaSsrKSB7CiAgICAgIGNvbnN0IGNhciA9IGNyZWF0ZVZlaGljbGUoJ3BvbGljZScsIDB4ZjNmNWYyLCBzY2VuZSk7CiAgICAgIGlmIChub3J0aFNvdXRoKSB7CiAgICAgICAgcGxhY2VWZWhpY2xlKGNhciwgcm9hZFgsIGFoZWFkWiArIGkgKiA3LCBNYXRoLlBJIC8gMik7CiAgICAgIH0gZWxzZSB7CiAgICAgICAgcGxhY2VWZWhpY2xlKGNhciwgYWhlYWRYICsgaSAqIDcsIHJvYWRaLCAwKTsKICAgICAgfQogICAgICBzdGF0ZS52ZWhpY2xlcy5wdXNoKGNhcik7CiAgICAgIGNhcnMucHVzaChjYXIpOwogICAgfQogICAgcm9hZGJsb2Nrcy5wdXNoKHsgY2FycywgbGlmZTogMzAgfSk7CiAgICBzYXkoJ0Rpc3BhdGNoOiByb2FkYmxvY2sgc2V0LiBOb2JvZHkgY29tZXMgdGhyb3VnaC4nKTsKICAgIHJldHVybiB0cnVlOwogIH0KCiAgZnVuY3Rpb24gZnJlZVZlaGljbGVzKGxpc3QsIHN0YXRlKSB7CiAgICBmb3IgKGNvbnN0IGVudHJ5IG9mIGxpc3QpIHsKICAgICAgY29uc3QgY2FycyA9IGVudHJ5LmNhcnMgPz8gW2VudHJ5LnZhbl07CiAgICAgIGZvciAoY29uc3QgY2FyIG9mIGNhcnMpIHsKICAgICAgICBpZiAoc3RhdGUucGxheWVyLmluVmVoaWNsZSA9PT0gY2FyKSBjb250aW51ZTsKICAgICAgICBzY2VuZS5yZW1vdmUoY2FyLnJvb3QpOwogICAgICAgIGNvbnN0IGluZGV4ID0gc3RhdGUudmVoaWNsZXMuaW5kZXhPZihjYXIpOwogICAgICAgIGlmIChpbmRleCA+PSAwKSBzdGF0ZS52ZWhpY2xlcy5zcGxpY2UoaW5kZXgsIDEpOwogICAgICB9CiAgICB9CiAgICBsaXN0Lmxlbmd0aCA9IDA7CiAgfQoKICByZXR1cm4gewogICAgZXZlbnRzLAoKICAgIGNhbGwoa2luZCkgewogICAgICBjb25zdCBzdGF0ZSA9IGxhc3RTdGF0ZTsKICAgICAgaWYgKCFzdGF0ZSkgcmV0dXJuIGZhbHNlOwogICAgICBpZiAoa2luZCA9PT0gJ3JvYWRibG9jaycpIHJldHVybiBjYWxsUm9hZGJsb2NrKHN0YXRlKTsKICAgICAgaWYgKGtpbmQgPT09ICdhbWJ1bGFuY2UnKSByZXR1cm4gY2FsbEFtYnVsYW5jZShzdGF0ZSk7CiAgICAgIGlmIChraW5kID09PSAnaGVsaWNvcHRlcicpIHsKICAgICAgICBpZiAoKHN0YXRlLnBvbGljZT8ud2FudGVkID8/IDApIDwgMykgcmV0dXJuIGZhbHNlOwogICAgICAgIGhlbGlHcm91cC52aXNpYmxlID0gdHJ1ZTsKICAgICAgICByZXR1cm4gdHJ1ZTsKICAgICAgfQogICAgICByZXR1cm4gZmFsc2U7CiAgICB9LAoKICAgIHVwZGF0ZShkdCwgc3RhdGUpIHsKICAgICAgbGFzdFN0YXRlID0gc3RhdGU7CiAgICAgIGNsb2NrICs9IGR0OwogICAgICBjaGF0dGVyQ29vbGRvd24gLT0gZHQ7CgogICAgICBjb25zdCB3YW50ZWQgPSBzdGF0ZS5wb2xpY2U/LndhbnRlZCA/PyAwOwogICAgICBpZiAoTWF0aC5yb3VuZCh3YW50ZWQpICE9PSBNYXRoLnJvdW5kKGxhc3RXYW50ZWQpKSB7CiAgICAgICAgaWYgKHdhbnRlZCA+IGxhc3RXYW50ZWQpIHF1ZXVlQ2hhdHRlcihNYXRoLm1pbig1LCBNYXRoLmNlaWwod2FudGVkKSkpOwogICAgICAgIGVsc2UgaWYgKHdhbnRlZCA8PSAwKSBzYXkoJ0Rpc3BhdGNoOiBzdXNwZWN0IGxvc3QuIFVuaXRzIHN0YW5kIGRvd24uJyk7CiAgICAgICAgbGFzdFdhbnRlZCA9IHdhbnRlZDsKICAgICAgfQoKICAgICAgLy8gQ2hhdHRlciBjb21lcyBvdXQgb25lIGxpbmUgYXQgYSB0aW1lIHNvIGl0IHJlYWRzIGxpa2UgYSBzY2FubmVyLCBub3QgYSBsaXN0LgogICAgICBpZiAoY2hhdHRlci5sZW5ndGggPiAwICYmIGNoYXR0ZXJDb29sZG93biA8PSAwKSB7CiAgICAgICAgc2F5KGNoYXR0ZXIuc2hpZnQoKSk7CiAgICAgICAgY2hhdHRlckNvb2xkb3duID0gMy40OwogICAgICB9CgogICAgICAvLyBUaGUgaGVsaWNvcHRlciBvbmx5IGV4aXN0cyBmb3IgYSBoaWdoIGNoYXNlLgogICAgICBjb25zdCB3YW50c0FpciA9IHdhbnRlZCA+PSAzICYmIHN0YXRlLm1vZGUgPT09ICdwbGF5JzsKICAgICAgaGVsaUdyb3VwLnZpc2libGUgPSB3YW50c0FpcjsKICAgICAgaWYgKHdhbnRzQWlyKSB7CiAgICAgICAgY29uc3QgYW5nbGUgPSBjbG9jayAqIDAuMzI7CiAgICAgICAgY29uc3QgdGFyZ2V0WCA9IHN0YXRlLnBsYXllci5wb3MueCArIE1hdGguY29zKGFuZ2xlKSAqIDQyOwogICAgICAgIGNvbnN0IHRhcmdldFogPSBzdGF0ZS5wbGF5ZXIucG9zLnogKyBNYXRoLnNpbihhbmdsZSkgKiA0MjsKICAgICAgICBjb25zdCB0YXJnZXRZID0gc3RhdGUucGxheWVyLnBvcy55ICsgSEVMSV9IRUlHSFQgKyBNYXRoLnNpbihjbG9jayAqIDEuMykgKiAxLjY7CiAgICAgICAgaGVsaUdyb3VwLnBvc2l0aW9uLnggKz0gKHRhcmdldFggLSBoZWxpR3JvdXAucG9zaXRpb24ueCkgKiBNYXRoLm1pbigxLCBkdCAqIDAuOSk7CiAgICAgICAgaGVsaUdyb3VwLnBvc2l0aW9uLnogKz0gKHRhcmdldFogLSBoZWxpR3JvdXAucG9zaXRpb24ueikgKiBNYXRoLm1pbigxLCBkdCAqIDAuOSk7CiAgICAgICAgaGVsaUdyb3VwLnBvc2l0aW9uLnkgKz0gKHRhcmdldFkgLSBoZWxpR3JvdXAucG9zaXRpb24ueSkgKiBNYXRoLm1pbigxLCBkdCAqIDAuOSk7CiAgICAgICAgaGVsaUdyb3VwLnJvdGF0aW9uLnkgPSBhbmdsZSArIE1hdGguUEkgLyAyOwogICAgICAgIHJvdG9yLnJvdGF0aW9uLnkgKz0gZHQgKiAyMjsKICAgICAgICB0YWlsUm90b3Iucm90YXRpb24ueCArPSBkdCAqIDMwOwogICAgICAgIGJlYWNvbi52aXNpYmxlID0gTWF0aC5zaW4oY2xvY2sgKiAxMikgPiAwOwogICAgICB9CgogICAgICAvLyBSb2FkYmxvY2tzIHRpbWUgb3V0LCBhbmQgZXZlcnl0aGluZyBwb2xpY2Utc2lkZSBnb2VzIHdoZW4gdGhlIHN0YXJzIGRvLgogICAgICBmb3IgKGNvbnN0IGJsb2NrIG9mIFsuLi5yb2FkYmxvY2tzXSkgewogICAgICAgIGJsb2NrLmxpZmUgLT0gZHQ7CiAgICAgICAgaWYgKGJsb2NrLmxpZmUgPD0gMCB8fCB3YW50ZWQgPD0gMCkgewogICAgICAgICAgZnJlZVZlaGljbGVzKFtibG9ja10sIHN0YXRlKTsKICAgICAgICAgIGNvbnN0IGluZGV4ID0gcm9hZGJsb2Nrcy5pbmRleE9mKGJsb2NrKTsKICAgICAgICAgIGlmIChpbmRleCA+PSAwKSByb2FkYmxvY2tzLnNwbGljZShpbmRleCwgMSk7CiAgICAgICAgfQogICAgICB9CgogICAgICAvLyBBbWJ1bGFuY2VzIGRyaXZlIHRvIHRoZSBib2R5LCBsb2FkIGl0LCB0aGVuIGxlYXZlLgogICAgICBhbWJ1bGFuY2VTY2FuIC09IGR0OwogICAgICBpZiAoYW1idWxhbmNlU2NhbiA8PSAwKSB7CiAgICAgICAgYW1idWxhbmNlU2NhbiA9IDM7CiAgICAgICAgaWYgKGFtYnVsYW5jZXMubGVuZ3RoIDwgTUFYX0FNQlVMQU5DRVMpIGNhbGxBbWJ1bGFuY2Uoc3RhdGUpOwogICAgICB9CiAgICAgIGZvciAoY29uc3QgZW50cnkgb2YgWy4uLmFtYnVsYW5jZXNdKSB7CiAgICAgICAgZW50cnkubGlmZSAtPSBkdDsKICAgICAgICBjb25zdCBwZWQgPSBlbnRyeS5wZWQ7CiAgICAgICAgaWYgKGVudHJ5LnBoYXNlID09PSAnZHJpdmUnKSB7CiAgICAgICAgICBpZiAoIXBlZCB8fCBwZWQucG9zID09PSB1bmRlZmluZWQpIHsKICAgICAgICAgICAgZW50cnkucGhhc2UgPSAnbGVhdmUnOwogICAgICAgICAgICBlbnRyeS5saWZlID0gTWF0aC5taW4oZW50cnkubGlmZSwgMik7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgfQogICAgICAgICAgdXBkYXRlVmVoaWNsZShlbnRyeS52YW4sIGRyaXZlVG93YXJkKGVudHJ5LnZhbiwgcGVkLnBvcywgMC43KSwgZHQsIGNpdHkpOwogICAgICAgICAgaWYgKGVudHJ5LnZhbi5wb3MuZGlzdGFuY2VUbyhwZWQucG9zKSA8IDYpIHsKICAgICAgICAgICAgZW50cnkucGhhc2UgPSAnbG9hZCc7CiAgICAgICAgICAgIGVudHJ5LndhaXQgPSAxLjQ7CiAgICAgICAgICB9CiAgICAgICAgfSBlbHNlIGlmIChlbnRyeS5waGFzZSA9PT0gJ2xvYWQnKSB7CiAgICAgICAgICBlbnRyeS53YWl0IC09IGR0OwogICAgICAgICAgaWYgKGVudHJ5LndhaXQgPD0gMCkgewogICAgICAgICAgICBzY2VuZS5yZW1vdmUocGVkLmdyb3VwID8/IHBlZC5yaWc/LnJvb3QpOwogICAgICAgICAgICBjb25zdCBpbmRleCA9IHN0YXRlLnBlZHMubGlzdC5pbmRleE9mKHBlZCk7CiAgICAgICAgICAgIGlmIChpbmRleCA+PSAwKSBzdGF0ZS5wZWRzLmxpc3Quc3BsaWNlKGluZGV4LCAxKTsKICAgICAgICAgICAgZW50cnkucGhhc2UgPSAnbGVhdmUnOwogICAgICAgICAgICBlbnRyeS5saWZlID0gMS40OwogICAgICAgICAgICBsb2coJ0Rpc3BhdGNoOiBhbWJ1bGFuY2UgY29sbGVjdGVkIGEgY2l2aWxpYW4uJyk7CiAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIGlmIChlbnRyeS5saWZlIDw9IDAgJiYgZW50cnkucGhhc2UgPT09ICdsZWF2ZScpIHsKICAgICAgICAgIGZyZWVWZWhpY2xlcyhbZW50cnldLCBzdGF0ZSk7CiAgICAgICAgICBjb25zdCBpbmRleCA9IGFtYnVsYW5jZXMuaW5kZXhPZihlbnRyeSk7CiAgICAgICAgICBpZiAoaW5kZXggPj0gMCkgYW1idWxhbmNlcy5zcGxpY2UoaW5kZXgsIDEpOwogICAgICAgIH0KICAgICAgfQogICAgfSwKICB9Owp9Cg==
+// Dispatch: createDispatch(scene, city) is the police scanner and its answer. Wanted-level
+// changes queue spoken-style chatter; call('roadblock') parks cruisers across the road ahead,
+// a helicopter shadows the player from three stars up, and an ambulance drives out to collect a
+// downed pedestrian. Everything is capped and freed when the level drops.
+
+import * as THREE from 'three';
+import { createVehicle, placeVehicle, driveToward, updateVehicle } from '../entities/vehicle.js';
+
+const CHATTER = {
+  1: [
+    'Dispatch, possible 10-50 near the marina. One unit responding.',
+    'All units, a report of a disturbance. Keep it quiet, it is early.',
+  ],
+  2: [
+    'Dispatch to all, we have a 10-52. Two cars, code two.',
+    'Suspect is on foot and moving. Watch the alleys.',
+  ],
+  3: [
+    'Air one, you are cleared to shadow. Keep the lights on him.',
+    'Road units, set a block on the coast road. Nobody through.',
+  ],
+  4: [
+    'All units, this is a 10-99. Every car in the south bay.',
+    'He is not getting to the bridge. Shut it down.',
+  ],
+  5: [
+    'Dispatch, we have lost visual and the whole bay is calling.',
+    'Chief is on the line. Somebody bring me something.',
+  ],
+};
+
+const MAX_ROADBLOCKS = 2;
+const MAX_AMBULANCES = 2;
+const HELI_HEIGHT = 44;
+
+function nearestRoad(roads, value) {
+  return roads.reduce((pick, road) => (Math.abs(road - value) < Math.abs(pick - value) ? road : pick), roads[0]);
+}
+
+export function createDispatch(scene, city) {
+  const events = [];
+  const roadblocks = [];
+  const ambulances = [];
+  const chatter = [];
+  let helicopter = null;
+  let lastWanted = 0;
+  let chatterCooldown = 0;
+  let ambulanceScan = 0;
+  let clock = 0;
+  let lastState = null;
+
+  const heliGroup = new THREE.Group();
+  const heliBody = new THREE.MeshStandardMaterial({ color: 0x27395c, roughness: 0.55, metalness: 0.2 });
+  const heliGlass = new THREE.MeshStandardMaterial({ color: 0x9fd0e0, roughness: 0.2, metalness: 0.4 });
+  const body = new THREE.Mesh(new THREE.BoxGeometry(2.4, 1.3, 4.6), heliBody);
+  const nose = new THREE.Mesh(new THREE.BoxGeometry(1.6, 1.0, 1.8), heliGlass);
+  nose.position.set(0, -0.05, 2.7);
+  const tail = new THREE.Mesh(new THREE.BoxGeometry(0.45, 0.45, 4), heliBody);
+  tail.position.set(0, 0.2, -3.9);
+  const fin = new THREE.Mesh(new THREE.BoxGeometry(0.2, 1.4, 0.8), heliBody);
+  fin.position.set(0, 0.9, -5.6);
+  const mast = new THREE.Mesh(new THREE.CylinderGeometry(0.16, 0.16, 0.7, 6), heliBody);
+  mast.position.y = 0.95;
+  const rotor = new THREE.Group();
+  for (let i = 0; i < 4; i++) {
+    const blade = new THREE.Mesh(new THREE.BoxGeometry(0.24, 0.05, 4.6), heliBody);
+    blade.rotation.y = (i / 4) * Math.PI;
+    rotor.add(blade);
+  }
+  rotor.position.y = 1.35;
+  const tailRotor = new THREE.Mesh(new THREE.BoxGeometry(0.08, 1.6, 0.22), heliBody);
+  tailRotor.position.set(0.3, 1.0, -5.7);
+  const skidLeft = new THREE.Mesh(new THREE.BoxGeometry(0.12, 0.12, 3.4), heliBody);
+  skidLeft.position.set(-1.1, -0.85, 0);
+  const skidRight = skidLeft.clone();
+  skidRight.position.x = 1.1;
+  const beacon = new THREE.Mesh(new THREE.BoxGeometry(0.4, 0.16, 0.3), new THREE.MeshBasicMaterial({ color: 0xff2030, toneMapped: false }));
+  beacon.position.set(0, 0.72, 0.4);
+  heliGroup.add(body, nose, tail, fin, mast, rotor, tailRotor, skidLeft, skidRight, beacon);
+  heliGroup.visible = false;
+  scene.add(heliGroup);
+
+  function log(text) {
+    events.push({ at: clock, text });
+    if (events.length > 24) events.shift();
+  }
+
+  function say(text) {
+    log(text);
+    lastState?.notify?.(text, 'radio');
+  }
+
+  function queueChatter(level) {
+    const lines = CHATTER[level];
+    if (!lines) return;
+    const line = lines[Math.floor(Math.random() * lines.length)];
+    chatter.push(line);
+  }
+
+  function nearestDownedPed(state) {
+    let best = null;
+    let bestDistance = 170;
+    for (const ped of state.peds?.list ?? []) {
+      if (ped.alive || ped.claimed) continue;
+      const distance = Math.hypot(ped.pos.x - state.player.pos.x, ped.pos.z - state.player.pos.z);
+      if (distance < bestDistance) {
+        bestDistance = distance;
+        best = ped;
+      }
+    }
+    return best;
+  }
+
+  function callAmbulance(state) {
+    if (ambulances.length >= MAX_AMBULANCES) return false;
+    const ped = nearestDownedPed(state);
+    if (!ped) return false;
+    ped.claimed = true;
+    const x = nearestRoad(city.xRoads, ped.pos.x);
+    const z = nearestRoad(city.zRoads, ped.pos.z);
+    const van = createVehicle('van', 0xf4f1e8, scene);
+    placeVehicle(van, x, z, Math.atan2(ped.pos.x - x, ped.pos.z - z));
+    const cross = new THREE.Mesh(new THREE.BoxGeometry(0.1, 0.5, 0.9), new THREE.MeshBasicMaterial({ color: 0xe4604d, toneMapped: false }));
+    cross.position.set(1.13, 1.35, -0.3);
+    van.root.add(cross);
+    state.vehicles.push(van);
+    ambulances.push({ van, ped, life: 26, phase: 'drive', wait: 0 });
+    log('Dispatch: ambulance rolling to a downed civilian.');
+    return true;
+  }
+
+  function callRoadblock(state) {
+    if (roadblocks.length >= MAX_ROADBLOCKS) return false;
+    const heading = state.player.inVehicle?.heading ?? state.player.yaw;
+    const aheadX = state.player.pos.x + Math.sin(heading) * 64;
+    const aheadZ = state.player.pos.z + Math.cos(heading) * 64;
+    const roadX = nearestRoad(city.xRoads, aheadX);
+    const roadZ = nearestRoad(city.zRoads, aheadZ);
+    const northSouth = Math.abs(roadX - aheadX) < Math.abs(roadZ - aheadZ);
+    const cars = [];
+    for (let i = -1; i <= 1; i++) {
+      const car = createVehicle('police', 0xf3f5f2, scene);
+      if (northSouth) {
+        placeVehicle(car, roadX, aheadZ + i * 7, Math.PI / 2);
+      } else {
+        placeVehicle(car, aheadX + i * 7, roadZ, 0);
+      }
+      state.vehicles.push(car);
+      cars.push(car);
+    }
+    roadblocks.push({ cars, life: 30 });
+    say('Dispatch: roadblock set. Nobody comes through.');
+    return true;
+  }
+
+  function freeVehicles(list, state) {
+    for (const entry of list) {
+      const cars = entry.cars ?? [entry.van];
+      for (const car of cars) {
+        if (state.player.inVehicle === car) continue;
+        scene.remove(car.root);
+        const index = state.vehicles.indexOf(car);
+        if (index >= 0) state.vehicles.splice(index, 1);
+      }
+    }
+    list.length = 0;
+  }
+
+  return {
+    events,
+
+    call(kind) {
+      const state = lastState;
+      if (!state) return false;
+      if (kind === 'roadblock') return callRoadblock(state);
+      if (kind === 'ambulance') return callAmbulance(state);
+      if (kind === 'helicopter') {
+        if ((state.police?.wanted ?? 0) < 3) return false;
+        heliGroup.visible = true;
+        return true;
+      }
+      return false;
+    },
+
+    update(dt, state) {
+      lastState = state;
+      clock += dt;
+      chatterCooldown -= dt;
+
+      const wanted = state.police?.wanted ?? 0;
+      if (Math.round(wanted) !== Math.round(lastWanted)) {
+        if (wanted > lastWanted) queueChatter(Math.min(5, Math.ceil(wanted)));
+        else if (wanted <= 0) say('Dispatch: suspect lost. Units stand down.');
+        lastWanted = wanted;
+      }
+
+      // Chatter comes out one line at a time so it reads like a scanner, not a list.
+      if (chatter.length > 0 && chatterCooldown <= 0) {
+        say(chatter.shift());
+        chatterCooldown = 3.4;
+      }
+
+      // The helicopter only exists for a high chase.
+      const wantsAir = wanted >= 3 && state.mode === 'play';
+      heliGroup.visible = wantsAir;
+      if (wantsAir) {
+        const angle = clock * 0.32;
+        const targetX = state.player.pos.x + Math.cos(angle) * 42;
+        const targetZ = state.player.pos.z + Math.sin(angle) * 42;
+        const targetY = state.player.pos.y + HELI_HEIGHT + Math.sin(clock * 1.3) * 1.6;
+        heliGroup.position.x += (targetX - heliGroup.position.x) * Math.min(1, dt * 0.9);
+        heliGroup.position.z += (targetZ - heliGroup.position.z) * Math.min(1, dt * 0.9);
+        heliGroup.position.y += (targetY - heliGroup.position.y) * Math.min(1, dt * 0.9);
+        heliGroup.rotation.y = angle + Math.PI / 2;
+        rotor.rotation.y += dt * 22;
+        tailRotor.rotation.x += dt * 30;
+        beacon.visible = Math.sin(clock * 12) > 0;
+      }
+
+      // Roadblocks time out, and everything police-side goes when the stars do.
+      for (const block of [...roadblocks]) {
+        block.life -= dt;
+        if (block.life <= 0 || wanted <= 0) {
+          freeVehicles([block], state);
+          const index = roadblocks.indexOf(block);
+          if (index >= 0) roadblocks.splice(index, 1);
+        }
+      }
+
+      // Ambulances drive to the body, load it, then leave.
+      ambulanceScan -= dt;
+      if (ambulanceScan <= 0) {
+        ambulanceScan = 3;
+        if (ambulances.length < MAX_AMBULANCES) callAmbulance(state);
+      }
+      for (const entry of [...ambulances]) {
+        entry.life -= dt;
+        const ped = entry.ped;
+        if (entry.phase === 'drive') {
+          if (!ped || ped.pos === undefined) {
+            entry.phase = 'leave';
+            entry.life = Math.min(entry.life, 2);
+            continue;
+          }
+          updateVehicle(entry.van, driveToward(entry.van, ped.pos, 0.7), dt, city);
+          if (entry.van.pos.distanceTo(ped.pos) < 6) {
+            entry.phase = 'load';
+            entry.wait = 1.4;
+          }
+        } else if (entry.phase === 'load') {
+          entry.wait -= dt;
+          if (entry.wait <= 0) {
+            scene.remove(ped.group ?? ped.rig?.root);
+            const index = state.peds.list.indexOf(ped);
+            if (index >= 0) state.peds.list.splice(index, 1);
+            entry.phase = 'leave';
+            entry.life = 1.4;
+            log('Dispatch: ambulance collected a civilian.');
+          }
+        }
+        if (entry.life <= 0 && entry.phase === 'leave') {
+          freeVehicles([entry], state);
+          const index = ambulances.indexOf(entry);
+          if (index >= 0) ambulances.splice(index, 1);
+        }
+      }
+    },
+  };
+}

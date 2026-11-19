@@ -1,1 +1,154 @@
-Ly8gUmFjZXM6IGNyZWF0ZVJhY2VzKHNjZW5lLCBjaXR5KSBidWlsZHMgdGhyZWUgY2hlY2twb2ludCByb3V0ZXMgYWxvbmcgdGhlIGNpdHkncyBvd24gcm9hZHMg4oCUCi8vIGdsb3dpbmcgZ2F0ZXMgaW4gb3JkZXIsIGEgdGhyZWUtc2Vjb25kIGNvdW50ZG93biwgYSBydW5uaW5nIGNsb2NrIGFuZCBhIGNhc2ggcHJpemUgdGhhdCBzaHJpbmtzCi8vIHRoZSBsb25nZXIgdGhlIHJ1biB0YWtlcy4gRWFjaCByb3V0ZSBrZWVwcyBpdHMgb3duIGJlc3QgdGltZS4KCmltcG9ydCAqIGFzIFRIUkVFIGZyb20gJ3RocmVlJzsKCmNvbnN0IFJPVVRFUyA9IFsKICB7CiAgICBuYW1lOiAnRG93bnRvd24gTG9vcCcsCiAgICBwb2ludHM6IFtbLTMyMCwgLTE2MF0sIFstMzIwLCAxNjBdLCBbMCwgMTYwXSwgWzAsIC0xNjBdLCBbLTE2MCwgLTE2MF1dLAogIH0sCiAgewogICAgbmFtZTogJ0NvYXN0IFJ1bicsCiAgICBwb2ludHM6IFtbNDgwLCAzMjBdLCBbNDgwLCAtODBdLCBbNDAwLCAtODBdLCBbNDAwLCAxNjBdLCBbNDgwLCAxNjBdXSwKICB9LAogIHsKICAgIG5hbWU6ICdEb2NrcyBTcHJpbnQnLAogICAgcG9pbnRzOiBbWy0yNDAsIDMyMF0sIFsxNjAsIDMyMF0sIFsxNjAsIDQ4MF0sIFstODAsIDQ4MF0sIFstODAsIDMyMF1dLAogIH0sCl07Cgpjb25zdCBHQVRFX1JBRElVUyA9IDc7CmNvbnN0IFBBU1NfUkFESVVTID0gOTsKY29uc3QgQ09VTlRET1dOID0gMy40OwoKZXhwb3J0IGZ1bmN0aW9uIGNyZWF0ZVJhY2VzKHNjZW5lLCBjaXR5KSB7CiAgY29uc3QgZ3JvdXAgPSBuZXcgVEhSRUUuR3JvdXAoKTsKICBncm91cC5uYW1lID0gJ1JhY2VzJzsKICBzY2VuZS5hZGQoZ3JvdXApOwoKICBjb25zdCBnYXRlcyA9IFtdOwogIGNvbnN0IGJlc3QgPSBST1VURVMubWFwKCgpID0+IG51bGwpOwogIGxldCBydW4gPSBudWxsOwogIGxldCBuZXh0Um91dGUgPSAwOwoKICAvLyBFdmVyeSBnYXRlIHNpdHMgb24gYSByZWFsIHJvYWQgZnJvbSB0aGUgY2l0eSBncmlkLCBzbyBhIHJvdXRlIGlzIGRyaXZhYmxlIGJ5IGNvbnN0cnVjdGlvbi4KICBjb25zdCBzbmFwID0gKHZhbHVlKSA9PiBjaXR5LnhSb2Fkcy5yZWR1Y2UoKHBpY2ssIHJvYWQpID0+IChNYXRoLmFicyhyb2FkIC0gdmFsdWUpIDwgTWF0aC5hYnMocGljayAtIHZhbHVlKSA/IHJvYWQgOiBwaWNrKSwgY2l0eS54Um9hZHNbMF0pOwogIGNvbnN0IHRyYWNrcyA9IFJPVVRFUy5tYXAoKHJvdXRlKSA9PiAoewogICAgbmFtZTogcm91dGUubmFtZSwKICAgIHBvaW50czogcm91dGUucG9pbnRzLm1hcCgoW3gsIHpdKSA9PiBbc25hcCh4KSwgc25hcCh6KV0pLAogIH0pKTsKCiAgZnVuY3Rpb24gaGVhZGluZ0JldHdlZW4ocm91dGUsIGluZGV4KSB7CiAgICBjb25zdCBmcm9tID0gcm91dGUucG9pbnRzW2luZGV4ID09PSAwID8gMCA6IGluZGV4IC0gMV07CiAgICBjb25zdCB0byA9IHJvdXRlLnBvaW50c1tpbmRleCA9PT0gMCA/IDEgOiBpbmRleF07CiAgICByZXR1cm4gTWF0aC5hdGFuMih0b1swXSAtIGZyb21bMF0sIHRvWzFdIC0gZnJvbVsxXSk7CiAgfQoKICBmb3IgKGxldCByID0gMDsgciA8IHRyYWNrcy5sZW5ndGg7IHIrKykgewogICAgY29uc3Qgcm91dGUgPSB0cmFja3Nbcl07CiAgICBjb25zdCBsaXN0ID0gW107CiAgICBmb3IgKGxldCBwID0gMDsgcCA8IHJvdXRlLnBvaW50cy5sZW5ndGg7IHArKykgewogICAgICBjb25zdCBbeCwgel0gPSByb3V0ZS5wb2ludHNbcF07CiAgICAgIGNvbnN0IHJpbmcgPSBuZXcgVEhSRUUuTWVzaCgKICAgICAgICBuZXcgVEhSRUUuVG9ydXNHZW9tZXRyeShHQVRFX1JBRElVUywgMC4zOCwgNiwgMjIpLAogICAgICAgIG5ldyBUSFJFRS5NZXNoQmFzaWNNYXRlcmlhbCh7IGNvbG9yOiAweDQ5ZTBjMiwgdHJhbnNwYXJlbnQ6IHRydWUsIG9wYWNpdHk6IDAuOSwgdG9uZU1hcHBlZDogZmFsc2UgfSksCiAgICAgICk7CiAgICAgIHJpbmcucG9zaXRpb24uc2V0KHgsIEdBVEVfUkFESVVTICsgMC42LCB6KTsKICAgICAgcmluZy5yb3RhdGlvbi55ID0gaGVhZGluZ0JldHdlZW4ocm91dGUsIHApOwogICAgICByaW5nLnZpc2libGUgPSBmYWxzZTsKICAgICAgZ3JvdXAuYWRkKHJpbmcpOwogICAgICBsaXN0LnB1c2gocmluZyk7CiAgICB9CiAgICBnYXRlcy5wdXNoKGxpc3QpOwogIH0KCiAgZnVuY3Rpb24gc2hvd0dhdGVzKHJvdXRlSW5kZXgsIGN1cnJlbnRTdGVwKSB7CiAgICBmb3IgKGxldCByID0gMDsgciA8IGdhdGVzLmxlbmd0aDsgcisrKSB7CiAgICAgIGZvciAobGV0IHAgPSAwOyBwIDwgZ2F0ZXNbcl0ubGVuZ3RoOyBwKyspIHsKICAgICAgICBjb25zdCBnYXRlID0gZ2F0ZXNbcl1bcF07CiAgICAgICAgY29uc3QgbGl2ZSA9IHIgPT09IHJvdXRlSW5kZXg7CiAgICAgICAgZ2F0ZS52aXNpYmxlID0gbGl2ZTsKICAgICAgICBpZiAoIWxpdmUpIGNvbnRpbnVlOwogICAgICAgIGNvbnN0IGlzTmV4dCA9IHAgPT09IGN1cnJlbnRTdGVwOwogICAgICAgIGdhdGUubWF0ZXJpYWwuY29sb3Iuc2V0SGV4KGlzTmV4dCA/IDB4NDllMGMyIDogMHg5YjhiZmYpOwogICAgICAgIGdhdGUubWF0ZXJpYWwub3BhY2l0eSA9IGlzTmV4dCA/IDAuOTUgOiAwLjIyOwogICAgICB9CiAgICB9CiAgfQoKICBmdW5jdGlvbiBoaWRlR2F0ZXMoKSB7CiAgICBmb3IgKGNvbnN0IHJvdXRlR2F0ZXMgb2YgZ2F0ZXMpIGZvciAoY29uc3QgZ2F0ZSBvZiByb3V0ZUdhdGVzKSBnYXRlLnZpc2libGUgPSBmYWxzZTsKICB9CgogIGZ1bmN0aW9uIGZpbmlzaChzdGF0ZSkgewogICAgY29uc3Qgcm91dGVJbmRleCA9IHJ1bi5yb3V0ZTsKICAgIGNvbnN0IHRpbWUgPSBydW4udGltZTsKICAgIGlmIChiZXN0W3JvdXRlSW5kZXhdID09PSBudWxsIHx8IHRpbWUgPCBiZXN0W3JvdXRlSW5kZXhdKSBiZXN0W3JvdXRlSW5kZXhdID0gdGltZTsKICAgIGNvbnN0IHByaXplID0gTWF0aC5tYXgoNjAwLCBNYXRoLnJvdW5kKDI2MDAgLSB0aW1lICogMTgpKTsKICAgIHN0YXRlLm1vbmV5ICs9IHByaXplOwogICAgc3RhdGUuaHVkPy5iaWdNZXNzYWdlPy4oJ1JBQ0UgQ09NUExFVEUnLCBgJHt0aW1lLnRvRml4ZWQoMSl9cyDCtyArJCR7cHJpemUudG9Mb2NhbGVTdHJpbmcoJ2VuLVVTJyl9YCwgNCk7CiAgICBzdGF0ZS5ub3RpZnk/LihgJHt0cmFja3Nbcm91dGVJbmRleF0ubmFtZX06ICR7dGltZS50b0ZpeGVkKDEpfXMgKyQke3ByaXplfWAsICdjYXNoJyk7CiAgICBzdGF0ZS5hdWRpbz8ucGlja3VwPy4oKTsKICAgIHJ1biA9IG51bGw7CiAgICBoaWRlR2F0ZXMoKTsKICB9CgogIHJldHVybiB7CiAgICBiZXN0LAoKICAgIGdldCBhY3RpdmUoKSB7IHJldHVybiAhIXJ1bjsgfSwKICAgIGdldCByb3V0ZSgpIHsgcmV0dXJuIHJ1biA/IHJ1bi5yb3V0ZSA6IG51bGw7IH0sCiAgICBnZXQgcm91dGVzKCkgeyByZXR1cm4gdHJhY2tzOyB9LAoKICAgIHN0YXJ0KCkgewogICAgICBpZiAocnVuKSByZXR1cm4gZmFsc2U7CiAgICAgIG5leHRSb3V0ZSA9IChuZXh0Um91dGUgKyAxKSAlIHRyYWNrcy5sZW5ndGg7CiAgICAgIHJ1biA9IHsgcm91dGU6IG5leHRSb3V0ZSwgc3RlcDogMCwgY291bnRkb3duOiBDT1VOVERPV04sIHRpbWU6IDAsIHN0YXJ0ZWQ6IGZhbHNlIH07CiAgICAgIHNob3dHYXRlcyhydW4ucm91dGUsIDApOwogICAgICByZXR1cm4gdHJ1ZTsKICAgIH0sCgogICAgdXBkYXRlKGR0LCBzdGF0ZSkgewogICAgICBpZiAoIXJ1bikgcmV0dXJuOwogICAgICBpZiAoc3RhdGUubW9kZSA9PT0gJ3dhc3RlZCcgfHwgc3RhdGUubW9kZSA9PT0gJ2J1c3RlZCcpIHsKICAgICAgICBydW4gPSBudWxsOwogICAgICAgIGhpZGVHYXRlcygpOwogICAgICAgIHJldHVybjsKICAgICAgfQogICAgICBpZiAoc3RhdGUubW9kZSAhPT0gJ3BsYXknKSByZXR1cm47CgogICAgICBpZiAoIXJ1bi5zdGFydGVkKSB7CiAgICAgICAgY29uc3QgYmVmb3JlID0gTWF0aC5jZWlsKHJ1bi5jb3VudGRvd24pOwogICAgICAgIHJ1bi5jb3VudGRvd24gLT0gZHQ7CiAgICAgICAgY29uc3QgYWZ0ZXIgPSBNYXRoLmNlaWwocnVuLmNvdW50ZG93bik7CiAgICAgICAgaWYgKGFmdGVyICE9PSBiZWZvcmUgJiYgYWZ0ZXIgPiAwKSBzdGF0ZS5ub3RpZnk/LihTdHJpbmcoYWZ0ZXIpLCAnbWlzc2lvbicpOwogICAgICAgIGlmIChydW4uY291bnRkb3duIDw9IDApIHsKICAgICAgICAgIHJ1bi5zdGFydGVkID0gdHJ1ZTsKICAgICAgICAgIHJ1bi50aW1lID0gMDsKICAgICAgICAgIHN0YXRlLm5vdGlmeT8uKGAke3RyYWNrc1tydW4ucm91dGVdLm5hbWV9IOKAlCBnb2AsICdtaXNzaW9uJyk7CiAgICAgICAgICBzdGF0ZS5hdWRpbz8ucGlja3VwPy4oKTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuOwogICAgICB9CgogICAgICBydW4udGltZSArPSBkdDsKICAgICAgY29uc3QgcG9pbnQgPSB0cmFja3NbcnVuLnJvdXRlXS5wb2ludHNbcnVuLnN0ZXBdOwogICAgICBjb25zdCBwbGF5ZXIgPSBzdGF0ZS5wbGF5ZXIucG9zOwogICAgICBjb25zdCBkaXN0YW5jZSA9IE1hdGguaHlwb3QocGxheWVyLnggLSBwb2ludFswXSwgcGxheWVyLnogLSBwb2ludFsxXSk7CiAgICAgIGlmIChkaXN0YW5jZSA+IFBBU1NfUkFESVVTKSByZXR1cm47CgogICAgICBydW4uc3RlcCArPSAxOwogICAgICBpZiAocnVuLnN0ZXAgPj0gdHJhY2tzW3J1bi5yb3V0ZV0ucG9pbnRzLmxlbmd0aCkgewogICAgICAgIGZpbmlzaChzdGF0ZSk7CiAgICAgICAgcmV0dXJuOwogICAgICB9CiAgICAgIHNob3dHYXRlcyhydW4ucm91dGUsIHJ1bi5zdGVwKTsKICAgICAgc3RhdGUuYXVkaW8/LnBpY2t1cD8uKCk7CiAgICAgIHN0YXRlLm5vdGlmeT8uKGBDaGVja3BvaW50ICR7cnVuLnN0ZXB9LyR7dHJhY2tzW3J1bi5yb3V0ZV0ucG9pbnRzLmxlbmd0aH0gwrcgJHtydW4udGltZS50b0ZpeGVkKDEpfXNgLCAnbWlzc2lvbicpOwogICAgICBjb25zdCBnYXRlID0gZ2F0ZXNbcnVuLnJvdXRlXVtydW4uc3RlcF07CiAgICAgIGdhdGUubWF0ZXJpYWwub3BhY2l0eSA9IDAuOTU7CiAgICB9LAogIH07Cn0K
+// Races: createRaces(scene, city) builds three checkpoint routes along the city's own roads —
+// glowing gates in order, a three-second countdown, a running clock and a cash prize that shrinks
+// the longer the run takes. Each route keeps its own best time.
+
+import * as THREE from 'three';
+
+const ROUTES = [
+  {
+    name: 'Downtown Loop',
+    points: [[-320, -160], [-320, 160], [0, 160], [0, -160], [-160, -160]],
+  },
+  {
+    name: 'Coast Run',
+    points: [[480, 320], [480, -80], [400, -80], [400, 160], [480, 160]],
+  },
+  {
+    name: 'Docks Sprint',
+    points: [[-240, 320], [160, 320], [160, 480], [-80, 480], [-80, 320]],
+  },
+];
+
+const GATE_RADIUS = 7;
+const PASS_RADIUS = 9;
+const COUNTDOWN = 3.4;
+
+export function createRaces(scene, city) {
+  const group = new THREE.Group();
+  group.name = 'Races';
+  scene.add(group);
+
+  const gates = [];
+  const best = ROUTES.map(() => null);
+  let run = null;
+  let nextRoute = 0;
+
+  // Every gate sits on a real road from the city grid, so a route is drivable by construction.
+  const snap = (value) => city.xRoads.reduce((pick, road) => (Math.abs(road - value) < Math.abs(pick - value) ? road : pick), city.xRoads[0]);
+  const tracks = ROUTES.map((route) => ({
+    name: route.name,
+    points: route.points.map(([x, z]) => [snap(x), snap(z)]),
+  }));
+
+  function headingBetween(route, index) {
+    const from = route.points[index === 0 ? 0 : index - 1];
+    const to = route.points[index === 0 ? 1 : index];
+    return Math.atan2(to[0] - from[0], to[1] - from[1]);
+  }
+
+  for (let r = 0; r < tracks.length; r++) {
+    const route = tracks[r];
+    const list = [];
+    for (let p = 0; p < route.points.length; p++) {
+      const [x, z] = route.points[p];
+      const ring = new THREE.Mesh(
+        new THREE.TorusGeometry(GATE_RADIUS, 0.38, 6, 22),
+        new THREE.MeshBasicMaterial({ color: 0x49e0c2, transparent: true, opacity: 0.9, toneMapped: false }),
+      );
+      ring.position.set(x, GATE_RADIUS + 0.6, z);
+      ring.rotation.y = headingBetween(route, p);
+      ring.visible = false;
+      group.add(ring);
+      list.push(ring);
+    }
+    gates.push(list);
+  }
+
+  function showGates(routeIndex, currentStep) {
+    for (let r = 0; r < gates.length; r++) {
+      for (let p = 0; p < gates[r].length; p++) {
+        const gate = gates[r][p];
+        const live = r === routeIndex;
+        gate.visible = live;
+        if (!live) continue;
+        const isNext = p === currentStep;
+        gate.material.color.setHex(isNext ? 0x49e0c2 : 0x9b8bff);
+        gate.material.opacity = isNext ? 0.95 : 0.22;
+      }
+    }
+  }
+
+  function hideGates() {
+    for (const routeGates of gates) for (const gate of routeGates) gate.visible = false;
+  }
+
+  function finish(state) {
+    const routeIndex = run.route;
+    const time = run.time;
+    if (best[routeIndex] === null || time < best[routeIndex]) best[routeIndex] = time;
+    const prize = Math.max(600, Math.round(2600 - time * 18));
+    state.money += prize;
+    state.hud?.bigMessage?.('RACE COMPLETE', `${time.toFixed(1)}s · +$${prize.toLocaleString('en-US')}`, 4);
+    state.notify?.(`${tracks[routeIndex].name}: ${time.toFixed(1)}s +$${prize}`, 'cash');
+    state.audio?.pickup?.();
+    run = null;
+    hideGates();
+  }
+
+  return {
+    best,
+
+    get active() { return !!run; },
+    get route() { return run ? run.route : null; },
+    get routes() { return tracks; },
+
+    start() {
+      if (run) return false;
+      nextRoute = (nextRoute + 1) % tracks.length;
+      run = { route: nextRoute, step: 0, countdown: COUNTDOWN, time: 0, started: false };
+      showGates(run.route, 0);
+      return true;
+    },
+
+    update(dt, state) {
+      if (!run) return;
+      if (state.mode === 'wasted' || state.mode === 'busted') {
+        run = null;
+        hideGates();
+        return;
+      }
+      if (state.mode !== 'play') return;
+
+      if (!run.started) {
+        const before = Math.ceil(run.countdown);
+        run.countdown -= dt;
+        const after = Math.ceil(run.countdown);
+        if (after !== before && after > 0) state.notify?.(String(after), 'mission');
+        if (run.countdown <= 0) {
+          run.started = true;
+          run.time = 0;
+          state.notify?.(`${tracks[run.route].name} — go`, 'mission');
+          state.audio?.pickup?.();
+        }
+        return;
+      }
+
+      run.time += dt;
+      const point = tracks[run.route].points[run.step];
+      const player = state.player.pos;
+      const distance = Math.hypot(player.x - point[0], player.z - point[1]);
+      if (distance > PASS_RADIUS) return;
+
+      run.step += 1;
+      if (run.step >= tracks[run.route].points.length) {
+        finish(state);
+        return;
+      }
+      showGates(run.route, run.step);
+      state.audio?.pickup?.();
+      state.notify?.(`Checkpoint ${run.step}/${tracks[run.route].points.length} · ${run.time.toFixed(1)}s`, 'mission');
+      const gate = gates[run.route][run.step];
+      gate.material.opacity = 0.95;
+    },
+  };
+}

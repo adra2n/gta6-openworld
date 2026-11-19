@@ -1,1 +1,70 @@
-Ly8gUGVyc29uIHJpZzogY3JlYXRlUGVyc29uIGJ1aWxkcyBhIGxvdy1wb2x5IGJvZHksIHBvc2VQZXJzb24gYW5pbWF0ZXMgaXQsIG1ha2VCbG9vZENvbG9yIHBpY2tzIGh1ZXMuIFNoYXJlZCBieSBldmVyeSBOUEMuCi8vIEEgcmV1c2FibGUgbG93LXBvbHkgcGVyc29uIGZvciBwZWRlc3RyaWFucywgb2ZmaWNlcnMgYW5kIHRoZSBTYWx2YWdlIENyZXcuIFNhbWUgbGltYnMgYXMgTmljbwovLyBzbyB0aGUgd2FsayBjeWNsZSBjb2RlIGlzIHNoYXJlZDsgY29sb3VycyBzZXQgd2hvIHRoZXkgYXJlLgoKaW1wb3J0ICogYXMgVEhSRUUgZnJvbSAndGhyZWUnOwoKY29uc3QgbWF0ZXJpYWxDYWNoZSA9IG5ldyBNYXAoKTsKCmZ1bmN0aW9uIG1hdGVyaWFsKGNvbG9yKSB7CiAgaWYgKCFtYXRlcmlhbENhY2hlLmhhcyhjb2xvcikpIHsKICAgIG1hdGVyaWFsQ2FjaGUuc2V0KGNvbG9yLCBuZXcgVEhSRUUuTWVzaFN0YW5kYXJkTWF0ZXJpYWwoeyBjb2xvciwgcm91Z2huZXNzOiAwLjggfSkpOwogIH0KICByZXR1cm4gbWF0ZXJpYWxDYWNoZS5nZXQoY29sb3IpOwp9CgpleHBvcnQgZnVuY3Rpb24gY3JlYXRlUGVyc29uKGNvbG9ycywgYXJtZWQgPSBmYWxzZSkgewogIGNvbnN0IHsgamFja2V0ID0gMHhmMmU2Y2QsIHNoaXJ0ID0gMHgyZjdmN2EsIHBhbnRzID0gMHgyNDI2MmUsIHNraW4gPSAweGI5ODI1ZSwgaGFpciA9IDB4MjIxYTE2IH0gPSBjb2xvcnM7CiAgY29uc3Qgcm9vdCA9IG5ldyBUSFJFRS5Hcm91cCgpOwogIGNvbnN0IHRvcnNvID0gbmV3IFRIUkVFLk1lc2gobmV3IFRIUkVFLkJveEdlb21ldHJ5KDAuNTQsIDAuNjgsIDAuMzIpLCBtYXRlcmlhbChqYWNrZXQpKTsKICB0b3Jzby5wb3NpdGlvbi55ID0gMS4zMjsKICB0b3Jzby5jYXN0U2hhZG93ID0gdHJ1ZTsKICBjb25zdCBzaGlydEZyb250ID0gbmV3IFRIUkVFLk1lc2gobmV3IFRIUkVFLkJveEdlb21ldHJ5KDAuMTgsIDAuNDYsIDAuMDUpLCBtYXRlcmlhbChzaGlydCkpOwogIHNoaXJ0RnJvbnQucG9zaXRpb24uc2V0KDAsIDEuMzQsIDAuMTgpOwogIGNvbnN0IGhpcHMgPSBuZXcgVEhSRUUuTWVzaChuZXcgVEhSRUUuQm94R2VvbWV0cnkoMC40OCwgMC4yMiwgMC4zKSwgbWF0ZXJpYWwocGFudHMpKTsKICBoaXBzLnBvc2l0aW9uLnkgPSAwLjk0OwogIGNvbnN0IGhlYWQgPSBuZXcgVEhSRUUuTWVzaChuZXcgVEhSRUUuQm94R2VvbWV0cnkoMC4zMiwgMC4zNiwgMC4zKSwgbWF0ZXJpYWwoc2tpbikpOwogIGhlYWQucG9zaXRpb24ueSA9IDEuODg7CiAgaGVhZC5jYXN0U2hhZG93ID0gdHJ1ZTsKICBjb25zdCBoYWlyTWVzaCA9IG5ldyBUSFJFRS5NZXNoKG5ldyBUSFJFRS5Cb3hHZW9tZXRyeSgwLjM0LCAwLjEyLCAwLjMyKSwgbWF0ZXJpYWwoaGFpcikpOwogIGhhaXJNZXNoLnBvc2l0aW9uLnkgPSAyLjA3OwogIHJvb3QuYWRkKHRvcnNvLCBzaGlydEZyb250LCBoaXBzLCBoZWFkLCBoYWlyTWVzaCk7CgogIGZ1bmN0aW9uIGxpbWIodywgaCwgZCwgeCwgeSwgbWF0KSB7CiAgICBjb25zdCBwaXZvdCA9IG5ldyBUSFJFRS5Hcm91cCgpOwogICAgcGl2b3QucG9zaXRpb24uc2V0KHgsIHksIDApOwogICAgY29uc3QgbWVzaCA9IG5ldyBUSFJFRS5NZXNoKG5ldyBUSFJFRS5Cb3hHZW9tZXRyeSh3LCBoLCBkKSwgbWF0KTsKICAgIG1lc2gucG9zaXRpb24ueSA9IC1oIC8gMjsKICAgIG1lc2guY2FzdFNoYWRvdyA9IHRydWU7CiAgICBwaXZvdC5hZGQobWVzaCk7CiAgICByb290LmFkZChwaXZvdCk7CiAgICByZXR1cm4gcGl2b3Q7CiAgfQoKICBjb25zdCBsZWZ0QXJtID0gbGltYigwLjE2LCAwLjYyLCAwLjE4LCAtMC4zNSwgMS42LCBtYXRlcmlhbChqYWNrZXQpKTsKICBjb25zdCByaWdodEFybSA9IGxpbWIoMC4xNiwgMC42MiwgMC4xOCwgMC4zNSwgMS42LCBtYXRlcmlhbChqYWNrZXQpKTsKICBjb25zdCBsZWZ0TGVnID0gbGltYigwLjIsIDAuNzgsIDAuMjIsIC0wLjE0LCAwLjg4LCBtYXRlcmlhbChwYW50cykpOwogIGNvbnN0IHJpZ2h0TGVnID0gbGltYigwLjIsIDAuNzgsIDAuMjIsIDAuMTQsIDAuODgsIG1hdGVyaWFsKHBhbnRzKSk7CgogIGlmIChhcm1lZCkgewogICAgY29uc3QgZ3VuID0gbmV3IFRIUkVFLk1lc2gobmV3IFRIUkVFLkJveEdlb21ldHJ5KDAuMDcsIDAuMDksIDAuMzQpLCBuZXcgVEhSRUUuTWVzaFN0YW5kYXJkTWF0ZXJpYWwoeyBjb2xvcjogMHgyNTI4MmIsIG1ldGFsbmVzczogMC42LCByb3VnaG5lc3M6IDAuNCB9KSk7CiAgICBndW4ucG9zaXRpb24uc2V0KDAsIC0wLjUyLCAwLjEyKTsKICAgIHJpZ2h0QXJtLmFkZChndW4pOwogIH0KCiAgcmV0dXJuIHsgcm9vdCwgbGVmdEFybSwgcmlnaHRBcm0sIGxlZnRMZWcsIHJpZ2h0TGVnLCB0b3JzbywgaGVhZCwgd2Fsa1BoYXNlOiAwIH07Cn0KCmV4cG9ydCBmdW5jdGlvbiBwb3NlUGVyc29uKHJpZywgc3BlZWQsIGR0LCBhaW1pbmcgPSBmYWxzZSkgewogIHJpZy53YWxrUGhhc2UgKz0gc3BlZWQgKiBkdCAqIDIuMTsKICBjb25zdCBzd2luZyA9IE1hdGguc2luKHJpZy53YWxrUGhhc2UpICogTWF0aC5taW4oMC42MiwgMC4xNiArIHNwZWVkICogMC4wOSk7CiAgcmlnLmxlZnRMZWcucm90YXRpb24ueCA9IHN3aW5nOwogIHJpZy5yaWdodExlZy5yb3RhdGlvbi54ID0gLXN3aW5nOwogIHJpZy5sZWZ0QXJtLnJvdGF0aW9uLnggPSAtc3dpbmcgKiAwLjg1OwogIHJpZy5yaWdodEFybS5yb3RhdGlvbi54ID0gc3dpbmcgKiAwLjU1IC0gKGFpbWluZyA/IDEuNCA6IDApOwogIHJpZy5yb290LnBvc2l0aW9uLnkgPSBNYXRoLmFicyhNYXRoLnNpbihyaWcud2Fsa1BoYXNlKSkgKiAwLjA0ICogTWF0aC5taW4oMSwgc3BlZWQgLyAzKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIG1ha2VCbG9vZENvbG9yKCkgewogIHJldHVybiAweDliMmYyZjsKfQo=
+// Person rig: createPerson builds a low-poly body, posePerson animates it, makeBloodColor picks hues. Shared by every NPC.
+// A reusable low-poly person for pedestrians, officers and the Salvage Crew. Same limbs as Nico
+// so the walk cycle code is shared; colours set who they are.
+
+import * as THREE from 'three';
+
+const materialCache = new Map();
+
+function material(color) {
+  if (!materialCache.has(color)) {
+    materialCache.set(color, new THREE.MeshStandardMaterial({ color, roughness: 0.8 }));
+  }
+  return materialCache.get(color);
+}
+
+export function createPerson(colors, armed = false) {
+  const { jacket = 0xf2e6cd, shirt = 0x2f7f7a, pants = 0x24262e, skin = 0xb9825e, hair = 0x221a16 } = colors;
+  const root = new THREE.Group();
+  const torso = new THREE.Mesh(new THREE.BoxGeometry(0.54, 0.68, 0.32), material(jacket));
+  torso.position.y = 1.32;
+  torso.castShadow = true;
+  const shirtFront = new THREE.Mesh(new THREE.BoxGeometry(0.18, 0.46, 0.05), material(shirt));
+  shirtFront.position.set(0, 1.34, 0.18);
+  const hips = new THREE.Mesh(new THREE.BoxGeometry(0.48, 0.22, 0.3), material(pants));
+  hips.position.y = 0.94;
+  const head = new THREE.Mesh(new THREE.BoxGeometry(0.32, 0.36, 0.3), material(skin));
+  head.position.y = 1.88;
+  head.castShadow = true;
+  const hairMesh = new THREE.Mesh(new THREE.BoxGeometry(0.34, 0.12, 0.32), material(hair));
+  hairMesh.position.y = 2.07;
+  root.add(torso, shirtFront, hips, head, hairMesh);
+
+  function limb(w, h, d, x, y, mat) {
+    const pivot = new THREE.Group();
+    pivot.position.set(x, y, 0);
+    const mesh = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), mat);
+    mesh.position.y = -h / 2;
+    mesh.castShadow = true;
+    pivot.add(mesh);
+    root.add(pivot);
+    return pivot;
+  }
+
+  const leftArm = limb(0.16, 0.62, 0.18, -0.35, 1.6, material(jacket));
+  const rightArm = limb(0.16, 0.62, 0.18, 0.35, 1.6, material(jacket));
+  const leftLeg = limb(0.2, 0.78, 0.22, -0.14, 0.88, material(pants));
+  const rightLeg = limb(0.2, 0.78, 0.22, 0.14, 0.88, material(pants));
+
+  if (armed) {
+    const gun = new THREE.Mesh(new THREE.BoxGeometry(0.07, 0.09, 0.34), new THREE.MeshStandardMaterial({ color: 0x25282b, metalness: 0.6, roughness: 0.4 }));
+    gun.position.set(0, -0.52, 0.12);
+    rightArm.add(gun);
+  }
+
+  return { root, leftArm, rightArm, leftLeg, rightLeg, torso, head, walkPhase: 0 };
+}
+
+export function posePerson(rig, speed, dt, aiming = false) {
+  rig.walkPhase += speed * dt * 2.1;
+  const swing = Math.sin(rig.walkPhase) * Math.min(0.62, 0.16 + speed * 0.09);
+  rig.leftLeg.rotation.x = swing;
+  rig.rightLeg.rotation.x = -swing;
+  rig.leftArm.rotation.x = -swing * 0.85;
+  rig.rightArm.rotation.x = swing * 0.55 - (aiming ? 1.4 : 0);
+  rig.root.position.y = Math.abs(Math.sin(rig.walkPhase)) * 0.04 * Math.min(1, speed / 3);
+}
+
+export function makeBloodColor() {
+  return 0x9b2f2f;
+}

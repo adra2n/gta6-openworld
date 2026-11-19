@@ -1,1 +1,243 @@
-Ly8gRWNvbm9teTogY3JlYXRlRWNvbm9teShzY2VuZSwgY2l0eSkgb3ducyB0aGUgbW9uZXkgc2lkZSBvZiB0aGUgc3RyZWV0LiBidXkoa2luZCkgc3BlbmRzIGNhc2ggb24KLy8gYXJtb3VyLCBhbW11bml0aW9uIG9yIGEgcmVwYWlyIGF0IHRoZSBzaG9wczsgdHdvIHNhZmVob3VzZXMgY2FuIGJlIGJvdWdodCBvbmNlLCBwYXkgYSBzbWFsbAovLyBpbmNvbWUgZXZlcnkgaW4tZ2FtZSBob3VyIGFuZCBiZWNvbWUgdGhlIHJlc3Bhd24gcG9pbnQ7IHBheXBob25lcyBzdGFydCBhIHRpbWVkIGRlbGl2ZXJ5IGpvYi4KCmltcG9ydCAqIGFzIFRIUkVFIGZyb20gJ3RocmVlJzsKaW1wb3J0IHsgU0hPUCwgV0VBUE9OUyB9IGZyb20gJy4uL2NvbmZpZy5qcyc7CmltcG9ydCB7IFBMQUNFUywgcGxhY2VBdCB9IGZyb20gJy4uL3dvcmxkL2NpdHkuanMnOwoKY29uc3QgU0FGRUhPVVNFUyA9IFsKICB7IGlkOiAnbWFyaW5hLWZsYXQnLCBsYWJlbDogJ01hcmluYSBGbGF0JywgeDogLTMzMCwgejogNDA0LCBjb3N0OiA2MDAwLCByYXRlOiAxODAgfSwKICB7IGlkOiAncGllci1sb2Z0JywgbGFiZWw6ICdQaWVyIExvZnQnLCB4OiA2MDYsIHo6IC0yODYsIGNvc3Q6IDkwMDAsIHJhdGU6IDI2MCB9LApdOwoKY29uc3QgUEhPTkVTID0gWwogIHsgeDogLTU4LCB6OiA2NCB9LAogIHsgeDogMTM2LCB6OiAyMjggfSwKICB7IHg6IDEwNCwgejogLTI1MCB9LAogIHsgeDogNTcwLCB6OiAtMjcyIH0sCl07Cgpjb25zdCBEUk9QUyA9IFsKICB7IHg6IC0zNDAsIHo6IDQyMCwgbGFiZWw6ICd0aGUgbWFyaW5hJyB9LAogIHsgeDogMTUwLCB6OiA0NzAsIGxhYmVsOiAndGhlIGRvY2tzJyB9LAogIHsgeDogNDMwLCB6OiAtMjAsIGxhYmVsOiAnSG90ZWwgTGFndW5hJyB9LAogIHsgeDogNTg2LCB6OiAtMjg2LCBsYWJlbDogJ1BhbG9tYSBQaWVyJyB9LApdOwoKY29uc3QgUFJJQ0UgPSB7IGFybW91cjogU0hPUC5hcm1vdXJDb3N0LCBhbW1vOiBTSE9QLmFtbW9Db3N0LCByZXBhaXI6IDkwIH07CmNvbnN0IERFTElWRVJZX1BBWSA9IDQ1MDsKY29uc3QgREVMSVZFUllfVElNRSA9IDc1Owpjb25zdCBIT1VSID0gNjA7CgpleHBvcnQgZnVuY3Rpb24gY3JlYXRlRWNvbm9teShzY2VuZSwgY2l0eSkgewogIGNvbnN0IHNob3BBdCA9IHBsYWNlQXQoUExBQ0VTLnNob3ApOwogIGNvbnN0IGdhcmFnZUF0ID0gcGxhY2VBdChQTEFDRVMuZ2FyYWdlKTsKICBjb25zdCBvd25lZCA9IFtdOwogIGNvbnN0IGdyb3VwID0gbmV3IFRIUkVFLkdyb3VwKCk7CiAgZ3JvdXAubmFtZSA9ICdFY29ub215JzsKICBzY2VuZS5hZGQoZ3JvdXApOwoKICBsZXQgaW5jb21lVG90YWwgPSAwOwogIGxldCBob3VyQ2xvY2sgPSAwOwogIGxldCByZXNwYXduUG9pbnQgPSBudWxsOwogIGxldCBqb2IgPSB7IGFjdGl2ZTogZmFsc2UsIHRpbWU6IDAsIGF0OiBudWxsLCByZXdhcmQ6IDAgfTsKICBsZXQgbGFzdFN0YXRlID0gbnVsbDsKCiAgLy8gLS0tLS0tLS0tLSBzdHJlZXQgZnVybml0dXJlIHRoZSBwbGF5ZXIgY2FuIHdhbGsgdXAgdG8gLS0tLS0tLS0tLQogIGNvbnN0IHBob25lTWF0ID0gbmV3IFRIUkVFLk1lc2hTdGFuZGFyZE1hdGVyaWFsKHsgY29sb3I6IDB4MmIzNDM4LCByb3VnaG5lc3M6IDAuNiwgbWV0YWxuZXNzOiAwLjMgfSk7CiAgY29uc3QgcGhvbmVHbG93ID0gbmV3IFRIUkVFLk1lc2hCYXNpY01hdGVyaWFsKHsgY29sb3I6IDB4NjRkMmZmLCB0b25lTWFwcGVkOiBmYWxzZSB9KTsKICBjb25zdCBkb29yTWF0ID0gbmV3IFRIUkVFLk1lc2hTdGFuZGFyZE1hdGVyaWFsKHsgY29sb3I6IDB4MmY3ZjdhLCByb3VnaG5lc3M6IDAuNSwgbWV0YWxuZXNzOiAwLjIgfSk7CiAgY29uc3QgcmluZ01hdCA9IG5ldyBUSFJFRS5NZXNoQmFzaWNNYXRlcmlhbCh7IGNvbG9yOiAweDQ5ZTBjMiwgc2lkZTogVEhSRUUuRG91YmxlU2lkZSwgdHJhbnNwYXJlbnQ6IHRydWUsIG9wYWNpdHk6IDAuNSwgdG9uZU1hcHBlZDogZmFsc2UgfSk7CgogIGNvbnN0IHBob25lcyA9IFtdOwogIGZvciAoY29uc3Qgc3BvdCBvZiBQSE9ORVMpIHsKICAgIGlmIChjaXR5ICYmICFjaXR5LmNsZWFyU3BvdE5lYXIoc3BvdC54LCBzcG90LnosIDEuMikpIHsKICAgICAgc3BvdC54ICs9IDQ7CiAgICAgIHNwb3QueiArPSA0OwogICAgfQogICAgY29uc3QgYm94ID0gbmV3IFRIUkVFLk1lc2gobmV3IFRIUkVFLkJveEdlb21ldHJ5KDAuNywgMi4zLCAwLjcpLCBwaG9uZU1hdCk7CiAgICBib3gucG9zaXRpb24uc2V0KHNwb3QueCwgMS4xNSwgc3BvdC56KTsKICAgIGNvbnN0IHBhbmVsID0gbmV3IFRIUkVFLk1lc2gobmV3IFRIUkVFLkJveEdlb21ldHJ5KDAuNSwgMC4zMiwgMC4wNiksIHBob25lR2xvdyk7CiAgICBwYW5lbC5wb3NpdGlvbi5zZXQoc3BvdC54LCAxLjc1LCBzcG90LnogKyAwLjM4KTsKICAgIGdyb3VwLmFkZChib3gsIHBhbmVsKTsKICAgIHBob25lcy5wdXNoKHsgLi4uc3BvdCwgcGFuZWwgfSk7CiAgfQoKICBmb3IgKGNvbnN0IGhvdXNlIG9mIFNBRkVIT1VTRVMpIHsKICAgIGNvbnN0IGZyYW1lID0gbmV3IFRIUkVFLk1lc2gobmV3IFRIUkVFLkJveEdlb21ldHJ5KDMuNCwgMy4yLCAwLjQpLCBkb29yTWF0KTsKICAgIGZyYW1lLnBvc2l0aW9uLnNldChob3VzZS54LCAxLjcsIGhvdXNlLnogLSAwLjQpOwogICAgY29uc3QgcmluZyA9IG5ldyBUSFJFRS5NZXNoKG5ldyBUSFJFRS5SaW5nR2VvbWV0cnkoMi40LCAyLjgsIDIyKSwgcmluZ01hdCk7CiAgICByaW5nLnJvdGF0aW9uLnggPSAtTWF0aC5QSSAvIDI7CiAgICByaW5nLnBvc2l0aW9uLnNldChob3VzZS54LCAwLjE2LCBob3VzZS56KTsKICAgIGdyb3VwLmFkZChmcmFtZSwgcmluZyk7CiAgICBob3VzZS5mcmFtZSA9IGZyYW1lOwogICAgaG91c2UucmluZyA9IHJpbmc7CiAgfQoKICBmdW5jdGlvbiBuZWFyKHN0YXRlLCB4LCB6LCByYWRpdXMpIHsKICAgIHJldHVybiBNYXRoLmh5cG90KHN0YXRlLnBsYXllci5wb3MueCAtIHgsIHN0YXRlLnBsYXllci5wb3MueiAtIHopIDwgcmFkaXVzOwogIH0KCiAgZnVuY3Rpb24gc3BlbmQoc3RhdGUsIGNvc3QpIHsKICAgIGlmIChzdGF0ZS5tb25leSA8IGNvc3QpIHJldHVybiBmYWxzZTsKICAgIHN0YXRlLm1vbmV5IC09IGNvc3Q7CiAgICByZXR1cm4gdHJ1ZTsKICB9CgogIGZ1bmN0aW9uIGJ1eUFybW91cihzdGF0ZSkgewogICAgaWYgKHN0YXRlLnBsYXllci5hcm1vdXIgPj0gMTAwKSB7CiAgICAgIHN0YXRlLm5vdGlmeT8uKCdUaGUgdmVzdCBpcyBhbHJlYWR5IG9uLicsICd3YXJuaW5nJyk7CiAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KICAgIGlmICghc3BlbmQoc3RhdGUsIFBSSUNFLmFybW91cikpIHsKICAgICAgc3RhdGUubm90aWZ5Py4oYEFybW91ciBpcyAkJHtQUklDRS5hcm1vdXJ9LiBDb21lIGJhY2sgd2l0aCBjYXNoLmAsICd3YXJuaW5nJyk7CiAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KICAgIHN0YXRlLnBsYXllci5hcm1vdXIgPSBNYXRoLm1pbigxMDAsIHN0YXRlLnBsYXllci5hcm1vdXIgKyA1MCk7CiAgICBzdGF0ZS5ub3RpZnk/LihgQXJtb3VyIHZlc3Qg4oCUICQke1BSSUNFLmFybW91cn1gLCAnY2FzaCcpOwogICAgc3RhdGUuYXVkaW8/LnBpY2t1cD8uKCk7CiAgICByZXR1cm4gdHJ1ZTsKICB9CgogIGZ1bmN0aW9uIGJ1eUFtbW8oc3RhdGUpIHsKICAgIGlmICghc3BlbmQoc3RhdGUsIFBSSUNFLmFtbW8pKSB7CiAgICAgIHN0YXRlLm5vdGlmeT8uKGBBbW11bml0aW9uIGlzICQke1BSSUNFLmFtbW99LmAsICd3YXJuaW5nJyk7CiAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KICAgIGZvciAoY29uc3Qga2V5IG9mIE9iamVjdC5rZXlzKFdFQVBPTlMpKSB7CiAgICAgIGNvbnN0IGludmVudG9yeSA9IHN0YXRlLndlYXBvbnNba2V5XTsKICAgICAgaWYgKCFpbnZlbnRvcnkpIGNvbnRpbnVlOwogICAgICBpZiAoaW52ZW50b3J5Lm1hZyArIGludmVudG9yeS5yZXNlcnZlID4gMCkgaW52ZW50b3J5LnJlc2VydmUgKz0gV0VBUE9OU1trZXldLm1hZyAqIDI7CiAgICB9CiAgICBpZiAoc3RhdGUud2VhcG9ucy5zbWc/LnJlc2VydmUgPT09IDAgJiYgc3RhdGUud2VhcG9ucy5zbWc/Lm1hZyA9PT0gMCkgc3RhdGUud2VhcG9ucy5zbWcucmVzZXJ2ZSA9IDMwOwogICAgc3RhdGUubm90aWZ5Py4oYEFtbXVuaXRpb24g4oCUICQke1BSSUNFLmFtbW99YCwgJ2Nhc2gnKTsKICAgIHN0YXRlLmF1ZGlvPy5waWNrdXA/LigpOwogICAgcmV0dXJuIHRydWU7CiAgfQoKICBmdW5jdGlvbiBidXlSZXBhaXIoc3RhdGUpIHsKICAgIGNvbnN0IGNhciA9IHN0YXRlLnBsYXllci5pblZlaGljbGU7CiAgICBpZiAoIWNhcikgewogICAgICBzdGF0ZS5ub3RpZnk/LignRHJpdmUgdGhlIGNhciB0byB0aGUgZ2FyYWdlIGZpcnN0LicsICd3YXJuaW5nJyk7CiAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KICAgIGlmIChjYXIuaGVhbHRoID49IGNhci5tYXhIZWFsdGgpIHsKICAgICAgc3RhdGUubm90aWZ5Py4oJ05vdGhpbmcgdG8gZml4IG9uIHRoaXMgb25lLicsICd3YXJuaW5nJyk7CiAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KICAgIGlmICghc3BlbmQoc3RhdGUsIFBSSUNFLnJlcGFpcikpIHsKICAgICAgc3RhdGUubm90aWZ5Py4oYEEgcmVwYWlyIGlzICQke1BSSUNFLnJlcGFpcn0uYCwgJ3dhcm5pbmcnKTsKICAgICAgcmV0dXJuIGZhbHNlOwogICAgfQogICAgY2FyLmhlYWx0aCA9IGNhci5tYXhIZWFsdGg7CiAgICBjYXIuc21va2UgPSAwOwogICAgc3RhdGUubm90aWZ5Py4oYFJlcGFpcmVkIOKAlCAkJHtQUklDRS5yZXBhaXJ9YCwgJ2Nhc2gnKTsKICAgIHN0YXRlLmF1ZGlvPy5waWNrdXA/LigpOwogICAgcmV0dXJuIHRydWU7CiAgfQoKICBmdW5jdGlvbiBidXlTYWZlaG91c2Uoc3RhdGUpIHsKICAgIGNvbnN0IGhvdXNlID0gU0FGRUhPVVNFUy5maW5kKChlbnRyeSkgPT4gIW93bmVkLmluY2x1ZGVzKGVudHJ5LmlkKSAmJiBuZWFyKHN0YXRlLCBlbnRyeS54LCBlbnRyeS56LCA2KSk7CiAgICBpZiAoIWhvdXNlKSByZXR1cm4gZmFsc2U7CiAgICBpZiAoIXNwZW5kKHN0YXRlLCBob3VzZS5jb3N0KSkgewogICAgICBzdGF0ZS5ub3RpZnk/LihgJHtob3VzZS5sYWJlbH0gY29zdHMgJCR7aG91c2UuY29zdC50b0xvY2FsZVN0cmluZygnZW4tVVMnKX0uYCwgJ3dhcm5pbmcnKTsKICAgICAgcmV0dXJuIGZhbHNlOwogICAgfQogICAgb3duZWQucHVzaChob3VzZS5pZCk7CiAgICByZXNwYXduUG9pbnQgPSB7IHg6IGhvdXNlLngsIHo6IGhvdXNlLnosIGxhYmVsOiBob3VzZS5sYWJlbCB9OwogICAgaG91c2UuZnJhbWUubWF0ZXJpYWwgPSBuZXcgVEhSRUUuTWVzaEJhc2ljTWF0ZXJpYWwoeyBjb2xvcjogMHg0OWUwYzIsIHRvbmVNYXBwZWQ6IGZhbHNlIH0pOwogICAgc3RhdGUuaHVkPy5iaWdNZXNzYWdlPy4oJ1NBRkVIT1VTRSBCT1VHSFQnLCBgJHtob3VzZS5sYWJlbH0gwrcgJCR7aG91c2UucmF0ZX0vaG91cmAsIDQpOwogICAgc3RhdGUubm90aWZ5Py4oYCR7aG91c2UubGFiZWx9IGlzIHlvdXJzLiBOZXcgcmVzcGF3biBwb2ludC5gLCAnbWlzc2lvbicpOwogICAgc3RhdGUuYXVkaW8/LnBpY2t1cD8uKCk7CiAgICByZXR1cm4gdHJ1ZTsKICB9CgogIGZ1bmN0aW9uIHN0YXJ0RGVsaXZlcnkoc3RhdGUpIHsKICAgIGlmIChqb2IuYWN0aXZlKSB7CiAgICAgIHN0YXRlLm5vdGlmeT8uKCdGaW5pc2ggdGhlIGRlbGl2ZXJ5IHlvdSBhbHJlYWR5IHRvb2suJywgJ3dhcm5pbmcnKTsKICAgICAgcmV0dXJuIGZhbHNlOwogICAgfQogICAgY29uc3QgZHJvcCA9IERST1BTW01hdGguZmxvb3IoTWF0aC5yYW5kb20oKSAqIERST1BTLmxlbmd0aCldOwogICAgam9iID0geyBhY3RpdmU6IHRydWUsIHRpbWU6IERFTElWRVJZX1RJTUUsIGF0OiBkcm9wLCByZXdhcmQ6IERFTElWRVJZX1BBWSB9OwogICAgc3RhdGUubm90aWZ5Py4oYERlbGl2ZXJ5OiB0YWtlIHRoZSBwYXJjZWwgdG8gJHtkcm9wLmxhYmVsfS4gJHtERUxJVkVSWV9USU1FfXMuYCwgJ21pc3Npb24nKTsKICAgIHN0YXRlLmF1ZGlvPy5waWNrdXA/LigpOwogICAgcmV0dXJuIHRydWU7CiAgfQoKICBmdW5jdGlvbiBidXkoa2luZCkgewogICAgY29uc3Qgc3RhdGUgPSBsYXN0U3RhdGU7CiAgICBpZiAoIXN0YXRlIHx8IHN0YXRlLm1vZGUgIT09ICdwbGF5JykgcmV0dXJuIGZhbHNlOwogICAgc3dpdGNoIChraW5kKSB7CiAgICAgIGNhc2UgJ25lYXJlc3QnOiB7CiAgICAgICAgaWYgKG5lYXIoc3RhdGUsIHNob3BBdC54LCBzaG9wQXQueiwgNykpIHsKICAgICAgICAgIHJldHVybiBzdGF0ZS5wbGF5ZXIuYXJtb3VyIDwgMTAwICYmIHN0YXRlLm1vbmV5ID49IFBSSUNFLmFybW91ciA/IGJ1eUFybW91cihzdGF0ZSkgOiBidXlBbW1vKHN0YXRlKTsKICAgICAgICB9CiAgICAgICAgaWYgKG5lYXIoc3RhdGUsIGdhcmFnZUF0LngsIGdhcmFnZUF0LnosIDgpKSByZXR1cm4gYnV5UmVwYWlyKHN0YXRlKTsKICAgICAgICBpZiAoU0FGRUhPVVNFUy5zb21lKChlbnRyeSkgPT4gIW93bmVkLmluY2x1ZGVzKGVudHJ5LmlkKSAmJiBuZWFyKHN0YXRlLCBlbnRyeS54LCBlbnRyeS56LCA2KSkpIHJldHVybiBidXlTYWZlaG91c2Uoc3RhdGUpOwogICAgICAgIGlmIChQSE9ORVMuc29tZSgoc3BvdCkgPT4gbmVhcihzdGF0ZSwgc3BvdC54LCBzcG90LnosIDQuNSkpKSByZXR1cm4gc3RhcnREZWxpdmVyeShzdGF0ZSk7CiAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgICB9CiAgICAgIGNhc2UgJ2FybW91cic6CiAgICAgICAgcmV0dXJuIGJ1eUFybW91cihzdGF0ZSk7CiAgICAgIGNhc2UgJ2FtbW8nOgogICAgICAgIHJldHVybiBidXlBbW1vKHN0YXRlKTsKICAgICAgY2FzZSAncmVwYWlyJzoKICAgICAgICByZXR1cm4gYnV5UmVwYWlyKHN0YXRlKTsKICAgICAgY2FzZSAnc2FmZWhvdXNlJzoKICAgICAgICByZXR1cm4gYnV5U2FmZWhvdXNlKHN0YXRlKTsKICAgICAgY2FzZSAnZGVsaXZlcnknOgogICAgICAgIHJldHVybiBzdGFydERlbGl2ZXJ5KHN0YXRlKTsKICAgICAgZGVmYXVsdDoKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9CiAgfQoKICByZXR1cm4gewogICAgb3duZWQsCiAgICBnZXQgaW5jb21lKCkgeyByZXR1cm4gaW5jb21lVG90YWw7IH0sCiAgICBnZXQgcmVzcGF3bigpIHsgcmV0dXJuIHJlc3Bhd25Qb2ludDsgfSwKICAgIGdldCBqb2IoKSB7IHJldHVybiBqb2I7IH0sCiAgICBidXksCgogICAgdXBkYXRlKGR0LCBzdGF0ZSkgewogICAgICBsYXN0U3RhdGUgPSBzdGF0ZTsKCiAgICAgIC8vIFNhZmVob3VzZSBpbmNvbWUgbGFuZHMgb25jZSBhbiBpbi1nYW1lIGhvdXIuCiAgICAgIGhvdXJDbG9jayArPSBkdDsKICAgICAgaWYgKGhvdXJDbG9jayA+PSBIT1VSKSB7CiAgICAgICAgaG91ckNsb2NrIC09IEhPVVI7CiAgICAgICAgaWYgKG93bmVkLmxlbmd0aCA+IDApIHsKICAgICAgICAgIGNvbnN0IHBheSA9IFNBRkVIT1VTRVMuZmlsdGVyKChlbnRyeSkgPT4gb3duZWQuaW5jbHVkZXMoZW50cnkuaWQpKS5yZWR1Y2UoKHN1bSwgZW50cnkpID0+IHN1bSArIGVudHJ5LnJhdGUsIDApOwogICAgICAgICAgc3RhdGUubW9uZXkgKz0gcGF5OwogICAgICAgICAgaW5jb21lVG90YWwgKz0gcGF5OwogICAgICAgICAgc3RhdGUubm90aWZ5Py4oYFNhZmVob3VzZSBpbmNvbWUgKyQke3BheX1gLCAnY2FzaCcpOwogICAgICAgIH0KICAgICAgfQoKICAgICAgLy8gVGhlIGRlbGl2ZXJ5IGNsb2NrIG9ubHkgcnVucyB3aGlsZSB0aGUgcGxheWVyIGlzIGFjdHVhbGx5IGluIHRoZSB3b3JsZC4KICAgICAgaWYgKGpvYi5hY3RpdmUgJiYgc3RhdGUubW9kZSA9PT0gJ3BsYXknKSB7CiAgICAgICAgam9iLnRpbWUgLT0gZHQ7CiAgICAgICAgaWYgKGpvYi50aW1lIDw9IDApIHsKICAgICAgICAgIGpvYi5hY3RpdmUgPSBmYWxzZTsKICAgICAgICAgIHN0YXRlLm5vdGlmeT8uKCdEZWxpdmVyeSBsYXRlLiBUaGUgcGFyY2VsIHdlbnQgYmFjayB0byB0aGUgcGhvbmUuJywgJ3dhcm5pbmcnKTsKICAgICAgICB9IGVsc2UgaWYgKG5lYXIoc3RhdGUsIGpvYi5hdC54LCBqb2IuYXQueiwgOSkpIHsKICAgICAgICAgIHN0YXRlLm1vbmV5ICs9IGpvYi5yZXdhcmQ7CiAgICAgICAgICBzdGF0ZS5ub3RpZnk/LihgRGVsaXZlcmVkIHRvICR7am9iLmF0LmxhYmVsfSArJCR7am9iLnJld2FyZH1gLCAnY2FzaCcpOwogICAgICAgICAgc3RhdGUuaHVkPy5iaWdNZXNzYWdlPy4oJ0RFTElWRVJZIERPTkUnLCBgKyQke2pvYi5yZXdhcmR9YCwgMyk7CiAgICAgICAgICBzdGF0ZS5hdWRpbz8ucGlja3VwPy4oKTsKICAgICAgICAgIGpvYi5hY3RpdmUgPSBmYWxzZTsKICAgICAgICB9CiAgICAgIH0KCiAgICAgIC8vIEJsaW5raW5nIHBheXBob25lcyBhbmQgc2FmZWhvdXNlIHJpbmdzIHJlYWQgZnJvbSBhY3Jvc3MgdGhlIHN0cmVldC4KICAgICAgY29uc3QgYmxpbmsgPSBNYXRoLnNpbihwZXJmb3JtYW5jZS5ub3coKSAvIDI2MCkgPiAwOwogICAgICBmb3IgKGNvbnN0IHNwb3Qgb2YgcGhvbmVzKSBzcG90LnBhbmVsLnZpc2libGUgPSBqb2IuYWN0aXZlID8gYmxpbmsgOiB0cnVlOwogICAgICBmb3IgKGNvbnN0IGhvdXNlIG9mIFNBRkVIT1VTRVMpIHsKICAgICAgICBpZiAoIWhvdXNlLnJpbmcpIGNvbnRpbnVlOwogICAgICAgIGhvdXNlLnJpbmcuc2NhbGUuc2V0U2NhbGFyKDEgKyBNYXRoLnNpbihwZXJmb3JtYW5jZS5ub3coKSAvIDUwMCkgKiAwLjA2KTsKICAgICAgICBob3VzZS5yaW5nLnZpc2libGUgPSAhb3duZWQuaW5jbHVkZXMoaG91c2UuaWQpOwogICAgICB9CiAgICB9LAogIH07Cn0K
+// Economy: createEconomy(scene, city) owns the money side of the street. buy(kind) spends cash on
+// armour, ammunition or a repair at the shops; two safehouses can be bought once, pay a small
+// income every in-game hour and become the respawn point; payphones start a timed delivery job.
+
+import * as THREE from 'three';
+import { SHOP, WEAPONS } from '../config.js';
+import { PLACES, placeAt } from '../world/city.js';
+
+const SAFEHOUSES = [
+  { id: 'marina-flat', label: 'Marina Flat', x: -330, z: 404, cost: 6000, rate: 180 },
+  { id: 'pier-loft', label: 'Pier Loft', x: 606, z: -286, cost: 9000, rate: 260 },
+];
+
+const PHONES = [
+  { x: -58, z: 64 },
+  { x: 136, z: 228 },
+  { x: 104, z: -250 },
+  { x: 570, z: -272 },
+];
+
+const DROPS = [
+  { x: -340, z: 420, label: 'the marina' },
+  { x: 150, z: 470, label: 'the docks' },
+  { x: 430, z: -20, label: 'Hotel Laguna' },
+  { x: 586, z: -286, label: 'Paloma Pier' },
+];
+
+const PRICE = { armour: SHOP.armourCost, ammo: SHOP.ammoCost, repair: 90 };
+const DELIVERY_PAY = 450;
+const DELIVERY_TIME = 75;
+const HOUR = 60;
+
+export function createEconomy(scene, city) {
+  const shopAt = placeAt(PLACES.shop);
+  const garageAt = placeAt(PLACES.garage);
+  const owned = [];
+  const group = new THREE.Group();
+  group.name = 'Economy';
+  scene.add(group);
+
+  let incomeTotal = 0;
+  let hourClock = 0;
+  let respawnPoint = null;
+  let job = { active: false, time: 0, at: null, reward: 0 };
+  let lastState = null;
+
+  // ---------- street furniture the player can walk up to ----------
+  const phoneMat = new THREE.MeshStandardMaterial({ color: 0x2b3438, roughness: 0.6, metalness: 0.3 });
+  const phoneGlow = new THREE.MeshBasicMaterial({ color: 0x64d2ff, toneMapped: false });
+  const doorMat = new THREE.MeshStandardMaterial({ color: 0x2f7f7a, roughness: 0.5, metalness: 0.2 });
+  const ringMat = new THREE.MeshBasicMaterial({ color: 0x49e0c2, side: THREE.DoubleSide, transparent: true, opacity: 0.5, toneMapped: false });
+
+  const phones = [];
+  for (const spot of PHONES) {
+    if (city && !city.clearSpotNear(spot.x, spot.z, 1.2)) {
+      spot.x += 4;
+      spot.z += 4;
+    }
+    const box = new THREE.Mesh(new THREE.BoxGeometry(0.7, 2.3, 0.7), phoneMat);
+    box.position.set(spot.x, 1.15, spot.z);
+    const panel = new THREE.Mesh(new THREE.BoxGeometry(0.5, 0.32, 0.06), phoneGlow);
+    panel.position.set(spot.x, 1.75, spot.z + 0.38);
+    group.add(box, panel);
+    phones.push({ ...spot, panel });
+  }
+
+  for (const house of SAFEHOUSES) {
+    const frame = new THREE.Mesh(new THREE.BoxGeometry(3.4, 3.2, 0.4), doorMat);
+    frame.position.set(house.x, 1.7, house.z - 0.4);
+    const ring = new THREE.Mesh(new THREE.RingGeometry(2.4, 2.8, 22), ringMat);
+    ring.rotation.x = -Math.PI / 2;
+    ring.position.set(house.x, 0.16, house.z);
+    group.add(frame, ring);
+    house.frame = frame;
+    house.ring = ring;
+  }
+
+  function near(state, x, z, radius) {
+    return Math.hypot(state.player.pos.x - x, state.player.pos.z - z) < radius;
+  }
+
+  function spend(state, cost) {
+    if (state.money < cost) return false;
+    state.money -= cost;
+    return true;
+  }
+
+  function buyArmour(state) {
+    if (state.player.armour >= 100) {
+      state.notify?.('The vest is already on.', 'warning');
+      return false;
+    }
+    if (!spend(state, PRICE.armour)) {
+      state.notify?.(`Armour is $${PRICE.armour}. Come back with cash.`, 'warning');
+      return false;
+    }
+    state.player.armour = Math.min(100, state.player.armour + 50);
+    state.notify?.(`Armour vest — $${PRICE.armour}`, 'cash');
+    state.audio?.pickup?.();
+    return true;
+  }
+
+  function buyAmmo(state) {
+    if (!spend(state, PRICE.ammo)) {
+      state.notify?.(`Ammunition is $${PRICE.ammo}.`, 'warning');
+      return false;
+    }
+    for (const key of Object.keys(WEAPONS)) {
+      const inventory = state.weapons[key];
+      if (!inventory) continue;
+      if (inventory.mag + inventory.reserve > 0) inventory.reserve += WEAPONS[key].mag * 2;
+    }
+    if (state.weapons.smg?.reserve === 0 && state.weapons.smg?.mag === 0) state.weapons.smg.reserve = 30;
+    state.notify?.(`Ammunition — $${PRICE.ammo}`, 'cash');
+    state.audio?.pickup?.();
+    return true;
+  }
+
+  function buyRepair(state) {
+    const car = state.player.inVehicle;
+    if (!car) {
+      state.notify?.('Drive the car to the garage first.', 'warning');
+      return false;
+    }
+    if (car.health >= car.maxHealth) {
+      state.notify?.('Nothing to fix on this one.', 'warning');
+      return false;
+    }
+    if (!spend(state, PRICE.repair)) {
+      state.notify?.(`A repair is $${PRICE.repair}.`, 'warning');
+      return false;
+    }
+    car.health = car.maxHealth;
+    car.smoke = 0;
+    state.notify?.(`Repaired — $${PRICE.repair}`, 'cash');
+    state.audio?.pickup?.();
+    return true;
+  }
+
+  function buySafehouse(state) {
+    const house = SAFEHOUSES.find((entry) => !owned.includes(entry.id) && near(state, entry.x, entry.z, 6));
+    if (!house) return false;
+    if (!spend(state, house.cost)) {
+      state.notify?.(`${house.label} costs $${house.cost.toLocaleString('en-US')}.`, 'warning');
+      return false;
+    }
+    owned.push(house.id);
+    respawnPoint = { x: house.x, z: house.z, label: house.label };
+    house.frame.material = new THREE.MeshBasicMaterial({ color: 0x49e0c2, toneMapped: false });
+    state.hud?.bigMessage?.('SAFEHOUSE BOUGHT', `${house.label} · $${house.rate}/hour`, 4);
+    state.notify?.(`${house.label} is yours. New respawn point.`, 'mission');
+    state.audio?.pickup?.();
+    return true;
+  }
+
+  function startDelivery(state) {
+    if (job.active) {
+      state.notify?.('Finish the delivery you already took.', 'warning');
+      return false;
+    }
+    const drop = DROPS[Math.floor(Math.random() * DROPS.length)];
+    job = { active: true, time: DELIVERY_TIME, at: drop, reward: DELIVERY_PAY };
+    state.notify?.(`Delivery: take the parcel to ${drop.label}. ${DELIVERY_TIME}s.`, 'mission');
+    state.audio?.pickup?.();
+    return true;
+  }
+
+  function buy(kind) {
+    const state = lastState;
+    if (!state || state.mode !== 'play') return false;
+    switch (kind) {
+      case 'nearest': {
+        if (near(state, shopAt.x, shopAt.z, 7)) {
+          return state.player.armour < 100 && state.money >= PRICE.armour ? buyArmour(state) : buyAmmo(state);
+        }
+        if (near(state, garageAt.x, garageAt.z, 8)) return buyRepair(state);
+        if (SAFEHOUSES.some((entry) => !owned.includes(entry.id) && near(state, entry.x, entry.z, 6))) return buySafehouse(state);
+        if (PHONES.some((spot) => near(state, spot.x, spot.z, 4.5))) return startDelivery(state);
+        return false;
+      }
+      case 'armour':
+        return buyArmour(state);
+      case 'ammo':
+        return buyAmmo(state);
+      case 'repair':
+        return buyRepair(state);
+      case 'safehouse':
+        return buySafehouse(state);
+      case 'delivery':
+        return startDelivery(state);
+      default:
+        return false;
+    }
+  }
+
+  return {
+    owned,
+    get income() { return incomeTotal; },
+    get respawn() { return respawnPoint; },
+    get job() { return job; },
+    buy,
+
+    update(dt, state) {
+      lastState = state;
+
+      // Safehouse income lands once an in-game hour.
+      hourClock += dt;
+      if (hourClock >= HOUR) {
+        hourClock -= HOUR;
+        if (owned.length > 0) {
+          const pay = SAFEHOUSES.filter((entry) => owned.includes(entry.id)).reduce((sum, entry) => sum + entry.rate, 0);
+          state.money += pay;
+          incomeTotal += pay;
+          state.notify?.(`Safehouse income +$${pay}`, 'cash');
+        }
+      }
+
+      // The delivery clock only runs while the player is actually in the world.
+      if (job.active && state.mode === 'play') {
+        job.time -= dt;
+        if (job.time <= 0) {
+          job.active = false;
+          state.notify?.('Delivery late. The parcel went back to the phone.', 'warning');
+        } else if (near(state, job.at.x, job.at.z, 9)) {
+          state.money += job.reward;
+          state.notify?.(`Delivered to ${job.at.label} +$${job.reward}`, 'cash');
+          state.hud?.bigMessage?.('DELIVERY DONE', `+$${job.reward}`, 3);
+          state.audio?.pickup?.();
+          job.active = false;
+        }
+      }
+
+      // Blinking payphones and safehouse rings read from across the street.
+      const blink = Math.sin(performance.now() / 260) > 0;
+      for (const spot of phones) spot.panel.visible = job.active ? blink : true;
+      for (const house of SAFEHOUSES) {
+        if (!house.ring) continue;
+        house.ring.scale.setScalar(1 + Math.sin(performance.now() / 500) * 0.06);
+        house.ring.visible = !owned.includes(house.id);
+      }
+    },
+  };
+}

@@ -1,1 +1,112 @@
-Ly8gTWluaW1hcDogZHJhd01pbmltYXAgcGFpbnRzIHRoZSByb3VuZCBub3J0aC11cCB2aWV3IG9mIHJvYWRzLCB3YXRlciwgYmxpcHMgYW5kIHRoZSBwbGF5ZXIuIE9uZSBjYW52YXMsIHJlZHJhd24gZWFjaCBmcmFtZS4KLy8gVGhlIHJvdW5kIG1pbmltYXA6IGEgbm9ydGgtdXAgc2xpY2Ugb2YgdGhlIGdyaWQgYXJvdW5kIE5pY28sIHdpdGggd2F0ZXIsIGJlYWNoLCByb2FkcywgdGhlCi8vIG9iamVjdGl2ZSBibGlwLCBwb2xpY2UsIHNob3BzIGFuZCB0aGUgbWFyaW5hLiBEcmF3biBpbnRvIGEgMnggY2FudmFzIGZvciBjcmlzcCBsaW5lcy4KCmltcG9ydCB7IFBMQUNFUywgcGxhY2VBdCB9IGZyb20gJy4uL3dvcmxkL2NpdHkuanMnOwoKY29uc3QgVklFV19NRVRSRVMgPSAxNzA7CgpleHBvcnQgZnVuY3Rpb24gZHJhd01pbmltYXAoY2FudmFzLCBzdGF0ZSwgdGltZU1zKSB7CiAgY29uc3QgY3R4ID0gY2FudmFzLmdldENvbnRleHQoJzJkJyk7CiAgY29uc3Qgc2l6ZSA9IGNhbnZhcy53aWR0aDsKICBjb25zdCBjeCA9IHNpemUgLyAyOwogIGNvbnN0IGN5ID0gc2l6ZSAvIDI7CiAgY29uc3QgcmFkaXVzID0gc2l6ZSAvIDIgLSA1OwogIGNvbnN0IHNjYWxlID0gcmFkaXVzIC8gVklFV19NRVRSRVM7CiAgY29uc3QgcHggPSBzdGF0ZS5wbGF5ZXIucG9zLng7CiAgY29uc3QgcHogPSBzdGF0ZS5wbGF5ZXIucG9zLno7CiAgY29uc3Qgc3ggPSAoeCkgPT4gY3ggKyAoeCAtIHB4KSAqIHNjYWxlOwogIGNvbnN0IHN5ID0gKHopID0+IGN5ICsgKHogLSBweikgKiBzY2FsZTsKCiAgY3R4LmNsZWFyUmVjdCgwLCAwLCBzaXplLCBzaXplKTsKICBjdHguc2F2ZSgpOwogIGN0eC5iZWdpblBhdGgoKTsKICBjdHguYXJjKGN4LCBjeSwgcmFkaXVzLCAwLCBNYXRoLlBJICogMik7CiAgY3R4LmNsaXAoKTsKCiAgY3R4LmZpbGxTdHlsZSA9ICcjMTc2MDZjJzsKICBjdHguZmlsbFJlY3QoMCwgMCwgc2l6ZSwgc2l6ZSk7CgogIGN0eC5maWxsU3R5bGUgPSAnIzdjN2Y3OCc7CiAgY3R4LmZpbGxSZWN0KHN4KC04MjApLCBzeSgtODIwKSwgKDY0MCArIDgyMCkgKiBzY2FsZSwgKDY0MCArIDgyMCkgKiBzY2FsZSk7CiAgY3R4LmZpbGxTdHlsZSA9ICcjZDhjNzlhJzsKICBjdHguZmlsbFJlY3Qoc3goNDk2KSwgc3koLTgyMCksIDE0NCAqIHNjYWxlLCAxNDYwICogc2NhbGUpOwogIGN0eC5maWxsU3R5bGUgPSAnI2E1YTI5YSc7CiAgY3R4LmZpbGxSZWN0KHN4KC0zMDApLCBzeSg1MjApLCA5NDAgKiBzY2FsZSwgMTIwICogc2NhbGUpOwoKICAvLyBibG9ja3MsIHNvIHRoZSBncmlkIHJlYWRzIGV2ZW4gYmV0d2VlbiByb2FkcwogIGN0eC5maWxsU3R5bGUgPSAncmdiYSg1Miw1NCw1MCwuNTUpJzsKICBmb3IgKGNvbnN0IGJ4IG9mIHN0YXRlLmNpdHkuYmxvY2tDZW50ZXJzID8/IFtdKSB7CiAgICBjdHguZmlsbFJlY3Qoc3goYngueCkgLSAzMCAqIHNjYWxlLCBzeShieC56KSAtIDMwICogc2NhbGUsIDYwICogc2NhbGUsIDYwICogc2NhbGUpOwogIH0KCiAgY3R4LmZpbGxTdHlsZSA9ICcjZTdkZGMwJzsKICBjb25zdCByb2FkV2lkdGggPSAxNiAqIHNjYWxlOwogIGZvciAoY29uc3Qgcm9hZCBvZiBzdGF0ZS5jaXR5LnhSb2FkcykgewogICAgY29uc3QgeCA9IHN4KHJvYWQpOwogICAgaWYgKHggPCAtcm9hZFdpZHRoIHx8IHggPiBzaXplICsgcm9hZFdpZHRoKSBjb250aW51ZTsKICAgIGN0eC5maWxsUmVjdCh4IC0gcm9hZFdpZHRoIC8gMiwgMCwgcm9hZFdpZHRoLCBzaXplKTsKICB9CiAgZm9yIChjb25zdCByb2FkIG9mIHN0YXRlLmNpdHkuelJvYWRzKSB7CiAgICBjb25zdCB5ID0gc3kocm9hZCk7CiAgICBpZiAoeSA8IC1yb2FkV2lkdGggfHwgeSA+IHNpemUgKyByb2FkV2lkdGgpIGNvbnRpbnVlOwogICAgY3R4LmZpbGxSZWN0KDAsIHkgLSByb2FkV2lkdGggLyAyLCBzaXplLCByb2FkV2lkdGgpOwogIH0KCiAgLy8gY29hc3RhbCBnbG93IHNvIHRoZSBzZWEgZWRnZSByZWFkcyBhdCBhIGdsYW5jZQogIGN0eC5zdHJva2VTdHlsZSA9ICdyZ2JhKDI0MCwyNTAsMjQ1LC41NSknOwogIGN0eC5saW5lV2lkdGggPSAzOwogIGN0eC5iZWdpblBhdGgoKTsKICBjdHgubW92ZVRvKHN4KDQ5NiksIHN5KC04MjApKTsKICBjdHgubGluZVRvKHN4KDQ5NiksIHN5KDY0MCkpOwogIGN0eC5saW5lVG8oc3goLTgyMCksIHN5KDY0MCkpOwogIGN0eC5zdHJva2UoKTsKCiAgZnVuY3Rpb24gYmxpcCh4LCB6LCBjb2xvciwgcmFkaXVzUHggPSA2LCByaW5nID0gZmFsc2UpIHsKICAgIGNvbnN0IGJ4ID0gc3goeCk7CiAgICBjb25zdCBieSA9IHN5KHopOwogICAgY3R4LmJlZ2luUGF0aCgpOwogICAgY3R4LmZpbGxTdHlsZSA9IGNvbG9yOwogICAgaWYgKHJpbmcpIHsKICAgICAgY3R4LmFyYyhieCwgYnksIHJhZGl1c1B4ICogMS44LCAwLCBNYXRoLlBJICogMik7CiAgICAgIGN0eC5maWxsU3R5bGUgPSBgJHtjb2xvcn01NWA7CiAgICAgIGN0eC5maWxsKCk7CiAgICAgIGN0eC5iZWdpblBhdGgoKTsKICAgIH0KICAgIGN0eC5hcmMoYngsIGJ5LCByYWRpdXNQeCwgMCwgTWF0aC5QSSAqIDIpOwogICAgY3R4LmZpbGwoKTsKICB9CgogIGNvbnN0IHB1bHNlID0gMSArIE1hdGguc2luKHRpbWVNcyAvIDI2MCkgKiAwLjI1OwogIGlmIChzdGF0ZS5taXNzaW9uQmxpcCkgYmxpcChzdGF0ZS5taXNzaW9uQmxpcC54LCBzdGF0ZS5taXNzaW9uQmxpcC56LCAnI2ZmZDM1YycsIDYgKiBwdWxzZSwgdHJ1ZSk7CiAgZm9yIChjb25zdCBba2V5LCBjb2xvciwgc2l6ZV0gb2YgW1snc2hvcCcsICcjNjRkMmZmJywgNC41XSwgWydnYXJhZ2UnLCAnIzliOGJmZicsIDQuNV0sIFsnaG9zcGl0YWwnLCAnI2Y0ZjFlOCcsIDQuNV0sIFsnbWFyaW5hJywgJyM4ZmYwYTQnLCA1LjVdXSkgewogICAgY29uc3QgcGxhY2UgPSBwbGFjZUF0KFBMQUNFU1trZXldKTsKICAgIGJsaXAocGxhY2UueCwgcGxhY2UueiwgY29sb3IsIHNpemUpOwogIH0KCiAgZm9yIChjb25zdCB1bml0IG9mIHN0YXRlLnBvbGljZT8udW5pdHMgPz8gW10pIHsKICAgIGlmICghdW5pdC5hbGl2ZSkgY29udGludWU7CiAgICBpZiAodW5pdC52ZWhpY2xlKSBibGlwKHVuaXQudmVoaWNsZS5wb3MueCwgdW5pdC52ZWhpY2xlLnBvcy56LCAnI2ZmNGQ1ZScsIDUuNSk7CiAgICBlbHNlIGJsaXAodW5pdC5wb3MueCwgdW5pdC5wb3MueiwgJyNmZjhhOTUnLCA0KTsKICB9CgogIC8vIHBsYXllciBhcnJvdywgcG9pbnRpbmcgd2hlcmUgTmljbyBmYWNlcwogIGNvbnN0IGR4ID0gTWF0aC5zaW4oc3RhdGUucGxheWVyLnlhdyk7CiAgY29uc3QgZHkgPSBNYXRoLmNvcyhzdGF0ZS5wbGF5ZXIueWF3KTsKICBjb25zdCBwZXJwWCA9IC1keTsKICBjb25zdCBwZXJwWSA9IGR4OwogIGN0eC5maWxsU3R5bGUgPSAnI2ZmZjhlNic7CiAgY3R4LmJlZ2luUGF0aCgpOwogIGN0eC5tb3ZlVG8oY3ggKyBkeCAqIDExLCBjeSArIGR5ICogMTEpOwogIGN0eC5saW5lVG8oY3ggKyBwZXJwWCAqIDYgLSBkeCAqIDUsIGN5ICsgcGVycFkgKiA2IC0gZHkgKiA1KTsKICBjdHgubGluZVRvKGN4IC0gcGVycFggKiA2IC0gZHggKiA1LCBjeSAtIHBlcnBZICogNiAtIGR5ICogNSk7CiAgY3R4LmNsb3NlUGF0aCgpOwogIGN0eC5maWxsKCk7CgogIGN0eC5yZXN0b3JlKCk7CiAgY3R4LnN0cm9rZVN0eWxlID0gJ3JnYmEoMTAsMTIsMTQsLjUpJzsKICBjdHgubGluZVdpZHRoID0gMjsKICBjdHguYmVnaW5QYXRoKCk7CiAgY3R4LmFyYyhjeCwgY3ksIHJhZGl1cywgMCwgTWF0aC5QSSAqIDIpOwogIGN0eC5zdHJva2UoKTsKfQo=
+// Minimap: drawMinimap paints the round north-up view of roads, water, blips and the player. One canvas, redrawn each frame.
+// The round minimap: a north-up slice of the grid around Nico, with water, beach, roads, the
+// objective blip, police, shops and the marina. Drawn into a 2x canvas for crisp lines.
+
+import { PLACES, placeAt } from '../world/city.js';
+
+const VIEW_METRES = 170;
+
+export function drawMinimap(canvas, state, timeMs) {
+  const ctx = canvas.getContext('2d');
+  const size = canvas.width;
+  const cx = size / 2;
+  const cy = size / 2;
+  const radius = size / 2 - 5;
+  const scale = radius / VIEW_METRES;
+  const px = state.player.pos.x;
+  const pz = state.player.pos.z;
+  const sx = (x) => cx + (x - px) * scale;
+  const sy = (z) => cy + (z - pz) * scale;
+
+  ctx.clearRect(0, 0, size, size);
+  ctx.save();
+  ctx.beginPath();
+  ctx.arc(cx, cy, radius, 0, Math.PI * 2);
+  ctx.clip();
+
+  ctx.fillStyle = '#17606c';
+  ctx.fillRect(0, 0, size, size);
+
+  ctx.fillStyle = '#7c7f78';
+  ctx.fillRect(sx(-820), sy(-820), (640 + 820) * scale, (640 + 820) * scale);
+  ctx.fillStyle = '#d8c79a';
+  ctx.fillRect(sx(496), sy(-820), 144 * scale, 1460 * scale);
+  ctx.fillStyle = '#a5a29a';
+  ctx.fillRect(sx(-300), sy(520), 940 * scale, 120 * scale);
+
+  // blocks, so the grid reads even between roads
+  ctx.fillStyle = 'rgba(52,54,50,.55)';
+  for (const bx of state.city.blockCenters ?? []) {
+    ctx.fillRect(sx(bx.x) - 30 * scale, sy(bx.z) - 30 * scale, 60 * scale, 60 * scale);
+  }
+
+  ctx.fillStyle = '#e7ddc0';
+  const roadWidth = 16 * scale;
+  for (const road of state.city.xRoads) {
+    const x = sx(road);
+    if (x < -roadWidth || x > size + roadWidth) continue;
+    ctx.fillRect(x - roadWidth / 2, 0, roadWidth, size);
+  }
+  for (const road of state.city.zRoads) {
+    const y = sy(road);
+    if (y < -roadWidth || y > size + roadWidth) continue;
+    ctx.fillRect(0, y - roadWidth / 2, size, roadWidth);
+  }
+
+  // coastal glow so the sea edge reads at a glance
+  ctx.strokeStyle = 'rgba(240,250,245,.55)';
+  ctx.lineWidth = 3;
+  ctx.beginPath();
+  ctx.moveTo(sx(496), sy(-820));
+  ctx.lineTo(sx(496), sy(640));
+  ctx.lineTo(sx(-820), sy(640));
+  ctx.stroke();
+
+  function blip(x, z, color, radiusPx = 6, ring = false) {
+    const bx = sx(x);
+    const by = sy(z);
+    ctx.beginPath();
+    ctx.fillStyle = color;
+    if (ring) {
+      ctx.arc(bx, by, radiusPx * 1.8, 0, Math.PI * 2);
+      ctx.fillStyle = `${color}55`;
+      ctx.fill();
+      ctx.beginPath();
+    }
+    ctx.arc(bx, by, radiusPx, 0, Math.PI * 2);
+    ctx.fill();
+  }
+
+  const pulse = 1 + Math.sin(timeMs / 260) * 0.25;
+  if (state.missionBlip) blip(state.missionBlip.x, state.missionBlip.z, '#ffd35c', 6 * pulse, true);
+  for (const [key, color, size] of [['shop', '#64d2ff', 4.5], ['garage', '#9b8bff', 4.5], ['hospital', '#f4f1e8', 4.5], ['marina', '#8ff0a4', 5.5]]) {
+    const place = placeAt(PLACES[key]);
+    blip(place.x, place.z, color, size);
+  }
+
+  for (const unit of state.police?.units ?? []) {
+    if (!unit.alive) continue;
+    if (unit.vehicle) blip(unit.vehicle.pos.x, unit.vehicle.pos.z, '#ff4d5e', 5.5);
+    else blip(unit.pos.x, unit.pos.z, '#ff8a95', 4);
+  }
+
+  // player arrow, pointing where Nico faces
+  const dx = Math.sin(state.player.yaw);
+  const dy = Math.cos(state.player.yaw);
+  const perpX = -dy;
+  const perpY = dx;
+  ctx.fillStyle = '#fff8e6';
+  ctx.beginPath();
+  ctx.moveTo(cx + dx * 11, cy + dy * 11);
+  ctx.lineTo(cx + perpX * 6 - dx * 5, cy + perpY * 6 - dy * 5);
+  ctx.lineTo(cx - perpX * 6 - dx * 5, cy - perpY * 6 - dy * 5);
+  ctx.closePath();
+  ctx.fill();
+
+  ctx.restore();
+  ctx.strokeStyle = 'rgba(10,12,14,.5)';
+  ctx.lineWidth = 2;
+  ctx.beginPath();
+  ctx.arc(cx, cy, radius, 0, Math.PI * 2);
+  ctx.stroke();
+}

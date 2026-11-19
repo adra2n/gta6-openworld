@@ -1,1 +1,57 @@
-Ly8gQ2FtZXJhOiBjcmVhdGVWaWV3IGJ1aWxkcyB0aGUgZm9sbG93IHN0YXRlLCB1cGRhdGVDYW1lcmEgYXBwbGllcyBvcmJpdCwgY2hhc2UgZm9sbG93IGFuZCBzaGFrZS4gS2VlcHMgTmljbyBmcmFtZWQuCi8vIFRoaXJkLXBlcnNvbiBjYW1lcmE6IG1vdXNlIG9yYml0IG9uIGZvb3QsIGEgd2lkZXIgY2hhc2UgY2FtZXJhIGluIGEgY2FyIHRoYXQgZHJpZnRzIGJhY2sKLy8gYmVoaW5kIHRoZSBjYXIgd2hlbiB0aGUgbW91c2UgcmVzdHMsIGFuZCBhIGxpdHRsZSBzaGFrZSB3aGVuIHNob3RzIGxhbmQuCgppbXBvcnQgKiBhcyBUSFJFRSBmcm9tICd0aHJlZSc7Cgpjb25zdCB0YXJnZXQgPSBuZXcgVEhSRUUuVmVjdG9yMygpOwpjb25zdCBkZXNpcmVkID0gbmV3IFRIUkVFLlZlY3RvcjMoKTsKCmV4cG9ydCBmdW5jdGlvbiBjcmVhdGVWaWV3KHBsYXllcikgewogIHJldHVybiB7IHlhdzogcGxheWVyLnlhdyArIE1hdGguUEksIHBpdGNoOiAwLjE4LCBkaXN0YW5jZTogNS42LCByZXN0VGltZXI6IDAsIHNoYWtlOiAwIH07Cn0KCmV4cG9ydCBmdW5jdGlvbiB1cGRhdGVDYW1lcmEoY2FtZXJhLCB2aWV3LCBwbGF5ZXIsIG1vdXNlLCBkdCwgc25hcCA9IGZhbHNlKSB7CiAgY29uc3QgbW92ZWQgPSBNYXRoLmFicyhtb3VzZS54KSArIE1hdGguYWJzKG1vdXNlLnkpID4gMC4wMTsKICB2aWV3LnlhdyAtPSBtb3VzZS54ICogMC4wMDI2OwogIHZpZXcucGl0Y2ggPSBUSFJFRS5NYXRoVXRpbHMuY2xhbXAodmlldy5waXRjaCArIG1vdXNlLnkgKiAwLjAwMTgsIC0wLjM1LCAwLjg1KTsKICBpZiAocGxheWVyLmluVmVoaWNsZSkgewogICAgdmlldy5yZXN0VGltZXIgPSBtb3ZlZCA/IDAgOiB2aWV3LnJlc3RUaW1lciArIGR0OwogICAgaWYgKHZpZXcucmVzdFRpbWVyID4gMS40KSB7CiAgICAgIGNvbnN0IHdhbnRlZCA9IHBsYXllci5pblZlaGljbGUuaGVhZGluZyArIE1hdGguUEk7CiAgICAgIGxldCBkaWZmID0gd2FudGVkIC0gdmlldy55YXc7CiAgICAgIHdoaWxlIChkaWZmID4gTWF0aC5QSSkgZGlmZiAtPSBNYXRoLlBJICogMjsKICAgICAgd2hpbGUgKGRpZmYgPCAtTWF0aC5QSSkgZGlmZiArPSBNYXRoLlBJICogMjsKICAgICAgdmlldy55YXcgKz0gZGlmZiAqIE1hdGgubWluKDEsIGR0ICogMi40KTsKICAgIH0KICB9CgogIGNvbnN0IGluQ2FyID0gISFwbGF5ZXIuaW5WZWhpY2xlOwogIGNvbnN0IGRpc3RhbmNlID0gaW5DYXIgPyA4LjggOiB2aWV3LmRpc3RhbmNlOwogIGNvbnN0IGhlaWdodCA9IGluQ2FyID8gMS41IDogMS4yOwogIGNvbnN0IGhvcml6b250YWwgPSBkaXN0YW5jZSAqIE1hdGguY29zKHZpZXcucGl0Y2gpOwogIHRhcmdldC5zZXQocGxheWVyLnBvcy54LCBwbGF5ZXIucG9zLnkgKyBoZWlnaHQgKyAwLjQsIHBsYXllci5wb3Mueik7CiAgZGVzaXJlZC5zZXQoCiAgICB0YXJnZXQueCArIE1hdGguc2luKHZpZXcueWF3KSAqIGhvcml6b250YWwsCiAgICB0YXJnZXQueSArIDEuMCArIGRpc3RhbmNlICogTWF0aC5zaW4odmlldy5waXRjaCksCiAgICB0YXJnZXQueiArIE1hdGguY29zKHZpZXcueWF3KSAqIGhvcml6b250YWwsCiAgKTsKICBpZiAoZGVzaXJlZC55IDwgMS4wKSBkZXNpcmVkLnkgPSAxLjA7CgogIGlmICh2aWV3LnNoYWtlID4gMCkgewogICAgZGVzaXJlZC54ICs9IChNYXRoLnJhbmRvbSgpIC0gMC41KSAqIHZpZXcuc2hha2U7CiAgICBkZXNpcmVkLnkgKz0gKE1hdGgucmFuZG9tKCkgLSAwLjUpICogdmlldy5zaGFrZTsKICAgIHZpZXcuc2hha2UgPSBNYXRoLm1heCgwLCB2aWV3LnNoYWtlIC0gZHQgKiAyLjQpOwogIH0KCiAgY2FtZXJhLnBvc2l0aW9uLmxlcnAoZGVzaXJlZCwgc25hcCA/IDEgOiBNYXRoLm1pbigxLCBkdCAqIDExKSk7CiAgY29uc3QgYWhlYWQgPSBpbkNhciA/IDQgOiAxLjI7CiAgY2FtZXJhLmxvb2tBdCgKICAgIHRhcmdldC54IC0gTWF0aC5zaW4odmlldy55YXcpICogYWhlYWQsCiAgICB0YXJnZXQueSArIChpbkNhciA/IDAuMyA6IDAuNSksCiAgICB0YXJnZXQueiAtIE1hdGguY29zKHZpZXcueWF3KSAqIGFoZWFkLAogICk7CiAgY29uc3Qgd2FudGVkRm92ID0gaW5DYXIgPyA2NiA6IDU4OwogIGNhbWVyYS5mb3YgKz0gKHdhbnRlZEZvdiAtIGNhbWVyYS5mb3YpICogKHNuYXAgPyAxIDogTWF0aC5taW4oMSwgZHQgKiA0KSk7CiAgY2FtZXJhLnVwZGF0ZVByb2plY3Rpb25NYXRyaXgoKTsKfQo=
+// Camera: createView builds the follow state, updateCamera applies orbit, chase follow and shake. Keeps Nico framed.
+// Third-person camera: mouse orbit on foot, a wider chase camera in a car that drifts back
+// behind the car when the mouse rests, and a little shake when shots land.
+
+import * as THREE from 'three';
+
+const target = new THREE.Vector3();
+const desired = new THREE.Vector3();
+
+export function createView(player) {
+  return { yaw: player.yaw + Math.PI, pitch: 0.18, distance: 5.6, restTimer: 0, shake: 0 };
+}
+
+export function updateCamera(camera, view, player, mouse, dt, snap = false) {
+  const moved = Math.abs(mouse.x) + Math.abs(mouse.y) > 0.01;
+  view.yaw -= mouse.x * 0.0026;
+  view.pitch = THREE.MathUtils.clamp(view.pitch + mouse.y * 0.0018, -0.35, 0.85);
+  if (player.inVehicle) {
+    view.restTimer = moved ? 0 : view.restTimer + dt;
+    if (view.restTimer > 1.4) {
+      const wanted = player.inVehicle.heading + Math.PI;
+      let diff = wanted - view.yaw;
+      while (diff > Math.PI) diff -= Math.PI * 2;
+      while (diff < -Math.PI) diff += Math.PI * 2;
+      view.yaw += diff * Math.min(1, dt * 2.4);
+    }
+  }
+
+  const inCar = !!player.inVehicle;
+  const distance = inCar ? 8.8 : view.distance;
+  const height = inCar ? 1.5 : 1.2;
+  const horizontal = distance * Math.cos(view.pitch);
+  target.set(player.pos.x, player.pos.y + height + 0.4, player.pos.z);
+  desired.set(
+    target.x + Math.sin(view.yaw) * horizontal,
+    target.y + 1.0 + distance * Math.sin(view.pitch),
+    target.z + Math.cos(view.yaw) * horizontal,
+  );
+  if (desired.y < 1.0) desired.y = 1.0;
+
+  if (view.shake > 0) {
+    desired.x += (Math.random() - 0.5) * view.shake;
+    desired.y += (Math.random() - 0.5) * view.shake;
+    view.shake = Math.max(0, view.shake - dt * 2.4);
+  }
+
+  camera.position.lerp(desired, snap ? 1 : Math.min(1, dt * 11));
+  const ahead = inCar ? 4 : 1.2;
+  camera.lookAt(
+    target.x - Math.sin(view.yaw) * ahead,
+    target.y + (inCar ? 0.3 : 0.5),
+    target.z - Math.cos(view.yaw) * ahead,
+  );
+  const wantedFov = inCar ? 66 : 58;
+  camera.fov += (wantedFov - camera.fov) * (snap ? 1 : Math.min(1, dt * 4));
+  camera.updateProjectionMatrix();
+}

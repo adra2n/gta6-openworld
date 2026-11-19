@@ -1,1 +1,483 @@
-Ly8gTWlzc2lvbnM6IGNyZWF0ZU1pc3Npb25zIGFuZCB1cGRhdGVNaXNzaW9ucyBydW4gdGhlIGpvYnM7IHN0YXJ0TWlzc2lvbiwgc3RhZ2VNaXNzaW9uLCBmYWlsQ3VycmVudE1pc3Npb24uIFNldmVuIHN0ZXBzLWJhc2VkIGpvYnMuCi8vIFJvc2EgRGVsZ2FkbydzIHNldmVuIGpvYnMsIGZyb20gYSBmaXJzdCBwaXN0b2wgdG8gdGhlIFBhbG9tYSBQaWVyIGhlaXN0LiBFYWNoIGpvYiBpcyBhIGxpc3Qgb2YKLy8gc3RlcHMg4oCUIGRyaXZlIGhlcmUsIGtpbGwgdGhlc2UsIHN0ZWFsIHRoYXQsIGxvc2UgdGhlIGNvcHMg4oCUIHdpdGggYSB3b3JsZCBtYXJrZXIsIGEgbWluaW1hcAovLyBibGlwLCBkaWFsb2d1ZSBsaW5lcyBhbmQgYSBjYXNoIHJld2FyZCB0aGF0IGF1dG9zYXZlcy4KCmltcG9ydCAqIGFzIFRIUkVFIGZyb20gJ3RocmVlJzsKaW1wb3J0IHsgUExBQ0VTLCBwbGFjZUF0IH0gZnJvbSAnLi4vd29ybGQvY2l0eS5qcyc7CmltcG9ydCB7IGNyZWF0ZVBlcnNvbiwgcG9zZVBlcnNvbiB9IGZyb20gJy4uL2VudGl0aWVzL3BlcnNvbi5qcyc7CmltcG9ydCB7IGNyZWF0ZVZlaGljbGUsIHBsYWNlVmVoaWNsZSwgdXBkYXRlVmVoaWNsZSB9IGZyb20gJy4uL2VudGl0aWVzL3ZlaGljbGUuanMnOwppbXBvcnQgeyByZXBvcnRDcmltZSB9IGZyb20gJy4vcG9saWNlLmpzJzsKaW1wb3J0IHsgbnBjU2hvb3QgfSBmcm9tICcuL2NvbWJhdC5qcyc7Cgpjb25zdCBUSFVHX0xPT0sgPSB7IGphY2tldDogMHg3YzU4NDQsIHNoaXJ0OiAweDJmMmEyNiwgcGFudHM6IDB4M2EzYTNhLCBza2luOiAweGE4Nzg1MiwgaGFpcjogMHgxYjE0MTAgfTsKCmNvbnN0IE1JU1NJT05TID0gWwogIHsKICAgIGlkOiAnZmlyc3QtdGlkZScsCiAgICB0aXRsZTogJ0ZpcnN0IFRpZGUnLAogICAgY29udGFjdDogJ1Jvc2EgRGVsZ2FkbycsCiAgICByZXdhcmQ6IDYwMCwKICAgIGludHJvOiBbCiAgICAgICdSb3NhOiBOaWNvIFZhbGUuIFlvdSBsb29rIGxpa2UgYSBtYW4gd2l0aCBhIGNhciBhbmQgbm8gcGxhbi4nLAogICAgICAnUm9zYTogSSBydW4gdGhpcyBtYXJpbmEsIGFuZCB0aGlzIG1hcmluYSBydW5zIHRoZSBzb3V0aCBiYXkuJywKICAgICAgJ1Jvc2E6IFRha2UgdGhpcyBwaXN0b2wuIFNlZSBTYWwgYXQgdGhlIHBhd24gc2hvcCwgdGhlbiBjb21lIGJhY2suJywKICAgIF0sCiAgICBzdGVwczogWwogICAgICB7IGtpbmQ6ICdnb3RvJywgYXQ6IHBsYWNlQXQoUExBQ0VTLnNob3ApLCByYWRpdXM6IDcsIHRleHQ6ICdNZWV0IFNhbCBhdCBWZWdhIFBhd24nLCB0YWxrOiAnU2FsOiBSb3NhIHNlbnQgeW91PyBUaGlzIG9uY2UgaXQgaXMgb24gdGhlIGhvdXNlLicgfSwKICAgICAgeyBraW5kOiAnZ290bycsIGF0OiBQTEFDRVMubWFyaW5hLCByYWRpdXM6IDgsIHRleHQ6ICdSZXR1cm4gdG8gUm9zYSBhdCB0aGUgbWFyaW5hJywgdGFsazogJ1Jvc2E6IEdvb2QuIE5vdyB5b3UgYXJlIHNvbWVib2R5IHdpdGggYSBjYXIsIGEgZ3VuIGFuZCBhIHBsYW4uJyB9LAogICAgXSwKICAgIG91dHJvOiBbJ1Jvc2E6IEdldCBzb21lIHNsZWVwLiBUb21vcnJvdyB0aGUgYmF5IHN0YXJ0cyBwYXlpbmcgeW91LiddLAogIH0sCiAgewogICAgaWQ6ICdiZWFjaC1ydW4nLAogICAgdGl0bGU6ICdCZWFjaCBSdW4nLAogICAgY29udGFjdDogJ1Jvc2EgRGVsZ2FkbycsCiAgICByZXdhcmQ6IDkwMCwKICAgIGludHJvOiBbCiAgICAgICdSb3NhOiBUaGUgTGFndW5hIGhhcyBhIHBhY2thZ2UgdGhhdCBoYXMgdG8gYmUgb24gdGhlIGRvY2tzIGluIG5pbmV0eSBzZWNvbmRzLicsCiAgICAgICdSb3NhOiBEcml2ZSBmYXN0LCBkbyBub3Qgb3BlbiBpdCwgYW5kIGRvIG5vdCBzdG9wIGZvciBhbnlvbmUgd2l0aCBhIGJhZGdlLicsCiAgICBdLAogICAgc3RlcHM6IFsKICAgICAgeyBraW5kOiAnZ290bycsIGF0OiBQTEFDRVMuaG90ZWwsIHJhZGl1czogNywgdGV4dDogJ1BpY2sgdXAgdGhlIHBhY2thZ2UgYXQgSG90ZWwgTGFndW5hJywgdGltZTogMTAwIH0sCiAgICAgIHsga2luZDogJ2dvdG8nLCBhdDogUExBQ0VTLmRvY2tzLCByYWRpdXM6IDgsIHRleHQ6ICdEZWxpdmVyIHRoZSBwYWNrYWdlIHRvIHRoZSBkb2NrcycgfSwKICAgIF0sCiAgICBvdXRybzogWydSb3NhOiBFYXJseS4gVGhlIGRvY2ttYXN0ZXIgaGF0ZXMgZWFybHkuIFRoYXQgaXMgaG93IEkga25vdyBpdCB3b3JrZWQuJ10sCiAgfSwKICB7CiAgICBpZDogJ2JhZC1yZWNlcHRpb24nLAogICAgdGl0bGU6ICdCYWQgUmVjZXB0aW9uJywKICAgIGNvbnRhY3Q6ICdSb3NhIERlbGdhZG8nLAogICAgcmV3YXJkOiAxNTAwLAogICAgaW50cm86IFsKICAgICAgJ1Jvc2E6IFRoZSBTYWx2YWdlIENyZXcgaGFzIGJlZW4gbGlmdGluZyBvdXIgY3JhdGVzIG9mZiB0aGUgcXVheS4nLAogICAgICAnUm9zYTogRml2ZSBvZiB0aGVtIGFyZSBhdCB0aGUgZG9ja3MgcmlnaHQgbm93LiBNYWtlIGl0IGV4cGVuc2l2ZSBmb3IgdGhlbS4nLAogICAgXSwKICAgIHN0ZXBzOiBbCiAgICAgIHsga2luZDogJ2dvdG8nLCBhdDogUExBQ0VTLmRvY2tzLCByYWRpdXM6IDEyLCB0ZXh0OiAnRHJpdmUgdG8gdGhlIFZlZ2EgRG9ja3MnLCB0YWxrOiAnUm9zYTogVGhhdCBpcyB0aGVtLiBLZWVwIHlvdXIgaGVhZCBkb3duLicgfSwKICAgICAgewogICAgICAgIGtpbmQ6ICdraWxsJywgYXQ6IFBMQUNFUy5kb2NrcywgY291bnQ6IDUsIHJhZGl1czogNDAsIHRleHQ6ICdUYWtlIG91dCB0aGUgU2FsdmFnZSBDcmV3JywKICAgICAgICBzcGF3bjogW1sxNjAsIDQ1Ml0sIFsyMjYsIDQ2Ml0sIFsyNDgsIDQzOF0sIFsxODIsIDQ5OF0sIFsyNDIsIDUwNF1dLAogICAgICB9LAogICAgICB7IGtpbmQ6ICdlc2NhcGUnLCB0ZXh0OiAnTG9zZSB0aGUgcG9saWNlJywgY3JpbWU6IDIgfSwKICAgIF0sCiAgICBvdXRybzogWydSb3NhOiBGaXZlIGxlc3MgcHJvYmxlbSBzb2x2ZXJzLiBUaGUgYmF5IG5vdGljZWQuJ10sCiAgfSwKICB7CiAgICBpZDogJ3dha2UtcmlkZXInLAogICAgdGl0bGU6ICdXYWtlIFJpZGVyJywKICAgIGNvbnRhY3Q6ICdTYWwgTW9yZXR0aScsCiAgICByZXdhcmQ6IDE4MDAsCiAgICBpbnRybzogWwogICAgICAnU2FsOiBBIGNvdXJpZXIgaXMgcnVubmluZyBob3RlbCBtb25leSBub3J0aCBhbG9uZyB0aGUgY29hc3Qgcm9hZC4nLAogICAgICAnU2FsOiBHcmV5IE1hbnRhIEdULiBXcmVjayBpdCBiZWZvcmUgaXQgcmVhY2hlcyB0aGUgYnJpZGdlIGFuZCB0aGUgbW9uZXkgaXMgb3Vycy4nLAogICAgXSwKICAgIHN0ZXBzOiBbCiAgICAgIHsga2luZDogJ2dvdG8nLCBhdDogUExBQ0VTLmhvdGVsLCByYWRpdXM6IDgsIHRleHQ6ICdTcG90IHRoZSBjb3VyaWVyIGF0IHRoZSBMYWd1bmEnIH0sCiAgICAgIHsKICAgICAgICBraW5kOiAnY2hhc2UnLCBhdDogeyB4OiA0NzAsIHo6IC0xODAgfSwgcmFkaXVzOiAyNjAsIHRleHQ6ICdXcmVjayB0aGUgZ3JleSBNYW50YScsCiAgICAgICAgc3Bhd246IHsgeDogNDcwLCB6OiAtNjAsIGtpbmQ6ICdzcG9ydHMnLCBjb2xvcjogMHg4Zjk2OWUsIHJvdXRlOiBbeyB4OiA0NzAsIHo6IC0yNjAgfSwgeyB4OiA0NzAsIHo6IC00NDAgfSwgeyB4OiAzMDAsIHo6IC00NDAgfSwgeyB4OiA0MCwgejogLTQ0MCB9XSB9LAogICAgICB9LAogICAgXSwKICAgIG91dHJvOiBbJ1NhbDogQmVhdXRpZnVsIG5vaXNlLiBUaGUgbW9uZXkgaXMgaW4gdGhlIHRydW5rLiBSb3NhIHdpbGwgcGF5IHlvdSBvdXQuJ10sCiAgfSwKICB7CiAgICBpZDogJ25pZ2h0LXNoaWZ0JywKICAgIHRpdGxlOiAnTmlnaHQgU2hpZnQnLAogICAgY29udGFjdDogJ1Jvc2EgRGVsZ2FkbycsCiAgICByZXdhcmQ6IDIyMDAsCiAgICBpbnRybzogWwogICAgICAnUm9zYTogVGhlcmUgaXMgYSBNYW50YSBHVCBwYXJrZWQgb3V0IG9uIHRoZSBwaWVyLiBLZXlzIGFyZSBpbiBpdC4gU2hhbWUuJywKICAgICAgJ1Jvc2E6IFRha2UgaXQgZm9yIGEgZHJpdmUuIFRoZSBDVkUgd2lsbCBub3RpY2UuIExldCB0aGVtIG5vdCBjYXRjaCB5b3UuJywKICAgIF0sCiAgICBzdGVwczogWwogICAgICB7IGtpbmQ6ICdnb3RvJywgYXQ6IFBMQUNFUy5waWVyLCByYWRpdXM6IDE0LCB0ZXh0OiAnR2V0IHRvIFBhbG9tYSBQaWVyJyB9LAogICAgICB7CiAgICAgICAga2luZDogJ3N0ZWFsJywgYXQ6IHsgeDogNTU2LCB6OiAtMjcyIH0sIHJhZGl1czogNiwgdGV4dDogJ1N0ZWFsIHRoZSBNYW50YSBHVCcsCiAgICAgICAgc3Bhd246IHsgeDogNTU2LCB6OiAtMjcyLCBraW5kOiAnc3BvcnRzJywgY29sb3I6IDB4ZmY1NDcwIH0sCiAgICAgIH0sCiAgICAgIHsga2luZDogJ2VzY2FwZScsIHRleHQ6ICdMb3NlIHRoZSBwb2xpY2UnLCBjcmltZTogMiB9LAogICAgXSwKICAgIG91dHJvOiBbJ1Jvc2E6IFRoYXQgY2FyIGlzIHdvcnRoIG1vcmUgdGhhbiB0aGUgbWFyaW5hLiBQYXJrIGl0IHNvbWV3aGVyZSBJIGNhbiBzZWxsIGl0LiddLAogIH0sCiAgewogICAgaWQ6ICd0aWRlLXRhYmxlJywKICAgIHRpdGxlOiAnVGlkZSBUYWJsZScsCiAgICBjb250YWN0OiAnU2FsIE1vcmV0dGknLAogICAgcmV3YXJkOiAyNTAwLAogICAgaW50cm86IFsKICAgICAgJ1NhbDogVGhyZWUgYnV5ZXJzIG9uIHRoZSBjb2FzdCB0b25pZ2h0LCBvbmUgYmFnIGVhY2guJywKICAgICAgJ1NhbDogUGllciwgYmVhY2ggY2x1YiwgbWFyaW5hLiBBIGh1bmRyZWQgYW5kIHRlbiBzZWNvbmRzLiBHby4nLAogICAgXSwKICAgIHN0ZXBzOiBbCiAgICAgIHsga2luZDogJ2dvdG8nLCBhdDogeyB4OiA1NjAsIHo6IC0yMjAgfSwgcmFkaXVzOiAxMCwgdGV4dDogJ0Ryb3AgYXQgdGhlIG5vcnRoIGJlYWNoJywgdGltZTogMTEwIH0sCiAgICAgIHsga2luZDogJ2dvdG8nLCBhdDogeyB4OiA1NjYsIHo6IDI1MCB9LCByYWRpdXM6IDEwLCB0ZXh0OiAnRHJvcCBhdCB0aGUgYmVhY2ggY2x1YicgfSwKICAgICAgeyBraW5kOiAnZ290bycsIGF0OiB7IHg6IDQwMCwgejogNDcwIH0sIHJhZGl1czogMTAsIHRleHQ6ICdEcm9wIGF0IHRoZSBtYXJpbmEgcm9hZCcgfSwKICAgICAgeyBraW5kOiAnZ290bycsIGF0OiBQTEFDRVMubWFyaW5hLCByYWRpdXM6IDgsIHRleHQ6ICdHZXQgYmFjayB0byBSb3NhJyB9LAogICAgXSwKICAgIG91dHJvOiBbJ1NhbDogT24gdGltZS4gRG8geW91IGtub3cgaG93IHJhcmUgdGhhdCBpcyBvbiB0aGlzIGNvYXN0PyddLAogIH0sCiAgewogICAgaWQ6ICdraW5nLXRpZGUnLAogICAgdGl0bGU6ICdLaW5nIFRpZGUnLAogICAgY29udGFjdDogJ1Jvc2EgRGVsZ2FkbycsCiAgICByZXdhcmQ6IDgwMDAsCiAgICBpbnRybzogWwogICAgICAnUm9zYTogVGhpcyBpcyB0aGUgb25lLCBOaWNvLiBUaGUgcGllciBjYXNpbm8gY291bnRzIGl0cyB0YWtlIG9uIHRoZSByb29mIGRlY2suJywKICAgICAgJ1Jvc2E6IFNpeCBndWFyZHMsIG9uZSBiYWcsIGFuZCBldmVyeSBjcnVpc2VyIGluIENvc3RhIFZlZ2EgYmV0d2VlbiB5b3UgYW5kIHRoZSBtYXJpbmEuJywKICAgICAgJ1Jvc2E6IEJyaW5nIGl0IGhvbWUgYW5kIHRoZSBtYXJpbmEgaXMgeW91cnMuJywKICAgIF0sCiAgICBzdGVwczogWwogICAgICB7IGtpbmQ6ICdnb3RvJywgYXQ6IFBMQUNFUy5waWVyLCByYWRpdXM6IDE2LCB0ZXh0OiAnR2V0IHRvIHRoZSBQYWxvbWEgUGllciBwYXZpbGlvbicsIHRhbGs6ICdSb3NhOiBHbyBpbiBsb3VkLiBDb21lIG91dCByaWNoLicgfSwKICAgICAgewogICAgICAgIGtpbmQ6ICdraWxsJywgYXQ6IFBMQUNFUy5waWVyLCBjb3VudDogNiwgcmFkaXVzOiA0MCwgdGV4dDogJ0NsZWFyIHRoZSBwaWVyIGd1YXJkcycsCiAgICAgICAgc3Bhd246IFtbNTcwLCAtMzE4XSwgWzYwMCwgLTMwNF0sIFs2MTgsIC0yODJdLCBbNTc0LCAtMjY4XSwgWzYwNCwgLTI1Nl0sIFs1ODgsIC0zMzhdXSwKICAgICAgfSwKICAgICAgeyBraW5kOiAnZ3JhYicsIGF0OiB7IHg6IDU3NCwgejogLTMwMCB9LCByYWRpdXM6IDQsIHRleHQ6ICdHcmFiIHRoZSB0YWtlIGZyb20gdGhlIHBhdmlsaW9uJywgY2FzaDogNDAwMCwgY3JpbWU6IDMgfSwKICAgICAgeyBraW5kOiAnZXNjYXBlJywgdGV4dDogJ0xvc2UgdGhlIHBvbGljZSBhbmQgZ2V0IGNsZWFyJywgY3JpbWU6IDMgfSwKICAgIF0sCiAgICBvdXRybzogWwogICAgICAnUm9zYTogWW91IGRpZCBpdC4gVGhlIG1hcmluYSwgdGhlIHBpZXIsIHRoZSB3aG9sZSBzb3V0aCBiYXkuJywKICAgICAgJ1Jvc2E6IEdvIGhvbWUsIE5pY28uIFlvdSBhcmUgbm90IGZhbW91cy4gVGhhdCBpcyB0aGUgd2hvbGUgdHJpY2suJywKICAgIF0sCiAgfSwKXTsKCmV4cG9ydCBmdW5jdGlvbiBjcmVhdGVNaXNzaW9ucyhzY2VuZSkgewogIGNvbnN0IG1hcmtlciA9IG5ldyBUSFJFRS5Hcm91cCgpOwogIGNvbnN0IHJpbmcgPSBuZXcgVEhSRUUuTWVzaCgKICAgIG5ldyBUSFJFRS5SaW5nR2VvbWV0cnkoMS43LCAyLjEsIDI0KSwKICAgIG5ldyBUSFJFRS5NZXNoQmFzaWNNYXRlcmlhbCh7IGNvbG9yOiAweGZmZDM1Yywgc2lkZTogVEhSRUUuRG91YmxlU2lkZSwgdHJhbnNwYXJlbnQ6IHRydWUsIG9wYWNpdHk6IDAuODUsIHRvbmVNYXBwZWQ6IGZhbHNlIH0pLAogICk7CiAgcmluZy5yb3RhdGlvbi54ID0gLU1hdGguUEkgLyAyOwogIHJpbmcucG9zaXRpb24ueSA9IDAuMTI7CiAgY29uc3QgYmVhbSA9IG5ldyBUSFJFRS5NZXNoKAogICAgbmV3IFRIUkVFLkN5bGluZGVyR2VvbWV0cnkoMS42LCAxLjksIDIyLCAxNiwgMSwgdHJ1ZSksCiAgICBuZXcgVEhSRUUuTWVzaEJhc2ljTWF0ZXJpYWwoeyBjb2xvcjogMHhmZmQzNWMsIHRyYW5zcGFyZW50OiB0cnVlLCBvcGFjaXR5OiAwLjEzLCBzaWRlOiBUSFJFRS5Eb3VibGVTaWRlLCBkZXB0aFdyaXRlOiBmYWxzZSwgdG9uZU1hcHBlZDogZmFsc2UgfSksCiAgKTsKICBiZWFtLnBvc2l0aW9uLnkgPSAxMTsKICBjb25zdCBkaWFtb25kID0gbmV3IFRIUkVFLk1lc2goCiAgICBuZXcgVEhSRUUuT2N0YWhlZHJvbkdlb21ldHJ5KDAuNyksCiAgICBuZXcgVEhSRUUuTWVzaEJhc2ljTWF0ZXJpYWwoeyBjb2xvcjogMHhmZmU5YTgsIHRvbmVNYXBwZWQ6IGZhbHNlIH0pLAogICk7CiAgZGlhbW9uZC5wb3NpdGlvbi55ID0gNS41OwogIG1hcmtlci5hZGQocmluZywgYmVhbSwgZGlhbW9uZCk7CiAgbWFya2VyLnZpc2libGUgPSBmYWxzZTsKICBzY2VuZS5hZGQobWFya2VyKTsKCiAgcmV0dXJuIHsKICAgIGxpc3Q6IE1JU1NJT05TLAogICAgaW5kZXg6IDAsCiAgICBhY3RpdmU6IG51bGwsCiAgICBzdGVwSW5kZXg6IDAsCiAgICB0aW1lcjogMCwKICAgIGVuZW1pZXM6IFtdLAogICAgdmVoaWNsZTogbnVsbCwKICAgIGNvdXJpZXJSb3V0ZTogW10sCiAgICBjb3VyaWVyTGVnOiAwLAogICAgbG9zdFRpbWVyOiAwLAogICAgbWFya2VyLAogICAgbWFya2VyUG9zOiBuZXcgVEhSRUUuVmVjdG9yMygpLAogICAgYmxpcDogbnVsbCwKICAgIHRhbGtUaW1lcjogMCwKICAgIHRhbGtRdWV1ZTogW10sCiAgICBtYXJrZXJQdWxzZTogMCwKICB9Owp9CgpmdW5jdGlvbiBtaXNzaW9uKG1pc3Npb25zKSB7CiAgcmV0dXJuIG1pc3Npb25zLmFjdGl2ZSA/PyBtaXNzaW9ucy5saXN0W21pc3Npb25zLmluZGV4XSA/PyBudWxsOwp9CgpmdW5jdGlvbiBwb2ludE9mKGF0KSB7CiAgcmV0dXJuIHsgeDogYXQueCwgejogYXQueiB9Owp9CgpleHBvcnQgZnVuY3Rpb24gdXBkYXRlTWlzc2lvbnMobWlzc2lvbnMsIHN0YXRlLCBkdCkgewogIG1pc3Npb25zLm1hcmtlclB1bHNlICs9IGR0OwogIGNvbnN0IHB1bHNlID0gMSArIE1hdGguc2luKG1pc3Npb25zLm1hcmtlclB1bHNlICogMykgKiAwLjA4OwogIG1pc3Npb25zLm1hcmtlci5zY2FsZS5zZXQocHVsc2UsIDEsIHB1bHNlKTsKCiAgLy8gZGlhbG9ndWUgbGluZXMgY29tZSBvdXQgb25lIGF0IGEgdGltZQogIGlmIChtaXNzaW9ucy50YWxrUXVldWUubGVuZ3RoKSB7CiAgICBtaXNzaW9ucy50YWxrVGltZXIgLT0gZHQ7CiAgICBpZiAobWlzc2lvbnMudGFsa1RpbWVyIDw9IDApIHsKICAgICAgY29uc3QgbGluZSA9IG1pc3Npb25zLnRhbGtRdWV1ZS5zaGlmdCgpOwogICAgICBzdGF0ZS5odWQuc2F5KCcnLCBsaW5lLCA1KTsKICAgICAgbWlzc2lvbnMudGFsa1RpbWVyID0gNC4yOwogICAgfQogIH0KCiAgaWYgKCFtaXNzaW9ucy5hY3RpdmUpIHsKICAgIGNvbnN0IG5leHQgPSBtaXNzaW9ucy5saXN0W21pc3Npb25zLmluZGV4XTsKICAgIGlmICghbmV4dCkgewogICAgICBtaXNzaW9ucy5ibGlwID0gbnVsbDsKICAgICAgbWlzc2lvbnMubWFya2VyLnZpc2libGUgPSBmYWxzZTsKICAgICAgc3RhdGUub2JqZWN0aXZlVGl0bGUgPSAnQ09TVEEgVkVHQSc7CiAgICAgIHN0YXRlLm9iamVjdGl2ZVRleHQgPSAnQWxsIHNldmVuIGpvYnMgZG9uZS4gVGhlIGJheSBpcyB5b3Vycy4nOwogICAgICBzdGF0ZS5vYmplY3RpdmVUaW1lciA9ICcnOwogICAgICByZXR1cm47CiAgICB9CiAgICBtaXNzaW9ucy5ibGlwID0geyB4OiBQTEFDRVMubWFyaW5hLngsIHo6IFBMQUNFUy5tYXJpbmEueiB9OwogICAgbWlzc2lvbnMubWFya2VyLnZpc2libGUgPSB0cnVlOwogICAgbWlzc2lvbnMubWFya2VyLnBvc2l0aW9uLnNldChQTEFDRVMubWFyaW5hLngsIDAuMiwgUExBQ0VTLm1hcmluYS56KTsKICAgIG1pc3Npb25zLm1hcmtlclBvcy5jb3B5KG1pc3Npb25zLm1hcmtlci5wb3NpdGlvbik7CiAgICBzdGF0ZS5vYmplY3RpdmVUaXRsZSA9ICdST1NBIERFTEdBRE8nOwogICAgc3RhdGUub2JqZWN0aXZlVGV4dCA9IGBNZWV0IFJvc2EgYXQgdGhlIG1hcmluYSDigJQgJHtuZXh0LnRpdGxlfWA7CiAgICBzdGF0ZS5vYmplY3RpdmVUaW1lciA9ICdQcmVzcyBFIGF0IHRoZSBtYXJrZXInOwogICAgcmV0dXJuOwogIH0KCiAgY29uc3QgYWN0aXZlID0gbWlzc2lvbnMuYWN0aXZlOwogIGNvbnN0IHN0ZXAgPSBhY3RpdmUuc3RlcHNbbWlzc2lvbnMuc3RlcEluZGV4XTsKICBpZiAoIXN0ZXApIHJldHVybjsKCiAgaWYgKG1pc3Npb25zLnRpbWVyID4gMCkgewogICAgbWlzc2lvbnMudGltZXIgLT0gZHQ7CiAgICBzdGF0ZS5vYmplY3RpdmVUaW1lciA9IGBUaW1lICR7TWF0aC5tYXgoMCwgTWF0aC5jZWlsKG1pc3Npb25zLnRpbWVyKSl9c2A7CiAgICBpZiAobWlzc2lvbnMudGltZXIgPD0gMCkgewogICAgICBmYWlsTWlzc2lvbihtaXNzaW9ucywgc3RhdGUsICdPdXQgb2YgdGltZS4nKTsKICAgICAgcmV0dXJuOwogICAgfQogIH0gZWxzZSBpZiAoc3RlcC50aW1lKSB7CiAgICBtaXNzaW9ucy50aW1lciA9IHN0ZXAudGltZTsKICB9CgogIC8vIFdvcmxkIG1hcmtlciBhbmQgYmxpcC4KICBsZXQgdGFyZ2V0ID0gc3RlcC5hdCA/PyAoc3RlcC5raW5kID09PSAnZXNjYXBlJyA/IFBMQUNFUy5tYXJpbmEgOiBhY3RpdmUuc3RlcHNbbWlzc2lvbnMuc3RlcEluZGV4IC0gMV0/LmF0ID8/IFBMQUNFUy5tYXJpbmEpOwogIGlmIChzdGVwLmtpbmQgPT09ICdjaGFzZScgJiYgbWlzc2lvbnMudmVoaWNsZSkgdGFyZ2V0ID0gbWlzc2lvbnMudmVoaWNsZS5wb3M7CiAgaWYgKHN0ZXAua2luZCA9PT0gJ3N0ZWFsJyAmJiBtaXNzaW9ucy52ZWhpY2xlKSB0YXJnZXQgPSBtaXNzaW9ucy52ZWhpY2xlLnBvczsKICBtaXNzaW9ucy5ibGlwID0geyB4OiB0YXJnZXQueCwgejogdGFyZ2V0LnogfTsKICBtaXNzaW9ucy5tYXJrZXIudmlzaWJsZSA9IHRydWU7CiAgbWlzc2lvbnMubWFya2VyLnBvc2l0aW9uLnNldCh0YXJnZXQueCwgMC4yLCB0YXJnZXQueik7CiAgbWlzc2lvbnMubWFya2VyUG9zLmNvcHkobWlzc2lvbnMubWFya2VyLnBvc2l0aW9uKTsKCiAgc3RhdGUub2JqZWN0aXZlVGl0bGUgPSBhY3RpdmUudGl0bGUudG9VcHBlckNhc2UoKTsKICBzdGF0ZS5vYmplY3RpdmVUZXh0ID0gc3RlcC50ZXh0OwogIGlmICghc3RlcC50aW1lKSB7CiAgICBpZiAoc3RlcC5raW5kID09PSAna2lsbCcpIHN0YXRlLm9iamVjdGl2ZVRpbWVyID0gYCR7TWF0aC5tYXgoMCwgc3RlcC5jb3VudCAtIChzdGF0ZS5taXNzaW9uS2lsbHMgPz8gMCkpfSBsZWZ0YDsKICAgIGVsc2UgaWYgKHN0ZXAua2luZCA9PT0gJ2VzY2FwZScpIHN0YXRlLm9iamVjdGl2ZVRpbWVyID0gJ1dhbnRlZCBsZXZlbCBtdXN0IGNsZWFyJzsKICAgIGVsc2Ugc3RhdGUub2JqZWN0aXZlVGltZXIgPSAnJzsKICB9CgogIHN3aXRjaCAoc3RlcC5raW5kKSB7CiAgICBjYXNlICdnb3RvJzogewogICAgICBpZiAobmVhcihzdGF0ZS5wbGF5ZXIucG9zLCBzdGVwLmF0LCBzdGVwLnJhZGl1cyA/PyA3KSkgYWR2YW5jZVN0ZXAobWlzc2lvbnMsIHN0YXRlLCBzdGVwKTsKICAgICAgYnJlYWs7CiAgICB9CiAgICBjYXNlICdraWxsJzogewogICAgICBpZiAoKHN0YXRlLm1pc3Npb25LaWxscyA/PyAwKSA+PSBzdGVwLmNvdW50KSBhZHZhbmNlU3RlcChtaXNzaW9ucywgc3RhdGUsIHN0ZXApOwogICAgICBicmVhazsKICAgIH0KICAgIGNhc2UgJ2dyYWInOiB7CiAgICAgIGlmIChuZWFyKHN0YXRlLnBsYXllci5wb3MsIHN0ZXAuYXQsIHN0ZXAucmFkaXVzID8/IDQpKSB7CiAgICAgICAgc3RhdGUubW9uZXkgKz0gc3RlcC5jYXNoID8/IDA7CiAgICAgICAgc3RhdGUuaHVkLnRvYXN0KGArJCR7KHN0ZXAuY2FzaCA/PyAwKS50b0xvY2FsZVN0cmluZygnZW4tVVMnKX0g4oCUIHRoZSB0YWtlIGlzIGluIHRoZSBiYWdgLCAzKTsKICAgICAgICBzdGF0ZS5hdWRpbz8ucGlja3VwKCk7CiAgICAgICAgaWYgKHN0ZXAuY3JpbWUpIHJlcG9ydENyaW1lKHN0YXRlLnBvbGljZSwgc3RlcC5jcmltZSk7CiAgICAgICAgYWR2YW5jZVN0ZXAobWlzc2lvbnMsIHN0YXRlLCBzdGVwKTsKICAgICAgfQogICAgICBicmVhazsKICAgIH0KICAgIGNhc2UgJ3N0ZWFsJzogewogICAgICBpZiAobWlzc2lvbnMudmVoaWNsZSAmJiBzdGF0ZS5wbGF5ZXIuaW5WZWhpY2xlID09PSBtaXNzaW9ucy52ZWhpY2xlKSBhZHZhbmNlU3RlcChtaXNzaW9ucywgc3RhdGUsIHN0ZXApOwogICAgICBicmVhazsKICAgIH0KICAgIGNhc2UgJ2NoYXNlJzogewogICAgICBjb25zdCBjYXIgPSBtaXNzaW9ucy52ZWhpY2xlOwogICAgICBpZiAoIWNhcikgeyBhZHZhbmNlU3RlcChtaXNzaW9ucywgc3RhdGUsIHN0ZXApOyBicmVhazsgfQogICAgICBpZiAoIWNhci5hbGl2ZSB8fCBjYXIuaGVhbHRoIDw9IDApIHsKICAgICAgICBzdGF0ZS5odWQudG9hc3QoJ0NvdXJpZXIgd3JlY2tlZC4gVGhlIG1vbmV5IGlzIHlvdXJzLicsIDMpOwogICAgICAgIGFkdmFuY2VTdGVwKG1pc3Npb25zLCBzdGF0ZSwgc3RlcCk7CiAgICAgICAgYnJlYWs7CiAgICAgIH0KICAgICAgZHJpdmVDb3VyaWVyKG1pc3Npb25zLCBzdGF0ZSwgY2FyLCBkdCk7CiAgICAgIGNvbnN0IGRpc3RhbmNlID0gTWF0aC5oeXBvdChjYXIucG9zLnggLSBzdGF0ZS5wbGF5ZXIucG9zLngsIGNhci5wb3MueiAtIHN0YXRlLnBsYXllci5wb3Mueik7CiAgICAgIGlmIChkaXN0YW5jZSA+IDI2MCkgewogICAgICAgIG1pc3Npb25zLmxvc3RUaW1lciArPSBkdDsKICAgICAgICBpZiAobWlzc2lvbnMubG9zdFRpbWVyID4gNykgZmFpbE1pc3Npb24obWlzc2lvbnMsIHN0YXRlLCAnVGhlIGNvdXJpZXIgZ290IGF3YXkuJyk7CiAgICAgIH0gZWxzZSBtaXNzaW9ucy5sb3N0VGltZXIgPSAwOwogICAgICBicmVhazsKICAgIH0KICAgIGNhc2UgJ2VzY2FwZSc6IHsKICAgICAgaWYgKChzdGF0ZS5wb2xpY2U/LndhbnRlZCA/PyAwKSA8PSAwKSBhZHZhbmNlU3RlcChtaXNzaW9ucywgc3RhdGUsIHN0ZXApOwogICAgICBicmVhazsKICAgIH0KICAgIGRlZmF1bHQ6CiAgICAgIGJyZWFrOwogIH0KCiAgdXBkYXRlVGh1Z3MobWlzc2lvbnMsIHN0YXRlLCBkdCk7Cn0KCmZ1bmN0aW9uIG5lYXIocG9zLCBhdCwgcmFkaXVzKSB7CiAgcmV0dXJuIE1hdGguaHlwb3QocG9zLnggLSBhdC54LCBwb3MueiAtIGF0LnopIDwgcmFkaXVzOwp9CgpmdW5jdGlvbiBhZHZhbmNlU3RlcChtaXNzaW9ucywgc3RhdGUsIHN0ZXApIHsKICBtaXNzaW9ucy5zdGVwSW5kZXggKz0gMTsKICBpZiAobWlzc2lvbnMuc3RlcEluZGV4ID49IG1pc3Npb25zLmFjdGl2ZS5zdGVwcy5sZW5ndGgpIHsKICAgIGNvbXBsZXRlTWlzc2lvbihtaXNzaW9ucywgc3RhdGUpOwogIH0gZWxzZSB7CiAgICBlbnRlclN0ZXAobWlzc2lvbnMsIHN0YXRlKTsKICB9Cn0KCmZ1bmN0aW9uIGVudGVyU3RlcChtaXNzaW9ucywgc3RhdGUpIHsKICBjb25zdCBzdGVwID0gbWlzc2lvbnMuYWN0aXZlLnN0ZXBzW21pc3Npb25zLnN0ZXBJbmRleF07CiAgaWYgKCFzdGVwKSByZXR1cm47CiAgbWlzc2lvbnMudGltZXIgPSBzdGVwLnRpbWUgPz8gMDsKICBzdGF0ZS5odWQuc2F5KCcnLCBzdGVwLnRhbGsgPz8gJycsIDQpOwogIHN0YXRlLmF1ZGlvPy5waWNrdXAoKTsKCiAgaWYgKHN0ZXAua2luZCA9PT0gJ2tpbGwnICYmIHN0ZXAuc3Bhd24pIHsKICAgIGNsZWFyRW5lbWllcyhtaXNzaW9ucywgc3RhdGUpOwogICAgc3RhdGUubWlzc2lvbktpbGxzID0gMDsKICAgIGZvciAoY29uc3QgW3gsIHpdIG9mIHN0ZXAuc3Bhd24pIHNwYXduVGh1ZyhtaXNzaW9ucywgc3RhdGUsIHgsIHopOwogIH0KICBpZiAoKHN0ZXAua2luZCA9PT0gJ2NoYXNlJyB8fCBzdGVwLmtpbmQgPT09ICdzdGVhbCcpICYmIHN0ZXAuc3Bhd24pIHsKICAgIGNvbnN0IGluZm8gPSBzdGVwLnNwYXduOwogICAgY29uc3QgY2FyID0gY3JlYXRlVmVoaWNsZShpbmZvLmtpbmQgPz8gJ3Nwb3J0cycsIGluZm8uY29sb3IgPz8gMHg4Zjk2OWUsIHN0YXRlLnNjZW5lKTsKICAgIHBsYWNlVmVoaWNsZShjYXIsIGluZm8ueCwgaW5mby56LCAwKTsKICAgIG1pc3Npb25zLnZlaGljbGUgPSBjYXI7CiAgICBtaXNzaW9ucy5jb3VyaWVyUm91dGUgPSBpbmZvLnJvdXRlID8/IFtdOwogICAgbWlzc2lvbnMuY291cmllckxlZyA9IDA7CiAgICBzdGF0ZS52ZWhpY2xlcy5wdXNoKGNhcik7CiAgfQogIGlmIChzdGVwLmtpbmQgPT09ICdlc2NhcGUnICYmIChzdGF0ZS5wb2xpY2U/LndhbnRlZCA/PyAwKSA8IChzdGVwLmNyaW1lID8/IDEpKSB7CiAgICByZXBvcnRDcmltZShzdGF0ZS5wb2xpY2UsIHN0ZXAuY3JpbWUgPz8gMSk7CiAgfQp9CgpmdW5jdGlvbiBzcGF3blRodWcobWlzc2lvbnMsIHN0YXRlLCB4LCB6KSB7CiAgY29uc3QgcmlnID0gY3JlYXRlUGVyc29uKFRIVUdfTE9PSywgdHJ1ZSk7CiAgc3RhdGUuc2NlbmUuYWRkKHJpZy5yb290KTsKICBjb25zdCB0aHVnID0gewogICAgcmlnLCBncm91cDogcmlnLnJvb3QsIHBvczogbmV3IFRIUkVFLlZlY3RvcjMoeCwgMC4yNSwgeiksIHlhdzogMCwKICAgIGhlYWx0aDogNjUsIGFsaXZlOiB0cnVlLCBpc1RodWc6IHRydWUsIHNob290VGltZXI6IDEgKyBzdGF0ZS5ybmcubmV4dCgpLAogICAgd2Fsa1BoYXNlOiAwLCBob21lOiB7IHgsIHogfSwKICB9OwogIHJpZy5yb290LnBvc2l0aW9uLmNvcHkodGh1Zy5wb3MpOwogIG1pc3Npb25zLmVuZW1pZXMucHVzaCh0aHVnKTsKICBzdGF0ZS50aHVncy5wdXNoKHRodWcpOwp9CgpleHBvcnQgZnVuY3Rpb24gc3RhcnRNaXNzaW9uKG1pc3Npb25zLCBzdGF0ZSkgewogIGlmIChtaXNzaW9ucy5hY3RpdmUgfHwgbWlzc2lvbnMuaW5kZXggPj0gbWlzc2lvbnMubGlzdC5sZW5ndGgpIHJldHVybiBmYWxzZTsKICBjb25zdCBhY3RpdmUgPSBtaXNzaW9ucy5saXN0W21pc3Npb25zLmluZGV4XTsKICBtaXNzaW9ucy5hY3RpdmUgPSBhY3RpdmU7CiAgbWlzc2lvbnMuc3RlcEluZGV4ID0gMDsKICBtaXNzaW9ucy50aW1lciA9IDA7CiAgbWlzc2lvbnMuZW5lbWllcy5sZW5ndGggPSAwOwogIHN0YXRlLnRodWdzLmxlbmd0aCA9IDA7CiAgc3RhdGUubWlzc2lvbktpbGxzID0gMDsKICBzdGF0ZS5sb3N0VGltZXIgPSAwOwogIG1pc3Npb25zLnRhbGtRdWV1ZSA9IFsuLi5hY3RpdmUuaW50cm9dOwogIG1pc3Npb25zLnRhbGtUaW1lciA9IDAuNDsKICBlbnRlclN0ZXAobWlzc2lvbnMsIHN0YXRlKTsKICBzdGF0ZS5odWQudG9hc3QoYEpvYiBzdGFydGVkOiAke2FjdGl2ZS50aXRsZX1gLCAzKTsKICBzdGF0ZS5hdWRpbz8ucGlja3VwKCk7CiAgcmV0dXJuIHRydWU7Cn0KCmV4cG9ydCBmdW5jdGlvbiBzdGFnZU1pc3Npb24obWlzc2lvbnMsIHN0YXRlLCBpbmRleCwgc3RlcEluZGV4KSB7CiAgbWlzc2lvbnMuaW5kZXggPSBpbmRleDsKICBtaXNzaW9ucy5hY3RpdmUgPSBtaXNzaW9ucy5saXN0W2luZGV4XTsKICBtaXNzaW9ucy5zdGVwSW5kZXggPSBzdGVwSW5kZXg7CiAgbWlzc2lvbnMudGltZXIgPSAwOwogIHN0YXRlLnRodWdzLmxlbmd0aCA9IDA7CiAgbWlzc2lvbnMuZW5lbWllcy5sZW5ndGggPSAwOwogIHN0YXRlLm1pc3Npb25LaWxscyA9IDA7CiAgbWlzc2lvbnMudGFsa1F1ZXVlLmxlbmd0aCA9IDA7CiAgZW50ZXJTdGVwKG1pc3Npb25zLCBzdGF0ZSk7Cn0KCmV4cG9ydCBmdW5jdGlvbiBmYWlsQ3VycmVudE1pc3Npb24obWlzc2lvbnMsIHN0YXRlLCByZWFzb24pIHsKICBpZiAobWlzc2lvbnMuYWN0aXZlKSBmYWlsTWlzc2lvbihtaXNzaW9ucywgc3RhdGUsIHJlYXNvbik7Cn0KCmZ1bmN0aW9uIGNvbXBsZXRlTWlzc2lvbihtaXNzaW9ucywgc3RhdGUpIHsKICBjb25zdCBhY3RpdmUgPSBtaXNzaW9ucy5hY3RpdmU7CiAgc3RhdGUubW9uZXkgKz0gYWN0aXZlLnJld2FyZDsKICBzdGF0ZS5odWQuYmlnTWVzc2FnZSgnSk9CIENPTVBMRVRFJywgYCskJHthY3RpdmUucmV3YXJkLnRvTG9jYWxlU3RyaW5nKCdlbi1VUycpfSDCtyAke2FjdGl2ZS50aXRsZX1gLCA0LjUpOwogIHN0YXRlLmF1ZGlvPy5waWNrdXAoKTsKICBzdGF0ZS5taXNzaW9ucy50YWxrUXVldWUgPSBbLi4uKGFjdGl2ZS5vdXRybyA/PyBbXSldOwogIHN0YXRlLm1pc3Npb25zLnRhbGtUaW1lciA9IDAuNjsKICBjbGVhckVuZW1pZXMobWlzc2lvbnMsIHN0YXRlKTsKICBpZiAobWlzc2lvbnMudmVoaWNsZSkgewogICAgY29uc3QgaW5kZXggPSBzdGF0ZS52ZWhpY2xlcy5pbmRleE9mKG1pc3Npb25zLnZlaGljbGUpOwogICAgaWYgKGluZGV4ID49IDApIHN0YXRlLnZlaGljbGVzLnNwbGljZShpbmRleCwgMSk7CiAgICBtaXNzaW9ucy52ZWhpY2xlID0gbnVsbDsKICB9CiAgbWlzc2lvbnMuYWN0aXZlID0gbnVsbDsKICBtaXNzaW9ucy5pbmRleCArPSAxOwogIHN0YXRlLm9uTWlzc2lvbkNvbXBsZXRlPy4oKTsKfQoKZnVuY3Rpb24gZmFpbE1pc3Npb24obWlzc2lvbnMsIHN0YXRlLCByZWFzb24pIHsKICBzdGF0ZS5odWQuYmlnTWVzc2FnZSgnTUlTU0lPTiBGQUlMRUQnLCByZWFzb24gPz8gJ1JldHVybiB0byBSb3NhIGF0IHRoZSBtYXJpbmEnLCA0LjUpOwogIHN0YXRlLmF1ZGlvPy5pbXBhY3QoMSk7CiAgY2xlYXJFbmVtaWVzKG1pc3Npb25zLCBzdGF0ZSk7CiAgaWYgKG1pc3Npb25zLnZlaGljbGUpIHsKICAgIGNvbnN0IGluZGV4ID0gc3RhdGUudmVoaWNsZXMuaW5kZXhPZihtaXNzaW9ucy52ZWhpY2xlKTsKICAgIGlmIChpbmRleCA+PSAwKSBzdGF0ZS52ZWhpY2xlcy5zcGxpY2UoaW5kZXgsIDEpOwogICAgbWlzc2lvbnMudmVoaWNsZSA9IG51bGw7CiAgfQogIG1pc3Npb25zLmFjdGl2ZSA9IG51bGw7CiAgbWlzc2lvbnMuc3RlcEluZGV4ID0gMDsKICBtaXNzaW9ucy50aW1lciA9IDA7CiAgc3RhdGUub2JqZWN0aXZlVGltZXIgPSAnJzsKfQoKZnVuY3Rpb24gY2xlYXJFbmVtaWVzKG1pc3Npb25zLCBzdGF0ZSkgewogIGZvciAoY29uc3QgdGh1ZyBvZiBtaXNzaW9ucy5lbmVtaWVzKSB7CiAgICBzdGF0ZS5zY2VuZS5yZW1vdmUodGh1Zy5ncm91cCk7CiAgfQogIG1pc3Npb25zLmVuZW1pZXMubGVuZ3RoID0gMDsKICBzdGF0ZS50aHVncy5sZW5ndGggPSAwOwp9CgpmdW5jdGlvbiB1cGRhdGVUaHVncyhtaXNzaW9ucywgc3RhdGUsIGR0KSB7CiAgY29uc3QgcGxheWVyID0gc3RhdGUucGxheWVyLnBvczsKICBmb3IgKGNvbnN0IHRodWcgb2YgbWlzc2lvbnMuZW5lbWllcykgewogICAgaWYgKCF0aHVnLmFsaXZlKSBjb250aW51ZTsKICAgIGNvbnN0IGR4ID0gcGxheWVyLnggLSB0aHVnLnBvcy54OwogICAgY29uc3QgZHogPSBwbGF5ZXIueiAtIHRodWcucG9zLno7CiAgICBjb25zdCBkaXN0YW5jZSA9IE1hdGguaHlwb3QoZHgsIGR6KTsKICAgIHRodWcueWF3ID0gTWF0aC5hdGFuMihkeCwgZHopOwogICAgY29uc3Qgc3BlZWQgPSBkaXN0YW5jZSA+IDE2ID8gMy42IDogMDsKICAgIGlmIChzcGVlZCA+IDApIHsKICAgICAgdGh1Zy5wb3MueCArPSBNYXRoLnNpbih0aHVnLnlhdykgKiBzcGVlZCAqIGR0OwogICAgICB0aHVnLnBvcy56ICs9IE1hdGguY29zKHRodWcueWF3KSAqIHNwZWVkICogZHQ7CiAgICAgIHN0YXRlLmNpdHkucmVzb2x2ZSh0aHVnLnBvcywgMC41KTsKICAgICAgcG9zZVBlcnNvbih0aHVnLnJpZywgc3BlZWQsIGR0LCBmYWxzZSk7CiAgICB9IGVsc2UgewogICAgICBwb3NlUGVyc29uKHRodWcucmlnLCAwLCBkdCwgdHJ1ZSk7CiAgICB9CiAgICB0aHVnLmdyb3VwLnBvc2l0aW9uLmNvcHkodGh1Zy5wb3MpOwogICAgdGh1Zy5ncm91cC5yb3RhdGlvbi55ID0gdGh1Zy55YXc7CiAgICB0aHVnLnNob290VGltZXIgLT0gZHQ7CiAgICBpZiAoZGlzdGFuY2UgPCAzMCAmJiB0aHVnLnNob290VGltZXIgPD0gMCkgewogICAgICB0aHVnLnNob290VGltZXIgPSAxLjQgKyBzdGF0ZS5ybmcubmV4dCgpICogMC45OwogICAgICBucGNTaG9vdChzdGF0ZSwgdGh1Zy5wb3MsIFRIUkVFLk1hdGhVdGlscy5jbGFtcCgwLjUgLSBkaXN0YW5jZSAvIDkwLCAwLjEsIDAuNDUpKTsKICAgIH0KICB9Cn0KCmZ1bmN0aW9uIGRyaXZlQ291cmllcihtaXNzaW9ucywgc3RhdGUsIGNhciwgZHQpIHsKICBpZiAobWlzc2lvbnMuY291cmllclJvdXRlLmxlbmd0aCA9PT0gMCkgcmV0dXJuOwogIGNvbnN0IHRhcmdldCA9IG1pc3Npb25zLmNvdXJpZXJSb3V0ZVttaXNzaW9ucy5jb3VyaWVyTGVnXTsKICBjb25zdCBkaXN0YW5jZSA9IE1hdGguaHlwb3QodGFyZ2V0LnggLSBjYXIucG9zLngsIHRhcmdldC56IC0gY2FyLnBvcy56KTsKICBpZiAoZGlzdGFuY2UgPCAxOCkgewogICAgbWlzc2lvbnMuY291cmllckxlZyA9IChtaXNzaW9ucy5jb3VyaWVyTGVnICsgMSkgJSBtaXNzaW9ucy5jb3VyaWVyUm91dGUubGVuZ3RoOwogIH0KICBjb25zdCBkeCA9IHRhcmdldC54IC0gY2FyLnBvcy54OwogIGNvbnN0IGR6ID0gdGFyZ2V0LnogLSBjYXIucG9zLno7CiAgY29uc3QgaGVhZGluZyA9IE1hdGguYXRhbjIoZHgsIGR6KTsKICBsZXQgZGlmZiA9IGhlYWRpbmcgLSBjYXIuaGVhZGluZzsKICB3aGlsZSAoZGlmZiA+IE1hdGguUEkpIGRpZmYgLT0gTWF0aC5QSSAqIDI7CiAgd2hpbGUgKGRpZmYgPCAtTWF0aC5QSSkgZGlmZiArPSBNYXRoLlBJICogMjsKICBjb25zdCBzdGVlciA9IFRIUkVFLk1hdGhVdGlscy5jbGFtcChkaWZmICogMS41LCAtMSwgMSk7CiAgdXBkYXRlVmVoaWNsZShjYXIsIHsgdGhyb3R0bGU6IDAuODIsIHN0ZWVyLCBoYW5kYnJha2U6IGZhbHNlIH0sIGR0LCBzdGF0ZS5jaXR5KTsKICBjYXIudHJhZmZpYyA9IG51bGw7Cn0K
+// Missions: createMissions and updateMissions run the jobs; startMission, stageMission, failCurrentMission. Seven steps-based jobs.
+// Rosa Delgado's seven jobs, from a first pistol to the Paloma Pier heist. Each job is a list of
+// steps — drive here, kill these, steal that, lose the cops — with a world marker, a minimap
+// blip, dialogue lines and a cash reward that autosaves.
+
+import * as THREE from 'three';
+import { PLACES, placeAt } from '../world/city.js';
+import { createPerson, posePerson } from '../entities/person.js';
+import { createVehicle, placeVehicle, updateVehicle } from '../entities/vehicle.js';
+import { reportCrime } from './police.js';
+import { npcShoot } from './combat.js';
+
+const THUG_LOOK = { jacket: 0x7c5844, shirt: 0x2f2a26, pants: 0x3a3a3a, skin: 0xa87852, hair: 0x1b1410 };
+
+const MISSIONS = [
+  {
+    id: 'first-tide',
+    title: 'First Tide',
+    contact: 'Rosa Delgado',
+    reward: 600,
+    intro: [
+      'Rosa: Nico Vale. You look like a man with a car and no plan.',
+      'Rosa: I run this marina, and this marina runs the south bay.',
+      'Rosa: Take this pistol. See Sal at the pawn shop, then come back.',
+    ],
+    steps: [
+      { kind: 'goto', at: placeAt(PLACES.shop), radius: 7, text: 'Meet Sal at Vega Pawn', talk: 'Sal: Rosa sent you? This once it is on the house.' },
+      { kind: 'goto', at: PLACES.marina, radius: 8, text: 'Return to Rosa at the marina', talk: 'Rosa: Good. Now you are somebody with a car, a gun and a plan.' },
+    ],
+    outro: ['Rosa: Get some sleep. Tomorrow the bay starts paying you.'],
+  },
+  {
+    id: 'beach-run',
+    title: 'Beach Run',
+    contact: 'Rosa Delgado',
+    reward: 900,
+    intro: [
+      'Rosa: The Laguna has a package that has to be on the docks in ninety seconds.',
+      'Rosa: Drive fast, do not open it, and do not stop for anyone with a badge.',
+    ],
+    steps: [
+      { kind: 'goto', at: PLACES.hotel, radius: 7, text: 'Pick up the package at Hotel Laguna', time: 100 },
+      { kind: 'goto', at: PLACES.docks, radius: 8, text: 'Deliver the package to the docks' },
+    ],
+    outro: ['Rosa: Early. The dockmaster hates early. That is how I know it worked.'],
+  },
+  {
+    id: 'bad-reception',
+    title: 'Bad Reception',
+    contact: 'Rosa Delgado',
+    reward: 1500,
+    intro: [
+      'Rosa: The Salvage Crew has been lifting our crates off the quay.',
+      'Rosa: Five of them are at the docks right now. Make it expensive for them.',
+    ],
+    steps: [
+      { kind: 'goto', at: PLACES.docks, radius: 12, text: 'Drive to the Vega Docks', talk: 'Rosa: That is them. Keep your head down.' },
+      {
+        kind: 'kill', at: PLACES.docks, count: 5, radius: 40, text: 'Take out the Salvage Crew',
+        spawn: [[160, 452], [226, 462], [248, 438], [182, 498], [242, 504]],
+      },
+      { kind: 'escape', text: 'Lose the police', crime: 2 },
+    ],
+    outro: ['Rosa: Five less problem solvers. The bay noticed.'],
+  },
+  {
+    id: 'wake-rider',
+    title: 'Wake Rider',
+    contact: 'Sal Moretti',
+    reward: 1800,
+    intro: [
+      'Sal: A courier is running hotel money north along the coast road.',
+      'Sal: Grey Manta GT. Wreck it before it reaches the bridge and the money is ours.',
+    ],
+    steps: [
+      { kind: 'goto', at: PLACES.hotel, radius: 8, text: 'Spot the courier at the Laguna' },
+      {
+        kind: 'chase', at: { x: 470, z: -180 }, radius: 260, text: 'Wreck the grey Manta',
+        spawn: { x: 470, z: -60, kind: 'sports', color: 0x8f969e, route: [{ x: 470, z: -260 }, { x: 470, z: -440 }, { x: 300, z: -440 }, { x: 40, z: -440 }] },
+      },
+    ],
+    outro: ['Sal: Beautiful noise. The money is in the trunk. Rosa will pay you out.'],
+  },
+  {
+    id: 'night-shift',
+    title: 'Night Shift',
+    contact: 'Rosa Delgado',
+    reward: 2200,
+    intro: [
+      'Rosa: There is a Manta GT parked out on the pier. Keys are in it. Shame.',
+      'Rosa: Take it for a drive. The CVE will notice. Let them not catch you.',
+    ],
+    steps: [
+      { kind: 'goto', at: PLACES.pier, radius: 14, text: 'Get to Paloma Pier' },
+      {
+        kind: 'steal', at: { x: 556, z: -272 }, radius: 6, text: 'Steal the Manta GT',
+        spawn: { x: 556, z: -272, kind: 'sports', color: 0xff5470 },
+      },
+      { kind: 'escape', text: 'Lose the police', crime: 2 },
+    ],
+    outro: ['Rosa: That car is worth more than the marina. Park it somewhere I can sell it.'],
+  },
+  {
+    id: 'tide-table',
+    title: 'Tide Table',
+    contact: 'Sal Moretti',
+    reward: 2500,
+    intro: [
+      'Sal: Three buyers on the coast tonight, one bag each.',
+      'Sal: Pier, beach club, marina. A hundred and ten seconds. Go.',
+    ],
+    steps: [
+      { kind: 'goto', at: { x: 560, z: -220 }, radius: 10, text: 'Drop at the north beach', time: 110 },
+      { kind: 'goto', at: { x: 566, z: 250 }, radius: 10, text: 'Drop at the beach club' },
+      { kind: 'goto', at: { x: 400, z: 470 }, radius: 10, text: 'Drop at the marina road' },
+      { kind: 'goto', at: PLACES.marina, radius: 8, text: 'Get back to Rosa' },
+    ],
+    outro: ['Sal: On time. Do you know how rare that is on this coast?'],
+  },
+  {
+    id: 'king-tide',
+    title: 'King Tide',
+    contact: 'Rosa Delgado',
+    reward: 8000,
+    intro: [
+      'Rosa: This is the one, Nico. The pier casino counts its take on the roof deck.',
+      'Rosa: Six guards, one bag, and every cruiser in Costa Vega between you and the marina.',
+      'Rosa: Bring it home and the marina is yours.',
+    ],
+    steps: [
+      { kind: 'goto', at: PLACES.pier, radius: 16, text: 'Get to the Paloma Pier pavilion', talk: 'Rosa: Go in loud. Come out rich.' },
+      {
+        kind: 'kill', at: PLACES.pier, count: 6, radius: 40, text: 'Clear the pier guards',
+        spawn: [[570, -318], [600, -304], [618, -282], [574, -268], [604, -256], [588, -338]],
+      },
+      { kind: 'grab', at: { x: 574, z: -300 }, radius: 4, text: 'Grab the take from the pavilion', cash: 4000, crime: 3 },
+      { kind: 'escape', text: 'Lose the police and get clear', crime: 3 },
+    ],
+    outro: [
+      'Rosa: You did it. The marina, the pier, the whole south bay.',
+      'Rosa: Go home, Nico. You are not famous. That is the whole trick.',
+    ],
+  },
+];
+
+export function createMissions(scene) {
+  const marker = new THREE.Group();
+  const ring = new THREE.Mesh(
+    new THREE.RingGeometry(1.7, 2.1, 24),
+    new THREE.MeshBasicMaterial({ color: 0xffd35c, side: THREE.DoubleSide, transparent: true, opacity: 0.85, toneMapped: false }),
+  );
+  ring.rotation.x = -Math.PI / 2;
+  ring.position.y = 0.12;
+  const beam = new THREE.Mesh(
+    new THREE.CylinderGeometry(1.6, 1.9, 22, 16, 1, true),
+    new THREE.MeshBasicMaterial({ color: 0xffd35c, transparent: true, opacity: 0.13, side: THREE.DoubleSide, depthWrite: false, toneMapped: false }),
+  );
+  beam.position.y = 11;
+  const diamond = new THREE.Mesh(
+    new THREE.OctahedronGeometry(0.7),
+    new THREE.MeshBasicMaterial({ color: 0xffe9a8, toneMapped: false }),
+  );
+  diamond.position.y = 5.5;
+  marker.add(ring, beam, diamond);
+  marker.visible = false;
+  scene.add(marker);
+
+  return {
+    list: MISSIONS,
+    index: 0,
+    active: null,
+    stepIndex: 0,
+    timer: 0,
+    enemies: [],
+    vehicle: null,
+    courierRoute: [],
+    courierLeg: 0,
+    lostTimer: 0,
+    marker,
+    markerPos: new THREE.Vector3(),
+    blip: null,
+    talkTimer: 0,
+    talkQueue: [],
+    markerPulse: 0,
+  };
+}
+
+function mission(missions) {
+  return missions.active ?? missions.list[missions.index] ?? null;
+}
+
+function pointOf(at) {
+  return { x: at.x, z: at.z };
+}
+
+export function updateMissions(missions, state, dt) {
+  missions.markerPulse += dt;
+  const pulse = 1 + Math.sin(missions.markerPulse * 3) * 0.08;
+  missions.marker.scale.set(pulse, 1, pulse);
+
+  // dialogue lines come out one at a time
+  if (missions.talkQueue.length) {
+    missions.talkTimer -= dt;
+    if (missions.talkTimer <= 0) {
+      const line = missions.talkQueue.shift();
+      state.hud.say('', line, 5);
+      missions.talkTimer = 4.2;
+    }
+  }
+
+  if (!missions.active) {
+    const next = missions.list[missions.index];
+    if (!next) {
+      missions.blip = null;
+      missions.marker.visible = false;
+      state.objectiveTitle = 'COSTA VEGA';
+      state.objectiveText = 'All seven jobs done. The bay is yours.';
+      state.objectiveTimer = '';
+      return;
+    }
+    missions.blip = { x: PLACES.marina.x, z: PLACES.marina.z };
+    missions.marker.visible = true;
+    missions.marker.position.set(PLACES.marina.x, 0.2, PLACES.marina.z);
+    missions.markerPos.copy(missions.marker.position);
+    state.objectiveTitle = 'ROSA DELGADO';
+    state.objectiveText = `Meet Rosa at the marina — ${next.title}`;
+    state.objectiveTimer = 'Press E at the marker';
+    return;
+  }
+
+  const active = missions.active;
+  const step = active.steps[missions.stepIndex];
+  if (!step) return;
+
+  if (missions.timer > 0) {
+    missions.timer -= dt;
+    state.objectiveTimer = `Time ${Math.max(0, Math.ceil(missions.timer))}s`;
+    if (missions.timer <= 0) {
+      failMission(missions, state, 'Out of time.');
+      return;
+    }
+  } else if (step.time) {
+    missions.timer = step.time;
+  }
+
+  // World marker and blip.
+  let target = step.at ?? (step.kind === 'escape' ? PLACES.marina : active.steps[missions.stepIndex - 1]?.at ?? PLACES.marina);
+  if (step.kind === 'chase' && missions.vehicle) target = missions.vehicle.pos;
+  if (step.kind === 'steal' && missions.vehicle) target = missions.vehicle.pos;
+  missions.blip = { x: target.x, z: target.z };
+  missions.marker.visible = true;
+  missions.marker.position.set(target.x, 0.2, target.z);
+  missions.markerPos.copy(missions.marker.position);
+
+  state.objectiveTitle = active.title.toUpperCase();
+  state.objectiveText = step.text;
+  if (!step.time) {
+    if (step.kind === 'kill') state.objectiveTimer = `${Math.max(0, step.count - (state.missionKills ?? 0))} left`;
+    else if (step.kind === 'escape') state.objectiveTimer = 'Wanted level must clear';
+    else state.objectiveTimer = '';
+  }
+
+  switch (step.kind) {
+    case 'goto': {
+      if (near(state.player.pos, step.at, step.radius ?? 7)) advanceStep(missions, state, step);
+      break;
+    }
+    case 'kill': {
+      if ((state.missionKills ?? 0) >= step.count) advanceStep(missions, state, step);
+      break;
+    }
+    case 'grab': {
+      if (near(state.player.pos, step.at, step.radius ?? 4)) {
+        state.money += step.cash ?? 0;
+        state.hud.toast(`+$${(step.cash ?? 0).toLocaleString('en-US')} — the take is in the bag`, 3);
+        state.audio?.pickup();
+        if (step.crime) reportCrime(state.police, step.crime);
+        advanceStep(missions, state, step);
+      }
+      break;
+    }
+    case 'steal': {
+      if (missions.vehicle && state.player.inVehicle === missions.vehicle) advanceStep(missions, state, step);
+      break;
+    }
+    case 'chase': {
+      const car = missions.vehicle;
+      if (!car) { advanceStep(missions, state, step); break; }
+      if (!car.alive || car.health <= 0) {
+        state.hud.toast('Courier wrecked. The money is yours.', 3);
+        advanceStep(missions, state, step);
+        break;
+      }
+      driveCourier(missions, state, car, dt);
+      const distance = Math.hypot(car.pos.x - state.player.pos.x, car.pos.z - state.player.pos.z);
+      if (distance > 260) {
+        missions.lostTimer += dt;
+        if (missions.lostTimer > 7) failMission(missions, state, 'The courier got away.');
+      } else missions.lostTimer = 0;
+      break;
+    }
+    case 'escape': {
+      if ((state.police?.wanted ?? 0) <= 0) advanceStep(missions, state, step);
+      break;
+    }
+    default:
+      break;
+  }
+
+  updateThugs(missions, state, dt);
+}
+
+function near(pos, at, radius) {
+  return Math.hypot(pos.x - at.x, pos.z - at.z) < radius;
+}
+
+function advanceStep(missions, state, step) {
+  missions.stepIndex += 1;
+  if (missions.stepIndex >= missions.active.steps.length) {
+    completeMission(missions, state);
+  } else {
+    enterStep(missions, state);
+  }
+}
+
+function enterStep(missions, state) {
+  const step = missions.active.steps[missions.stepIndex];
+  if (!step) return;
+  missions.timer = step.time ?? 0;
+  state.hud.say('', step.talk ?? '', 4);
+  state.audio?.pickup();
+
+  if (step.kind === 'kill' && step.spawn) {
+    clearEnemies(missions, state);
+    state.missionKills = 0;
+    for (const [x, z] of step.spawn) spawnThug(missions, state, x, z);
+  }
+  if ((step.kind === 'chase' || step.kind === 'steal') && step.spawn) {
+    const info = step.spawn;
+    const car = createVehicle(info.kind ?? 'sports', info.color ?? 0x8f969e, state.scene);
+    placeVehicle(car, info.x, info.z, 0);
+    missions.vehicle = car;
+    missions.courierRoute = info.route ?? [];
+    missions.courierLeg = 0;
+    state.vehicles.push(car);
+  }
+  if (step.kind === 'escape' && (state.police?.wanted ?? 0) < (step.crime ?? 1)) {
+    reportCrime(state.police, step.crime ?? 1);
+  }
+}
+
+function spawnThug(missions, state, x, z) {
+  const rig = createPerson(THUG_LOOK, true);
+  state.scene.add(rig.root);
+  const thug = {
+    rig, group: rig.root, pos: new THREE.Vector3(x, 0.25, z), yaw: 0,
+    health: 65, alive: true, isThug: true, shootTimer: 1 + state.rng.next(),
+    walkPhase: 0, home: { x, z },
+  };
+  rig.root.position.copy(thug.pos);
+  missions.enemies.push(thug);
+  state.thugs.push(thug);
+}
+
+export function startMission(missions, state) {
+  if (missions.active || missions.index >= missions.list.length) return false;
+  const active = missions.list[missions.index];
+  missions.active = active;
+  missions.stepIndex = 0;
+  missions.timer = 0;
+  missions.enemies.length = 0;
+  state.thugs.length = 0;
+  state.missionKills = 0;
+  state.lostTimer = 0;
+  missions.talkQueue = [...active.intro];
+  missions.talkTimer = 0.4;
+  enterStep(missions, state);
+  state.hud.toast(`Job started: ${active.title}`, 3);
+  state.audio?.pickup();
+  return true;
+}
+
+export function stageMission(missions, state, index, stepIndex) {
+  missions.index = index;
+  missions.active = missions.list[index];
+  missions.stepIndex = stepIndex;
+  missions.timer = 0;
+  state.thugs.length = 0;
+  missions.enemies.length = 0;
+  state.missionKills = 0;
+  missions.talkQueue.length = 0;
+  enterStep(missions, state);
+}
+
+export function failCurrentMission(missions, state, reason) {
+  if (missions.active) failMission(missions, state, reason);
+}
+
+function completeMission(missions, state) {
+  const active = missions.active;
+  state.money += active.reward;
+  state.hud.bigMessage('JOB COMPLETE', `+$${active.reward.toLocaleString('en-US')} · ${active.title}`, 4.5);
+  state.audio?.pickup();
+  state.missions.talkQueue = [...(active.outro ?? [])];
+  state.missions.talkTimer = 0.6;
+  clearEnemies(missions, state);
+  if (missions.vehicle) {
+    const index = state.vehicles.indexOf(missions.vehicle);
+    if (index >= 0) state.vehicles.splice(index, 1);
+    missions.vehicle = null;
+  }
+  missions.active = null;
+  missions.index += 1;
+  state.onMissionComplete?.();
+}
+
+function failMission(missions, state, reason) {
+  state.hud.bigMessage('MISSION FAILED', reason ?? 'Return to Rosa at the marina', 4.5);
+  state.audio?.impact(1);
+  clearEnemies(missions, state);
+  if (missions.vehicle) {
+    const index = state.vehicles.indexOf(missions.vehicle);
+    if (index >= 0) state.vehicles.splice(index, 1);
+    missions.vehicle = null;
+  }
+  missions.active = null;
+  missions.stepIndex = 0;
+  missions.timer = 0;
+  state.objectiveTimer = '';
+}
+
+function clearEnemies(missions, state) {
+  for (const thug of missions.enemies) {
+    state.scene.remove(thug.group);
+  }
+  missions.enemies.length = 0;
+  state.thugs.length = 0;
+}
+
+function updateThugs(missions, state, dt) {
+  const player = state.player.pos;
+  for (const thug of missions.enemies) {
+    if (!thug.alive) continue;
+    const dx = player.x - thug.pos.x;
+    const dz = player.z - thug.pos.z;
+    const distance = Math.hypot(dx, dz);
+    thug.yaw = Math.atan2(dx, dz);
+    const speed = distance > 16 ? 3.6 : 0;
+    if (speed > 0) {
+      thug.pos.x += Math.sin(thug.yaw) * speed * dt;
+      thug.pos.z += Math.cos(thug.yaw) * speed * dt;
+      state.city.resolve(thug.pos, 0.5);
+      posePerson(thug.rig, speed, dt, false);
+    } else {
+      posePerson(thug.rig, 0, dt, true);
+    }
+    thug.group.position.copy(thug.pos);
+    thug.group.rotation.y = thug.yaw;
+    thug.shootTimer -= dt;
+    if (distance < 30 && thug.shootTimer <= 0) {
+      thug.shootTimer = 1.4 + state.rng.next() * 0.9;
+      npcShoot(state, thug.pos, THREE.MathUtils.clamp(0.5 - distance / 90, 0.1, 0.45));
+    }
+  }
+}
+
+function driveCourier(missions, state, car, dt) {
+  if (missions.courierRoute.length === 0) return;
+  const target = missions.courierRoute[missions.courierLeg];
+  const distance = Math.hypot(target.x - car.pos.x, target.z - car.pos.z);
+  if (distance < 18) {
+    missions.courierLeg = (missions.courierLeg + 1) % missions.courierRoute.length;
+  }
+  const dx = target.x - car.pos.x;
+  const dz = target.z - car.pos.z;
+  const heading = Math.atan2(dx, dz);
+  let diff = heading - car.heading;
+  while (diff > Math.PI) diff -= Math.PI * 2;
+  while (diff < -Math.PI) diff += Math.PI * 2;
+  const steer = THREE.MathUtils.clamp(diff * 1.5, -1, 1);
+  updateVehicle(car, { throttle: 0.82, steer, handbrake: false }, dt, state.city);
+  car.traffic = null;
+}

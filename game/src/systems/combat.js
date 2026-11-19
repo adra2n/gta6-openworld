@@ -1,1 +1,189 @@
-Ly8gQ29tYmF0OiBjcmVhdGVDb21iYXQgZmlyZXMgaGl0c2NhbiBzaG90cyB3aXRoIGFtbW8gYW5kIHJlY29pbCwgbnBjU2hvb3QgcmV0dXJucyBmaXJlLCByYXlCb3ggdGVzdHMuIGRhbWFnZVBlZCBpcyB0aGUga2lsbCBzd2l0Y2guCi8vIEhpdHNjYW4gY29tYmF0LiBOaWNvJ3Mgc2hvdHMgbGVhdmUgdGhlIGNhbWVyYSwgaGl0IHRoZSBuZWFyZXN0IHBlcnNvbiwgY2FyIG9yIHdhbGwgYW5kIGxlYXZlIGEKLy8gdHJhY2VyOyBvZmZpY2VycyBhbmQgY3JldyBzaG9vdCBiYWNrIHdpdGggYSBkaXN0YW5jZS13ZWlnaHRlZCBjaGFuY2UuIERhbWFnZSBhbHdheXMgcmVwb3J0cyBhCi8vIGNyaW1lIHNvIHRoZSB3YW50ZWQgc3lzdGVtIGNhbiByZWFjdC4KCmltcG9ydCAqIGFzIFRIUkVFIGZyb20gJ3RocmVlJzsKaW1wb3J0IHsgV0VBUE9OUyB9IGZyb20gJy4uL2NvbmZpZy5qcyc7CmltcG9ydCB7IGRhbWFnZVZlaGljbGUgfSBmcm9tICcuLi9lbnRpdGllcy92ZWhpY2xlLmpzJzsKaW1wb3J0IHsgZGFtYWdlUGxheWVyIH0gZnJvbSAnLi4vZW50aXRpZXMvcGxheWVyLmpzJzsKCmNvbnN0IHJheU9yaWdpbiA9IG5ldyBUSFJFRS5WZWN0b3IzKCk7CmNvbnN0IHJheURpciA9IG5ldyBUSFJFRS5WZWN0b3IzKCk7CmNvbnN0IGhpdFBvaW50ID0gbmV3IFRIUkVFLlZlY3RvcjMoKTsKCmV4cG9ydCBmdW5jdGlvbiBkYW1hZ2VQZWQocGVkLCBhbW91bnQsIHN0YXRlKSB7CiAgaWYgKCFwZWQuYWxpdmUpIHJldHVybjsKICBwZWQuaGVhbHRoIC09IGFtb3VudDsKICBpZiAocGVkLmhlYWx0aCA8PSAwKSB7CiAgICBwZWQuYWxpdmUgPSBmYWxzZTsKICAgIHBlZC5kb3duID0gOTk5OwogICAgaWYgKHBlZC5ncm91cCkgcGVkLmdyb3VwLnJvdGF0aW9uLnogPSBNYXRoLlBJIC8gMjsKICAgIGlmIChzdGF0ZSkgewogICAgICBzdGF0ZS5lZmZlY3RzLmJsb29kKHBlZC5wb3MpOwogICAgICBzdGF0ZS5hZGRDcmltZT8uKHBlZC5pc0NvcCA/IDIgOiAxKTsKICAgICAgaWYgKHBlZC5pc1RodWcpIHN0YXRlLm1pc3Npb25LaWxscyA9IChzdGF0ZS5taXNzaW9uS2lsbHMgPz8gMCkgKyAxOwogICAgfQogIH0KfQoKZXhwb3J0IGZ1bmN0aW9uIGNyZWF0ZUNvbWJhdCgpIHsKICBsZXQgY29vbGRvd24gPSAwOwogIGxldCBmbGFzaFRpbWVyID0gMDsKCiAgZnVuY3Rpb24gcmF5SGl0KHN0YXRlLCBvcmlnaW4sIGRpciwgcmFuZ2UpIHsKICAgIGxldCBiZXN0VCA9IHJhbmdlOwogICAgbGV0IGVudGl0eSA9IG51bGw7CiAgICBsZXQga2luZCA9ICdub25lJzsKICAgIGxldCBwb2ludCA9IG51bGw7CiAgICByYXlPcmlnaW4uY29weShvcmlnaW4pOwoKICAgIGNvbnN0IHRlc3QgPSAocG9zaXRpb24sIHJhZGl1cywgY2FuZGlkYXRlLCB0eXBlKSA9PiB7CiAgICAgIGNvbnN0IG94ID0gcG9zaXRpb24ueCAtIG9yaWdpbi54OwogICAgICBjb25zdCBveSA9IHBvc2l0aW9uLnkgKyAodHlwZSA9PT0gJ3ZlaGljbGUnID8gMC43IDogMS4xKSAtIG9yaWdpbi55OwogICAgICBjb25zdCBveiA9IHBvc2l0aW9uLnogLSBvcmlnaW4uejsKICAgICAgY29uc3QgdCA9IG94ICogZGlyLnggKyBveSAqIGRpci55ICsgb3ogKiBkaXIuejsKICAgICAgaWYgKHQgPCAwLjUgfHwgdCA+IGJlc3RUKSByZXR1cm47CiAgICAgIGNvbnN0IHB4ID0gb3ggLSBkaXIueCAqIHQ7CiAgICAgIGNvbnN0IHB5ID0gb3kgLSBkaXIueSAqIHQ7CiAgICAgIGNvbnN0IHB6ID0gb3ogLSBkaXIueiAqIHQ7CiAgICAgIGlmIChNYXRoLmh5cG90KHB4LCBweSwgcHopIDwgcmFkaXVzKSB7CiAgICAgICAgYmVzdFQgPSB0OwogICAgICAgIGVudGl0eSA9IGNhbmRpZGF0ZTsKICAgICAgICBraW5kID0gdHlwZTsKICAgICAgfQogICAgfTsKCiAgICBmb3IgKGNvbnN0IHBlZCBvZiBzdGF0ZS5wZWRzLmxpc3QpIGlmIChwZWQuYWxpdmUpIHRlc3QocGVkLnBvcywgMC43OCwgcGVkLCAncGVkJyk7CiAgICBmb3IgKGNvbnN0IHRodWcgb2Ygc3RhdGUudGh1Z3MpIGlmICh0aHVnLmFsaXZlKSB0ZXN0KHRodWcucG9zLCAwLjgsIHRodWcsICd0aHVnJyk7CiAgICBmb3IgKGNvbnN0IHVuaXQgb2Ygc3RhdGUucG9saWNlLnVuaXRzKSB7CiAgICAgIGlmICghdW5pdC5hbGl2ZSB8fCB1bml0LnZlaGljbGUpIGNvbnRpbnVlOwogICAgICB0ZXN0KHVuaXQucG9zLCAwLjgsIHVuaXQsICdjb3AnKTsKICAgIH0KICAgIGZvciAoY29uc3QgdmVoaWNsZSBvZiBzdGF0ZS52ZWhpY2xlcykgewogICAgICBpZiAoIXZlaGljbGUuYWxpdmUpIGNvbnRpbnVlOwogICAgICB0ZXN0KHZlaGljbGUucG9zLCAxLjcsIHZlaGljbGUsICd2ZWhpY2xlJyk7CiAgICB9CgogICAgLy8gQnVpbGRpbmdzIHN0b3AgYnVsbGV0czogbmVhcmVzdCAyRCBzbGFiIGludGVyc2VjdGlvbiwgaWYgdGhlIHNob3QgaXMgbG93IGVub3VnaC4KICAgIGZvciAoY29uc3QgYyBvZiBzdGF0ZS5jaXR5LmNvbGxpZGVycykgewogICAgICBjb25zdCB0ID0gcmF5Qm94KG9yaWdpbiwgZGlyLCBjKTsKICAgICAgaWYgKHQgIT09IG51bGwgJiYgdCA8IGJlc3RUKSB7CiAgICAgICAgY29uc3QgeSA9IG9yaWdpbi55ICsgZGlyLnkgKiB0OwogICAgICAgIGlmICh5IDwgKGMuaCA/PyAyMCkgKyAwLjQpIHsKICAgICAgICAgIGJlc3RUID0gdDsKICAgICAgICAgIGVudGl0eSA9IG51bGw7CiAgICAgICAgICBraW5kID0gJ3dhbGwnOwogICAgICAgIH0KICAgICAgfQogICAgfQoKICAgIHBvaW50ID0gaGl0UG9pbnQuY29weShvcmlnaW4pLmFkZFNjYWxlZFZlY3RvcihkaXIsIGJlc3RUKTsKICAgIHJldHVybiB7IHBvaW50LCBlbnRpdHksIGtpbmQsIGRpc3RhbmNlOiBiZXN0VCB9OwogIH0KCiAgZnVuY3Rpb24gZmlyZShzdGF0ZSkgewogICAgY29uc3Qgd2VhcG9uID0gV0VBUE9OU1tzdGF0ZS53ZWFwb25dOwogICAgY29uc3QgaW52ZW50b3J5ID0gc3RhdGUud2VhcG9uc1tzdGF0ZS53ZWFwb25dOwogICAgaWYgKCF3ZWFwb24gfHwgIWludmVudG9yeSkgcmV0dXJuOwogICAgaWYgKHN0YXRlLndlYXBvbkNvb2xkb3duID4gMCkgcmV0dXJuOwogICAgaWYgKGludmVudG9yeS5tYWcgPD0gMCkgewogICAgICBpZiAoaW52ZW50b3J5LnJlc2VydmUgPiAwKSByZWxvYWQoc3RhdGUpOwogICAgICBlbHNlIHN0YXRlLmF1ZGlvPy5pbXBhY3QoMC4xKTsKICAgICAgcmV0dXJuOwogICAgfQogICAgaW52ZW50b3J5Lm1hZyAtPSAxOwogICAgc3RhdGUud2VhcG9uQ29vbGRvd24gPSB3ZWFwb24ucmF0ZTsKICAgIHN0YXRlLmF1ZGlvPy5ndW5zaG90KHdlYXBvbi5zb3VuZCk7CiAgICBzdGF0ZS5ub2lzZSA9IDEuODsKICAgIHN0YXRlLm11enpsZUZsYXNoID0gMC4wNTsKCiAgICBzdGF0ZS5jYW1lcmEuZ2V0V29ybGREaXJlY3Rpb24ocmF5RGlyKTsKICAgIHJheU9yaWdpbi5jb3B5KHN0YXRlLmNhbWVyYS5wb3NpdGlvbik7CiAgICBmb3IgKGxldCBwZWxsZXQgPSAwOyBwZWxsZXQgPCB3ZWFwb24ucGVsbGV0czsgcGVsbGV0KyspIHsKICAgICAgY29uc3Qgc3ByZWFkID0gd2VhcG9uLnNwcmVhZDsKICAgICAgY29uc3QgZGlyID0gcmF5RGlyLmNsb25lKCk7CiAgICAgIGRpci54ICs9IChzdGF0ZS5ybmcubmV4dCgpIC0gMC41KSAqIHNwcmVhZCAqIDI7CiAgICAgIGRpci55ICs9IChzdGF0ZS5ybmcubmV4dCgpIC0gMC41KSAqIHNwcmVhZCAqIDI7CiAgICAgIGRpci56ICs9IChzdGF0ZS5ybmcubmV4dCgpIC0gMC41KSAqIHNwcmVhZCAqIDI7CiAgICAgIGRpci5ub3JtYWxpemUoKTsKICAgICAgY29uc3QgaGl0ID0gcmF5SGl0KHN0YXRlLCByYXlPcmlnaW4sIGRpciwgd2VhcG9uLnJhbmdlKTsKICAgICAgY29uc3QgbXV6emxlID0gc3RhdGUucGxheWVyLnBvcy5jbG9uZSgpLnNldFkoc3RhdGUucGxheWVyLnBvcy55ICsgMS41KTsKICAgICAgc3RhdGUuZWZmZWN0cy50cmFjZXIobXV6emxlLCBoaXQucG9pbnQsIDB4ZmZlMGEwKTsKICAgICAgaWYgKGhpdC5raW5kID09PSAncGVkJykgZGFtYWdlUGVkKGhpdC5lbnRpdHksIHdlYXBvbi5kYW1hZ2UsIHN0YXRlKTsKICAgICAgZWxzZSBpZiAoaGl0LmtpbmQgPT09ICd0aHVnJykgZGFtYWdlUGVkKGhpdC5lbnRpdHksIHdlYXBvbi5kYW1hZ2UsIHN0YXRlKTsKICAgICAgZWxzZSBpZiAoaGl0LmtpbmQgPT09ICdjb3AnKSB7CiAgICAgICAgZGFtYWdlUGVkKGhpdC5lbnRpdHksIHdlYXBvbi5kYW1hZ2UgKiAwLjksIHN0YXRlKTsKICAgICAgICBzdGF0ZS5hZGRDcmltZT8uKDEpOwogICAgICB9IGVsc2UgaWYgKGhpdC5raW5kID09PSAndmVoaWNsZScpIHsKICAgICAgICBkYW1hZ2VWZWhpY2xlKGhpdC5lbnRpdHksIHdlYXBvbi5kYW1hZ2UgKiAwLjUpOwogICAgICAgIHN0YXRlLmVmZmVjdHMuc3BhcmsoaGl0LnBvaW50KTsKICAgICAgICBpZiAoaGl0LmVudGl0eS5pc1BvbGljZSkgc3RhdGUuYWRkQ3JpbWU/LigxKTsKICAgICAgfSBlbHNlIGlmIChoaXQua2luZCA9PT0gJ3dhbGwnKSB7CiAgICAgICAgc3RhdGUuZWZmZWN0cy5zcGFyayhoaXQucG9pbnQpOwogICAgICAgIHN0YXRlLmVmZmVjdHMuZHVzdChoaXQucG9pbnQpOwogICAgICB9CiAgICB9CiAgfQoKICBmdW5jdGlvbiByZWxvYWQoc3RhdGUpIHsKICAgIGNvbnN0IHdlYXBvbiA9IFdFQVBPTlNbc3RhdGUud2VhcG9uXTsKICAgIGNvbnN0IGludmVudG9yeSA9IHN0YXRlLndlYXBvbnNbc3RhdGUud2VhcG9uXTsKICAgIGlmICghd2VhcG9uIHx8ICFpbnZlbnRvcnkpIHJldHVybjsKICAgIGNvbnN0IG5lZWQgPSB3ZWFwb24ubWFnIC0gaW52ZW50b3J5Lm1hZzsKICAgIGNvbnN0IHRha2UgPSBNYXRoLm1pbihuZWVkLCBpbnZlbnRvcnkucmVzZXJ2ZSk7CiAgICBpZiAodGFrZSA8PSAwKSByZXR1cm47CiAgICBpbnZlbnRvcnkubWFnICs9IHRha2U7CiAgICBpbnZlbnRvcnkucmVzZXJ2ZSAtPSB0YWtlOwogICAgc3RhdGUuYXVkaW8/LmltcGFjdCgwLjA1KTsKICB9CgogIHJldHVybiB7CiAgICB1cGRhdGUoc3RhdGUsIGR0KSB7CiAgICAgIGNvb2xkb3duID0gTWF0aC5tYXgoMCwgY29vbGRvd24gLSBkdCk7CiAgICAgIHN0YXRlLndlYXBvbkNvb2xkb3duID0gTWF0aC5tYXgoMCwgKHN0YXRlLndlYXBvbkNvb2xkb3duID8/IDApIC0gZHQpOwogICAgICBmbGFzaFRpbWVyID0gTWF0aC5tYXgoMCwgZmxhc2hUaW1lciAtIGR0KTsKICAgICAgaWYgKHN0YXRlLnBsYXllci5yaWcuZmxhc2gpIHN0YXRlLnBsYXllci5yaWcuZmxhc2gudmlzaWJsZSA9IGZsYXNoVGltZXIgPiAwOwogICAgICBpZiAoc3RhdGUubXV6emxlRmxhc2ggPiAwKSB7CiAgICAgICAgc3RhdGUubXV6emxlRmxhc2ggLT0gZHQ7CiAgICAgICAgZmxhc2hUaW1lciA9IDAuMDU7CiAgICAgIH0KICAgIH0sCiAgICBmaXJlLAogICAgcmVsb2FkLAogICAgZ2V0IGJ1c3koKSB7IHJldHVybiBjb29sZG93biA+IDA7IH0sCiAgfTsKfQoKZXhwb3J0IGZ1bmN0aW9uIG5wY1Nob290KHN0YXRlLCBmcm9tLCBhY2N1cmFjeSA9IDAuNSkgewogIGNvbnN0IHRhcmdldCA9IHN0YXRlLnBsYXllci5wb3M7CiAgY29uc3QgZnJlc2ggPSBmcm9tLmNsb25lKCk7CiAgZnJlc2gueSArPSAxLjQ7CiAgY29uc3QgYWltID0gdGFyZ2V0LmNsb25lKCkuc2V0WSh0YXJnZXQueSArIDEuMik7CiAgc3RhdGUuZWZmZWN0cy50cmFjZXIoZnJlc2gsIGFpbSwgMHhmZmNmOWEpOwogIHN0YXRlLmF1ZGlvPy5ndW5zaG90KCdwaXN0b2wnKTsKICBpZiAoc3RhdGUucm5nLmNoYW5jZShhY2N1cmFjeSkpIHsKICAgIGRhbWFnZVBsYXllcihzdGF0ZS5wbGF5ZXIsIDUgKyBNYXRoLmZsb29yKHN0YXRlLnJuZy5uZXh0KCkgKiA2KSk7CiAgICBzdGF0ZS5vblBsYXllckhpdD8uKCk7CiAgfQp9CgpleHBvcnQgZnVuY3Rpb24gcmF5Qm94KG9yaWdpbiwgZGlyLCBib3gpIHsKICBsZXQgdG1pbiA9IC1JbmZpbml0eTsKICBsZXQgdG1heCA9IEluZmluaXR5OwogIGNvbnN0IGJvdW5kcyA9IFtbYm94LnggLSBib3guaHcsIGJveC54ICsgYm94Lmh3LCBvcmlnaW4ueCwgZGlyLnhdLCBbYm94LnogLSBib3guaGQsIGJveC56ICsgYm94LmhkLCBvcmlnaW4ueiwgZGlyLnpdXTsKICBmb3IgKGNvbnN0IFttaW4sIG1heCwgbywgZF0gb2YgYm91bmRzKSB7CiAgICBpZiAoTWF0aC5hYnMoZCkgPCAxZS02KSB7CiAgICAgIGlmIChvIDwgbWluIHx8IG8gPiBtYXgpIHJldHVybiBudWxsOwogICAgICBjb250aW51ZTsKICAgIH0KICAgIGxldCB0MSA9IChtaW4gLSBvKSAvIGQ7CiAgICBsZXQgdDIgPSAobWF4IC0gbykgLyBkOwogICAgaWYgKHQxID4gdDIpIFt0MSwgdDJdID0gW3QyLCB0MV07CiAgICB0bWluID0gTWF0aC5tYXgodG1pbiwgdDEpOwogICAgdG1heCA9IE1hdGgubWluKHRtYXgsIHQyKTsKICAgIGlmICh0bWluID4gdG1heCkgcmV0dXJuIG51bGw7CiAgfQogIGlmICh0bWF4IDwgMCkgcmV0dXJuIG51bGw7CiAgcmV0dXJuIE1hdGgubWF4KHRtaW4sIDApOwp9Cg==
+// Combat: createCombat fires hitscan shots with ammo and recoil, npcShoot returns fire, rayBox tests. damagePed is the kill switch.
+// Hitscan combat. Nico's shots leave the camera, hit the nearest person, car or wall and leave a
+// tracer; officers and crew shoot back with a distance-weighted chance. Damage always reports a
+// crime so the wanted system can react.
+
+import * as THREE from 'three';
+import { WEAPONS } from '../config.js';
+import { damageVehicle } from '../entities/vehicle.js';
+import { damagePlayer } from '../entities/player.js';
+
+const rayOrigin = new THREE.Vector3();
+const rayDir = new THREE.Vector3();
+const hitPoint = new THREE.Vector3();
+
+export function damagePed(ped, amount, state) {
+  if (!ped.alive) return;
+  ped.health -= amount;
+  if (ped.health <= 0) {
+    ped.alive = false;
+    ped.down = 999;
+    if (ped.group) ped.group.rotation.z = Math.PI / 2;
+    if (state) {
+      state.effects.blood(ped.pos);
+      state.addCrime?.(ped.isCop ? 2 : 1);
+      if (ped.isThug) state.missionKills = (state.missionKills ?? 0) + 1;
+    }
+  }
+}
+
+export function createCombat() {
+  let cooldown = 0;
+  let flashTimer = 0;
+
+  function rayHit(state, origin, dir, range) {
+    let bestT = range;
+    let entity = null;
+    let kind = 'none';
+    let point = null;
+    rayOrigin.copy(origin);
+
+    const test = (position, radius, candidate, type) => {
+      const ox = position.x - origin.x;
+      const oy = position.y + (type === 'vehicle' ? 0.7 : 1.1) - origin.y;
+      const oz = position.z - origin.z;
+      const t = ox * dir.x + oy * dir.y + oz * dir.z;
+      if (t < 0.5 || t > bestT) return;
+      const px = ox - dir.x * t;
+      const py = oy - dir.y * t;
+      const pz = oz - dir.z * t;
+      if (Math.hypot(px, py, pz) < radius) {
+        bestT = t;
+        entity = candidate;
+        kind = type;
+      }
+    };
+
+    for (const ped of state.peds.list) if (ped.alive) test(ped.pos, 0.78, ped, 'ped');
+    for (const thug of state.thugs) if (thug.alive) test(thug.pos, 0.8, thug, 'thug');
+    for (const unit of state.police.units) {
+      if (!unit.alive || unit.vehicle) continue;
+      test(unit.pos, 0.8, unit, 'cop');
+    }
+    for (const vehicle of state.vehicles) {
+      if (!vehicle.alive) continue;
+      test(vehicle.pos, 1.7, vehicle, 'vehicle');
+    }
+
+    // Buildings stop bullets: nearest 2D slab intersection, if the shot is low enough.
+    for (const c of state.city.colliders) {
+      const t = rayBox(origin, dir, c);
+      if (t !== null && t < bestT) {
+        const y = origin.y + dir.y * t;
+        if (y < (c.h ?? 20) + 0.4) {
+          bestT = t;
+          entity = null;
+          kind = 'wall';
+        }
+      }
+    }
+
+    point = hitPoint.copy(origin).addScaledVector(dir, bestT);
+    return { point, entity, kind, distance: bestT };
+  }
+
+  function fire(state) {
+    const weapon = WEAPONS[state.weapon];
+    const inventory = state.weapons[state.weapon];
+    if (!weapon || !inventory) return;
+    if (state.weaponCooldown > 0) return;
+    if (inventory.mag <= 0) {
+      if (inventory.reserve > 0) reload(state);
+      else state.audio?.impact(0.1);
+      return;
+    }
+    inventory.mag -= 1;
+    state.weaponCooldown = weapon.rate;
+    state.audio?.gunshot(weapon.sound);
+    state.noise = 1.8;
+    state.muzzleFlash = 0.05;
+
+    state.camera.getWorldDirection(rayDir);
+    rayOrigin.copy(state.camera.position);
+    for (let pellet = 0; pellet < weapon.pellets; pellet++) {
+      const spread = weapon.spread;
+      const dir = rayDir.clone();
+      dir.x += (state.rng.next() - 0.5) * spread * 2;
+      dir.y += (state.rng.next() - 0.5) * spread * 2;
+      dir.z += (state.rng.next() - 0.5) * spread * 2;
+      dir.normalize();
+      const hit = rayHit(state, rayOrigin, dir, weapon.range);
+      const muzzle = state.player.pos.clone().setY(state.player.pos.y + 1.5);
+      state.effects.tracer(muzzle, hit.point, 0xffe0a0);
+      if (hit.kind === 'ped') damagePed(hit.entity, weapon.damage, state);
+      else if (hit.kind === 'thug') damagePed(hit.entity, weapon.damage, state);
+      else if (hit.kind === 'cop') {
+        damagePed(hit.entity, weapon.damage * 0.9, state);
+        state.addCrime?.(1);
+      } else if (hit.kind === 'vehicle') {
+        damageVehicle(hit.entity, weapon.damage * 0.5);
+        state.effects.spark(hit.point);
+        if (hit.entity.isPolice) state.addCrime?.(1);
+      } else if (hit.kind === 'wall') {
+        state.effects.spark(hit.point);
+        state.effects.dust(hit.point);
+      }
+    }
+  }
+
+  function reload(state) {
+    const weapon = WEAPONS[state.weapon];
+    const inventory = state.weapons[state.weapon];
+    if (!weapon || !inventory) return;
+    const need = weapon.mag - inventory.mag;
+    const take = Math.min(need, inventory.reserve);
+    if (take <= 0) return;
+    inventory.mag += take;
+    inventory.reserve -= take;
+    state.audio?.impact(0.05);
+  }
+
+  return {
+    update(state, dt) {
+      cooldown = Math.max(0, cooldown - dt);
+      state.weaponCooldown = Math.max(0, (state.weaponCooldown ?? 0) - dt);
+      flashTimer = Math.max(0, flashTimer - dt);
+      if (state.player.rig.flash) state.player.rig.flash.visible = flashTimer > 0;
+      if (state.muzzleFlash > 0) {
+        state.muzzleFlash -= dt;
+        flashTimer = 0.05;
+      }
+    },
+    fire,
+    reload,
+    get busy() { return cooldown > 0; },
+  };
+}
+
+export function npcShoot(state, from, accuracy = 0.5) {
+  const target = state.player.pos;
+  const fresh = from.clone();
+  fresh.y += 1.4;
+  const aim = target.clone().setY(target.y + 1.2);
+  state.effects.tracer(fresh, aim, 0xffcf9a);
+  state.audio?.gunshot('pistol');
+  if (state.rng.chance(accuracy)) {
+    damagePlayer(state.player, 5 + Math.floor(state.rng.next() * 6));
+    state.onPlayerHit?.();
+  }
+}
+
+export function rayBox(origin, dir, box) {
+  let tmin = -Infinity;
+  let tmax = Infinity;
+  const bounds = [[box.x - box.hw, box.x + box.hw, origin.x, dir.x], [box.z - box.hd, box.z + box.hd, origin.z, dir.z]];
+  for (const [min, max, o, d] of bounds) {
+    if (Math.abs(d) < 1e-6) {
+      if (o < min || o > max) return null;
+      continue;
+    }
+    let t1 = (min - o) / d;
+    let t2 = (max - o) / d;
+    if (t1 > t2) [t1, t2] = [t2, t1];
+    tmin = Math.max(tmin, t1);
+    tmax = Math.min(tmax, t2);
+    if (tmin > tmax) return null;
+  }
+  if (tmax < 0) return null;
+  return Math.max(tmin, 0);
+}

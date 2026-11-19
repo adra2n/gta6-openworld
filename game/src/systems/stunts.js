@@ -1,1 +1,291 @@
-Ly8gU3R1bnRzOiBjcmVhdGVTdHVudHMoc2NlbmUsIHJuZywgY2l0eSkgYnVpbGRzIGVpZ2h0IHJhbXAganVtcHMgb24gdGhlIHN0cmFpZ2h0IHJvYWRzLCB0aGlydHkKLy8gc3Bpbm5pbmcgcGFja2FnZSBwaWNrdXBzIGluIHRoZSBhbGxleXMsIGFuZCBvbmUgcmFtcGFnZSBtYXJrZXIgdGhhdCBzdGFydHMgYSBuaW5ldHktc2Vjb25kCi8vIGZpdmUtdGFyZ2V0IGZpZ2h0LiBKdW1wcyBwYXkgYnkgc3BlZWQsIHBhY2thZ2VzIHBheSBmbGF0LCB0aGUgcmFtcGFnZSBwYXlzIHRoZSBsb3QuCgppbXBvcnQgKiBhcyBUSFJFRSBmcm9tICd0aHJlZSc7CmltcG9ydCB7IGNyZWF0ZVBlcnNvbiwgcG9zZVBlcnNvbiB9IGZyb20gJy4uL2VudGl0aWVzL3BlcnNvbi5qcyc7CmltcG9ydCB7IG5wY1Nob290IH0gZnJvbSAnLi9jb21iYXQuanMnOwoKY29uc3QgUkFNUF9DT1VOVCA9IDg7CmNvbnN0IFBBQ0tBR0VfQ09VTlQgPSAzMDsKY29uc3QgUEFDS0FHRV9DQVNIID0gNjA7CmNvbnN0IFJBTVBBR0VfQVQgPSB7IHg6IDMwMCwgejogNTYwIH07CmNvbnN0IFJBTVBBR0VfVElNRSA9IDkwOwpjb25zdCBSQU1QQUdFX1RBUkdFVFMgPSA1Owpjb25zdCBSQU1QQUdFX0NBU0ggPSAyNTAwOwpjb25zdCBUSFVHX0xPT0sgPSB7IGphY2tldDogMHg2YjRhM2EsIHNoaXJ0OiAweDMwMjgyYSwgcGFudHM6IDB4MmYzMzM4LCBza2luOiAweGE4Nzg1MiwgaGFpcjogMHgxYjE0MTAgfTsKCmNvbnN0IEdST1VORCA9IDAuMjU7CgpmdW5jdGlvbiByYW1wTWVzaChtYXRlcmlhbCwgZWRnZU1hdGVyaWFsKSB7CiAgY29uc3QgZ3JvdXAgPSBuZXcgVEhSRUUuR3JvdXAoKTsKICBjb25zdCBkZWNrID0gbmV3IFRIUkVFLk1lc2gobmV3IFRIUkVFLkJveEdlb21ldHJ5KDcuNSwgMC40LCAxMCksIG1hdGVyaWFsKTsKICBkZWNrLnBvc2l0aW9uLnNldCgwLCAwLjg1LCAwKTsKICBkZWNrLnJvdGF0aW9uLnggPSAtMC4yODsKICBkZWNrLmNhc3RTaGFkb3cgPSB0cnVlOwogIGNvbnN0IGJhc2UgPSBuZXcgVEhSRUUuTWVzaChuZXcgVEhSRUUuQm94R2VvbWV0cnkoNy41LCAxLjUsIDMuMiksIG1hdGVyaWFsKTsKICBiYXNlLnBvc2l0aW9uLnNldCgwLCAwLjc1LCAtMy4xKTsKICBiYXNlLmNhc3RTaGFkb3cgPSB0cnVlOwogIGNvbnN0IHJhaWxMZWZ0ID0gbmV3IFRIUkVFLk1lc2gobmV3IFRIUkVFLkJveEdlb21ldHJ5KDAuMzUsIDAuNSwgMTApLCBlZGdlTWF0ZXJpYWwpOwogIHJhaWxMZWZ0LnBvc2l0aW9uLnNldCgtMy43LCAxLjE1LCAwKTsKICByYWlsTGVmdC5yb3RhdGlvbi54ID0gLTAuMjg7CiAgY29uc3QgcmFpbFJpZ2h0ID0gcmFpbExlZnQuY2xvbmUoKTsKICByYWlsUmlnaHQucG9zaXRpb24ueCA9IDMuNzsKICBncm91cC5hZGQoZGVjaywgYmFzZSwgcmFpbExlZnQsIHJhaWxSaWdodCk7CiAgcmV0dXJuIGdyb3VwOwp9CgpleHBvcnQgZnVuY3Rpb24gY3JlYXRlU3R1bnRzKHNjZW5lLCBybmcsIGNpdHkpIHsKICBjb25zdCBncm91cCA9IG5ldyBUSFJFRS5Hcm91cCgpOwogIGdyb3VwLm5hbWUgPSAnU3R1bnRzJzsKICBzY2VuZS5hZGQoZ3JvdXApOwoKICBjb25zdCByYW1wTWF0ID0gbmV3IFRIUkVFLk1lc2hTdGFuZGFyZE1hdGVyaWFsKHsgY29sb3I6IDB4ZjVkNzhhLCByb3VnaG5lc3M6IDAuNzIsIG1ldGFsbmVzczogMC4wOCB9KTsKICBjb25zdCByYW1wRWRnZU1hdCA9IG5ldyBUSFJFRS5NZXNoU3RhbmRhcmRNYXRlcmlhbCh7IGNvbG9yOiAweGU0NjA0ZCwgcm91Z2huZXNzOiAwLjYgfSk7CiAgY29uc3QgcGFja2FnZU1hdCA9IG5ldyBUSFJFRS5NZXNoU3RhbmRhcmRNYXRlcmlhbCh7CiAgICBjb2xvcjogMHhmZmI0NTQsIGVtaXNzaXZlOiAweGZmN2ExYSwgZW1pc3NpdmVJbnRlbnNpdHk6IDAuODUsIHJvdWdobmVzczogMC4zNSwgbWV0YWxuZXNzOiAwLjI1LAogIH0pOwogIGNvbnN0IG1hcmtlck1hdCA9IG5ldyBUSFJFRS5NZXNoQmFzaWNNYXRlcmlhbCh7IGNvbG9yOiAweGZmNTQ3MCwgc2lkZTogVEhSRUUuRG91YmxlU2lkZSwgdHJhbnNwYXJlbnQ6IHRydWUsIG9wYWNpdHk6IDAuODUsIHRvbmVNYXBwZWQ6IGZhbHNlIH0pOwogIGNvbnN0IHBpbGxhck1hdCA9IG5ldyBUSFJFRS5NZXNoQmFzaWNNYXRlcmlhbCh7IGNvbG9yOiAweGZmNTQ3MCwgdHJhbnNwYXJlbnQ6IHRydWUsIG9wYWNpdHk6IDAuMTIsIHNpZGU6IFRIUkVFLkRvdWJsZVNpZGUsIGRlcHRoV3JpdGU6IGZhbHNlLCB0b25lTWFwcGVkOiBmYWxzZSB9KTsKCiAgY29uc3QganVtcHMgPSB7IGxpc3Q6IFtdLCBsYW5kZWQ6IDAsIGNhc2g6IDAgfTsKICBjb25zdCBwYWNrYWdlcyA9IHsgbGlzdDogW10sIGZvdW5kOiAwLCB0b3RhbDogUEFDS0FHRV9DT1VOVCB9OwogIGNvbnN0IHJhbXBhZ2UgPSB7IHN0YXRlOiAnaWRsZScsIHRpbWVyOiAwLCBraWxsczogMCwgdGFyZ2V0czogW10sIHJld2FyZDogUkFNUEFHRV9DQVNILCBjb29sZG93bjogMCB9OwoKICAvLyAtLS0tLS0tLS0tIHJhbXBzIC0tLS0tLS0tLS0KICBjb25zdCByb2FkcyA9IGNpdHkueFJvYWRzOwogIGZvciAobGV0IGkgPSAwOyBpIDwgUkFNUF9DT1VOVDsgaSsrKSB7CiAgICBjb25zdCBvbk5vcnRoU291dGggPSBpICUgMiA9PT0gMDsKICAgIGNvbnN0IGxhbmUgPSByb2Fkc1soaSAqIDMgKyAyKSAlIHJvYWRzLmxlbmd0aF07CiAgICBjb25zdCBhbG9uZyA9IC00MzAgKyAoKGkgKiA3KSAlIDE4KSAqIDQ2OwogICAgY29uc3QgZm9yd2FyZCA9IGkgJSA0IDwgMiA/IDAgOiBNYXRoLlBJOwogICAgY29uc3QgZGlyWCA9IG9uTm9ydGhTb3V0aCA/IDAgOiBNYXRoLnNpbihmb3J3YXJkKTsKICAgIGNvbnN0IGRpclogPSBvbk5vcnRoU291dGggPyAoaSAlIDQgPCAyID8gMSA6IC0xKSA6IDA7CiAgICBjb25zdCB4ID0gb25Ob3J0aFNvdXRoID8gbGFuZSA6IGFsb25nOwogICAgY29uc3QgeiA9IG9uTm9ydGhTb3V0aCA/IGFsb25nIDogbGFuZTsKICAgIGNvbnN0IG1lc2ggPSByYW1wTWVzaChyYW1wTWF0LCByYW1wRWRnZU1hdCk7CiAgICBtZXNoLnBvc2l0aW9uLnNldCh4LCAwLjIsIHopOwogICAgbWVzaC5yb3RhdGlvbi55ID0gb25Ob3J0aFNvdXRoID8gKGRpclogPiAwID8gMCA6IE1hdGguUEkpIDogKGRpclggPiAwID8gTWF0aC5QSSAvIDIgOiAtTWF0aC5QSSAvIDIpOwogICAgZ3JvdXAuYWRkKG1lc2gpOwogICAganVtcHMubGlzdC5wdXNoKHsgeCwgeiwgZGlyWCwgZGlyWiwgbWVzaCB9KTsKICB9CgogIC8vIC0tLS0tLS0tLS0gcGFja2FnZXMgLS0tLS0tLS0tLQogIGNvbnN0IHBhY2thZ2VHZW9tZXRyeSA9IG5ldyBUSFJFRS5PY3RhaGVkcm9uR2VvbWV0cnkoMC42MiwgMCk7CiAgZm9yIChsZXQgaSA9IDA7IGkgPCBQQUNLQUdFX0NPVU5UOyBpKyspIHsKICAgIGNvbnN0IGNlbnRlciA9IGNpdHkuYmxvY2tDZW50ZXJzLmxlbmd0aCA/IHJuZy5waWNrKGNpdHkuYmxvY2tDZW50ZXJzKSA6IHsgeDogLTQwLCB6OiA0MCB9OwogICAgY29uc3QgYW5nbGUgPSBybmcucmFuZ2UoMCwgTWF0aC5QSSAqIDIpOwogICAgbGV0IHggPSBjZW50ZXIueCArIE1hdGguY29zKGFuZ2xlKSAqIDMwLjU7CiAgICBsZXQgeiA9IGNlbnRlci56ICsgTWF0aC5zaW4oYW5nbGUpICogMzAuNTsKICAgIGlmICghY2l0eS5jbGVhclNwb3ROZWFyKHgsIHosIDAuOSkpIHsKICAgICAgeCA9IGNlbnRlci54ICsgTWF0aC5jb3MoYW5nbGUpICogMzQ7CiAgICAgIHogPSBjZW50ZXIueiArIE1hdGguc2luKGFuZ2xlKSAqIDM0OwogICAgfQogICAgY29uc3QgbWVzaCA9IG5ldyBUSFJFRS5NZXNoKHBhY2thZ2VHZW9tZXRyeSwgcGFja2FnZU1hdCk7CiAgICBtZXNoLnBvc2l0aW9uLnNldCh4LCAxLjE1LCB6KTsKICAgIGdyb3VwLmFkZChtZXNoKTsKICAgIHBhY2thZ2VzLmxpc3QucHVzaCh7IHgsIHosIG1lc2gsIHRha2VuOiBmYWxzZSwgc3Bpbjogcm5nLnJhbmdlKDAsIE1hdGguUEkgKiAyKSB9KTsKICB9CgogIC8vIC0tLS0tLS0tLS0gcmFtcGFnZSBtYXJrZXIgLS0tLS0tLS0tLQogIGNvbnN0IG1hcmtlciA9IG5ldyBUSFJFRS5Hcm91cCgpOwogIGNvbnN0IHJpbmcgPSBuZXcgVEhSRUUuTWVzaChuZXcgVEhSRUUuUmluZ0dlb21ldHJ5KDIuMiwgMi43LCAyNiksIG1hcmtlck1hdCk7CiAgcmluZy5yb3RhdGlvbi54ID0gLU1hdGguUEkgLyAyOwogIHJpbmcucG9zaXRpb24ueSA9IDAuMTQ7CiAgY29uc3QgcGlsbGFyID0gbmV3IFRIUkVFLk1lc2gobmV3IFRIUkVFLkN5bGluZGVyR2VvbWV0cnkoMiwgMi40LCAyMCwgMTQsIDEsIHRydWUpLCBwaWxsYXJNYXQpOwogIHBpbGxhci5wb3NpdGlvbi55ID0gMTA7CiAgbWFya2VyLmFkZChyaW5nLCBwaWxsYXIpOwogIG1hcmtlci5wb3NpdGlvbi5zZXQoUkFNUEFHRV9BVC54LCBHUk9VTkQsIFJBTVBBR0VfQVQueik7CiAgZ3JvdXAuYWRkKG1hcmtlcik7CgogIGxldCBhaXIgPSBudWxsOwoKICBmdW5jdGlvbiBsYXVuY2goY2FyLCBzdGF0ZSkgewogICAgaWYgKGFpciB8fCAhY2FyIHx8IE1hdGguYWJzKGNhci5zcGVlZCkgPCAxMykgcmV0dXJuOwogICAgY29uc3QgZnggPSBNYXRoLnNpbihjYXIuaGVhZGluZyk7CiAgICBjb25zdCBmeiA9IE1hdGguY29zKGNhci5oZWFkaW5nKTsKICAgIGZvciAoY29uc3QgcmFtcCBvZiBqdW1wcy5saXN0KSB7CiAgICAgIGNvbnN0IGR4ID0gcmFtcC54IC0gY2FyLnBvcy54OwogICAgICBjb25zdCBkeiA9IHJhbXAueiAtIGNhci5wb3MuejsKICAgICAgY29uc3QgYWxvbmcgPSBkeCAqIGZ4ICsgZHogKiBmejsKICAgICAgaWYgKGFsb25nIDwgLTEuNSB8fCBhbG9uZyA+IDUuNSkgY29udGludWU7CiAgICAgIGlmIChNYXRoLmFicyhkeCAqIGZ6IC0gZHogKiBmeCkgPiA0LjQpIGNvbnRpbnVlOwogICAgICBpZiAoZnggKiByYW1wLmRpclggKyBmeiAqIHJhbXAuZGlyWiA8IDAuNikgY29udGludWU7CiAgICAgIGNvbnN0IHNwZWVkID0gTWF0aC5hYnMoY2FyLnNwZWVkKTsKICAgICAgYWlyID0gewogICAgICAgIGNhciwgdDogMCwKICAgICAgICBkdXJhdGlvbjogMC44NSArIHNwZWVkICogMC4wMTYsCiAgICAgICAgbGlmdDogTWF0aC5taW4oNy41LCBzcGVlZCAqIDAuMjQpLAogICAgICB9OwogICAgICBzdGF0ZS5hdWRpbz8uaW1wYWN0Py4oMC4zKTsKICAgICAgc3RhdGUubm90aWZ5Py4oJ1JhbXAganVtcCcsICdtaXNzaW9uJyk7CiAgICAgIHJldHVybjsKICAgIH0KICB9CgogIGZ1bmN0aW9uIGZseUFpcihkdCwgc3RhdGUpIHsKICAgIGlmICghYWlyKSByZXR1cm47CiAgICBhaXIudCArPSBkdDsKICAgIGNvbnN0IGsgPSBNYXRoLm1pbigxLCBhaXIudCAvIGFpci5kdXJhdGlvbik7CiAgICBjb25zdCBsaWZ0ID0gTWF0aC5zaW4oayAqIE1hdGguUEkpICogYWlyLmxpZnQ7CiAgICBhaXIuY2FyLnJvb3QucG9zaXRpb24ueSA9IGFpci5jYXIucG9zLnkgKyBsaWZ0OwogICAgYWlyLmNhci5ib2R5LnJvdGF0aW9uLnggPSAtTWF0aC5jb3MoayAqIE1hdGguUEkpICogMC4zOwogICAgaWYgKGsgPCAxKSByZXR1cm47CiAgICBhaXIuY2FyLnJvb3QucG9zaXRpb24ueSA9IGFpci5jYXIucG9zLnk7CiAgICBhaXIuY2FyLmJvZHkucm90YXRpb24ueCA9IDA7CiAgICBjb25zdCBzcGVlZCA9IE1hdGguYWJzKGFpci5jYXIuc3BlZWQpOwogICAgY29uc3QgY2FzaCA9IDEyMCArIE1hdGgucm91bmQoc3BlZWQgKiA3KTsKICAgIHN0YXRlLm1vbmV5ICs9IGNhc2g7CiAgICBqdW1wcy5sYW5kZWQgKz0gMTsKICAgIGp1bXBzLmNhc2ggKz0gY2FzaDsKICAgIHN0YXRlLm5vdGlmeT8uKGBTdHVudCBqdW1wIGxhbmRlZCArJCR7Y2FzaH1gLCAnY2FzaCcpOwogICAgc3RhdGUuYXVkaW8/LnBpY2t1cD8uKCk7CiAgICBhaXIgPSBudWxsOwogIH0KCiAgZnVuY3Rpb24gY29sbGVjdFBhY2thZ2VzKHN0YXRlKSB7CiAgICBjb25zdCBwbGF5ZXIgPSBzdGF0ZS5wbGF5ZXIucG9zOwogICAgZm9yIChjb25zdCBwYWNrIG9mIHBhY2thZ2VzLmxpc3QpIHsKICAgICAgaWYgKHBhY2sudGFrZW4pIGNvbnRpbnVlOwogICAgICBpZiAoTWF0aC5oeXBvdChwbGF5ZXIueCAtIHBhY2sueCwgcGxheWVyLnogLSBwYWNrLnopID4gMi4zKSBjb250aW51ZTsKICAgICAgcGFjay50YWtlbiA9IHRydWU7CiAgICAgIHBhY2subWVzaC52aXNpYmxlID0gZmFsc2U7CiAgICAgIHBhY2thZ2VzLmZvdW5kICs9IDE7CiAgICAgIHN0YXRlLm1vbmV5ICs9IFBBQ0tBR0VfQ0FTSDsKICAgICAgc3RhdGUubm90aWZ5Py4oYFBhY2thZ2UgJHtwYWNrYWdlcy5mb3VuZH0vJHtwYWNrYWdlcy50b3RhbH0gwrcgKyQke1BBQ0tBR0VfQ0FTSH1gLCAnY2FzaCcpOwogICAgICBzdGF0ZS5hdWRpbz8ucGlja3VwPy4oKTsKICAgIH0KICB9CgogIGZ1bmN0aW9uIHNwYXduVGFyZ2V0cyhzdGF0ZSkgewogICAgY29uc3Qgb2Zmc2V0cyA9IFtbMTksIDJdLCBbLTE3LCAxMV0sIFs2LCAtMjFdLCBbLTIyLCAtOV0sIFsyNSwgMTddXTsKICAgIGZvciAobGV0IGkgPSAwOyBpIDwgUkFNUEFHRV9UQVJHRVRTOyBpKyspIHsKICAgICAgY29uc3QgW294LCBvel0gPSBvZmZzZXRzW2ldOwogICAgICBjb25zdCByaWcgPSBjcmVhdGVQZXJzb24oVEhVR19MT09LLCB0cnVlKTsKICAgICAgY29uc3QgcG9zID0gbmV3IFRIUkVFLlZlY3RvcjMoUkFNUEFHRV9BVC54ICsgb3gsIEdST1VORCwgUkFNUEFHRV9BVC56ICsgb3opOwogICAgICBzY2VuZS5hZGQocmlnLnJvb3QpOwogICAgICByaWcucm9vdC5wb3NpdGlvbi5jb3B5KHBvcyk7CiAgICAgIGNvbnN0IHRhcmdldCA9IHsKICAgICAgICByaWcsIGdyb3VwOiByaWcucm9vdCwgcG9zLCB5YXc6IDAsIGhlYWx0aDogNjAsIGFsaXZlOiB0cnVlLAogICAgICAgIGlzVGh1ZzogZmFsc2UsIGlzUmFtcGFnZTogdHJ1ZSwgc2hvb3RUaW1lcjogMS40ICsgaSAqIDAuNCwgd2Fsa1BoYXNlOiAwLAogICAgICAgIGhvbWU6IHsgeDogcG9zLngsIHo6IHBvcy56IH0sCiAgICAgIH07CiAgICAgIHJhbXBhZ2UudGFyZ2V0cy5wdXNoKHRhcmdldCk7CiAgICAgIHN0YXRlLnRodWdzLnB1c2godGFyZ2V0KTsKICAgIH0KICB9CgogIGZ1bmN0aW9uIGNsZWFyVGFyZ2V0cyhzdGF0ZSkgewogICAgZm9yIChjb25zdCB0YXJnZXQgb2YgcmFtcGFnZS50YXJnZXRzKSB7CiAgICAgIHNjZW5lLnJlbW92ZSh0YXJnZXQuZ3JvdXApOwogICAgICBjb25zdCBpbmRleCA9IHN0YXRlLnRodWdzLmluZGV4T2YodGFyZ2V0KTsKICAgICAgaWYgKGluZGV4ID49IDApIHN0YXRlLnRodWdzLnNwbGljZShpbmRleCwgMSk7CiAgICB9CiAgICByYW1wYWdlLnRhcmdldHMubGVuZ3RoID0gMDsKICB9CgogIGZ1bmN0aW9uIHN0YXJ0UmFtcGFnZShzdGF0ZSkgewogICAgcmFtcGFnZS5zdGF0ZSA9ICdydW5uaW5nJzsKICAgIHJhbXBhZ2UudGltZXIgPSBSQU1QQUdFX1RJTUU7CiAgICByYW1wYWdlLmtpbGxzID0gMDsKICAgIG1hcmtlci52aXNpYmxlID0gZmFsc2U7CiAgICBzcGF3blRhcmdldHMoc3RhdGUpOwogICAgc3RhdGUuaHVkPy5iaWdNZXNzYWdlPy4oJ1JBTVBBR0UnLCBgJHtSQU1QQUdFX1RBUkdFVFN9IHRhcmdldHMgwrcgJHtSQU1QQUdFX1RJTUV9IHNlY29uZHNgLCAzKTsKICAgIHN0YXRlLm5vdGlmeT8uKCdSYW1wYWdlIHN0YXJ0ZWQuIEZpdmUgdGFyZ2V0cywgbmluZXR5IHNlY29uZHMuJywgJ3dhcm5pbmcnKTsKICAgIHN0YXRlLmF1ZGlvPy5pbXBhY3Q/LigwLjgpOwogIH0KCiAgZnVuY3Rpb24gZW5kUmFtcGFnZShzdGF0ZSwgd29uKSB7CiAgICBjbGVhclRhcmdldHMoc3RhdGUpOwogICAgcmFtcGFnZS5zdGF0ZSA9IHdvbiA/ICd3b24nIDogJ2xvc3QnOwogICAgcmFtcGFnZS5jb29sZG93biA9IDI0OwogICAgcmFtcGFnZS50aW1lciA9IDA7CiAgICByYW1wYWdlLmtpbGxzID0gMDsKICAgIGlmICh3b24pIHsKICAgICAgc3RhdGUubW9uZXkgKz0gUkFNUEFHRV9DQVNIOwogICAgICBzdGF0ZS5odWQ/LmJpZ01lc3NhZ2U/LignUkFNUEFHRSBDT01QTEVURScsIGArJCR7UkFNUEFHRV9DQVNILnRvTG9jYWxlU3RyaW5nKCdlbi1VUycpfWAsIDMuNSk7CiAgICAgIHN0YXRlLm5vdGlmeT8uKGBSYW1wYWdlIGNvbXBsZXRlICskJHtSQU1QQUdFX0NBU0h9YCwgJ2Nhc2gnKTsKICAgICAgc3RhdGUuYXVkaW8/LnBpY2t1cD8uKCk7CiAgICB9IGVsc2UgewogICAgICBzdGF0ZS5ub3RpZnk/LignUmFtcGFnZSBvdmVyLiBUaGUgYmF5IHJlbWVtYmVycy4nLCAnd2FybmluZycpOwogICAgICBzdGF0ZS5hdWRpbz8uaW1wYWN0Py4oMC43KTsKICAgIH0KICB9CgogIGZ1bmN0aW9uIHVwZGF0ZVRhcmdldHMoZHQsIHN0YXRlKSB7CiAgICBjb25zdCBwbGF5ZXIgPSBzdGF0ZS5wbGF5ZXIucG9zOwogICAgbGV0IGRlYWQgPSAwOwogICAgZm9yIChjb25zdCB0YXJnZXQgb2YgcmFtcGFnZS50YXJnZXRzKSB7CiAgICAgIGlmICghdGFyZ2V0LmFsaXZlKSB7IGRlYWQgKz0gMTsgY29udGludWU7IH0KICAgICAgY29uc3QgZHggPSBwbGF5ZXIueCAtIHRhcmdldC5wb3MueDsKICAgICAgY29uc3QgZHogPSBwbGF5ZXIueiAtIHRhcmdldC5wb3MuejsKICAgICAgY29uc3QgZGlzdGFuY2UgPSBNYXRoLmh5cG90KGR4LCBkeik7CiAgICAgIHRhcmdldC55YXcgPSBNYXRoLmF0YW4yKGR4LCBkeik7CiAgICAgIGNvbnN0IHNwZWVkID0gZGlzdGFuY2UgPiAxNSA/IDMuNCA6IDA7CiAgICAgIGlmIChzcGVlZCA+IDApIHsKICAgICAgICB0YXJnZXQucG9zLnggKz0gTWF0aC5zaW4odGFyZ2V0LnlhdykgKiBzcGVlZCAqIGR0OwogICAgICAgIHRhcmdldC5wb3MueiArPSBNYXRoLmNvcyh0YXJnZXQueWF3KSAqIHNwZWVkICogZHQ7CiAgICAgICAgY2l0eS5yZXNvbHZlKHRhcmdldC5wb3MsIDAuNSk7CiAgICAgIH0KICAgICAgcG9zZVBlcnNvbih0YXJnZXQucmlnLCBzcGVlZCwgZHQsIGRpc3RhbmNlIDwgMjYpOwogICAgICB0YXJnZXQuZ3JvdXAucG9zaXRpb24uY29weSh0YXJnZXQucG9zKTsKICAgICAgdGFyZ2V0Lmdyb3VwLnJvdGF0aW9uLnkgPSB0YXJnZXQueWF3OwogICAgICB0YXJnZXQuc2hvb3RUaW1lciAtPSBkdDsKICAgICAgaWYgKGRpc3RhbmNlIDwgMjggJiYgdGFyZ2V0LnNob290VGltZXIgPD0gMCkgewogICAgICAgIHRhcmdldC5zaG9vdFRpbWVyID0gMS42ICsgTWF0aC5yYW5kb20oKTsKICAgICAgICBucGNTaG9vdChzdGF0ZSwgdGFyZ2V0LnBvcywgMC40KTsKICAgICAgfQogICAgfQogICAgcmFtcGFnZS5raWxscyA9IGRlYWQ7CiAgICBpZiAoZGVhZCA+PSBSQU1QQUdFX1RBUkdFVFMpIGVuZFJhbXBhZ2Uoc3RhdGUsIHRydWUpOwogIH0KCiAgcmV0dXJuIHsKICAgIGp1bXBzLAogICAgcGFja2FnZXMsCiAgICByYW1wYWdlLAoKICAgIHVwZGF0ZShkdCwgc3RhdGUpIHsKICAgICAgY29uc3QgcGxheWVyID0gc3RhdGUucGxheWVyLnBvczsKICAgICAgY29uc3QgY2FyID0gc3RhdGUucGxheWVyLmluVmVoaWNsZTsKCiAgICAgIGZvciAoY29uc3QgcGFjayBvZiBwYWNrYWdlcy5saXN0KSB7CiAgICAgICAgaWYgKHBhY2sudGFrZW4pIGNvbnRpbnVlOwogICAgICAgIHBhY2suc3BpbiArPSBkdCAqIDEuODsKICAgICAgICBwYWNrLm1lc2gucm90YXRpb24ueSA9IHBhY2suc3BpbjsKICAgICAgICBwYWNrLm1lc2gucG9zaXRpb24ueSA9IDEuMTUgKyBNYXRoLnNpbihwYWNrLnNwaW4gKiAxLjQpICogMC4xODsKICAgICAgfQogICAgICBjb2xsZWN0UGFja2FnZXMoc3RhdGUpOwoKICAgICAgaWYgKGNhcikgbGF1bmNoKGNhciwgc3RhdGUpOwogICAgICBmbHlBaXIoZHQsIHN0YXRlKTsKCiAgICAgIGlmIChyYW1wYWdlLnN0YXRlID09PSAncnVubmluZycpIHsKICAgICAgICByYW1wYWdlLnRpbWVyIC09IGR0OwogICAgICAgIHVwZGF0ZVRhcmdldHMoZHQsIHN0YXRlKTsKICAgICAgICBpZiAocmFtcGFnZS5zdGF0ZSA9PT0gJ3J1bm5pbmcnICYmIHJhbXBhZ2UudGltZXIgPD0gMCkgZW5kUmFtcGFnZShzdGF0ZSwgZmFsc2UpOwogICAgICB9IGVsc2UgewogICAgICAgIGlmIChyYW1wYWdlLmNvb2xkb3duID4gMCkgewogICAgICAgICAgcmFtcGFnZS5jb29sZG93biAtPSBkdDsKICAgICAgICAgIGlmIChyYW1wYWdlLmNvb2xkb3duIDw9IDApIHsKICAgICAgICAgICAgcmFtcGFnZS5zdGF0ZSA9ICdpZGxlJzsKICAgICAgICAgICAgbWFya2VyLnZpc2libGUgPSB0cnVlOwogICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBpZiAocmFtcGFnZS5zdGF0ZSA9PT0gJ2lkbGUnICYmICFjYXIgJiYgTWF0aC5oeXBvdChwbGF5ZXIueCAtIFJBTVBBR0VfQVQueCwgcGxheWVyLnogLSBSQU1QQUdFX0FULnopIDwgNikgewogICAgICAgICAgc3RhcnRSYW1wYWdlKHN0YXRlKTsKICAgICAgICB9CiAgICAgIH0KCiAgICAgIGlmIChtYXJrZXIudmlzaWJsZSkgewogICAgICAgIG1hcmtlci5yb3RhdGlvbi55ICs9IGR0ICogMC42OwogICAgICAgIHJpbmcuc2NhbGUuc2V0U2NhbGFyKDEgKyBNYXRoLnNpbihwZXJmb3JtYW5jZS5ub3coKSAvIDMyMCkgKiAwLjA3KTsKICAgICAgfQogICAgICBpZiAoYWlyICYmICFjYXIpIHsKICAgICAgICBhaXIuY2FyLnJvb3QucG9zaXRpb24ueSA9IGFpci5jYXIucG9zLnk7CiAgICAgICAgYWlyLmNhci5ib2R5LnJvdGF0aW9uLnggPSAwOwogICAgICAgIGFpciA9IG51bGw7CiAgICAgIH0KICAgIH0sCiAgfTsKfQo=
+// Stunts: createStunts(scene, rng, city) builds eight ramp jumps on the straight roads, thirty
+// spinning package pickups in the alleys, and one rampage marker that starts a ninety-second
+// five-target fight. Jumps pay by speed, packages pay flat, the rampage pays the lot.
+
+import * as THREE from 'three';
+import { createPerson, posePerson } from '../entities/person.js';
+import { npcShoot } from './combat.js';
+
+const RAMP_COUNT = 8;
+const PACKAGE_COUNT = 30;
+const PACKAGE_CASH = 60;
+const RAMPAGE_AT = { x: 300, z: 560 };
+const RAMPAGE_TIME = 90;
+const RAMPAGE_TARGETS = 5;
+const RAMPAGE_CASH = 2500;
+const THUG_LOOK = { jacket: 0x6b4a3a, shirt: 0x30282a, pants: 0x2f3338, skin: 0xa87852, hair: 0x1b1410 };
+
+const GROUND = 0.25;
+
+function rampMesh(material, edgeMaterial) {
+  const group = new THREE.Group();
+  const deck = new THREE.Mesh(new THREE.BoxGeometry(7.5, 0.4, 10), material);
+  deck.position.set(0, 0.85, 0);
+  deck.rotation.x = -0.28;
+  deck.castShadow = true;
+  const base = new THREE.Mesh(new THREE.BoxGeometry(7.5, 1.5, 3.2), material);
+  base.position.set(0, 0.75, -3.1);
+  base.castShadow = true;
+  const railLeft = new THREE.Mesh(new THREE.BoxGeometry(0.35, 0.5, 10), edgeMaterial);
+  railLeft.position.set(-3.7, 1.15, 0);
+  railLeft.rotation.x = -0.28;
+  const railRight = railLeft.clone();
+  railRight.position.x = 3.7;
+  group.add(deck, base, railLeft, railRight);
+  return group;
+}
+
+export function createStunts(scene, rng, city) {
+  const group = new THREE.Group();
+  group.name = 'Stunts';
+  scene.add(group);
+
+  const rampMat = new THREE.MeshStandardMaterial({ color: 0xf5d78a, roughness: 0.72, metalness: 0.08 });
+  const rampEdgeMat = new THREE.MeshStandardMaterial({ color: 0xe4604d, roughness: 0.6 });
+  const packageMat = new THREE.MeshStandardMaterial({
+    color: 0xffb454, emissive: 0xff7a1a, emissiveIntensity: 0.85, roughness: 0.35, metalness: 0.25,
+  });
+  const markerMat = new THREE.MeshBasicMaterial({ color: 0xff5470, side: THREE.DoubleSide, transparent: true, opacity: 0.85, toneMapped: false });
+  const pillarMat = new THREE.MeshBasicMaterial({ color: 0xff5470, transparent: true, opacity: 0.12, side: THREE.DoubleSide, depthWrite: false, toneMapped: false });
+
+  const jumps = { list: [], landed: 0, cash: 0 };
+  const packages = { list: [], found: 0, total: PACKAGE_COUNT };
+  const rampage = { state: 'idle', timer: 0, kills: 0, targets: [], reward: RAMPAGE_CASH, cooldown: 0 };
+
+  // ---------- ramps ----------
+  const roads = city.xRoads;
+  for (let i = 0; i < RAMP_COUNT; i++) {
+    const onNorthSouth = i % 2 === 0;
+    const lane = roads[(i * 3 + 2) % roads.length];
+    const along = -430 + ((i * 7) % 18) * 46;
+    const forward = i % 4 < 2 ? 0 : Math.PI;
+    const dirX = onNorthSouth ? 0 : Math.sin(forward);
+    const dirZ = onNorthSouth ? (i % 4 < 2 ? 1 : -1) : 0;
+    const x = onNorthSouth ? lane : along;
+    const z = onNorthSouth ? along : lane;
+    const mesh = rampMesh(rampMat, rampEdgeMat);
+    mesh.position.set(x, 0.2, z);
+    mesh.rotation.y = onNorthSouth ? (dirZ > 0 ? 0 : Math.PI) : (dirX > 0 ? Math.PI / 2 : -Math.PI / 2);
+    group.add(mesh);
+    jumps.list.push({ x, z, dirX, dirZ, mesh });
+  }
+
+  // ---------- packages ----------
+  const packageGeometry = new THREE.OctahedronGeometry(0.62, 0);
+  for (let i = 0; i < PACKAGE_COUNT; i++) {
+    const center = city.blockCenters.length ? rng.pick(city.blockCenters) : { x: -40, z: 40 };
+    const angle = rng.range(0, Math.PI * 2);
+    let x = center.x + Math.cos(angle) * 30.5;
+    let z = center.z + Math.sin(angle) * 30.5;
+    if (!city.clearSpotNear(x, z, 0.9)) {
+      x = center.x + Math.cos(angle) * 34;
+      z = center.z + Math.sin(angle) * 34;
+    }
+    const mesh = new THREE.Mesh(packageGeometry, packageMat);
+    mesh.position.set(x, 1.15, z);
+    group.add(mesh);
+    packages.list.push({ x, z, mesh, taken: false, spin: rng.range(0, Math.PI * 2) });
+  }
+
+  // ---------- rampage marker ----------
+  const marker = new THREE.Group();
+  const ring = new THREE.Mesh(new THREE.RingGeometry(2.2, 2.7, 26), markerMat);
+  ring.rotation.x = -Math.PI / 2;
+  ring.position.y = 0.14;
+  const pillar = new THREE.Mesh(new THREE.CylinderGeometry(2, 2.4, 20, 14, 1, true), pillarMat);
+  pillar.position.y = 10;
+  marker.add(ring, pillar);
+  marker.position.set(RAMPAGE_AT.x, GROUND, RAMPAGE_AT.z);
+  group.add(marker);
+
+  let air = null;
+
+  function launch(car, state) {
+    if (air || !car || Math.abs(car.speed) < 13) return;
+    const fx = Math.sin(car.heading);
+    const fz = Math.cos(car.heading);
+    for (const ramp of jumps.list) {
+      const dx = ramp.x - car.pos.x;
+      const dz = ramp.z - car.pos.z;
+      const along = dx * fx + dz * fz;
+      if (along < -1.5 || along > 5.5) continue;
+      if (Math.abs(dx * fz - dz * fx) > 4.4) continue;
+      if (fx * ramp.dirX + fz * ramp.dirZ < 0.6) continue;
+      const speed = Math.abs(car.speed);
+      air = {
+        car, t: 0,
+        duration: 0.85 + speed * 0.016,
+        lift: Math.min(7.5, speed * 0.24),
+      };
+      state.audio?.impact?.(0.3);
+      state.notify?.('Ramp jump', 'mission');
+      return;
+    }
+  }
+
+  function flyAir(dt, state) {
+    if (!air) return;
+    air.t += dt;
+    const k = Math.min(1, air.t / air.duration);
+    const lift = Math.sin(k * Math.PI) * air.lift;
+    air.car.root.position.y = air.car.pos.y + lift;
+    air.car.body.rotation.x = -Math.cos(k * Math.PI) * 0.3;
+    if (k < 1) return;
+    air.car.root.position.y = air.car.pos.y;
+    air.car.body.rotation.x = 0;
+    const speed = Math.abs(air.car.speed);
+    const cash = 120 + Math.round(speed * 7);
+    state.money += cash;
+    jumps.landed += 1;
+    jumps.cash += cash;
+    state.notify?.(`Stunt jump landed +$${cash}`, 'cash');
+    state.audio?.pickup?.();
+    air = null;
+  }
+
+  function collectPackages(state) {
+    const player = state.player.pos;
+    for (const pack of packages.list) {
+      if (pack.taken) continue;
+      if (Math.hypot(player.x - pack.x, player.z - pack.z) > 2.3) continue;
+      pack.taken = true;
+      pack.mesh.visible = false;
+      packages.found += 1;
+      state.money += PACKAGE_CASH;
+      state.notify?.(`Package ${packages.found}/${packages.total} · +$${PACKAGE_CASH}`, 'cash');
+      state.audio?.pickup?.();
+    }
+  }
+
+  function spawnTargets(state) {
+    const offsets = [[19, 2], [-17, 11], [6, -21], [-22, -9], [25, 17]];
+    for (let i = 0; i < RAMPAGE_TARGETS; i++) {
+      const [ox, oz] = offsets[i];
+      const rig = createPerson(THUG_LOOK, true);
+      const pos = new THREE.Vector3(RAMPAGE_AT.x + ox, GROUND, RAMPAGE_AT.z + oz);
+      scene.add(rig.root);
+      rig.root.position.copy(pos);
+      const target = {
+        rig, group: rig.root, pos, yaw: 0, health: 60, alive: true,
+        isThug: false, isRampage: true, shootTimer: 1.4 + i * 0.4, walkPhase: 0,
+        home: { x: pos.x, z: pos.z },
+      };
+      rampage.targets.push(target);
+      state.thugs.push(target);
+    }
+  }
+
+  function clearTargets(state) {
+    for (const target of rampage.targets) {
+      scene.remove(target.group);
+      const index = state.thugs.indexOf(target);
+      if (index >= 0) state.thugs.splice(index, 1);
+    }
+    rampage.targets.length = 0;
+  }
+
+  function startRampage(state) {
+    rampage.state = 'running';
+    rampage.timer = RAMPAGE_TIME;
+    rampage.kills = 0;
+    marker.visible = false;
+    spawnTargets(state);
+    state.hud?.bigMessage?.('RAMPAGE', `${RAMPAGE_TARGETS} targets · ${RAMPAGE_TIME} seconds`, 3);
+    state.notify?.('Rampage started. Five targets, ninety seconds.', 'warning');
+    state.audio?.impact?.(0.8);
+  }
+
+  function endRampage(state, won) {
+    clearTargets(state);
+    rampage.state = won ? 'won' : 'lost';
+    rampage.cooldown = 24;
+    rampage.timer = 0;
+    rampage.kills = 0;
+    if (won) {
+      state.money += RAMPAGE_CASH;
+      state.hud?.bigMessage?.('RAMPAGE COMPLETE', `+$${RAMPAGE_CASH.toLocaleString('en-US')}`, 3.5);
+      state.notify?.(`Rampage complete +$${RAMPAGE_CASH}`, 'cash');
+      state.audio?.pickup?.();
+    } else {
+      state.notify?.('Rampage over. The bay remembers.', 'warning');
+      state.audio?.impact?.(0.7);
+    }
+  }
+
+  function updateTargets(dt, state) {
+    const player = state.player.pos;
+    let dead = 0;
+    for (const target of rampage.targets) {
+      if (!target.alive) { dead += 1; continue; }
+      const dx = player.x - target.pos.x;
+      const dz = player.z - target.pos.z;
+      const distance = Math.hypot(dx, dz);
+      target.yaw = Math.atan2(dx, dz);
+      const speed = distance > 15 ? 3.4 : 0;
+      if (speed > 0) {
+        target.pos.x += Math.sin(target.yaw) * speed * dt;
+        target.pos.z += Math.cos(target.yaw) * speed * dt;
+        city.resolve(target.pos, 0.5);
+      }
+      posePerson(target.rig, speed, dt, distance < 26);
+      target.group.position.copy(target.pos);
+      target.group.rotation.y = target.yaw;
+      target.shootTimer -= dt;
+      if (distance < 28 && target.shootTimer <= 0) {
+        target.shootTimer = 1.6 + Math.random();
+        npcShoot(state, target.pos, 0.4);
+      }
+    }
+    rampage.kills = dead;
+    if (dead >= RAMPAGE_TARGETS) endRampage(state, true);
+  }
+
+  return {
+    jumps,
+    packages,
+    rampage,
+
+    update(dt, state) {
+      const player = state.player.pos;
+      const car = state.player.inVehicle;
+
+      for (const pack of packages.list) {
+        if (pack.taken) continue;
+        pack.spin += dt * 1.8;
+        pack.mesh.rotation.y = pack.spin;
+        pack.mesh.position.y = 1.15 + Math.sin(pack.spin * 1.4) * 0.18;
+      }
+      collectPackages(state);
+
+      if (car) launch(car, state);
+      flyAir(dt, state);
+
+      if (rampage.state === 'running') {
+        rampage.timer -= dt;
+        updateTargets(dt, state);
+        if (rampage.state === 'running' && rampage.timer <= 0) endRampage(state, false);
+      } else {
+        if (rampage.cooldown > 0) {
+          rampage.cooldown -= dt;
+          if (rampage.cooldown <= 0) {
+            rampage.state = 'idle';
+            marker.visible = true;
+          }
+        }
+        if (rampage.state === 'idle' && !car && Math.hypot(player.x - RAMPAGE_AT.x, player.z - RAMPAGE_AT.z) < 6) {
+          startRampage(state);
+        }
+      }
+
+      if (marker.visible) {
+        marker.rotation.y += dt * 0.6;
+        ring.scale.setScalar(1 + Math.sin(performance.now() / 320) * 0.07);
+      }
+      if (air && !car) {
+        air.car.root.position.y = air.car.pos.y;
+        air.car.body.rotation.x = 0;
+        air = null;
+      }
+    },
+  };
+}

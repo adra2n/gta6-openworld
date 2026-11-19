@@ -1,1 +1,83 @@
-Ly8gTm90aWZpY2F0aW9uczogY3JlYXRlTm90aWZpY2F0aW9ucygpIGJ1aWxkcyBmaXZlIHJldXNhYmxlIHRvYXN0IHNsb3RzIGluIHRoZSB0b3AtbGVmdCBhbmQgYQovLyBzbWFsbCBxdWV1ZSBiZWhpbmQgdGhlbS4gcHVzaCh0ZXh0LCBraW5kKSB0aW50cyB0aGUgc2xvdCBieSBraW5kLCBlYWNoIHRvYXN0IGZhZGVzIG91dCBhZnRlcgovLyBmb3VyIHNlY29uZHMsIGFuZCB0aGUgb2xkZXN0IHF1ZXVlZCBsaW5lIGNvbWVzIGluIGFzIHNvb24gYXMgYSBzbG90IGZyZWVzLgoKY29uc3QgRk9OVCA9ICciQXZlbmlyIE5leHQgQ29uZGVuc2VkIiwgIkhlbHZldGljYSBOZXVlIiwgQXJpYWwsIHNhbnMtc2VyaWYnOwpjb25zdCBDT0xPUlMgPSB7CiAgY2FzaDogJyNiN2YyYjAnLAogIHdhcm5pbmc6ICcjZmY4YTZhJywKICBtaXNzaW9uOiAnI2ZmZDM1YycsCiAgcmFkaW86ICcjNjRkMmZmJywKICBpbmZvOiAnI2Y3ZTdjNicsCn07Cgpjb25zdCBTTE9UUyA9IDU7CmNvbnN0IExJRkUgPSA0Owpjb25zdCBGQURFID0gMC43Owpjb25zdCBRVUVVRV9NQVggPSAxMjsKCmV4cG9ydCBmdW5jdGlvbiBjcmVhdGVOb3RpZmljYXRpb25zKCkgewogIGNvbnN0IHJvb3QgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdkaXYnKTsKICByb290LmlkID0gJ25vdGlmeS1saXZlJzsKICByb290LnN0eWxlLmNzc1RleHQgPSBbCiAgICAncG9zaXRpb246Zml4ZWQnLCAnbGVmdDoyMnB4JywgJ3RvcDoyMDZweCcsICd6LWluZGV4OjIwJywKICAgICdkaXNwbGF5OmZsZXgnLCAnZmxleC1kaXJlY3Rpb246Y29sdW1uJywgJ2dhcDo2cHgnLAogICAgJ3BvaW50ZXItZXZlbnRzOm5vbmUnLCBgZm9udC1mYW1pbHk6JHtGT05UfWAsCiAgXS5qb2luKCc7Jyk7CiAgZG9jdW1lbnQuYm9keS5hcHBlbmRDaGlsZChyb290KTsKCiAgY29uc3Qgc2xvdHMgPSBbXTsKICBmb3IgKGxldCBpID0gMDsgaSA8IFNMT1RTOyBpKyspIHsKICAgIGNvbnN0IGVsZW1lbnQgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdkaXYnKTsKICAgIGVsZW1lbnQuc3R5bGUuY3NzVGV4dCA9IFsKICAgICAgJ21pbi13aWR0aDoyMTBweCcsICdtYXgtd2lkdGg6MzQwcHgnLCAncGFkZGluZzo3cHggMTJweCcsCiAgICAgICdiYWNrZ3JvdW5kOnJnYmEoMTgsMTQsMTYsLjg4KScsICdib3JkZXItbGVmdDozcHggc29saWQgI2ZmZDM1YycsCiAgICAgICdmb250LXNpemU6MTRweCcsICdsZXR0ZXItc3BhY2luZzouNHB4JywgJ2NvbG9yOiNmN2U3YzYnLAogICAgICAnb3BhY2l0eTowJywgJ3RyYW5zZm9ybTp0cmFuc2xhdGVYKC0xMHB4KScsCiAgICAgICd0cmFuc2l0aW9uOm9wYWNpdHkgLjI0cyBsaW5lYXIsIHRyYW5zZm9ybSAuMjRzIGVhc2Utb3V0JywKICAgICAgJ2xpbmUtaGVpZ2h0OjEuMjUnLAogICAgXS5qb2luKCc7Jyk7CiAgICByb290LmFwcGVuZENoaWxkKGVsZW1lbnQpOwogICAgc2xvdHMucHVzaCh7IGVsZW1lbnQsIGxpZmU6IDAsIGFjdGl2ZTogZmFsc2UgfSk7CiAgfQoKICBjb25zdCBxdWV1ZSA9IFtdOwoKICBmdW5jdGlvbiBhY3RpdmF0ZShzbG90LCBpdGVtKSB7CiAgICBzbG90LmVsZW1lbnQudGV4dENvbnRlbnQgPSBpdGVtLnRleHQ7CiAgICBzbG90LmVsZW1lbnQuc3R5bGUuYm9yZGVyTGVmdENvbG9yID0gQ09MT1JTW2l0ZW0ua2luZF0gPz8gQ09MT1JTLmluZm87CiAgICBzbG90LmVsZW1lbnQuc3R5bGUub3BhY2l0eSA9ICcxJzsKICAgIHNsb3QuZWxlbWVudC5zdHlsZS50cmFuc2Zvcm0gPSAndHJhbnNsYXRlWCgwKSc7CiAgICBzbG90LmxpZmUgPSBMSUZFOwogICAgc2xvdC5hY3RpdmUgPSB0cnVlOwogIH0KCiAgZnVuY3Rpb24gcHVzaCh0ZXh0LCBraW5kID0gJ2luZm8nKSB7CiAgICBpZiAoIXRleHQpIHJldHVybjsKICAgIGlmIChxdWV1ZS5sZW5ndGggPj0gUVVFVUVfTUFYKSBxdWV1ZS5zaGlmdCgpOwogICAgcXVldWUucHVzaCh7IHRleHQ6IFN0cmluZyh0ZXh0KSwga2luZCB9KTsKICB9CgogIHJldHVybiB7CiAgICBwdXNoLAoKICAgIHVwZGF0ZShkdCkgewogICAgICBmb3IgKGNvbnN0IHNsb3Qgb2Ygc2xvdHMpIHsKICAgICAgICBpZiAoIXNsb3QuYWN0aXZlKSBjb250aW51ZTsKICAgICAgICBzbG90LmxpZmUgLT0gZHQ7CiAgICAgICAgaWYgKHNsb3QubGlmZSA8PSAwKSB7CiAgICAgICAgICBzbG90LmFjdGl2ZSA9IGZhbHNlOwogICAgICAgICAgc2xvdC5lbGVtZW50LnN0eWxlLm9wYWNpdHkgPSAnMCc7CiAgICAgICAgICBzbG90LmVsZW1lbnQuc3R5bGUudHJhbnNmb3JtID0gJ3RyYW5zbGF0ZVgoLTEwcHgpJzsKICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH0KICAgICAgICBpZiAoc2xvdC5saWZlIDwgRkFERSkgc2xvdC5lbGVtZW50LnN0eWxlLm9wYWNpdHkgPSBTdHJpbmcoTWF0aC5tYXgoMCwgc2xvdC5saWZlIC8gRkFERSkpOwogICAgICB9CiAgICAgIGZvciAoY29uc3Qgc2xvdCBvZiBzbG90cykgewogICAgICAgIGlmIChxdWV1ZS5sZW5ndGggPT09IDApIGJyZWFrOwogICAgICAgIGlmIChzbG90LmFjdGl2ZSkgY29udGludWU7CiAgICAgICAgYWN0aXZhdGUoc2xvdCwgcXVldWUuc2hpZnQoKSk7CiAgICAgIH0KICAgIH0sCiAgfTsKfQo=
+// Notifications: createNotifications() builds five reusable toast slots in the top-left and a
+// small queue behind them. push(text, kind) tints the slot by kind, each toast fades out after
+// four seconds, and the oldest queued line comes in as soon as a slot frees.
+
+const FONT = '"Avenir Next Condensed", "Helvetica Neue", Arial, sans-serif';
+const COLORS = {
+  cash: '#b7f2b0',
+  warning: '#ff8a6a',
+  mission: '#ffd35c',
+  radio: '#64d2ff',
+  info: '#f7e7c6',
+};
+
+const SLOTS = 5;
+const LIFE = 4;
+const FADE = 0.7;
+const QUEUE_MAX = 12;
+
+export function createNotifications() {
+  const root = document.createElement('div');
+  root.id = 'notify-live';
+  root.style.cssText = [
+    'position:fixed', 'left:22px', 'top:206px', 'z-index:20',
+    'display:flex', 'flex-direction:column', 'gap:6px',
+    'pointer-events:none', `font-family:${FONT}`,
+  ].join(';');
+  document.body.appendChild(root);
+
+  const slots = [];
+  for (let i = 0; i < SLOTS; i++) {
+    const element = document.createElement('div');
+    element.style.cssText = [
+      'min-width:210px', 'max-width:340px', 'padding:7px 12px',
+      'background:rgba(18,14,16,.88)', 'border-left:3px solid #ffd35c',
+      'font-size:14px', 'letter-spacing:.4px', 'color:#f7e7c6',
+      'opacity:0', 'transform:translateX(-10px)',
+      'transition:opacity .24s linear, transform .24s ease-out',
+      'line-height:1.25',
+    ].join(';');
+    root.appendChild(element);
+    slots.push({ element, life: 0, active: false });
+  }
+
+  const queue = [];
+
+  function activate(slot, item) {
+    slot.element.textContent = item.text;
+    slot.element.style.borderLeftColor = COLORS[item.kind] ?? COLORS.info;
+    slot.element.style.opacity = '1';
+    slot.element.style.transform = 'translateX(0)';
+    slot.life = LIFE;
+    slot.active = true;
+  }
+
+  function push(text, kind = 'info') {
+    if (!text) return;
+    if (queue.length >= QUEUE_MAX) queue.shift();
+    queue.push({ text: String(text), kind });
+  }
+
+  return {
+    push,
+
+    update(dt) {
+      for (const slot of slots) {
+        if (!slot.active) continue;
+        slot.life -= dt;
+        if (slot.life <= 0) {
+          slot.active = false;
+          slot.element.style.opacity = '0';
+          slot.element.style.transform = 'translateX(-10px)';
+          continue;
+        }
+        if (slot.life < FADE) slot.element.style.opacity = String(Math.max(0, slot.life / FADE));
+      }
+      for (const slot of slots) {
+        if (queue.length === 0) break;
+        if (slot.active) continue;
+        activate(slot, queue.shift());
+      }
+    },
+  };
+}

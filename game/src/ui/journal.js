@@ -1,1 +1,152 @@
-Ly8gSm91cm5hbDogY3JlYXRlSm91cm5hbCgpIGJ1aWxkcyBvbmUgZnVsbC1zY3JlZW4gRE9NIG92ZXJsYXksIGhpZGRlbiB1bnRpbCB0b2dnbGUoKSwgd2l0aCB0d28KLy8gcmVhZGFibGUgY29sdW1ucyDigJQgdGhlIGpvYiBsb2cgYW5kIHRoZSBudW1iZXJzIG9uIHRoZSBsZWZ0LCB0aGUgcmFkaW8gYW5kIHRoZSBrZXlzIG9uIHRoZQovLyByaWdodC4gSXQgcmVmcmVzaGVzIG9ubHkgd2hlbiBhIHZhbHVlIGl0IHNob3dzIGhhcyBjaGFuZ2VkLCBhbmQgaXQgc3RheXMgdW5kZXIgdGhlIHBhdXNlIG1lbnUuCgpjb25zdCBQQU5FTF9GT05UID0gJyJBdmVuaXIgTmV4dCBDb25kZW5zZWQiLCAiSGVsdmV0aWNhIE5ldWUiLCBBcmlhbCwgc2Fucy1zZXJpZic7CmNvbnN0IENSRUFNID0gJyNmN2U3YzYnOwpjb25zdCBTVU4gPSAnI2ZmYjQ1NCc7CmNvbnN0IEhPVCA9ICcjZmY1NDcwJzsKY29uc3QgVEVBTCA9ICcjNDllMGMyJzsKCmNvbnN0IEtFWVMgPSBbCiAgWydXIEEgUyBEJywgJ1dhbGsgwrcgZHJpdmUnXSwKICBbJ1NoaWZ0JywgJ1NwcmludCBvbiBmb290J10sCiAgWydTcGFjZScsICdKdW1wIMK3IGhhbmRicmFrZSddLAogIFsnTW91c2UnLCAnTG9vayDCtyBmaXJlIMK3IGFpbSddLAogIFsnRScsICdDYXIgZG9vciDCtyBzaG9wcyDCtyBtYXJrZXInXSwKICBbJzEgMiAzIMK3IHdoZWVsJywgJ1Bpc3RvbCDCtyBTTUcgwrcgc2hvdGd1biddLAogIFsnRicsICdIb3JuJ10sCiAgWydSJywgJ1JlbG9hZCDCtyBuZXh0IHJhZGlvJ10sCiAgWydCJywgJ1JhZGlvIHN0YXRpb24nXSwKICBbJ0cnLCAnU3RhcnQgYSBzdHJlZXQgcmFjZSddLAogIFsnVicsICdQb2xpY2Ugc2Nhbm5lciBjYWxsJ10sCiAgWydKJywgJ09wZW4gdGhpcyBqb3VybmFsJ10sCiAgWydNJywgJ011dGUgYXVkaW8nXSwKICBbJ0VzYycsICdQYXVzZSddLApdOwoKZnVuY3Rpb24gcm93KGxhYmVsLCB2YWx1ZSwgYWNjZW50ID0gU1VOKSB7CiAgcmV0dXJuIGA8ZGl2IHN0eWxlPSJkaXNwbGF5OmZsZXg7anVzdGlmeS1jb250ZW50OnNwYWNlLWJldHdlZW47Z2FwOjE0cHg7cGFkZGluZzo1cHggMDtib3JkZXItYm90dG9tOjFweCBzb2xpZCByZ2JhKDI0NywyMzEsMTk4LC4xMikiPgogICAgPHNwYW4gc3R5bGU9ImxldHRlci1zcGFjaW5nOjJweDtmb250LXNpemU6MTJweDtjb2xvcjoke2FjY2VudH07dGV4dC10cmFuc2Zvcm06dXBwZXJjYXNlIj4ke2xhYmVsfTwvc3Bhbj4KICAgIDxzcGFuIHN0eWxlPSJmb250LXNpemU6MTVweDtmb250LXZhcmlhbnQtbnVtZXJpYzp0YWJ1bGFyLW51bXM7dGV4dC1hbGlnbjpyaWdodCI+JHt2YWx1ZX08L3NwYW4+PC9kaXY+YDsKfQoKZnVuY3Rpb24gaGVhZGluZyh0ZXh0KSB7CiAgcmV0dXJuIGA8ZGl2IHN0eWxlPSJtYXJnaW46MjJweCAwIDhweDtmb250LXNpemU6MTNweDtsZXR0ZXItc3BhY2luZzo0cHg7dGV4dC10cmFuc2Zvcm06dXBwZXJjYXNlO2NvbG9yOiR7U1VOfSI+JHt0ZXh0fTwvZGl2PmA7Cn0KCmV4cG9ydCBmdW5jdGlvbiBjcmVhdGVKb3VybmFsKCkgewogIGNvbnN0IHJvb3QgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdkaXYnKTsKICByb290LmlkID0gJ2pvdXJuYWwtbGl2ZSc7CiAgcm9vdC5zdHlsZS5jc3NUZXh0ID0gWwogICAgJ3Bvc2l0aW9uOmZpeGVkJywgJ2luc2V0OjAnLCAnei1pbmRleDozMCcsICdkaXNwbGF5Om5vbmUnLAogICAgJ3BhZGRpbmc6NTJweCA3dncgNDBweCcsICdiYWNrZ3JvdW5kOnJnYmEoOSw4LDExLC45MyknLCBgY29sb3I6JHtDUkVBTX1gLAogICAgJ3BvaW50ZXItZXZlbnRzOm5vbmUnLCAnb3ZlcmZsb3c6YXV0bycsIGBmb250LWZhbWlseToke1BBTkVMX0ZPTlR9YCwKICBdLmpvaW4oJzsnKTsKICByb290LmlubmVySFRNTCA9IGAKICAgIDxkaXYgc3R5bGU9Im1heC13aWR0aDoxMTIwcHg7bWFyZ2luOjAgYXV0byI+CiAgICAgIDxkaXYgc3R5bGU9ImRpc3BsYXk6ZmxleDthbGlnbi1pdGVtczpiYXNlbGluZTtqdXN0aWZ5LWNvbnRlbnQ6c3BhY2UtYmV0d2Vlbjtib3JkZXItYm90dG9tOjFweCBzb2xpZCByZ2JhKDI0NywyMzEsMTk4LC4zKTtwYWRkaW5nLWJvdHRvbToxMHB4Ij4KICAgICAgICA8c3BhbiBzdHlsZT0iZm9udC1zaXplOjM0cHg7Zm9udC13ZWlnaHQ6ODAwO2xldHRlci1zcGFjaW5nOjhweDtjb2xvcjoke0NSRUFNfSI+Sk9VUk5BTDwvc3Bhbj4KICAgICAgICA8c3BhbiBzdHlsZT0iZm9udC1zaXplOjEycHg7bGV0dGVyLXNwYWNpbmc6M3B4O2NvbG9yOiR7U1VOfSI+SiBDTE9TRVMgwrcgQ09TVEEgVkVHQTwvc3Bhbj4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgc3R5bGU9ImRpc3BsYXk6Z3JpZDtncmlkLXRlbXBsYXRlLWNvbHVtbnM6MS4yNWZyIDFmcjtnYXA6NDRweDttYXJnaW4tdG9wOjZweCI+CiAgICAgICAgPGRpdiBpZD0iam91cm5hbC1sZWZ0Ij48L2Rpdj4KICAgICAgICA8ZGl2IGlkPSJqb3VybmFsLXJpZ2h0Ij48L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj5gOwogIGRvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQocm9vdCk7CgogIGNvbnN0IGxlZnQgPSByb290LnF1ZXJ5U2VsZWN0b3IoJyNqb3VybmFsLWxlZnQnKTsKICBjb25zdCByaWdodCA9IHJvb3QucXVlcnlTZWxlY3RvcignI2pvdXJuYWwtcmlnaHQnKTsKICBsZXQgb3BlbiA9IGZhbHNlOwogIGxldCBzaWduYXR1cmUgPSAnJzsKCiAgZnVuY3Rpb24gcmVuZGVyTWlzc2lvbnMoc3RhdGUpIHsKICAgIGNvbnN0IG1pc3Npb25zID0gc3RhdGUubWlzc2lvbnM7CiAgICBpZiAoIW1pc3Npb25zKSByZXR1cm4gJzxkaXYgc3R5bGU9ImZvbnQtc2l6ZToxNHB4Ij5ObyBqb2IgbGlzdC48L2Rpdj4nOwogICAgY29uc3QgYWN0aXZlID0gbWlzc2lvbnMuYWN0aXZlOwogICAgY29uc3Qgcm93cyA9IG1pc3Npb25zLmxpc3QubWFwKChtaXNzaW9uLCBpKSA9PiB7CiAgICAgIGxldCBtYXJrID0gJ8K3JzsKICAgICAgbGV0IGNvbG9yID0gJ3JnYmEoMjQ3LDIzMSwxOTgsLjQ1KSc7CiAgICAgIGlmIChpIDwgbWlzc2lvbnMuaW5kZXgpIHsKICAgICAgICBtYXJrID0gJ+Kckyc7CiAgICAgICAgY29sb3IgPSBURUFMOwogICAgICB9IGVsc2UgaWYgKGFjdGl2ZSA/IGFjdGl2ZS5pZCA9PT0gbWlzc2lvbi5pZCA6IGkgPT09IG1pc3Npb25zLmluZGV4KSB7CiAgICAgICAgbWFyayA9ICfilrYnOwogICAgICAgIGNvbG9yID0gU1VOOwogICAgICB9CiAgICAgIGNvbnN0IHRhZyA9IGFjdGl2ZSAmJiBhY3RpdmUuaWQgPT09IG1pc3Npb24uaWQgPyAnaW4gcHJvZ3Jlc3MnIDogaSA8IG1pc3Npb25zLmluZGV4ID8gJ2RvbmUnIDogJ3dhaXRpbmcnOwogICAgICByZXR1cm4gYDxkaXYgc3R5bGU9ImRpc3BsYXk6ZmxleDtnYXA6MTJweDtwYWRkaW5nOjZweCAwO2JvcmRlci1ib3R0b206MXB4IHNvbGlkIHJnYmEoMjQ3LDIzMSwxOTgsLjA5KSI+CiAgICAgICAgPHNwYW4gc3R5bGU9IndpZHRoOjE2cHg7Y29sb3I6JHtjb2xvcn0iPiR7bWFya308L3NwYW4+CiAgICAgICAgPHNwYW4gc3R5bGU9ImZsZXg6MSI+CiAgICAgICAgICA8YiBzdHlsZT0iZm9udC1zaXplOjE1cHg7bGV0dGVyLXNwYWNpbmc6MXB4Ij4ke21pc3Npb24udGl0bGV9PC9iPgogICAgICAgICAgPHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxMnB4O2NvbG9yOnJnYmEoMjQ3LDIzMSwxOTgsLjU1KTtkaXNwbGF5OmJsb2NrIj4ke21pc3Npb24uY29udGFjdH0gwrcgJCR7bWlzc2lvbi5yZXdhcmQudG9Mb2NhbGVTdHJpbmcoJ2VuLVVTJyl9IMK3ICR7dGFnfTwvc3Bhbj4KICAgICAgICA8L3NwYW4+CiAgICAgIDwvZGl2PmA7CiAgICB9KS5qb2luKCcnKTsKICAgIGNvbnN0IHN0ZXAgPSBhY3RpdmUgPyBhY3RpdmUuc3RlcHNbbWlzc2lvbnMuc3RlcEluZGV4XSA6IG51bGw7CiAgICBjb25zdCBub3cgPSBzdGVwID8gYDxkaXYgc3R5bGU9Im1hcmdpbi10b3A6MTBweDtmb250LXNpemU6MTRweDtjb2xvcjoke1NVTn0iPk5vdzogJHtzdGVwLnRleHR9PC9kaXY+YCA6ICcnOwogICAgcmV0dXJuIHJvd3MgKyBub3c7CiAgfQoKICBmdW5jdGlvbiByZW5kZXJTdGF0cyhzdGF0ZSkgewogICAgY29uc3Qgc3R1bnRzID0gc3RhdGUuc3R1bnRzOwogICAgY29uc3QgcmFjZXMgPSBzdGF0ZS5yYWNlczsKICAgIGNvbnN0IGJlc3RUaW1lcyA9IChyYWNlcz8uYmVzdCA/PyBbXSkuZmlsdGVyKCh2YWx1ZSkgPT4gdHlwZW9mIHZhbHVlID09PSAnbnVtYmVyJyk7CiAgICBjb25zdCBiZXN0ID0gYmVzdFRpbWVzLmxlbmd0aCA/IGAke01hdGgubWluKC4uLmJlc3RUaW1lcykudG9GaXhlZCgxKX1zYCA6ICfigJQnOwogICAgcmV0dXJuIFsKICAgICAgcm93KCdDYXNoJywgYCQkeyhzdGF0ZS5tb25leSA/PyAwKS50b0xvY2FsZVN0cmluZygnZW4tVVMnKX1gKSwKICAgICAgcm93KCdXYW50ZWQnLCBgJHsn4piFJy5yZXBlYXQoTWF0aC5yb3VuZChzdGF0ZS5wb2xpY2U/LndhbnRlZCA/PyAwKSkgfHwgJ2NsZWFuJ31gKSwKICAgICAgcm93KCdQYWNrYWdlcycsIGAke3N0dW50cz8ucGFja2FnZXM/LmZvdW5kID8/IDB9IC8gJHtzdHVudHM/LnBhY2thZ2VzPy50b3RhbCA/PyAzMH1gKSwKICAgICAgcm93KCdTdHVudCBqdW1wcycsIGAke3N0dW50cz8uanVtcHM/LmxhbmRlZCA/PyAwfWApLAogICAgICByb3coJ0Jlc3QgcmFjZScsIGJlc3QpLAogICAgICByb3coJ1NhZmVob3VzZXMnLCBgJHtzdGF0ZS5lY29ub215Py5vd25lZD8ubGVuZ3RoID8/IDB9IC8gMmApLAogICAgICByb3coJ0luY29tZScsIGAkJHtzdGF0ZS5lY29ub215Py5pbmNvbWUgPz8gMH1gKSwKICAgICAgcm93KCdXZWF0aGVyJywgc3RhdGUud2VhdGhlcj8ua2luZCA/PyAnY2xlYXInKSwKICAgICAgcm93KCdXZWFwb24nLCBzdGF0ZS53ZWFwb25EYXRhPy5uYW1lID8/ICfigJQnKSwKICAgIF0uam9pbignJyk7CiAgfQoKICBmdW5jdGlvbiByZW5kZXIoc3RhdGUpIHsKICAgIGxlZnQuaW5uZXJIVE1MID0gaGVhZGluZygnSm9iIGxvZycpICsgcmVuZGVyTWlzc2lvbnMoc3RhdGUpICsgaGVhZGluZygnTnVtYmVycycpICsgcmVuZGVyU3RhdHMoc3RhdGUpOwogICAgcmlnaHQuaW5uZXJIVE1MID0gaGVhZGluZygnUmFkaW8nKSArCiAgICAgIGA8ZGl2IHN0eWxlPSJmb250LXNpemU6MThweDtsZXR0ZXItc3BhY2luZzoxcHg7Y29sb3I6JHtURUFMfSI+JHtzdGF0ZS5yYWRpbz8ubmFtZSA/PyAnb2ZmIGFpcid9PC9kaXY+CiAgICAgICA8ZGl2IHN0eWxlPSJmb250LXNpemU6MTJweDtjb2xvcjpyZ2JhKDI0NywyMzEsMTk4LC41NSk7bWFyZ2luLXRvcDo0cHgiPkIgY2hhbmdlcyBzdGF0aW9uIMK3IFIgaW5zaWRlIGEgY2FyPC9kaXY+YCArCiAgICAgIGhlYWRpbmcoJ0NvbnRyb2xzJykgKwogICAgICBLRVlTLm1hcCgoW2tleSwgd2hhdF0pID0+IHJvdyhrZXksIHdoYXQsIFRFQUwpKS5qb2luKCcnKTsKICB9CgogIHJldHVybiB7CiAgICBnZXQgb3BlbigpIHsgcmV0dXJuIG9wZW47IH0sCgogICAgdG9nZ2xlKCkgewogICAgICBvcGVuID0gIW9wZW47CiAgICAgIHNpZ25hdHVyZSA9ICcnOwogICAgICByZXR1cm4gb3BlbjsKICAgIH0sCgogICAgdXBkYXRlKGR0LCBzdGF0ZSkgewogICAgICBjb25zdCB2aXNpYmxlID0gb3BlbiAmJiBzdGF0ZS5tb2RlICE9PSAncGF1c2VkJyAmJiBzdGF0ZS5tb2RlICE9PSAndGl0bGUnOwogICAgICByb290LnN0eWxlLmRpc3BsYXkgPSB2aXNpYmxlID8gJ2Jsb2NrJyA6ICdub25lJzsKICAgICAgaWYgKCF2aXNpYmxlKSByZXR1cm47CiAgICAgIGNvbnN0IG5leHQgPSBbCiAgICAgICAgc3RhdGUubW9uZXksCiAgICAgICAgc3RhdGUucG9saWNlPy53YW50ZWQgPz8gMCwKICAgICAgICBzdGF0ZS5taXNzaW9ucz8uaW5kZXgsCiAgICAgICAgc3RhdGUubWlzc2lvbnM/LmFjdGl2ZT8uaWQgPz8gJy0nLAogICAgICAgIHN0YXRlLm1pc3Npb25zPy5zdGVwSW5kZXgsCiAgICAgICAgc3RhdGUuc3R1bnRzPy5wYWNrYWdlcz8uZm91bmQsCiAgICAgICAgc3RhdGUuc3R1bnRzPy5qdW1wcz8ubGFuZGVkLAogICAgICAgIChzdGF0ZS5yYWNlcz8uYmVzdCA/PyBbXSkuam9pbignLCcpLAogICAgICAgIHN0YXRlLnJhZGlvPy5uYW1lLAogICAgICAgIHN0YXRlLndlYXRoZXI/LmtpbmQsCiAgICAgICAgc3RhdGUuZWNvbm9teT8ub3duZWQ/Lmxlbmd0aCwKICAgICAgICBzdGF0ZS5lY29ub215Py5pbmNvbWUsCiAgICAgICAgc3RhdGUud2VhcG9uLAogICAgICBdLmpvaW4oJ3wnKTsKICAgICAgaWYgKG5leHQgPT09IHNpZ25hdHVyZSkgcmV0dXJuOwogICAgICBzaWduYXR1cmUgPSBuZXh0OwogICAgICByZW5kZXIoc3RhdGUpOwogICAgfSwKICB9Owp9Cg==
+// Journal: createJournal() builds one full-screen DOM overlay, hidden until toggle(), with two
+// readable columns — the job log and the numbers on the left, the radio and the keys on the
+// right. It refreshes only when a value it shows has changed, and it stays under the pause menu.
+
+const PANEL_FONT = '"Avenir Next Condensed", "Helvetica Neue", Arial, sans-serif';
+const CREAM = '#f7e7c6';
+const SUN = '#ffb454';
+const HOT = '#ff5470';
+const TEAL = '#49e0c2';
+
+const KEYS = [
+  ['W A S D', 'Walk · drive'],
+  ['Shift', 'Sprint on foot'],
+  ['Space', 'Jump · handbrake'],
+  ['Mouse', 'Look · fire · aim'],
+  ['E', 'Car door · shops · marker'],
+  ['1 2 3 · wheel', 'Pistol · SMG · shotgun'],
+  ['F', 'Horn'],
+  ['R', 'Reload · next radio'],
+  ['B', 'Radio station'],
+  ['G', 'Start a street race'],
+  ['V', 'Police scanner call'],
+  ['J', 'Open this journal'],
+  ['M', 'Mute audio'],
+  ['Esc', 'Pause'],
+];
+
+function row(label, value, accent = SUN) {
+  return `<div style="display:flex;justify-content:space-between;gap:14px;padding:5px 0;border-bottom:1px solid rgba(247,231,198,.12)">
+    <span style="letter-spacing:2px;font-size:12px;color:${accent};text-transform:uppercase">${label}</span>
+    <span style="font-size:15px;font-variant-numeric:tabular-nums;text-align:right">${value}</span></div>`;
+}
+
+function heading(text) {
+  return `<div style="margin:22px 0 8px;font-size:13px;letter-spacing:4px;text-transform:uppercase;color:${SUN}">${text}</div>`;
+}
+
+export function createJournal() {
+  const root = document.createElement('div');
+  root.id = 'journal-live';
+  root.style.cssText = [
+    'position:fixed', 'inset:0', 'z-index:30', 'display:none',
+    'padding:52px 7vw 40px', 'background:rgba(9,8,11,.93)', `color:${CREAM}`,
+    'pointer-events:none', 'overflow:auto', `font-family:${PANEL_FONT}`,
+  ].join(';');
+  root.innerHTML = `
+    <div style="max-width:1120px;margin:0 auto">
+      <div style="display:flex;align-items:baseline;justify-content:space-between;border-bottom:1px solid rgba(247,231,198,.3);padding-bottom:10px">
+        <span style="font-size:34px;font-weight:800;letter-spacing:8px;color:${CREAM}">JOURNAL</span>
+        <span style="font-size:12px;letter-spacing:3px;color:${SUN}">J CLOSES · COSTA VEGA</span>
+      </div>
+      <div style="display:grid;grid-template-columns:1.25fr 1fr;gap:44px;margin-top:6px">
+        <div id="journal-left"></div>
+        <div id="journal-right"></div>
+      </div>
+    </div>`;
+  document.body.appendChild(root);
+
+  const left = root.querySelector('#journal-left');
+  const right = root.querySelector('#journal-right');
+  let open = false;
+  let signature = '';
+
+  function renderMissions(state) {
+    const missions = state.missions;
+    if (!missions) return '<div style="font-size:14px">No job list.</div>';
+    const active = missions.active;
+    const rows = missions.list.map((mission, i) => {
+      let mark = '·';
+      let color = 'rgba(247,231,198,.45)';
+      if (i < missions.index) {
+        mark = '✓';
+        color = TEAL;
+      } else if (active ? active.id === mission.id : i === missions.index) {
+        mark = '▶';
+        color = SUN;
+      }
+      const tag = active && active.id === mission.id ? 'in progress' : i < missions.index ? 'done' : 'waiting';
+      return `<div style="display:flex;gap:12px;padding:6px 0;border-bottom:1px solid rgba(247,231,198,.09)">
+        <span style="width:16px;color:${color}">${mark}</span>
+        <span style="flex:1">
+          <b style="font-size:15px;letter-spacing:1px">${mission.title}</b>
+          <span style="font-size:12px;color:rgba(247,231,198,.55);display:block">${mission.contact} · $${mission.reward.toLocaleString('en-US')} · ${tag}</span>
+        </span>
+      </div>`;
+    }).join('');
+    const step = active ? active.steps[missions.stepIndex] : null;
+    const now = step ? `<div style="margin-top:10px;font-size:14px;color:${SUN}">Now: ${step.text}</div>` : '';
+    return rows + now;
+  }
+
+  function renderStats(state) {
+    const stunts = state.stunts;
+    const races = state.races;
+    const bestTimes = (races?.best ?? []).filter((value) => typeof value === 'number');
+    const best = bestTimes.length ? `${Math.min(...bestTimes).toFixed(1)}s` : '—';
+    return [
+      row('Cash', `$${(state.money ?? 0).toLocaleString('en-US')}`),
+      row('Wanted', `${'★'.repeat(Math.round(state.police?.wanted ?? 0)) || 'clean'}`),
+      row('Packages', `${stunts?.packages?.found ?? 0} / ${stunts?.packages?.total ?? 30}`),
+      row('Stunt jumps', `${stunts?.jumps?.landed ?? 0}`),
+      row('Best race', best),
+      row('Safehouses', `${state.economy?.owned?.length ?? 0} / 2`),
+      row('Income', `$${state.economy?.income ?? 0}`),
+      row('Weather', state.weather?.kind ?? 'clear'),
+      row('Weapon', state.weaponData?.name ?? '—'),
+    ].join('');
+  }
+
+  function render(state) {
+    left.innerHTML = heading('Job log') + renderMissions(state) + heading('Numbers') + renderStats(state);
+    right.innerHTML = heading('Radio') +
+      `<div style="font-size:18px;letter-spacing:1px;color:${TEAL}">${state.radio?.name ?? 'off air'}</div>
+       <div style="font-size:12px;color:rgba(247,231,198,.55);margin-top:4px">B changes station · R inside a car</div>` +
+      heading('Controls') +
+      KEYS.map(([key, what]) => row(key, what, TEAL)).join('');
+  }
+
+  return {
+    get open() { return open; },
+
+    toggle() {
+      open = !open;
+      signature = '';
+      return open;
+    },
+
+    update(dt, state) {
+      const visible = open && state.mode !== 'paused' && state.mode !== 'title';
+      root.style.display = visible ? 'block' : 'none';
+      if (!visible) return;
+      const next = [
+        state.money,
+        state.police?.wanted ?? 0,
+        state.missions?.index,
+        state.missions?.active?.id ?? '-',
+        state.missions?.stepIndex,
+        state.stunts?.packages?.found,
+        state.stunts?.jumps?.landed,
+        (state.races?.best ?? []).join(','),
+        state.radio?.name,
+        state.weather?.kind,
+        state.economy?.owned?.length,
+        state.economy?.income,
+        state.weapon,
+      ].join('|');
+      if (next === signature) return;
+      signature = next;
+      render(state);
+    },
+  };
+}

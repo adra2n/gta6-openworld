@@ -1,1 +1,96 @@
-Ly8gRWZmZWN0czogY3JlYXRlRWZmZWN0cyBzcGF3bnMgdHJhY2VycywgbXV6emxlIGZsYXNoZXMsIHNwYXJrcywgc21va2UsIGR1c3QgYW5kIHNraWQgbWFya3MuIEEgZml4ZWQgcG9vbCwgbm8gYWxsb2NhdGlvbi4KLy8gU2hvcnQtbGl2ZWQgdmlzdWFsIGZlZWRiYWNrOiBzbW9rZSBvZmYgYSB3cmVja2VkIGNhciwgc3BhcmtzIG9mZiBhIHdhbGwsIGR1c3QgdW5kZXIgYQovLyBsYW5kaW5nLCBhbmQgdHJhY2VycyB0aGF0IHNob3cgd2hlcmUgZXZlcnkgYnVsbGV0IHdlbnQuCgppbXBvcnQgKiBhcyBUSFJFRSBmcm9tICd0aHJlZSc7CgpmdW5jdGlvbiBtYWtlUHVmZlRleHR1cmUoKSB7CiAgY29uc3QgY2FudmFzID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnY2FudmFzJyk7CiAgY2FudmFzLndpZHRoID0gNjQ7CiAgY2FudmFzLmhlaWdodCA9IDY0OwogIGNvbnN0IGcgPSBjYW52YXMuZ2V0Q29udGV4dCgnMmQnKTsKICBjb25zdCBncmFkID0gZy5jcmVhdGVSYWRpYWxHcmFkaWVudCgzMiwgMzIsIDIsIDMyLCAzMiwgMzApOwogIGdyYWQuYWRkQ29sb3JTdG9wKDAsICdyZ2JhKDI1NSwyNTUsMjU1LDAuOSknKTsKICBncmFkLmFkZENvbG9yU3RvcCgwLjUsICdyZ2JhKDI1NSwyNTUsMjU1LDAuMzUpJyk7CiAgZ3JhZC5hZGRDb2xvclN0b3AoMSwgJ3JnYmEoMjU1LDI1NSwyNTUsMCknKTsKICBnLmZpbGxTdHlsZSA9IGdyYWQ7CiAgZy5maWxsUmVjdCgwLCAwLCA2NCwgNjQpOwogIHJldHVybiBuZXcgVEhSRUUuQ2FudmFzVGV4dHVyZShjYW52YXMpOwp9CgpleHBvcnQgZnVuY3Rpb24gY3JlYXRlRWZmZWN0cyhzY2VuZSkgewogIGNvbnN0IHRleHR1cmUgPSBtYWtlUHVmZlRleHR1cmUoKTsKICBjb25zdCBwdWZmcyA9IFtdOwogIGZvciAobGV0IGkgPSAwOyBpIDwgMTEwOyBpKyspIHsKICAgIGNvbnN0IHNwcml0ZSA9IG5ldyBUSFJFRS5TcHJpdGUobmV3IFRIUkVFLlNwcml0ZU1hdGVyaWFsKHsgbWFwOiB0ZXh0dXJlLCB0cmFuc3BhcmVudDogdHJ1ZSwgZGVwdGhXcml0ZTogZmFsc2UsIG9wYWNpdHk6IDAgfSkpOwogICAgc3ByaXRlLnZpc2libGUgPSBmYWxzZTsKICAgIHNjZW5lLmFkZChzcHJpdGUpOwogICAgcHVmZnMucHVzaCh7IHNwcml0ZSwgbGlmZTogMCwgbWF4OiAxLCByaXNlOiAxLCBzaXplOiAxLCBkcmlmdDogbmV3IFRIUkVFLlZlY3RvcjMoKSB9KTsKICB9CgogIGNvbnN0IHRyYWNlcnMgPSBbXTsKICBmb3IgKGxldCBpID0gMDsgaSA8IDI0OyBpKyspIHsKICAgIGNvbnN0IGdlb21ldHJ5ID0gbmV3IFRIUkVFLkJ1ZmZlckdlb21ldHJ5KCk7CiAgICBnZW9tZXRyeS5zZXRBdHRyaWJ1dGUoJ3Bvc2l0aW9uJywgbmV3IFRIUkVFLkZsb2F0MzJCdWZmZXJBdHRyaWJ1dGUobmV3IEZsb2F0MzJBcnJheSg2KSwgMykpOwogICAgY29uc3QgbWF0ZXJpYWwgPSBuZXcgVEhSRUUuTGluZUJhc2ljTWF0ZXJpYWwoeyBjb2xvcjogMHhmZmU2YTgsIHRyYW5zcGFyZW50OiB0cnVlLCBvcGFjaXR5OiAwLCB0b25lTWFwcGVkOiBmYWxzZSB9KTsKICAgIGNvbnN0IGxpbmUgPSBuZXcgVEhSRUUuTGluZShnZW9tZXRyeSwgbWF0ZXJpYWwpOwogICAgbGluZS5mcnVzdHVtQ3VsbGVkID0gZmFsc2U7CiAgICBsaW5lLnZpc2libGUgPSBmYWxzZTsKICAgIHNjZW5lLmFkZChsaW5lKTsKICAgIHRyYWNlcnMucHVzaCh7IGxpbmUsIGxpZmU6IDAgfSk7CiAgfQogIGxldCBwdWZmQ3Vyc29yID0gMDsKICBsZXQgdHJhY2VyQ3Vyc29yID0gMDsKCiAgZnVuY3Rpb24gc3Bhd25QdWZmKHBvcywgeyBjb2xvciA9IDB4Y2ZjZmNmLCBzaXplID0gMS4yLCBsaWZlID0gMC45LCByaXNlID0gMS40LCBvcGFjaXR5ID0gMC42IH0gPSB7fSkgewogICAgY29uc3QgcCA9IHB1ZmZzW3B1ZmZDdXJzb3IrKyAlIHB1ZmZzLmxlbmd0aF07CiAgICBwLnNwcml0ZS5wb3NpdGlvbi5jb3B5KHBvcyk7CiAgICBwLnNwcml0ZS5tYXRlcmlhbC5jb2xvci5zZXRIZXgoY29sb3IpOwogICAgcC5zcHJpdGUubWF0ZXJpYWwub3BhY2l0eSA9IG9wYWNpdHk7CiAgICBwLnNwcml0ZS5zY2FsZS5zZXRTY2FsYXIoc2l6ZSk7CiAgICBwLnNwcml0ZS52aXNpYmxlID0gdHJ1ZTsKICAgIHAubGlmZSA9IGxpZmU7CiAgICBwLm1heCA9IGxpZmU7CiAgICBwLnJpc2UgPSByaXNlOwogICAgcC5zaXplID0gc2l6ZTsKICAgIHAuZHJpZnQuc2V0KChNYXRoLnJhbmRvbSgpIC0gMC41KSAqIDEuMiwgMCwgKE1hdGgucmFuZG9tKCkgLSAwLjUpICogMS4yKTsKICB9CgogIHJldHVybiB7CiAgICBzbW9rZShwb3MsIHN0cmVuZ3RoID0gMSkgeyBzcGF3blB1ZmYocG9zLCB7IGNvbG9yOiAweDVhNTU1Miwgc2l6ZTogMS40ICogc3RyZW5ndGgsIGxpZmU6IDEuMyArIHN0cmVuZ3RoICogMC40LCByaXNlOiAxLjcgKyBzdHJlbmd0aCwgb3BhY2l0eTogMC40NSB9KTsgfSwKICAgIGR1c3QocG9zKSB7IHNwYXduUHVmZihwb3MsIHsgY29sb3I6IDB4ZDljOWE2LCBzaXplOiAwLjksIGxpZmU6IDAuNiwgcmlzZTogMC41LCBvcGFjaXR5OiAwLjQgfSk7IH0sCiAgICBzcGFyayhwb3MpIHsgc3Bhd25QdWZmKHBvcywgeyBjb2xvcjogMHhmZmQyN2EsIHNpemU6IDAuNDUsIGxpZmU6IDAuMjIsIHJpc2U6IDAuNiwgb3BhY2l0eTogMC45IH0pOyB9LAogICAgYmxvb2QocG9zKSB7IHNwYXduUHVmZihwb3MsIHsgY29sb3I6IDB4YjAzMDMwLCBzaXplOiAwLjUsIGxpZmU6IDAuMzUsIHJpc2U6IDAuMiwgb3BhY2l0eTogMC43IH0pOyB9LAogICAgc3BsYXNoKHBvcykgeyBzcGF3blB1ZmYocG9zLCB7IGNvbG9yOiAweGQ4ZjRmNCwgc2l6ZTogMC43LCBsaWZlOiAwLjQ1LCByaXNlOiAwLjQsIG9wYWNpdHk6IDAuNSB9KTsgfSwKICAgIHRyYWNlcihmcm9tLCB0bywgY29sb3IgPSAweGZmZTZhOCkgewogICAgICBjb25zdCB0ID0gdHJhY2Vyc1t0cmFjZXJDdXJzb3IrKyAlIHRyYWNlcnMubGVuZ3RoXTsKICAgICAgY29uc3QgcG9zID0gdC5saW5lLmdlb21ldHJ5LmF0dHJpYnV0ZXMucG9zaXRpb247CiAgICAgIHBvcy5zZXRYWVooMCwgZnJvbS54LCBmcm9tLnksIGZyb20ueik7CiAgICAgIHBvcy5zZXRYWVooMSwgdG8ueCwgdG8ueSwgdG8ueik7CiAgICAgIHBvcy5uZWVkc1VwZGF0ZSA9IHRydWU7CiAgICAgIHQubGluZS5tYXRlcmlhbC5jb2xvci5zZXRIZXgoY29sb3IpOwogICAgICB0LmxpbmUubWF0ZXJpYWwub3BhY2l0eSA9IDAuOTsKICAgICAgdC5saW5lLnZpc2libGUgPSB0cnVlOwogICAgICB0LmxpZmUgPSAwLjA5OwogICAgfSwKICAgIHVwZGF0ZShkdCkgewogICAgICBmb3IgKGNvbnN0IHAgb2YgcHVmZnMpIHsKICAgICAgICBpZiAoIXAuc3ByaXRlLnZpc2libGUpIGNvbnRpbnVlOwogICAgICAgIHAubGlmZSAtPSBkdDsKICAgICAgICBpZiAocC5saWZlIDw9IDApIHsgcC5zcHJpdGUudmlzaWJsZSA9IGZhbHNlOyBjb250aW51ZTsgfQogICAgICAgIGNvbnN0IGsgPSBwLmxpZmUgLyBwLm1heDsKICAgICAgICBwLnNwcml0ZS5wb3NpdGlvbi55ICs9IHAucmlzZSAqIGR0OwogICAgICAgIHAuc3ByaXRlLnBvc2l0aW9uLnggKz0gcC5kcmlmdC54ICogZHQ7CiAgICAgICAgcC5zcHJpdGUucG9zaXRpb24ueiArPSBwLmRyaWZ0LnogKiBkdDsKICAgICAgICBwLnNwcml0ZS5tYXRlcmlhbC5vcGFjaXR5ID0gayAqIDAuNTU7CiAgICAgICAgcC5zcHJpdGUuc2NhbGUuc2V0U2NhbGFyKHAuc2l6ZSAqICgxLjYgLSBrICogMC42KSk7CiAgICAgIH0KICAgICAgZm9yIChjb25zdCB0IG9mIHRyYWNlcnMpIHsKICAgICAgICBpZiAoIXQubGluZS52aXNpYmxlKSBjb250aW51ZTsKICAgICAgICB0LmxpZmUgLT0gZHQ7CiAgICAgICAgdC5saW5lLm1hdGVyaWFsLm9wYWNpdHkgPSBNYXRoLm1heCgwLCB0LmxpZmUgLyAwLjA5KSAqIDAuOTsKICAgICAgICBpZiAodC5saWZlIDw9IDApIHQubGluZS52aXNpYmxlID0gZmFsc2U7CiAgICAgIH0KICAgIH0sCiAgfTsKfQo=
+// Effects: createEffects spawns tracers, muzzle flashes, sparks, smoke, dust and skid marks. A fixed pool, no allocation.
+// Short-lived visual feedback: smoke off a wrecked car, sparks off a wall, dust under a
+// landing, and tracers that show where every bullet went.
+
+import * as THREE from 'three';
+
+function makePuffTexture() {
+  const canvas = document.createElement('canvas');
+  canvas.width = 64;
+  canvas.height = 64;
+  const g = canvas.getContext('2d');
+  const grad = g.createRadialGradient(32, 32, 2, 32, 32, 30);
+  grad.addColorStop(0, 'rgba(255,255,255,0.9)');
+  grad.addColorStop(0.5, 'rgba(255,255,255,0.35)');
+  grad.addColorStop(1, 'rgba(255,255,255,0)');
+  g.fillStyle = grad;
+  g.fillRect(0, 0, 64, 64);
+  return new THREE.CanvasTexture(canvas);
+}
+
+export function createEffects(scene) {
+  const texture = makePuffTexture();
+  const puffs = [];
+  for (let i = 0; i < 110; i++) {
+    const sprite = new THREE.Sprite(new THREE.SpriteMaterial({ map: texture, transparent: true, depthWrite: false, opacity: 0 }));
+    sprite.visible = false;
+    scene.add(sprite);
+    puffs.push({ sprite, life: 0, max: 1, rise: 1, size: 1, drift: new THREE.Vector3() });
+  }
+
+  const tracers = [];
+  for (let i = 0; i < 24; i++) {
+    const geometry = new THREE.BufferGeometry();
+    geometry.setAttribute('position', new THREE.Float32BufferAttribute(new Float32Array(6), 3));
+    const material = new THREE.LineBasicMaterial({ color: 0xffe6a8, transparent: true, opacity: 0, toneMapped: false });
+    const line = new THREE.Line(geometry, material);
+    line.frustumCulled = false;
+    line.visible = false;
+    scene.add(line);
+    tracers.push({ line, life: 0 });
+  }
+  let puffCursor = 0;
+  let tracerCursor = 0;
+
+  function spawnPuff(pos, { color = 0xcfcfcf, size = 1.2, life = 0.9, rise = 1.4, opacity = 0.6 } = {}) {
+    const p = puffs[puffCursor++ % puffs.length];
+    p.sprite.position.copy(pos);
+    p.sprite.material.color.setHex(color);
+    p.sprite.material.opacity = opacity;
+    p.sprite.scale.setScalar(size);
+    p.sprite.visible = true;
+    p.life = life;
+    p.max = life;
+    p.rise = rise;
+    p.size = size;
+    p.drift.set((Math.random() - 0.5) * 1.2, 0, (Math.random() - 0.5) * 1.2);
+  }
+
+  return {
+    smoke(pos, strength = 1) { spawnPuff(pos, { color: 0x5a5552, size: 1.4 * strength, life: 1.3 + strength * 0.4, rise: 1.7 + strength, opacity: 0.45 }); },
+    dust(pos) { spawnPuff(pos, { color: 0xd9c9a6, size: 0.9, life: 0.6, rise: 0.5, opacity: 0.4 }); },
+    spark(pos) { spawnPuff(pos, { color: 0xffd27a, size: 0.45, life: 0.22, rise: 0.6, opacity: 0.9 }); },
+    blood(pos) { spawnPuff(pos, { color: 0xb03030, size: 0.5, life: 0.35, rise: 0.2, opacity: 0.7 }); },
+    splash(pos) { spawnPuff(pos, { color: 0xd8f4f4, size: 0.7, life: 0.45, rise: 0.4, opacity: 0.5 }); },
+    tracer(from, to, color = 0xffe6a8) {
+      const t = tracers[tracerCursor++ % tracers.length];
+      const pos = t.line.geometry.attributes.position;
+      pos.setXYZ(0, from.x, from.y, from.z);
+      pos.setXYZ(1, to.x, to.y, to.z);
+      pos.needsUpdate = true;
+      t.line.material.color.setHex(color);
+      t.line.material.opacity = 0.9;
+      t.line.visible = true;
+      t.life = 0.09;
+    },
+    update(dt) {
+      for (const p of puffs) {
+        if (!p.sprite.visible) continue;
+        p.life -= dt;
+        if (p.life <= 0) { p.sprite.visible = false; continue; }
+        const k = p.life / p.max;
+        p.sprite.position.y += p.rise * dt;
+        p.sprite.position.x += p.drift.x * dt;
+        p.sprite.position.z += p.drift.z * dt;
+        p.sprite.material.opacity = k * 0.55;
+        p.sprite.scale.setScalar(p.size * (1.6 - k * 0.6));
+      }
+      for (const t of tracers) {
+        if (!t.line.visible) continue;
+        t.life -= dt;
+        t.line.material.opacity = Math.max(0, t.life / 0.09) * 0.9;
+        if (t.life <= 0) t.line.visible = false;
+      }
+    },
+  };
+}

@@ -1,1 +1,59 @@
-Ly8gU2hhcmVkIHR1bmluZzogQ0lUWSwgUEFMRVRURSwgVkVISUNMRVMsIFdFQVBPTlMsIFdBTlRFRCwgU0hPUCwgRk9PVCBhbmQgU1RBUlQgY29uc3RhbnRzLiBPbmUgcGxhY2UgZm9yIGdyaWQgcGl0Y2gsIGJhbGxpc3RpY3MgYW5kIHBhaW50LgovLyBFdmVyeSB0dW5hYmxlIG51bWJlciB0aGUgZ2FtZSBzaGFyZXM6IHRoZSBjaXR5J3MgZ3JpZCwgdmVoaWNsZSBoYW5kbGluZywgd2VhcG9uIGJhbGxpc3RpY3MKLy8gYW5kIHRoZSBwYWxldHRlIHRoZSB3aG9sZSBjb2FzdCBpcyBwYWludGVkIGZyb20uIE1vZHVsZXMgcmVhZCBmcm9tIGhlcmUgc28gdGhlIHBsYWNlIHN0YXlzCi8vIG9uZSBjb2hlcmVudCBvYmplY3QuCgpleHBvcnQgY29uc3QgQ0lUWSA9IHsKICBwaXRjaDogODAsICAgICAgICAgIC8vIG1ldHJlcyBiZXR3ZWVuIHJvYWQgY2VudHJlIGxpbmVzCiAgcm9hZHNNaW46IC01NjAsICAgICAvLyBmaXJzdCByb2FkIG9uIGVhY2ggYXhpcwogIHJvYWRzTWF4OiA0ODAsICAgICAgLy8gbGFzdCByb2FkIG9uIGVhY2ggYXhpcwogIHJvYWRXaWR0aDogMTYsCiAgc2lkZXdhbGs6IDQsCiAgYmxvY2tJbm5lcjogNTYsICAgICAvLyBidWlsZGluZyBmb290cHJpbnQgbGVmdCBiZXR3ZWVuIHNpZGV3YWxrIGFuZCBrZXJiCiAgY29hc3RFYXN0OiA2NDAsCiAgY29hc3RTb3V0aDogNjQwLAogIGxhbmQ6IDE2MDAsCiAgd2F0ZXJZOiAtMS42LAp9OwoKZXhwb3J0IGNvbnN0IFBBTEVUVEUgPSB7CiAgc3VuOiAweGZmZjBjZiwKICBza3lEYXk6IDB4OWZkNmVmLAogIHNreUR1c2s6IDB4MmMyMzQ4LAogIGZvZ0RheTogMHhkOGU2ZTIsCiAgZm9nRHVzazogMHg0YTM0NTAsCiAgYXNwaGFsdDogMHg0YTQ2NDksCiAgc2lkZXdhbGs6IDB4ZDljZGI2LAogIHNhbmQ6IDB4ZThkNWEzLAogIHdhdGVyOiAweDJhOGY5YywKICBncmFzczogMHg2ZjlhNWIsCiAgY3JlYW1zOiBbMHhmMWUyYzMsIDB4ZjZkN2JkLCAweGY0ZWZlMywgMHhlOGQ5YzldLAogIHBhc3RlbHM6IFsweGYyYjhhMiwgMHhhOGQ4Y2QsIDB4ZjVkNzhhLCAweGM5YjZkYywgMHg5ZmMyZDgsIDB4ZWZjMWIwXSwKICB0ZWFsOiAweDJmN2Y3YSwKICBjb3JhbDogMHhlNDYwNGQsCiAgbmVvbjogWzB4ZmY1NDcwLCAweGZmYjQ1NCwgMHg0OWUwYzIsIDB4ZmY3YWQ5LCAweDliOGJmZl0sCiAgZ2xhc3M6IDB4NmU5M2E2LAp9OwoKZXhwb3J0IGNvbnN0IFZFSElDTEVTID0gewogIHNlZGFuOiAgeyBuYW1lOiAnS2VzdHJlbCA0LWRvb3InLCAgbWF4U3BlZWQ6IDI3LCBhY2NlbDogOSwgIGJyYWtlOiAxOCwgc3RlZXI6IDEuNiwgZ3JpcDogNi41LCBoZWFsdGg6IDEyMCwgbWFzczogMS4wLCBsZW5ndGg6IDQuNSwgd2lkdGg6IDEuOSwgaGVpZ2h0OiAxLjMgfSwKICBzcG9ydHM6IHsgbmFtZTogJ01hbnRhIEdUJywgICAgICAgIG1heFNwZWVkOiAzOSwgYWNjZWw6IDE1LCBicmFrZTogMjAsIHN0ZWVyOiAxLjc1LCBncmlwOiA3LjUsIGhlYWx0aDogOTAsICBtYXNzOiAwLjg1LCBsZW5ndGg6IDQuNCwgd2lkdGg6IDIuMCwgaGVpZ2h0OiAxLjA1IH0sCiAgdmFuOiAgICB7IG5hbWU6ICdQZWxpY2FuIFZhbicsICAgICBtYXhTcGVlZDogMjEsIGFjY2VsOiA2LCAgYnJha2U6IDE0LCBzdGVlcjogMS4zNSwgZ3JpcDogNS41LCBoZWFsdGg6IDE4MCwgbWFzczogMS41LCBsZW5ndGg6IDUuNCwgd2lkdGg6IDIuMiwgaGVpZ2h0OiAyLjEgfSwKICBwb2xpY2U6IHsgbmFtZTogJ0NWRSBJbnRlcmNlcHRvcicsIG1heFNwZWVkOiAzMywgYWNjZWw6IDEyLCBicmFrZTogMTksIHN0ZWVyOiAxLjgsIGdyaXA6IDcuNiwgaGVhbHRoOiAxNTAsIG1hc3M6IDEuMSwgbGVuZ3RoOiA0LjgsIHdpZHRoOiAyLjAsIGhlaWdodDogMS40IH0sCn07CgpleHBvcnQgY29uc3QgV0VBUE9OUyA9IHsKICBwaXN0b2w6ICB7IG5hbWU6ICdQaXN0b2wnLCAgZGFtYWdlOiAyNiwgcmF0ZTogMC4yNiwgc3ByZWFkOiAwLjAxMCwgcGVsbGV0czogMSwgcmFuZ2U6IDkwLCAgbWFnOiAxMiwgc291bmQ6ICdwaXN0b2wnIH0sCiAgc21nOiAgICAgeyBuYW1lOiAnU01HJywgICAgIGRhbWFnZTogMTUsIHJhdGU6IDAuMDg1LCBzcHJlYWQ6IDAuMDI4LCBwZWxsZXRzOiAxLCByYW5nZTogNzUsICBtYWc6IDMwLCBzb3VuZDogJ3NtZycgfSwKICBzaG90Z3VuOiB7IG5hbWU6ICdTaG90Z3VuJywgZGFtYWdlOiAxMywgcmF0ZTogMC43OCwgc3ByZWFkOiAwLjA1NSwgcGVsbGV0czogNiwgcmFuZ2U6IDQ1LCAgbWFnOiA2LCAgc291bmQ6ICdzaG90Z3VuJyB9LAp9OwoKZXhwb3J0IGNvbnN0IFdBTlRFRCA9IHsgbWF4U3RhcnM6IDUsIHN0YXJEZWNheTogMTQsIHNlYXJjaEdyb3c6IDI2LCBidXN0UmFkaXVzOiAxMyB9OwoKLy8gU2hvcCBwcmljZXM7IGV2ZXJ5IGxvY2F0aW9uIGxpdmVzIGluIFBMQUNFUyBpbiB3b3JsZC9jaXR5LmpzIHNvIHRoZXJlIGlzIG9uZSBtYXAuCmV4cG9ydCBjb25zdCBTSE9QID0geyBhcm1vdXJDb3N0OiAyNTAsIGFtbW9Db3N0OiAxMjAsIGNhckNvc3Q6IDE1MDAgfTsKCmV4cG9ydCBjb25zdCBGT09UID0geyB3YWxrOiAzLjQsIHJ1bjogNi4wLCBzcHJpbnQ6IDkuMiwganVtcDogNi40LCBncmF2aXR5OiAyMiwgcmFkaXVzOiAwLjU1IH07CgovLyBBIGNsZWFyIGludGVyc2VjdGlvbiBhIHNob3J0IHdhbGsgZnJvbSB0aGUgbWFyaW5hLCBmYWNpbmcgUm9zYSdzIG9mZmljZS4KZXhwb3J0IGNvbnN0IFNUQVJUID0geyB4OiAtMzE2LCB6OiAzOTYsIHlhdzogLU1hdGguUEkgLyA0IH07Cg==
+// Shared tuning: CITY, PALETTE, VEHICLES, WEAPONS, WANTED, SHOP, FOOT and START constants. One place for grid pitch, ballistics and paint.
+// Every tunable number the game shares: the city's grid, vehicle handling, weapon ballistics
+// and the palette the whole coast is painted from. Modules read from here so the place stays
+// one coherent object.
+
+export const CITY = {
+  pitch: 80,          // metres between road centre lines
+  roadsMin: -560,     // first road on each axis
+  roadsMax: 480,      // last road on each axis
+  roadWidth: 16,
+  sidewalk: 4,
+  blockInner: 56,     // building footprint left between sidewalk and kerb
+  coastEast: 640,
+  coastSouth: 640,
+  land: 1600,
+  waterY: -1.6,
+};
+
+export const PALETTE = {
+  sun: 0xfff0cf,
+  skyDay: 0x9fd6ef,
+  skyDusk: 0x2c2348,
+  fogDay: 0xd8e6e2,
+  fogDusk: 0x4a3450,
+  asphalt: 0x4a4649,
+  sidewalk: 0xd9cdb6,
+  sand: 0xe8d5a3,
+  water: 0x2a8f9c,
+  grass: 0x6f9a5b,
+  creams: [0xf1e2c3, 0xf6d7bd, 0xf4efe3, 0xe8d9c9],
+  pastels: [0xf2b8a2, 0xa8d8cd, 0xf5d78a, 0xc9b6dc, 0x9fc2d8, 0xefc1b0],
+  teal: 0x2f7f7a,
+  coral: 0xe4604d,
+  neon: [0xff5470, 0xffb454, 0x49e0c2, 0xff7ad9, 0x9b8bff],
+  glass: 0x6e93a6,
+};
+
+export const VEHICLES = {
+  sedan:  { name: 'Kestrel 4-door',  maxSpeed: 27, accel: 9,  brake: 18, steer: 1.6, grip: 6.5, health: 120, mass: 1.0, length: 4.5, width: 1.9, height: 1.3 },
+  sports: { name: 'Manta GT',        maxSpeed: 39, accel: 15, brake: 20, steer: 1.75, grip: 7.5, health: 90,  mass: 0.85, length: 4.4, width: 2.0, height: 1.05 },
+  van:    { name: 'Pelican Van',     maxSpeed: 21, accel: 6,  brake: 14, steer: 1.35, grip: 5.5, health: 180, mass: 1.5, length: 5.4, width: 2.2, height: 2.1 },
+  police: { name: 'CVE Interceptor', maxSpeed: 33, accel: 12, brake: 19, steer: 1.8, grip: 7.6, health: 150, mass: 1.1, length: 4.8, width: 2.0, height: 1.4 },
+};
+
+export const WEAPONS = {
+  pistol:  { name: 'Pistol',  damage: 26, rate: 0.26, spread: 0.010, pellets: 1, range: 90,  mag: 12, sound: 'pistol' },
+  smg:     { name: 'SMG',     damage: 15, rate: 0.085, spread: 0.028, pellets: 1, range: 75,  mag: 30, sound: 'smg' },
+  shotgun: { name: 'Shotgun', damage: 13, rate: 0.78, spread: 0.055, pellets: 6, range: 45,  mag: 6,  sound: 'shotgun' },
+};
+
+export const WANTED = { maxStars: 5, starDecay: 14, searchGrow: 26, bustRadius: 13 };
+
+// Shop prices; every location lives in PLACES in world/city.js so there is one map.
+export const SHOP = { armourCost: 250, ammoCost: 120, carCost: 1500 };
+
+export const FOOT = { walk: 3.4, run: 6.0, sprint: 9.2, jump: 6.4, gravity: 22, radius: 0.55 };
+
+// A clear intersection a short walk from the marina, facing Rosa's office.
+export const START = { x: -316, z: 396, yaw: -Math.PI / 4 };

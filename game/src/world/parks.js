@@ -1,1 +1,221 @@
-Ly8gUGFya3M6IGNyZWF0ZVBhcmtzKHNjZW5lLCBybmcsIGNpdHkpIHRha2VzIHRocmVlIG9mIHRoZSBjaXR5J3Mgb3BlbiBibG9ja3MgYW5kIGRyZXNzZXMgdGhlbSBhcwovLyBzbWFsbCBwYXJrcyDigJQgbW93biBncmFzcywgYSBwYXRoIGNyb3NzLCBsb3cgaGVkZ2VzLCBiZW5jaGVzLCBhIHN0b25lIGZvdW50YWluIHdpdGggcmlwcGxpbmcKLy8gd2F0ZXIgYW5kIGEgZmV3IHRyZWVzIHdob3NlIGZvbGlhZ2Ugc3dheXMuIEZsYXQgY29sb3VycyBvbmx5LCBldmVyeXRoaW5nIHVuZGVyIG9uZSBncm91cC4KCmltcG9ydCAqIGFzIFRIUkVFIGZyb20gJ3RocmVlJzsKCmNvbnN0IFBBUktfWSA9IDAuNDU7CmNvbnN0IEJFTkNIRVMgPSA0Owpjb25zdCBUUkVFUyA9IDM7CmNvbnN0IEZBTExCQUNLX0JMT0NLUyA9IFsKICB7IHg6IC0zNjAsIHo6IDEyMCB9LAogIHsgeDogMTIwLCB6OiAyODAgfSwKICB7IHg6IC0yODAsIHo6IC0xMjAgfSwKXTsKCi8qKiBCbG9ja3Mgd2l0aCBubyBidWlsZGluZyBvbiB0aGVtIGFyZSB0aGUgcGFya3MgdGhlIGNpdHkgZ2VuZXJhdG9yIGxlZnQgb3Blbi4gKi8KZnVuY3Rpb24gY2hvb3NlQmxvY2tzKGNpdHkpIHsKICBjb25zdCBjZW50cmVzID0gY2l0eT8uYmxvY2tDZW50ZXJzID8/IGNpdHk/LmJsb2NrcyA/PyBbXTsKICBjb25zdCBjbGVhciA9IChibG9jaykgPT4gKHR5cGVvZiBjaXR5Py5jbGVhclNwb3ROZWFyID09PSAnZnVuY3Rpb24nID8gY2l0eS5jbGVhclNwb3ROZWFyKGJsb2NrLngsIGJsb2NrLnosIDYpIDogdHJ1ZSk7CiAgY29uc3Qgb3BlbiA9IGNlbnRyZXMuZmlsdGVyKChibG9jaykgPT4gTnVtYmVyLmlzRmluaXRlKGJsb2NrLngpICYmIE51bWJlci5pc0Zpbml0ZShibG9jay56KSAmJiBjbGVhcihibG9jaykpOwogIHJldHVybiBvcGVuLmxlbmd0aCA+PSAzID8gb3Blbi5zbGljZSgwLCAzKSA6IEZBTExCQUNLX0JMT0NLUzsKfQoKZXhwb3J0IGZ1bmN0aW9uIGNyZWF0ZVBhcmtzKHNjZW5lLCBybmcsIGNpdHkpIHsKICBjb25zdCBncm91cCA9IG5ldyBUSFJFRS5Hcm91cCgpOwogIGdyb3VwLm5hbWUgPSAnUGFya3MnOwogIHNjZW5lLmFkZChncm91cCk7CgogIGNvbnN0IGJsb2NrcyA9IGNob29zZUJsb2NrcyhjaXR5KTsKICBjb25zdCBib3hHZW9tZXRyeSA9IG5ldyBUSFJFRS5Cb3hHZW9tZXRyeSgxLCAxLCAxKTsKICBjb25zdCBkdW1teSA9IG5ldyBUSFJFRS5PYmplY3QzRCgpOwoKICBmdW5jdGlvbiBwbGFjZShtZXNoLCBpbmRleCwgeCwgeSwgeiwgeWF3ID0gMCwgc3ggPSAxLCBzeSA9IDEsIHN6ID0gMSkgewogICAgZHVtbXkucG9zaXRpb24uc2V0KHgsIHksIHopOwogICAgZHVtbXkucm90YXRpb24uc2V0KDAsIHlhdywgMCk7CiAgICBkdW1teS5zY2FsZS5zZXQoc3gsIHN5LCBzeik7CiAgICBkdW1teS51cGRhdGVNYXRyaXgoKTsKICAgIG1lc2guc2V0TWF0cml4QXQoaW5kZXgsIGR1bW15Lm1hdHJpeCk7CiAgfQoKICAvLyAtLS0tLS0tLS0tIGdyYXNzIGFuZCB0aGUgcGF0aCBjcm9zcyAtLS0tLS0tLS0tCiAgY29uc3QgZ3Jhc3NNYXQgPSBuZXcgVEhSRUUuTWVzaFN0YW5kYXJkTWF0ZXJpYWwoeyBjb2xvcjogMHg3Y2FiNjIsIHJvdWdobmVzczogMSB9KTsKICBjb25zdCBwYXRoTWF0ID0gbmV3IFRIUkVFLk1lc2hTdGFuZGFyZE1hdGVyaWFsKHsgY29sb3I6IDB4ZDhjN2EyLCByb3VnaG5lc3M6IDAuOTUgfSk7CgogIGZ1bmN0aW9uIHNsYWIoeCwgeiwgdywgaCwgZCwgeSwgbWF0ZXJpYWwpIHsKICAgIGNvbnN0IG1lc2ggPSBuZXcgVEhSRUUuTWVzaChib3hHZW9tZXRyeSwgbWF0ZXJpYWwpOwogICAgbWVzaC5wb3NpdGlvbi5zZXQoeCwgeSwgeik7CiAgICBtZXNoLnNjYWxlLnNldCh3LCBoLCBkKTsKICAgIG1lc2gucmVjZWl2ZVNoYWRvdyA9IHRydWU7CiAgICBncm91cC5hZGQobWVzaCk7CiAgfQoKICBmb3IgKGNvbnN0IHBhcmsgb2YgYmxvY2tzKSB7CiAgICBzbGFiKHBhcmsueCwgcGFyay56LCA0NiwgMC4wNSwgNDYsIDAuNDI1LCBncmFzc01hdCk7CiAgICBzbGFiKHBhcmsueCwgcGFyay56LCA0MCwgMC4wNCwgNC42LCAwLjQ3LCBwYXRoTWF0KTsKICAgIHNsYWIocGFyay54LCBwYXJrLnosIDQuNiwgMC4wNCwgNDAsIDAuNDcsIHBhdGhNYXQpOwogIH0KCiAgLy8gLS0tLS0tLS0tLSBoZWRnZXMsIGJlbmNoZXMgYW5kIHRyZWVzLCBnYXRoZXJlZCBmaXJzdCBzbyBlYWNoIGlzIG9uZSBpbnN0YW5jZWQgbWVzaCAtLS0tLS0tLS0tCiAgY29uc3QgaGVkZ2VTcG90cyA9IFtdOwogIGNvbnN0IGJlbmNoU3BvdHMgPSBbXTsKICBjb25zdCB0cmVlU3BvdHMgPSBbXTsKCiAgYmxvY2tzLmZvckVhY2goKHBhcmssIGluZGV4KSA9PiB7CiAgICBmb3IgKGNvbnN0IHNpZGUgb2YgWy0xLCAxXSkgewogICAgICBoZWRnZVNwb3RzLnB1c2goeyB4OiBwYXJrLnggKyBzaWRlICogMjIuNiwgejogcGFyay56LCBzeDogMS41LCBzejogNDYsIGhlaWdodDogcm5nLnJhbmdlKDAuNywgMS4wKSB9KTsKICAgICAgaGVkZ2VTcG90cy5wdXNoKHsgeDogcGFyay54LCB6OiBwYXJrLnogKyBzaWRlICogMjIuNiwgc3g6IDQ2LCBzejogMS41LCBoZWlnaHQ6IHJuZy5yYW5nZSgwLjcsIDEuMCkgfSk7CiAgICB9CiAgICBmb3IgKGxldCBiZW5jaCA9IDA7IGJlbmNoIDwgQkVOQ0hFUzsgYmVuY2grKykgewogICAgICBjb25zdCBhbmdsZSA9IE1hdGguUEkgLyA0ICsgKGJlbmNoIC8gQkVOQ0hFUykgKiBNYXRoLlBJICogMjsKICAgICAgY29uc3QgeCA9IHBhcmsueCArIE1hdGguY29zKGFuZ2xlKSAqIDEwLjU7CiAgICAgIGNvbnN0IHogPSBwYXJrLnogKyBNYXRoLnNpbihhbmdsZSkgKiAxMC41OwogICAgICBiZW5jaFNwb3RzLnB1c2goeyB4LCB6LCB5YXc6IE1hdGguYXRhbjIocGFyay54IC0geCwgcGFyay56IC0geikgfSk7CiAgICB9CiAgICBmb3IgKGxldCB0cmVlID0gMDsgdHJlZSA8IFRSRUVTOyB0cmVlKyspIHsKICAgICAgY29uc3QgYW5nbGUgPSBpbmRleCAqIDAuOSArICh0cmVlIC8gVFJFRVMpICogTWF0aC5QSSAqIDIgKyBybmcucmFuZ2UoLTAuMjUsIDAuMjUpOwogICAgICBjb25zdCByYWRpdXMgPSBybmcucmFuZ2UoMTMsIDE3KTsKICAgICAgdHJlZVNwb3RzLnB1c2goewogICAgICAgIHg6IHBhcmsueCArIE1hdGguY29zKGFuZ2xlKSAqIHJhZGl1cywKICAgICAgICB6OiBwYXJrLnogKyBNYXRoLnNpbihhbmdsZSkgKiByYWRpdXMsCiAgICAgICAgc2NhbGU6IHJuZy5yYW5nZSgwLjg1LCAxLjE1KSwKICAgICAgfSk7CiAgICB9CiAgfSk7CgogIGNvbnN0IGhlZGdlTWF0ID0gbmV3IFRIUkVFLk1lc2hTdGFuZGFyZE1hdGVyaWFsKHsgY29sb3I6IDB4M2Y3YTQ1LCByb3VnaG5lc3M6IDAuOTUsIGZsYXRTaGFkaW5nOiB0cnVlIH0pOwogIGNvbnN0IGhlZGdlcyA9IG5ldyBUSFJFRS5JbnN0YW5jZWRNZXNoKGJveEdlb21ldHJ5LCBoZWRnZU1hdCwgaGVkZ2VTcG90cy5sZW5ndGgpOwogIGhlZGdlU3BvdHMuZm9yRWFjaCgoc3BvdCwgaW5kZXgpID0+IHBsYWNlKGhlZGdlcywgaW5kZXgsIHNwb3QueCwgUEFSS19ZICsgc3BvdC5oZWlnaHQgLyAyLCBzcG90LnosIDAsIHNwb3Quc3gsIHNwb3QuaGVpZ2h0LCBzcG90LnN6KSk7CiAgaGVkZ2VzLmNhc3RTaGFkb3cgPSB0cnVlOwogIGhlZGdlcy5yZWNlaXZlU2hhZG93ID0gdHJ1ZTsKICBncm91cC5hZGQoaGVkZ2VzKTsKCiAgY29uc3Qgd29vZE1hdCA9IG5ldyBUSFJFRS5NZXNoU3RhbmRhcmRNYXRlcmlhbCh7IGNvbG9yOiAweDljNmI0NSwgcm91Z2huZXNzOiAwLjg1IH0pOwogIGNvbnN0IGlyb25NYXQgPSBuZXcgVEhSRUUuTWVzaFN0YW5kYXJkTWF0ZXJpYWwoeyBjb2xvcjogMHg0ZjU3NTQsIHJvdWdobmVzczogMC43LCBtZXRhbG5lc3M6IDAuMjUgfSk7CiAgY29uc3Qgc2VhdHMgPSBuZXcgVEhSRUUuSW5zdGFuY2VkTWVzaChuZXcgVEhSRUUuQm94R2VvbWV0cnkoMS45LCAwLjE0LCAwLjU1KSwgd29vZE1hdCwgYmVuY2hTcG90cy5sZW5ndGgpOwogIGNvbnN0IGJhY2tzID0gbmV3IFRIUkVFLkluc3RhbmNlZE1lc2gobmV3IFRIUkVFLkJveEdlb21ldHJ5KDEuOSwgMC41NSwgMC4xKSwgd29vZE1hdCwgYmVuY2hTcG90cy5sZW5ndGgpOwogIGNvbnN0IGxlZ3MgPSBuZXcgVEhSRUUuSW5zdGFuY2VkTWVzaChuZXcgVEhSRUUuQm94R2VvbWV0cnkoMC4xMiwgMC40NSwgMC41KSwgaXJvbk1hdCwgYmVuY2hTcG90cy5sZW5ndGggKiAyKTsKCiAgZnVuY3Rpb24gYmVuY2hQYXJ0KG1lc2gsIGluZGV4LCBzcG90LCBveCwgb3ksIG96KSB7CiAgICBjb25zdCBjID0gTWF0aC5jb3Moc3BvdC55YXcpOwogICAgY29uc3QgcyA9IE1hdGguc2luKHNwb3QueWF3KTsKICAgIHBsYWNlKG1lc2gsIGluZGV4LCBzcG90LnggKyBveCAqIGMgKyBveiAqIHMsIFBBUktfWSArIG95LCBzcG90LnogLSBveCAqIHMgKyBveiAqIGMsIHNwb3QueWF3KTsKICB9CgogIGJlbmNoU3BvdHMuZm9yRWFjaCgoc3BvdCwgaW5kZXgpID0+IHsKICAgIGJlbmNoUGFydChzZWF0cywgaW5kZXgsIHNwb3QsIDAsIDAuNSwgMCk7CiAgICBiZW5jaFBhcnQoYmFja3MsIGluZGV4LCBzcG90LCAwLCAwLjgyLCAtMC4yNik7CiAgICBiZW5jaFBhcnQobGVncywgaW5kZXggKiAyLCBzcG90LCAtMC43MiwgMC4yMjUsIDApOwogICAgYmVuY2hQYXJ0KGxlZ3MsIGluZGV4ICogMiArIDEsIHNwb3QsIDAuNzIsIDAuMjI1LCAwKTsKICB9KTsKICBmb3IgKGNvbnN0IG1lc2ggb2YgW3NlYXRzLCBiYWNrcywgbGVnc10pIHsKICAgIG1lc2guY2FzdFNoYWRvdyA9IHRydWU7CiAgICBncm91cC5hZGQobWVzaCk7CiAgfQoKICBjb25zdCB0cnVua01hdCA9IG5ldyBUSFJFRS5NZXNoU3RhbmRhcmRNYXRlcmlhbCh7IGNvbG9yOiAweDhiNmY0ZSwgcm91Z2huZXNzOiAwLjk1IH0pOwogIGNvbnN0IHRydW5rR2VvbWV0cnkgPSBuZXcgVEhSRUUuQ3lsaW5kZXJHZW9tZXRyeSgwLjIyLCAwLjM0LCAzLjYsIDcpOwogIHRydW5rR2VvbWV0cnkudHJhbnNsYXRlKDAsIDEuOCwgMCk7CiAgY29uc3QgdHJ1bmtzID0gbmV3IFRIUkVFLkluc3RhbmNlZE1lc2godHJ1bmtHZW9tZXRyeSwgdHJ1bmtNYXQsIHRyZWVTcG90cy5sZW5ndGgpOwogIHRyZWVTcG90cy5mb3JFYWNoKChzcG90LCBpbmRleCkgPT4gcGxhY2UodHJ1bmtzLCBpbmRleCwgc3BvdC54LCBQQVJLX1ksIHNwb3QueiwgMCwgc3BvdC5zY2FsZSwgc3BvdC5zY2FsZSwgc3BvdC5zY2FsZSkpOwogIHRydW5rcy5jYXN0U2hhZG93ID0gdHJ1ZTsKICBncm91cC5hZGQodHJ1bmtzKTsKCiAgY29uc3QgbGVhZkdlb21ldHJ5ID0gbmV3IFRIUkVFLkljb3NhaGVkcm9uR2VvbWV0cnkoMSwgMSk7CiAgY29uc3QgbGVhZk1hdHMgPSBbMHg0ZjhmNGEsIDB4NWM5YjUyLCAweDQ1N2YzZl0ubWFwKAogICAgKGNvbG9yKSA9PiBuZXcgVEhSRUUuTWVzaFN0YW5kYXJkTWF0ZXJpYWwoeyBjb2xvciwgcm91Z2huZXNzOiAwLjksIGZsYXRTaGFkaW5nOiB0cnVlIH0pLAogICk7CiAgY29uc3QgdHJlZXMgPSBbXTsKICB0cmVlU3BvdHMuZm9yRWFjaCgoc3BvdCwgaW5kZXgpID0+IHsKICAgIGNvbnN0IHBpdm90ID0gbmV3IFRIUkVFLkdyb3VwKCk7CiAgICBwaXZvdC5wb3NpdGlvbi5zZXQoc3BvdC54LCBQQVJLX1kgKyAzLjQgKiBzcG90LnNjYWxlLCBzcG90LnopOwogICAgY29uc3QgbWF0ZXJpYWwgPSBsZWFmTWF0c1tpbmRleCAlIGxlYWZNYXRzLmxlbmd0aF07CiAgICBjb25zdCBsb3dlciA9IG5ldyBUSFJFRS5NZXNoKGxlYWZHZW9tZXRyeSwgbWF0ZXJpYWwpOwogICAgbG93ZXIuc2NhbGUuc2V0KDEuOSAqIHNwb3Quc2NhbGUsIDEuNCAqIHNwb3Quc2NhbGUsIDEuOSAqIHNwb3Quc2NhbGUpOwogICAgbG93ZXIucG9zaXRpb24ueSA9IDAuNSAqIHNwb3Quc2NhbGU7CiAgICBsb3dlci5jYXN0U2hhZG93ID0gdHJ1ZTsKICAgIGNvbnN0IHVwcGVyID0gbmV3IFRIUkVFLk1lc2gobGVhZkdlb21ldHJ5LCBtYXRlcmlhbCk7CiAgICB1cHBlci5zY2FsZS5zZXRTY2FsYXIoMS4xNSAqIHNwb3Quc2NhbGUpOwogICAgdXBwZXIucG9zaXRpb24uc2V0KDAuNTUgKiBzcG90LnNjYWxlLCAxLjc1ICogc3BvdC5zY2FsZSwgMC4zICogc3BvdC5zY2FsZSk7CiAgICB1cHBlci5jYXN0U2hhZG93ID0gdHJ1ZTsKICAgIHBpdm90LmFkZChsb3dlciwgdXBwZXIpOwogICAgZ3JvdXAuYWRkKHBpdm90KTsKICAgIHRyZWVzLnB1c2goeyBwaXZvdCwgcGhhc2U6IHJuZy5yYW5nZSgwLCBNYXRoLlBJICogMikgfSk7CiAgfSk7CgogIC8vIC0tLS0tLS0tLS0gZm91bnRhaW5zIC0tLS0tLS0tLS0KICBjb25zdCBzdG9uZU1hdCA9IG5ldyBUSFJFRS5NZXNoU3RhbmRhcmRNYXRlcmlhbCh7IGNvbG9yOiAweGNmYzRhZCwgcm91Z2huZXNzOiAwLjkgfSk7CiAgY29uc3Qgd2F0ZXJNYXQgPSBuZXcgVEhSRUUuTWVzaFN0YW5kYXJkTWF0ZXJpYWwoeyBjb2xvcjogMHg0ZmIzYzQsIHJvdWdobmVzczogMC4yNSwgbWV0YWxuZXNzOiAwLjE1LCB0cmFuc3BhcmVudDogdHJ1ZSwgb3BhY2l0eTogMC44NSB9KTsKICBjb25zdCBqZXRNYXQgPSBuZXcgVEhSRUUuTWVzaEJhc2ljTWF0ZXJpYWwoeyBjb2xvcjogMHhjZGYyZjAsIHRyYW5zcGFyZW50OiB0cnVlLCBvcGFjaXR5OiAwLjU1LCB0b25lTWFwcGVkOiBmYWxzZSB9KTsKICBjb25zdCBiYXNpbkdlb21ldHJ5ID0gbmV3IFRIUkVFLkN5bGluZGVyR2VvbWV0cnkoNC42LCA1LjAsIDAuOCwgMjApOwogIGNvbnN0IHJpbUdlb21ldHJ5ID0gbmV3IFRIUkVFLlRvcnVzR2VvbWV0cnkoNC42LCAwLjE2LCA2LCAyNCk7CiAgY29uc3Qgd2F0ZXJHZW9tZXRyeSA9IG5ldyBUSFJFRS5DeWxpbmRlckdlb21ldHJ5KDQuMzUsIDQuMzUsIDAuMDgsIDIwKTsKICBjb25zdCBjb2x1bW5HZW9tZXRyeSA9IG5ldyBUSFJFRS5DeWxpbmRlckdlb21ldHJ5KDAuNSwgMC43MiwgMi4yLCAxMCk7CiAgY29uc3QgYm93bEdlb21ldHJ5ID0gbmV3IFRIUkVFLkN5bGluZGVyR2VvbWV0cnkoMS43LCAxLjI1LCAwLjMsIDE0KTsKICBjb25zdCBqZXRHZW9tZXRyeSA9IG5ldyBUSFJFRS5DeWxpbmRlckdlb21ldHJ5KDAuMDgsIDAuMTYsIDEuNiwgOCk7CiAgamV0R2VvbWV0cnkudHJhbnNsYXRlKDAsIDAuOCwgMCk7CiAgY29uc3QgcmlwcGxlR2VvbWV0cnkgPSBuZXcgVEhSRUUuUmluZ0dlb21ldHJ5KDAuOSwgMS4wNiwgMjYpOwogIGNvbnN0IGZvdW50YWlucyA9IFtdOwoKICBmb3IgKGNvbnN0IHBhcmsgb2YgYmxvY2tzKSB7CiAgICBjb25zdCByb290ID0gbmV3IFRIUkVFLkdyb3VwKCk7CiAgICByb290LnBvc2l0aW9uLnNldChwYXJrLngsIFBBUktfWSwgcGFyay56KTsKICAgIGNvbnN0IGJhc2luID0gbmV3IFRIUkVFLk1lc2goYmFzaW5HZW9tZXRyeSwgc3RvbmVNYXQpOwogICAgYmFzaW4ucG9zaXRpb24ueSA9IDAuNDsKICAgIGJhc2luLmNhc3RTaGFkb3cgPSBiYXNpbi5yZWNlaXZlU2hhZG93ID0gdHJ1ZTsKICAgIGNvbnN0IHJpbSA9IG5ldyBUSFJFRS5NZXNoKHJpbUdlb21ldHJ5LCBzdG9uZU1hdCk7CiAgICByaW0ucm90YXRpb24ueCA9IE1hdGguUEkgLyAyOwogICAgcmltLnBvc2l0aW9uLnkgPSAwLjc4OwogICAgY29uc3Qgd2F0ZXIgPSBuZXcgVEhSRUUuTWVzaCh3YXRlckdlb21ldHJ5LCB3YXRlck1hdCk7CiAgICB3YXRlci5wb3NpdGlvbi55ID0gMC44OwogICAgY29uc3QgY29sdW1uID0gbmV3IFRIUkVFLk1lc2goY29sdW1uR2VvbWV0cnksIHN0b25lTWF0KTsKICAgIGNvbHVtbi5wb3NpdGlvbi55ID0gMS45OwogICAgY29sdW1uLmNhc3RTaGFkb3cgPSB0cnVlOwogICAgY29uc3QgYm93bCA9IG5ldyBUSFJFRS5NZXNoKGJvd2xHZW9tZXRyeSwgc3RvbmVNYXQpOwogICAgYm93bC5wb3NpdGlvbi55ID0gMy4xOwogICAgYm93bC5jYXN0U2hhZG93ID0gdHJ1ZTsKICAgIGNvbnN0IGpldCA9IG5ldyBUSFJFRS5NZXNoKGpldEdlb21ldHJ5LCBqZXRNYXQpOwogICAgamV0LnBvc2l0aW9uLnkgPSAzLjI1OwogICAgcm9vdC5hZGQoYmFzaW4sIHJpbSwgd2F0ZXIsIGNvbHVtbiwgYm93bCwgamV0KTsKCiAgICBjb25zdCByaXBwbGVzID0gW107CiAgICBmb3IgKGxldCByaW5nID0gMDsgcmluZyA8IDI7IHJpbmcrKykgewogICAgICBjb25zdCBtYXRlcmlhbCA9IG5ldyBUSFJFRS5NZXNoQmFzaWNNYXRlcmlhbCh7CiAgICAgICAgY29sb3I6IDB4ZDhmNmY0LCB0cmFuc3BhcmVudDogdHJ1ZSwgb3BhY2l0eTogMC40NSwgc2lkZTogVEhSRUUuRG91YmxlU2lkZSwgZGVwdGhXcml0ZTogZmFsc2UsIHRvbmVNYXBwZWQ6IGZhbHNlLAogICAgICB9KTsKICAgICAgY29uc3QgbWVzaCA9IG5ldyBUSFJFRS5NZXNoKHJpcHBsZUdlb21ldHJ5LCBtYXRlcmlhbCk7CiAgICAgIG1lc2gucm90YXRpb24ueCA9IC1NYXRoLlBJIC8gMjsKICAgICAgbWVzaC5wb3NpdGlvbi55ID0gMC44NjsKICAgICAgcm9vdC5hZGQobWVzaCk7CiAgICAgIHJpcHBsZXMucHVzaCh7IG1lc2gsIG9mZnNldDogcmluZyAqIDAuNSB9KTsKICAgIH0KCiAgICBncm91cC5hZGQocm9vdCk7CiAgICBmb3VudGFpbnMucHVzaCh7IHdhdGVyLCBqZXQsIHJpcHBsZXMsIHBoYXNlOiBybmcucmFuZ2UoMCwgTWF0aC5QSSAqIDIpIH0pOwogICAgY2l0eT8uY29sbGlkZXJzPy5wdXNoKHsgeDogcGFyay54LCB6OiBwYXJrLnosIGh3OiA1LCBoZDogNSwgaDogMy4yIH0pOwogIH0KCiAgLy8gLS0tLS0tLS0tLSBhbmltYXRpb24gLS0tLS0tLS0tLQogIGxldCBjbG9jayA9IDA7CgogIHJldHVybiB7CiAgICBiZW5jaGVzOiBiZW5jaFNwb3RzLAoKICAgIHVwZGF0ZShkdCkgewogICAgICBjbG9jayArPSBkdDsKICAgICAgZm9yIChjb25zdCBmb3VudGFpbiBvZiBmb3VudGFpbnMpIHsKICAgICAgICBmb3VudGFpbi5qZXQuc2NhbGUueSA9IDEgKyBNYXRoLnNpbihjbG9jayAqIDIuNCArIGZvdW50YWluLnBoYXNlKSAqIDAuMTY7CiAgICAgICAgZm91bnRhaW4ud2F0ZXIucG9zaXRpb24ueSA9IDAuOCArIE1hdGguc2luKGNsb2NrICogMS42ICsgZm91bnRhaW4ucGhhc2UpICogMC4wMTU7CiAgICAgICAgZm9yIChjb25zdCByaXBwbGUgb2YgZm91bnRhaW4ucmlwcGxlcykgewogICAgICAgICAgY29uc3QgZnJhYyA9IChjbG9jayAqIDAuMzIgKyByaXBwbGUub2Zmc2V0ICsgZm91bnRhaW4ucGhhc2UpICUgMTsKICAgICAgICAgIHJpcHBsZS5tZXNoLnNjYWxlLnNldFNjYWxhcigwLjggKyBmcmFjICogNC4yKTsKICAgICAgICAgIHJpcHBsZS5tZXNoLm1hdGVyaWFsLm9wYWNpdHkgPSAoMSAtIGZyYWMpICogMC40NTsKICAgICAgICB9CiAgICAgIH0KICAgICAgZm9yIChjb25zdCB0cmVlIG9mIHRyZWVzKSB7CiAgICAgICAgdHJlZS5waXZvdC5yb3RhdGlvbi56ID0gTWF0aC5zaW4oY2xvY2sgKiAxLjEgKyB0cmVlLnBoYXNlKSAqIDAuMDU1OwogICAgICAgIHRyZWUucGl2b3Qucm90YXRpb24ueCA9IE1hdGguY29zKGNsb2NrICogMC44NSArIHRyZWUucGhhc2UpICogMC4wMzU7CiAgICAgIH0KICAgIH0sCiAgfTsKfQo=
+// Parks: createParks(scene, rng, city) takes three of the city's open blocks and dresses them as
+// small parks — mown grass, a path cross, low hedges, benches, a stone fountain with rippling
+// water and a few trees whose foliage sways. Flat colours only, everything under one group.
+
+import * as THREE from 'three';
+
+const PARK_Y = 0.45;
+const BENCHES = 4;
+const TREES = 3;
+const FALLBACK_BLOCKS = [
+  { x: -360, z: 120 },
+  { x: 120, z: 280 },
+  { x: -280, z: -120 },
+];
+
+/** Blocks with no building on them are the parks the city generator left open. */
+function chooseBlocks(city) {
+  const centres = city?.blockCenters ?? city?.blocks ?? [];
+  const clear = (block) => (typeof city?.clearSpotNear === 'function' ? city.clearSpotNear(block.x, block.z, 6) : true);
+  const open = centres.filter((block) => Number.isFinite(block.x) && Number.isFinite(block.z) && clear(block));
+  return open.length >= 3 ? open.slice(0, 3) : FALLBACK_BLOCKS;
+}
+
+export function createParks(scene, rng, city) {
+  const group = new THREE.Group();
+  group.name = 'Parks';
+  scene.add(group);
+
+  const blocks = chooseBlocks(city);
+  const boxGeometry = new THREE.BoxGeometry(1, 1, 1);
+  const dummy = new THREE.Object3D();
+
+  function place(mesh, index, x, y, z, yaw = 0, sx = 1, sy = 1, sz = 1) {
+    dummy.position.set(x, y, z);
+    dummy.rotation.set(0, yaw, 0);
+    dummy.scale.set(sx, sy, sz);
+    dummy.updateMatrix();
+    mesh.setMatrixAt(index, dummy.matrix);
+  }
+
+  // ---------- grass and the path cross ----------
+  const grassMat = new THREE.MeshStandardMaterial({ color: 0x7cab62, roughness: 1 });
+  const pathMat = new THREE.MeshStandardMaterial({ color: 0xd8c7a2, roughness: 0.95 });
+
+  function slab(x, z, w, h, d, y, material) {
+    const mesh = new THREE.Mesh(boxGeometry, material);
+    mesh.position.set(x, y, z);
+    mesh.scale.set(w, h, d);
+    mesh.receiveShadow = true;
+    group.add(mesh);
+  }
+
+  for (const park of blocks) {
+    slab(park.x, park.z, 46, 0.05, 46, 0.425, grassMat);
+    slab(park.x, park.z, 40, 0.04, 4.6, 0.47, pathMat);
+    slab(park.x, park.z, 4.6, 0.04, 40, 0.47, pathMat);
+  }
+
+  // ---------- hedges, benches and trees, gathered first so each is one instanced mesh ----------
+  const hedgeSpots = [];
+  const benchSpots = [];
+  const treeSpots = [];
+
+  blocks.forEach((park, index) => {
+    for (const side of [-1, 1]) {
+      hedgeSpots.push({ x: park.x + side * 22.6, z: park.z, sx: 1.5, sz: 46, height: rng.range(0.7, 1.0) });
+      hedgeSpots.push({ x: park.x, z: park.z + side * 22.6, sx: 46, sz: 1.5, height: rng.range(0.7, 1.0) });
+    }
+    for (let bench = 0; bench < BENCHES; bench++) {
+      const angle = Math.PI / 4 + (bench / BENCHES) * Math.PI * 2;
+      const x = park.x + Math.cos(angle) * 10.5;
+      const z = park.z + Math.sin(angle) * 10.5;
+      benchSpots.push({ x, z, yaw: Math.atan2(park.x - x, park.z - z) });
+    }
+    for (let tree = 0; tree < TREES; tree++) {
+      const angle = index * 0.9 + (tree / TREES) * Math.PI * 2 + rng.range(-0.25, 0.25);
+      const radius = rng.range(13, 17);
+      treeSpots.push({
+        x: park.x + Math.cos(angle) * radius,
+        z: park.z + Math.sin(angle) * radius,
+        scale: rng.range(0.85, 1.15),
+      });
+    }
+  });
+
+  const hedgeMat = new THREE.MeshStandardMaterial({ color: 0x3f7a45, roughness: 0.95, flatShading: true });
+  const hedges = new THREE.InstancedMesh(boxGeometry, hedgeMat, hedgeSpots.length);
+  hedgeSpots.forEach((spot, index) => place(hedges, index, spot.x, PARK_Y + spot.height / 2, spot.z, 0, spot.sx, spot.height, spot.sz));
+  hedges.castShadow = true;
+  hedges.receiveShadow = true;
+  group.add(hedges);
+
+  const woodMat = new THREE.MeshStandardMaterial({ color: 0x9c6b45, roughness: 0.85 });
+  const ironMat = new THREE.MeshStandardMaterial({ color: 0x4f5754, roughness: 0.7, metalness: 0.25 });
+  const seats = new THREE.InstancedMesh(new THREE.BoxGeometry(1.9, 0.14, 0.55), woodMat, benchSpots.length);
+  const backs = new THREE.InstancedMesh(new THREE.BoxGeometry(1.9, 0.55, 0.1), woodMat, benchSpots.length);
+  const legs = new THREE.InstancedMesh(new THREE.BoxGeometry(0.12, 0.45, 0.5), ironMat, benchSpots.length * 2);
+
+  function benchPart(mesh, index, spot, ox, oy, oz) {
+    const c = Math.cos(spot.yaw);
+    const s = Math.sin(spot.yaw);
+    place(mesh, index, spot.x + ox * c + oz * s, PARK_Y + oy, spot.z - ox * s + oz * c, spot.yaw);
+  }
+
+  benchSpots.forEach((spot, index) => {
+    benchPart(seats, index, spot, 0, 0.5, 0);
+    benchPart(backs, index, spot, 0, 0.82, -0.26);
+    benchPart(legs, index * 2, spot, -0.72, 0.225, 0);
+    benchPart(legs, index * 2 + 1, spot, 0.72, 0.225, 0);
+  });
+  for (const mesh of [seats, backs, legs]) {
+    mesh.castShadow = true;
+    group.add(mesh);
+  }
+
+  const trunkMat = new THREE.MeshStandardMaterial({ color: 0x8b6f4e, roughness: 0.95 });
+  const trunkGeometry = new THREE.CylinderGeometry(0.22, 0.34, 3.6, 7);
+  trunkGeometry.translate(0, 1.8, 0);
+  const trunks = new THREE.InstancedMesh(trunkGeometry, trunkMat, treeSpots.length);
+  treeSpots.forEach((spot, index) => place(trunks, index, spot.x, PARK_Y, spot.z, 0, spot.scale, spot.scale, spot.scale));
+  trunks.castShadow = true;
+  group.add(trunks);
+
+  const leafGeometry = new THREE.IcosahedronGeometry(1, 1);
+  const leafMats = [0x4f8f4a, 0x5c9b52, 0x457f3f].map(
+    (color) => new THREE.MeshStandardMaterial({ color, roughness: 0.9, flatShading: true }),
+  );
+  const trees = [];
+  treeSpots.forEach((spot, index) => {
+    const pivot = new THREE.Group();
+    pivot.position.set(spot.x, PARK_Y + 3.4 * spot.scale, spot.z);
+    const material = leafMats[index % leafMats.length];
+    const lower = new THREE.Mesh(leafGeometry, material);
+    lower.scale.set(1.9 * spot.scale, 1.4 * spot.scale, 1.9 * spot.scale);
+    lower.position.y = 0.5 * spot.scale;
+    lower.castShadow = true;
+    const upper = new THREE.Mesh(leafGeometry, material);
+    upper.scale.setScalar(1.15 * spot.scale);
+    upper.position.set(0.55 * spot.scale, 1.75 * spot.scale, 0.3 * spot.scale);
+    upper.castShadow = true;
+    pivot.add(lower, upper);
+    group.add(pivot);
+    trees.push({ pivot, phase: rng.range(0, Math.PI * 2) });
+  });
+
+  // ---------- fountains ----------
+  const stoneMat = new THREE.MeshStandardMaterial({ color: 0xcfc4ad, roughness: 0.9 });
+  const waterMat = new THREE.MeshStandardMaterial({ color: 0x4fb3c4, roughness: 0.25, metalness: 0.15, transparent: true, opacity: 0.85 });
+  const jetMat = new THREE.MeshBasicMaterial({ color: 0xcdf2f0, transparent: true, opacity: 0.55, toneMapped: false });
+  const basinGeometry = new THREE.CylinderGeometry(4.6, 5.0, 0.8, 20);
+  const rimGeometry = new THREE.TorusGeometry(4.6, 0.16, 6, 24);
+  const waterGeometry = new THREE.CylinderGeometry(4.35, 4.35, 0.08, 20);
+  const columnGeometry = new THREE.CylinderGeometry(0.5, 0.72, 2.2, 10);
+  const bowlGeometry = new THREE.CylinderGeometry(1.7, 1.25, 0.3, 14);
+  const jetGeometry = new THREE.CylinderGeometry(0.08, 0.16, 1.6, 8);
+  jetGeometry.translate(0, 0.8, 0);
+  const rippleGeometry = new THREE.RingGeometry(0.9, 1.06, 26);
+  const fountains = [];
+
+  for (const park of blocks) {
+    const root = new THREE.Group();
+    root.position.set(park.x, PARK_Y, park.z);
+    const basin = new THREE.Mesh(basinGeometry, stoneMat);
+    basin.position.y = 0.4;
+    basin.castShadow = basin.receiveShadow = true;
+    const rim = new THREE.Mesh(rimGeometry, stoneMat);
+    rim.rotation.x = Math.PI / 2;
+    rim.position.y = 0.78;
+    const water = new THREE.Mesh(waterGeometry, waterMat);
+    water.position.y = 0.8;
+    const column = new THREE.Mesh(columnGeometry, stoneMat);
+    column.position.y = 1.9;
+    column.castShadow = true;
+    const bowl = new THREE.Mesh(bowlGeometry, stoneMat);
+    bowl.position.y = 3.1;
+    bowl.castShadow = true;
+    const jet = new THREE.Mesh(jetGeometry, jetMat);
+    jet.position.y = 3.25;
+    root.add(basin, rim, water, column, bowl, jet);
+
+    const ripples = [];
+    for (let ring = 0; ring < 2; ring++) {
+      const material = new THREE.MeshBasicMaterial({
+        color: 0xd8f6f4, transparent: true, opacity: 0.45, side: THREE.DoubleSide, depthWrite: false, toneMapped: false,
+      });
+      const mesh = new THREE.Mesh(rippleGeometry, material);
+      mesh.rotation.x = -Math.PI / 2;
+      mesh.position.y = 0.86;
+      root.add(mesh);
+      ripples.push({ mesh, offset: ring * 0.5 });
+    }
+
+    group.add(root);
+    fountains.push({ water, jet, ripples, phase: rng.range(0, Math.PI * 2) });
+    city?.colliders?.push({ x: park.x, z: park.z, hw: 5, hd: 5, h: 3.2 });
+  }
+
+  // ---------- animation ----------
+  let clock = 0;
+
+  return {
+    benches: benchSpots,
+
+    update(dt) {
+      clock += dt;
+      for (const fountain of fountains) {
+        fountain.jet.scale.y = 1 + Math.sin(clock * 2.4 + fountain.phase) * 0.16;
+        fountain.water.position.y = 0.8 + Math.sin(clock * 1.6 + fountain.phase) * 0.015;
+        for (const ripple of fountain.ripples) {
+          const frac = (clock * 0.32 + ripple.offset + fountain.phase) % 1;
+          ripple.mesh.scale.setScalar(0.8 + frac * 4.2);
+          ripple.mesh.material.opacity = (1 - frac) * 0.45;
+        }
+      }
+      for (const tree of trees) {
+        tree.pivot.rotation.z = Math.sin(clock * 1.1 + tree.phase) * 0.055;
+        tree.pivot.rotation.x = Math.cos(clock * 0.85 + tree.phase) * 0.035;
+      }
+    },
+  };
+}
