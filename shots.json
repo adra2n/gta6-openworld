@@ -1,22 +1,22 @@
 [
     {
         "name": "1-cover.png",
-        "query": "?shot=cover&seed=5",
-        "note": "A street at midday with the hero on foot and a parked sports car by the kerb."
+        "query": "?shot=cover&seed=7",
+        "note": "A street at midday with the hero on foot and a parked sports car at the lights."
     },
     {
         "name": "2-chase.png",
-        "query": "?shot=chase&seed=5",
-        "note": "A three-star chase on the coast road with a cruiser closing behind the wanted car."
+        "query": "?shot=chase&seed=7",
+        "note": "A three-star chase on the coast road with a police cruiser behind the wanted car."
     },
     {
         "name": "3-mission.png",
-        "query": "?shot=mission&seed=5",
+        "query": "?shot=mission&seed=7",
         "note": "The docks shootout with the Salvage Crew behind containers and the player firing back."
     },
     {
         "name": "4-dusk.png",
-        "query": "?shot=dusk&seed=5",
+        "query": "?shot=dusk&seed=7",
         "note": "Dusk up the north coast with the timed delivery marker counting down."
     }
 ]
