@@ -1,18 +1,22 @@
 [
     {
         "name": "1-cover.png",
-        "query": "?shot=cover&seed=1"
+        "query": "?shot=cover&seed=3",
+        "note": "The beach road at midday: hero on the kerb, the Manta at the lights, the pier wheel behind."
     },
     {
         "name": "2-chase.png",
-        "query": "?shot=chase&seed=1"
+        "query": "?shot=chase&seed=3",
+        "note": "Three stars on the coast road: a cruiser closing from behind, the wanted HUD and speed read-out."
     },
     {
         "name": "3-mission.png",
-        "query": "?shot=mission&seed=1"
+        "query": "?shot=mission&seed=3",
+        "note": "The docks shootout from Bad Reception: the Salvage Crew behind the containers, the player firing back."
     },
     {
         "name": "4-dusk.png",
-        "query": "?shot=dusk&seed=1"
+        "query": "?shot=dusk&seed=3",
+        "note": "Dusk up the north coast: low sun, the timed delivery marker, a long empty boulevard."
     }
 ]
