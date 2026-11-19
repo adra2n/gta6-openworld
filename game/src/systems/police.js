@@ -1,4 +1,4 @@
-// Wanted level: spawning, pursuit, search decay, busted and wasted.
+// Police: createPolice and updatePolice run the wanted stars; reportCrime, clearWanted, damageOfficer.
 // The wanted system: stars set how many cruisers come, cruisers spawn off-screen and drive at
 // Nico, officers bail out on foot at two stars and shoot, the search cools when nobody has eyes
 // on him, and standing still next to an officer gets him busted.

@@ -1,4 +1,4 @@
-// Keyboard, mouse and pointer-lock input, with edge-triggered presses.
+// Input: createInput(canvas) tracks held and pressed keys, mouse-look, wheel, fire and aim.
 // Keyboard and mouse. Pointer lock gives mouse-look; the rest is a small state bag the game
 // reads once per frame. Keys are tracked as held and as "pressed this frame" edges.
 

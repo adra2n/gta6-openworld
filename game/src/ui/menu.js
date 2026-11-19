@@ -1,4 +1,4 @@
-// Title screen, pause, settings and the save slots.
+// Menu: createMenu builds the title, pause, controls and settings screens and wires their handlers.
 // Start screen and pause screen: Continue / New Game / Controls / Settings, plus the day-dusk
 // switch and volume. The menu is also where audio wakes up, since browsers need a gesture.
 

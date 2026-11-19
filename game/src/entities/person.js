@@ -1,4 +1,4 @@
-// Articulated low-poly bodies and the walk cycle shared by crowd and crew.
+// Person rig: createPerson builds a low-poly body, posePerson animates it, makeBloodColor picks hues.
 // A reusable low-poly person for pedestrians, officers and the Salvage Crew. Same limbs as Nico
 // so the walk cycle code is shared; colours set who they are.
 

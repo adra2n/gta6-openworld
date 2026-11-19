@@ -1,4 +1,4 @@
-// Tuning constants shared by the systems.
+// Shared tuning: CITY, PALETTE, VEHICLES, WEAPONS, WANTED, SHOP, FOOT and START constants.
 // Every tunable number the game shares: the city's grid, vehicle handling, weapon ballistics
 // and the palette the whole coast is painted from. Modules read from here so the place stays
 // one coherent object.

@@ -1,4 +1,4 @@
-// Save and load: money, mission progress, weapons and position.
+// Save: readSave, hasSave, writeSave and clearSave keep money, job, weapons and position in localStorage.
 // Progress on this machine: money, the next job, weapons and where Nico woke up. Written at
 // the marina and after every job; localStorage failures (private windows) are survivable.
 

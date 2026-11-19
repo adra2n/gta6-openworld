@@ -1,4 +1,4 @@
-// Vehicles: the arcade driving model, damage, lights and wheel spin.
+// Vehicle: createVehicle, placeVehicle, updateVehicle, driveToward, vehicleForward and damageVehicle.
 // Vehicles: four silhouettes (sedan, sports, van, cruiser) with arcade handling that scales
 // steering with speed, handbrake drift, suspension lean, spinning wheels and damage smoke.
 

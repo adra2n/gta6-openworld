@@ -1,4 +1,4 @@
-// Boot: build the city, wire the systems, run the frame loop.
+// Entry module: builds the world, wires every system, and runs the frame loop and screens.
 // Boot, screens and the one loop. Builds Costa Vega from a seed, then each frame runs input,
 // player or car, traffic, pedestrians, police, combat, missions, HUD and the renderer in order.
 

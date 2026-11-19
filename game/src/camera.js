@@ -1,4 +1,4 @@
-// Third-person chase camera with spring follow and an aim zoom.
+// Camera: createView builds the follow state, updateCamera applies orbit, chase follow and shake.
 // Third-person camera: mouse orbit on foot, a wider chase camera in a car that drifts back
 // behind the car when the mouse rests, and a little shake when shots land.
 

@@ -1,4 +1,4 @@
-// Pedestrians: sidewalk paths, corner crossings, and fleeing.
+// Pedestrians: createPedestrians loops walkers around blocks who cross corners and flee gunfire.
 // Sidewalk life: people loop their block, cross at the corners, and scatter when a gun goes off
 // or a car comes at them. Cheap and readable: one figure, one loop, four corners.
 

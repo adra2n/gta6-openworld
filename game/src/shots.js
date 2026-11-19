@@ -1,4 +1,4 @@
-// Staged scenes for the four screenshots: ?shot=cover|chase|mission|dusk and a seed.
+// Screenshot mode: runShot(name, state) stages the cover, chase, mission and dusk scenes.
 // Four deterministic staged scenes for ?shot=<name>&seed=<n>: the cover on the beach road, a
 // three-star chase, the docks shootout and the dusk run up the coast. No input needed; each
 // places the world, settles traffic and lights, renders and sets window.__shotReady.

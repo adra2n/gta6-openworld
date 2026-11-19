@@ -1,4 +1,4 @@
-// Shooting: hitscan, recoil, ammo, reload and damage.
+// Combat: createCombat fires hitscan shots with ammo and recoil, npcShoot returns fire, rayBox tests.
 // Hitscan combat. Nico's shots leave the camera, hit the nearest person, car or wall and leave a
 // tracer; officers and crew shoot back with a distance-weighted chance. Damage always reports a
 // crime so the wanted system can react.

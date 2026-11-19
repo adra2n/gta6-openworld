@@ -1,4 +1,4 @@
-// HUD: health, armour, cash, wanted stars, objective, weapon and speed.
+// HUD: createHud writes health, armour, cash, stars, weapon, objective, timer, speed and subtitles.
 // The HUD: health and armour, cash, wanted stars, weapon and ammo, mission text and timer,
 // speedometer, crosshair, subtitle and toast lines. Values are only written to the DOM when
 // they change, so the loop stays cheap.

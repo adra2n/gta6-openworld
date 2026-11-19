@@ -1,4 +1,4 @@
-// Traffic: lane following, stopping for the player, horns and collisions.
+// Traffic: createTraffic spawns cars that follow lanes, queue at corners, stop for Nico and honk.
 // Traffic that keeps to the grid: each car follows a lane toward the next intersection, picks a
 // direction there, stops for Nico or a car in front, and honks when it has been waiting.
 

@@ -1,4 +1,4 @@
-// The player: movement, aiming, health and armour.
+// Player: createPlayer, placePlayer and updatePlayer move Nico; playerMuzzle, damagePlayer, healPlayer.
 // Nico Vale, the player: a low-poly figure with a cream blazer, a walk/run/sprint cycle, a jump,
 // and the little gun in his hand. The camera lives in main.js; this module only moves the body.
 

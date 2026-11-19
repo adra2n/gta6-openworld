@@ -1,4 +1,4 @@
-// Sky dome, sun, haze and the day and dusk lighting presets.
+// Sky: createSky returns the dome, sun and fog with setTime('day'|'dusk') and follow(target).
 // Sky, sun and fog. One gradient dome plus a warm key light that casts the long shadows the
 // coast is known for; the same module swaps the whole palette to dusk without rebuilding.
 import * as THREE from 'three';

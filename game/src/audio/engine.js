@@ -1,4 +1,4 @@
-// Procedural WebAudio: engine, tyres, guns, sirens and the radio.
+// Audio: createAudio synthesises engine, tyres, guns, sirens and two radio stations with WebAudio.
 // All sound is synthesised: a filtered engine with tyre noise, sirens keyed to the nearest
 // cruiser, gunshots and impacts, a warm pad under the city and two procedural radio stations.
 

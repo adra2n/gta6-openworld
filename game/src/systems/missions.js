@@ -1,4 +1,4 @@
-// The mission arc: objectives, markers, timers, rewards and autosave.
+// Missions: createMissions and updateMissions run the jobs; startMission, stageMission, failCurrentMission.
 // Rosa Delgado's seven jobs, from a first pistol to the Paloma Pier heist. Each job is a list of
 // steps — drive here, kill these, steal that, lose the cops — with a world marker, a minimap
 // blip, dialogue lines and a cash reward that autosaves.
