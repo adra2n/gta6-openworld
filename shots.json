@@ -2,12 +2,12 @@
     {
         "name": "1-cover.png",
         "query": "?shot=cover&seed=7",
-        "note": "A street at midday with the hero on foot and a parked sports car at the lights."
+        "note": "The beach road at midday: Nico on the kerb, the coral Manta at the lights, a police cruiser alongside with its red and blue bar lit, traffic in both lanes, two people on the pavement and the pier wheel behind the whole HUD."
     },
     {
         "name": "2-chase.png",
         "query": "?shot=chase&seed=7",
-        "note": "A three-star chase on the coast road with a police cruiser behind the wanted car."
+        "note": "A three-star pursuit on the coast road: two cruisers box the hero in with their bars lit red and blue, a roadblock of three more cruisers waits across the road ahead and a cop on foot fires from the kerb."
     },
     {
         "name": "3-mission.png",
